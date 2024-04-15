@@ -1,0 +1,94 @@
+site_name: Percona Documentation
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/percona-mark.svg
+  favicon: assets/percona-fav.svg
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Color theme set to Automatic. Click to change
+    - media: "(prefers-color-scheme: light)"
+      scheme: percona-light
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Color theme set to Light Mode. Click to change
+    - media: "(prefers-color-scheme: dark)"
+      scheme: percona-dark
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Color theme set to Dark Mode. Click to change
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+extra_css:
+  - css/design.css
+  - css/landing.css
+  - css/osano.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.snippets:
+      base_path: ["snippets"]
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+extra:
+  # consent:
+  #   title: Cookie Consent
+  #   description: >- 
+  #     We use cookies to recognize your preferences, as well as measure the effectiveness of our documentation to your needs, and whether you can find what you're searching for. With this consent, you're helping us to make our documentation better for you. Thank you. Read more about <a class="reference external" href="https://www.percona.com/20180524-cookie-policy" target="_blank">Percona Cookie Policy</a>.
+  #   cookies:
+  #     analytics: Google Analytics 
+  #     github: Github
+  #   actions:
+  #     - manage
+  #     - accept
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thank you for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thank you for your feedback! Help us improve by following this <a href="#" target="_blank" rel="noopener">feedback form</a>.
+copyright: >-
+  <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
+nav:
+  - Welcome: index.md
+  - PostgreSQL: percona-for-postgresql.md
+  - MongoDB: percona-for-mongodb.md
+  - MySQL: percona-for-mysql.md
+  - Percona Operators: percona-operators.md
+  - Percona Everest: "https://pmcf-percona.github.io/everest-doc/"
+  - PMM: "https://pmcf-percona.github.io/pmm-doc/"
+  - Legacy docs: "https://docs.percona.com/legacy-documentation/"
+  - Percona Lab: percona-lab.md
