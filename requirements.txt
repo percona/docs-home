@@ -1,2 +1,8 @@
 Markdown
 mkdocs
+mkdocs-material
+mkdocs-material-extensions
+mkdocs-meta-descriptions-plugin
+mkdocs-macros-plugin
+mkdocs-exclude
+markdown-include
