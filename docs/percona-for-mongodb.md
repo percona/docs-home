@@ -10,7 +10,7 @@ hide:
 
 ![Percona for MongoDB logo](assets/logo-dark-mongodb.svg)
 
-# Percona for MongoDB
+# Percona Software for MongoDB
 
 Explore our Percona Software for MongoDB documentation. Find user guides, quickstarts, and how-tos tailored to help you build, deploy, manage, and automate MongoDB effectively.
 
@@ -26,12 +26,12 @@ Explore our Percona Software for MongoDB documentation. Find user guides, quicks
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
 
-An enhanced, fully compatible, source available, drop-in replacement for MongoDB Community Edition with enterprise-grade features.
+Please change the text to “An enhanced, fully compatible, source available, drop-in replacement for MongoDB Community Edition with [enterprise-grade features](https://docs.percona.com/percona-server-for-mongodb/7.0/comparison.html).
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Releases](https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-server-for-mongodb/7.0/install/index.html)
 
 </div>
 </div>
@@ -43,8 +43,8 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Releases](https://docs.percona.com/percona-operator-for-mongodb/RN/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
 
 </div>
 </div>
@@ -56,8 +56,8 @@ An open source, community backup tool for performing consistent backups and rest
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Releases](https://docs.percona.com/percona-backup-mongodb/release-notes.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-backup-mongodb/installation.html)
 
 </div>
 </div>
@@ -69,8 +69,8 @@ A collection of solutions to run and operate your MongoDB efficiently with the d
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Releases](https://docs.percona.com/percona-distribution-for-mongodb/7.0/release-notes.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mongodb/7.0/)
 
 </div>
 </div>
@@ -78,7 +78,7 @@ A collection of solutions to run and operate your MongoDB efficiently with the d
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring MongoDB with PMM {.title}
 
-High-quality, polyglot monitoring, alerting and more functionalities for MongoDB and other database technologies.
+An open source database monitoring, management and observability solution for MongoDB and other database technologies.
 
 <div class="actions" markdown>
 

@@ -1,4 +1,7 @@
-site_name: Percona Documentation
+site_name: Percona Software Documentation
+site_description: Percona Software Documentation
+
+# Theme setup
 theme:
   name: material
   custom_dir: overrides
@@ -23,6 +26,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Color theme set to Dark Mode. Click to change
+
+  # Theme features
   features:
     - navigation.indexes
     - navigation.instant
@@ -33,6 +38,8 @@ theme:
     - content.code.copy
     - content.code.annotate
     - toc.follow
+
+#Custom CSS
 extra_css:
   - css/design.css
   - css/landing.css
@@ -53,20 +60,21 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
+# Plugins configuration
+plugins:
+  meta-descriptions:
+    export_csv: false
+    quiet: false
+    enable_checks: false
+    min_length: 50
+    max_length: 160 
+
+#Google Analytics configuration 
 extra:
-  # consent:
-  #   title: Cookie Consent
-  #   description: >- 
-  #     We use cookies to recognize your preferences, as well as measure the effectiveness of our documentation to your needs, and whether you can find what you're searching for. With this consent, you're helping us to make our documentation better for you. Thank you. Read more about <a class="reference external" href="https://www.percona.com/20180524-cookie-policy" target="_blank">Percona Cookie Policy</a>.
-  #   cookies:
-  #     analytics: Google Analytics 
-  #     github: Github
-  #   actions:
-  #     - manage
-  #     - accept
   analytics:
     provider: google
-    property: G-XXXXXXXXXX
+    property: G-J4J70BNH0G
     feedback:
       title: Was this page helpful?
       ratings:
@@ -79,16 +87,20 @@ extra:
           name: This page could be improved
           data: 0
           note: >- 
-            Thank you for your feedback! Help us improve by following this <a href="#" target="_blank" rel="noopener">feedback form</a>.
+            Thank you for your feedback! Help us improve by following this <a href="https://docs.google.com/forms/d/1bkWACehjqlwA0AKf-qTJcXvYbOSYgze8iTPXjntqmNo/edit" target="_blank" rel="noopener">feedback form</a>.
+
+#Copyright
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
+
 nav:
   - Welcome: index.md
   - PostgreSQL: percona-for-postgresql.md
   - MongoDB: percona-for-mongodb.md
   - MySQL: percona-for-mysql.md
   - Percona Operators: percona-operators.md
-  - Percona Everest: "https://pmcf-percona.github.io/everest-doc/"
-  - PMM: "https://pmcf-percona.github.io/pmm-doc/"
+  - Percona Everest: "https://docs.percona.com/everest/index.html"
+  - PMM: "https://docs.percona.com/percona-monitoring-and-management/index.html"
+  - Utilities: percona-utilities.md
   - Legacy docs: "https://docs.percona.com/legacy-documentation/"
   - Percona Lab: percona-lab.md

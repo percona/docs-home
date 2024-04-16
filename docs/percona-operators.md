@@ -30,8 +30,8 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
+[Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
 
 </div>
 </div>
@@ -43,8 +43,8 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
+[Releases](https://docs.percona.com/percona-operator-for-mongodb/RN/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
 
 </div>
 </div>
@@ -56,8 +56,8 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
+[Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
 
 </div>
 </div>
@@ -69,8 +69,8 @@ Automate deployment and management of Percona XtraDB Clusters (MySQL clustering 
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
+[Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
 
 </div>
 </div>
