@@ -1,4 +1,6 @@
 site_name: Percona Documentation
+
+# Theme setup
 theme:
   name: material
   custom_dir: overrides
@@ -23,20 +25,24 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Color theme set to Dark Mode. Click to change
-  features:
-    - navigation.indexes
-    - navigation.instant
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - content.code.copy
-    - content.code.annotate
-    - toc.follow
+
+# Theme features
+features:
+  - navigation.indexes
+  - navigation.instant
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - content.code.copy
+  - content.code.annotate
+  - toc.follow
+
 extra_css:
   - css/design.css
   - css/landing.css
   - css/osano.css
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -54,6 +60,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+# Plugins configuration
 plugins:
   meta-descriptions:
     export_csv: false
@@ -61,18 +68,9 @@ plugins:
     enable_checks: false
     min_length: 50
     max_length: 160
-    
+
+#Google Analytics configuration
 extra:
-  # consent:
-  #   title: Cookie Consent
-  #   description: >- 
-  #     We use cookies to recognize your preferences, as well as measure the effectiveness of our documentation to your needs, and whether you can find what you're searching for. With this consent, you're helping us to make our documentation better for you. Thank you. Read more about <a class="reference external" href="https://www.percona.com/20180524-cookie-policy" target="_blank">Percona Cookie Policy</a>.
-  #   cookies:
-  #     analytics: Google Analytics 
-  #     github: Github
-  #   actions:
-  #     - manage
-  #     - accept
   analytics:
     provider: google
     property: G-XXXXXXXXXX
@@ -89,8 +87,11 @@ extra:
           data: 0
           note: >- 
             Thank you for your feedback! Help us improve by following this <a href="#" target="_blank" rel="noopener">feedback form</a>.
+
+#Copyright
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
+
 nav:
   - Welcome: index.md
   - PostgreSQL: percona-for-postgresql.md
