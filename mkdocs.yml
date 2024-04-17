@@ -53,19 +53,20 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-
-plugins:
-  meta-descriptions:
-    export_csv: false
-    quiet: false
-    enable_checks: false
-    min_length: 50
-    max_length: 160
-
 extra:
+  # consent:
+  #   title: Cookie Consent
+  #   description: >- 
+  #     We use cookies to recognize your preferences, as well as measure the effectiveness of our documentation to your needs, and whether you can find what you're searching for. With this consent, you're helping us to make our documentation better for you. Thank you. Read more about <a class="reference external" href="https://www.percona.com/20180524-cookie-policy" target="_blank">Percona Cookie Policy</a>.
+  #   cookies:
+  #     analytics: Google Analytics 
+  #     github: Github
+  #   actions:
+  #     - manage
+  #     - accept
   analytics:
     provider: google
-    property: G-J4J70BNH0G
+    property: G-XXXXXXXXXX
     feedback:
       title: Was this page helpful?
       ratings:
@@ -78,9 +79,7 @@ extra:
           name: This page could be improved
           data: 0
           note: >- 
-            Thank you for your feedback! Help us improve by following this <a href="https://docs.google.com/forms/d/1bkWACehjqlwA0AKf-qTJcXvYbOSYgze8iTPXjntqmNo/edit" target="_blank" rel="noopener">feedback form</a>.
-
-
+            Thank you for your feedback! Help us improve by following this <a href="#" target="_blank" rel="noopener">feedback form</a>.
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
 nav:
