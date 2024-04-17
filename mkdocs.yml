@@ -25,18 +25,16 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Color theme set to Dark Mode. Click to change
-
-# Theme features
-features:
-  - navigation.indexes
-  - navigation.instant
-  - navigation.tracking
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.top
-  - content.code.copy
-  - content.code.annotate
-  - toc.follow
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
 
 extra_css:
   - css/design.css
