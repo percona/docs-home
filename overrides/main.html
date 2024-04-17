@@ -29,3 +29,16 @@
   </script>
   <script src="https://cmp.osano.com/Azqe5vTyLOSbN3OuT/49ad85b5-0418-4794-ab81-7599dddd534c/osano.js"></script>
 {% endblock %}
+{% block extrahead %}
+{{ super() }}
+                 {% set title = config.site_name %}
+                 {% if page and page.meta and page.meta.title %}
+                 {% set title = title ~ " - " ~ page.meta.title %}
+                 {% elif page and page.title and not page.is_homepage %}
+                 {% set title = title ~ " - " ~ page.title %}
+                 {% endif %}
+                 <meta property="og:type" content="website" />
+                 <meta property="og:title" content="{{ title }}" />
+                 <meta property="og:url" content="https://homepage-preview.onrender.com" />
+                 <meta property="og:image" content="https://homepage-preview.onrender.com/assets/Percona_docs.png" />
+              {% endblock %}
