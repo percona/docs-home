@@ -23,8 +23,8 @@ hide:
       <a href="percona-for-postgresql" class="splash-card">
         <img src="assets/logo-postgresql.svg" alt="Percona for PostgreSQL logo" />
         <h3>
-          Percona for PostgreSQL
-        </h3>
+         Percona Software for PostgreSQL    
+       </h3>
         <p>
           All Percona software for PostgreSQL databases documentation.
         </p>
@@ -32,7 +32,7 @@ hide:
       <a href="percona-for-mongodb" class="splash-card">
         <img src="assets/logo-mongodb.svg" alt="Percona for MongoDB logo" />
         <h3>
-          Percona for MongoDB
+          Percona Software for MongoDB
         </h3>
         <p>
           All Percona software for MongoDB databases documentation.
@@ -41,7 +41,7 @@ hide:
       <a href="percona-for-mysql" class="splash-card">
         <img src="assets/logo-mysql.svg" alt="Percona for MySQL logo" />
         <h3>
-          Percona for MySQL
+          Percona Software for MySQL
         </h3>
         <p>
           All Percona software for MySQL databases documentation.
@@ -70,7 +70,7 @@ hide:
           Percona Everest
         </h3>
         <p>
-          Documentation for Percona’s private database-as-a-service open-source software.
+          Documentation for Percona’s cloud-native database platform.
         </p>
       </a>
       <a href="percona-operators" class="splash-card">

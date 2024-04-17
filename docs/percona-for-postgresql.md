@@ -10,7 +10,7 @@ hide:
 
 ![Percona for PostgreSQL logo](assets/logo-dark-postgresql.svg)
 
-# Percona for PostgreSQL
+# Percona Software for PostgreSQL
 
 Explore our Percona Software for PostgreSQL documentation. Find user guides, quickstarts, and how-tos tailored to help you build, deploy, manage, and automate PostgreSQL effectively.
 
@@ -30,8 +30,8 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
+[Releases](https://docs.percona.com/postgresql/16/release-notes.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/postgresql/16/)
 
 </div>
 </div>
@@ -43,8 +43,8 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
+[Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
 
 </div>
 </div>
@@ -56,8 +56,8 @@ A query performance monitoring tool that brings more insight and details around 
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
+[Releases](https://docs.percona.com/pg-stat-monitor/release-notes/release_notes.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/index.html)
 
 </div>
 </div>

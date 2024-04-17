@@ -10,7 +10,7 @@ hide:
 
 ![Percona for MySQL logo](assets/logo-dark-mysql.svg)
 
-# Percona for MySQL
+# Percona Software for MySQL
 
 Quickstart guides, user guides, and how-tos, release notes, and the latest downloads. Everything you need to optimize your MySQL databases is right here.
 
@@ -30,8 +30,8 @@ An enhanced, fully compatible, source available, drop-in replacement for MySQL C
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[Releases](https://docs.percona.com/percona-server/innovation-release/release-notes/release-notes-index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-server/innovation-release/quickstart-overview.html)
 
 </div>
 </div>
@@ -43,8 +43,8 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
 
 </div>
 </div>
@@ -57,8 +57,8 @@ It ensures high availability, prevents downtime and data loss, and provides line
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[Releases](https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-xtradb-cluster/8.0/quickstart-overview.html)
 
 </div>
 </div>
@@ -70,8 +70,8 @@ Automate deployment and management of Percona XtraDB Clusters (MySQL clustering 
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
 
 </div>
 </div>
@@ -83,8 +83,8 @@ An open source, hot backup utility for MySQL-based servers that keeps your datab
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[Releases](https://docs.percona.com/percona-xtrabackup/innovation-release/release-notes/release-notes.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-xtrabackup/innovation-release/quickstart-overview.html)
 
 </div>
 </div>
@@ -96,8 +96,8 @@ A single solution with the best and most critical enterprise components from the
 
 <div class="actions" markdown>
 
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[Releases](https://docs.percona.com/percona-distribution-for-mysql/innovation-release/)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mysql/innovation-release/)
 
 </div>
 </div>
@@ -109,7 +109,8 @@ Use ProxySQL Admin to configure Percona XtraDB Cluster nodes into ProxySQL. The 
 
 <div class="actions" markdown>
 
-[Documentation :material-arrow-right:](#)
+[Releases](https://docs.percona.com/proxysql/release-notes.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/proxysql/)
 
 </div>
 </div>
