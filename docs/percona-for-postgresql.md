@@ -30,8 +30,8 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/postgresql/16/release-notes.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/postgresql/16/)
+[Releases](https://docs.percona.com/postgresql/latest/release_notes/index.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/postgresql/latest/index.html)
 
 </div>
 </div>
@@ -39,7 +39,7 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
 
-Automate deployment and management of PostgreSQL clusters on Kubernetes with Operator.
+Based on best practices for the configuration of Percona Distribution for PostgreSQL, the Operator automates deployment and management of PostgreSQL clusters on Kubernetes, saving your time and ensuring a consistent environment.
 
 <div class="actions" markdown>
 
@@ -52,7 +52,7 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Query Performance Monitoring for PostgreSQL {.title}
 
-A query performance monitoring tool that brings more insight and details around query performance, planning statistics and metadata on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
+Explore `pg_stat_monitor` - a query performance monitoring tool that brings more insight and details around query performance, planning statistics and metadata on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
 
 <div class="actions" markdown>
 

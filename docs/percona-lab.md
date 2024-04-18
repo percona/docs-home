@@ -13,9 +13,9 @@ hide:
 
 <div data-banner markdown>
 
-### Transparent Data Encryption for PosgreSQL {.title}
+### Transparent Data Encryption for PostgreSQL {.title}
 
-A extension that brings in [Transparent Data Encryption (TDE)](https://percona-lab.github.io/pg_tde/main/tde.html) to PostgreSQL and enables users to keep sensitive data safe and secure.
+A `pg_tde` extension that brings in [Transparent Data Encryption (TDE)](https://percona-lab.github.io/pg_tde/main/tde.html) to PostgreSQL and enables users to keep sensitive data safe and secure.
 
 <div class="actions" markdown>
 
