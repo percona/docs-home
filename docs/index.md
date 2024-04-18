@@ -64,13 +64,13 @@ hide:
     </div>
     <!--Links-->
     <div class="splash-links">
-      <a href="https://pmcf-percona.github.io/everest-doc/" class="splash-card">
+      <a href="https://docs.percona.com/everest/" class="splash-card">
         <img src="assets/logo-everest.svg" alt="Percona Everest logo" />
         <h3>
           Percona Everest
         </h3>
         <p>
-          Documentation for Percona’s cloud-native database platform.
+          Documentation for Percona’s open-source cloud-native database platform.
         </p>
       </a>
       <a href="percona-operators" class="splash-card">
