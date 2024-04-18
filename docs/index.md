@@ -99,7 +99,7 @@ hide:
     </div>
     <!--Links-->
     <div class="splash-links">
-      <a href="https://pmcf-percona.github.io/pmm-doc/" class="splash-card">
+      <a href="https://docs.percona.com/percona-monitoring-and-management/" class="splash-card">
         <img src="assets/logo-pmm.svg" alt="Percona Monitoring & Management logo" />
         <h3>
           Percona Monitoring & Management
