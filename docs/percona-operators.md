@@ -12,7 +12,7 @@ hide:
 
 # Percona Operators
 
-Explore our Percona Kubernetes Operators documentation. Find user guides, quickstarts, and how-tos tailored to help you deploy and scale your databases with Kubernetes.
+Easily create and manage highly available, enterprise-ready MySQL, PostgreSQL, and MongoDB clusters on Kubernetes with Percona Operators. Eliminate the complexities of Day 1 and Day 2 database operations and seamlessly integrate with your existing Infrastructure-as-code and DevOps tools.
 
 </div>
 </div>
@@ -26,7 +26,7 @@ Explore our Percona Kubernetes Operators documentation. Find user guides, quicks
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
 
-Automate deployment and management of PostgreSQL clusters on Kubernetes with Operator.
+Percona Operator for PostgreSQL is powerful open source software that automates the full cycle of cloud-native PostgreSQL database operations on Kubernetes.
 
 <div class="actions" markdown>
 
@@ -50,27 +50,27 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 </div>
 <div data-banner markdown>
 
-### <span style="font-size:2em">:percona-operators:</span> Percona Operator based on Percona Server for MySQL {.title}
+### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MySQL based on Percona XtraDB Cluster {.title}
 
-Automate deployment and management of MySQL clusters on Kubernetes with Operator.
-
+Create and manage highly available, enterprise-ready MySQL database clusters on Kubernetes powered by Percona XtraDB Cluster with syncronous replication.
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
-[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
+[Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
 
 </div>
 </div>
 <div data-banner markdown>
 
-### <span style="font-size:2em">:percona-operators:</span> Percona Operator based on Percona XtraDB Cluster {.title}
+### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MySQL based on Percona Server for MySQL {.title}
 
-Automate deployment and management of Percona XtraDB Clusters (MySQL clustering solution) on Kubernetes with Operator.
+Create and manage highly available, enterprise-ready MySQL database clusters on Kubernetes. Supports asyncronous and group replication.
+Currently in Alpha stage.
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
-[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
+[Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
 
 </div>
 </div>
