@@ -6,11 +6,13 @@ hide:
 ---
 
 <div class="landing" markdown>
-<div class="splash header subpage operators dark" markdown>
+<div class="splash header subpage lab dark" markdown>
 
 ![Percona Lab](assets/logo-percona-labs.svg)
 
-# Percona Lab software
+# Percona Lab Software
+
+The documentation in this section is based on early versions of the software and describes incomplete features. Expect frequent updates. The features described may change or be removed. New features may be added in the future.
 
 </div>
 </div>
@@ -24,7 +26,7 @@ hide:
 <div data-grid markdown>
 <div data-banner markdown>
 
-### <span style="font-size:2em"></span> Percona Operator for PostgreSQL {.title}
+### <span style="font-size:2em">:percona-postgresql:</span> Percona Transparent Data Encryption {.title}
 
 A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to PostgreSQL and enables users to keep sensitive data safe and secure.
 
