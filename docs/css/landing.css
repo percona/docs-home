@@ -89,6 +89,19 @@
             rgb(67,158,255) 95%
         );
 }
+.splash.engineering {
+    background:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0.4) 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(78,91,150) 33%,
+            rgb(67,158,255) 95%
+        );
+}
 .splash.mongodb {
     background:
         linear-gradient(

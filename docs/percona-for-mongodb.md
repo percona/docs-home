@@ -26,12 +26,12 @@ Explore our Percona Software for MongoDB documentation. Find user guides, quicks
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
 
-Please change the text to “An enhanced, fully compatible, source available, drop-in replacement for MongoDB Community Edition with [enterprise-grade features](https://docs.percona.com/percona-server-for-mongodb/7.0/comparison.html).
+An enhanced, fully compatible, source available, drop-in replacement for MongoDB Community Edition with [enterprise-grade features](https://docs.percona.com/percona-server-for-mongodb/latest/comparison.html).
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/index.html)
-[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-server-for-mongodb/7.0/install/index.html)
+[Releases](https://docs.percona.com/percona-server-for-mongodb/latest/release_notes/index.html)
+[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-server-for-mongodb/latest/install/index.html)
 
 </div>
 </div>
