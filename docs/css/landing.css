@@ -128,6 +128,19 @@
             rgb(20,142,255) 95%
         );
 }
+.splash.utilities {
+    background:
+        linear-gradient(
+            110deg,
+            transparent 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(135,101,31) 33%,
+            rgb(218,163,49) 95%
+        );
+}
 .splash.header {
     flex-direction: column;
     justify-content: center;
