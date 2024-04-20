@@ -44,7 +44,8 @@ An open source database monitoring, management and observability solution for My
 
 <div class="actions" markdown>
 
-[PMM 3.0.0 Documentation :material-arrow-right:](https://pmm-doc-3-0.onrender.com/)
+[Releases](https://pmm-doc-3-0.onrender.com/release-notes/index.html)
+[Documentation :material-arrow-right:](https://pmm-doc-3-0.onrender.com/index.html)
 
 </div>
 </div>

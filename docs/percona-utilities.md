@@ -8,6 +8,8 @@ hide:
 <div class="landing" markdown>
 <div class="splash header subpage mysql dark" markdown>
 
+![Percona Lab](assets/percona-utilities.svg)
+
 # Percona Utilities
 
 Tools and resources provided by Percona to enhance database management and performance.
