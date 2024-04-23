@@ -31,7 +31,7 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/postgresql/latest/release_notes/index.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/postgresql/latest/index.html)
+[Install now :material-arrow-right:](https://docs.percona.com/postgresql/16/installing.html)
 
 </div>
 </div>
@@ -44,7 +44,7 @@ Based on best practices for the configuration of Percona Distribution for Postgr
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
-[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
+[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
 
 </div>
 </div>
@@ -57,7 +57,7 @@ Explore `pg_stat_monitor` - a query performance monitoring tool that brings more
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/pg-stat-monitor/release-notes/release_notes.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/index.html)
+[Install now :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/install.html)
 
 </div>
 </div>
@@ -69,7 +69,7 @@ An open source database monitoring, management and observability solution for Po
 
 <div class="actions" markdown>
 
-[PMM Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management)
 
 </div>
 </div>

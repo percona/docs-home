@@ -8,7 +8,7 @@ hide:
 <div class="landing" markdown>
 <div class="splash header subpage lab dark" markdown>
 
-![Percona Lab](assets/logo-percona-labs.svg)
+![Percona Lab](assets/percona-utilities.svg)
 
 # Percona Lab Software
 
@@ -32,6 +32,7 @@ A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to Postgre
 
 <div class="actions" markdown>
 
+[Releases](https://percona-lab.github.io/pg_tde/main/release-notes/release-notes.html)
 [Documentation :material-arrow-right:](https://percona-lab.github.io/pg_tde/main/)
 
 </div>

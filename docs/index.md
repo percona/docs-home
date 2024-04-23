@@ -6,16 +6,16 @@ hide:
 ---
 <div class="landing">
 
-  <!--Open-source theme-->
+  <!--Open source theme-->
 
   <section class="splash highlight dark">
     <!--Intro-->
     <div class="splash-intro">
       <h1>
-        Open-source databases
+        Open source databases
       </h1>
       <p>
-        Learn how to set up Percona's open-source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
+        Learn how to set up Percona's open source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
       </p>
     </div>
     <!--Links-->
@@ -59,7 +59,7 @@ hide:
         Cloud-native databases
       </h2>
       <p>
-        Leverage the power of modern open-source databases on the cloud with Percona solutions for PostgreSQL, MongoDB, and MySQL. Click to start your cloud-native databases journey with our documentation.
+        Leverage the power of modern open source databases on the cloud with Percona solutions for PostgreSQL, MongoDB, and MySQL. Click to start your cloud-native databases journey with our documentation.
       </p>
     </div>
     <!--Links-->
@@ -70,7 +70,7 @@ hide:
           Percona Everest
         </h3>
         <p>
-          Documentation for Percona’s open-source cloud-native database platform.
+          Documentation for Percona’s open source cloud-native database platform.
         </p>
       </a>
       <a href="percona-operators" class="splash-card">
@@ -94,7 +94,7 @@ hide:
         Database tools
       </h2>
       <p>
-        Learn how to set up Percona's open-source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
+        Learn how to set up Percona's open source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
       </p>
     </div>
     <!--Links-->
@@ -114,7 +114,7 @@ hide:
           Percona Toolkit
         </h3>
         <p>
-          Professional, advanced and open-source command-line tools for databases.
+          Professional, advanced and open source command-line tools for databases.
         </p>
       </a>
     </div>

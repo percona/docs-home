@@ -31,7 +31,7 @@ Percona Operator for PostgreSQL is powerful open source software that automates 
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
-[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
+[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
 
 </div>
 </div>
@@ -44,7 +44,7 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-mongodb/RN/index.html)
-[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
+[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
 
 </div>
 </div>
@@ -56,7 +56,7 @@ Create and manage highly available, enterprise-ready MySQL database clusters on 
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
-[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
+[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
 
 </div>
 </div>
@@ -70,7 +70,7 @@ Currently in Alpha stage.
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
-[Quickstart Docs :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
+[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
 
 </div>
 </div>
