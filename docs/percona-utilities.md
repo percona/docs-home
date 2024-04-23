@@ -10,6 +10,8 @@ hide:
 
 ![Percona Utilities logo](assets/percona-logo-main.svg)
 
+![Percona Lab](assets/percona-utilities.svg)
+
 # Percona Utilities
 
 Tools and resources provided by Percona to enhance database management and performance.

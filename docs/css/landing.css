@@ -115,6 +115,19 @@
             rgb(48,209,190) 95%
         );
 }
+.splash.lab {
+    background:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0.4) 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(242,69,0) 33%,
+            rgb(255,126,26) 95%
+        );
+}
 .splash.operators {
     background:
         linear-gradient(
