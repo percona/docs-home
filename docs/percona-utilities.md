@@ -8,8 +8,6 @@ hide:
 <div class="landing" markdown>
 <div class="splash header subpage utilities dark" markdown>
 
-![Percona Utilities logo](assets/percona-logo-main.svg)
-
 ![Percona Lab](assets/percona-utilities.svg)
 
 # Percona Utilities
