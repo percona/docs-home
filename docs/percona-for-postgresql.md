@@ -30,8 +30,9 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/postgresql/latest/release_notes/index.html)
-[Install now :material-arrow-right:](https://docs.percona.com/postgresql/16/installing.html)
+[Releases](https://docs.percona.com/postgresql/16/release-notes.html)
+[Install now](https://docs.percona.com/postgresql/16/installing.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/postgresql/)
 
 </div>
 </div>
@@ -44,7 +45,8 @@ Based on best practices for the configuration of Percona Distribution for Postgr
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
+[Install now](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/)
 
 </div>
 </div>
@@ -57,7 +59,8 @@ Explore `pg_stat_monitor` - a query performance monitoring tool that brings more
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/pg-stat-monitor/release-notes/release_notes.html)
-[Install now :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/install.html)
+[Install now](https://docs.percona.com/pg-stat-monitor/install.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/)
 
 </div>
 </div>
@@ -69,7 +72,9 @@ An open source database monitoring, management and observability solution for Po
 
 <div class="actions" markdown>
 
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management)
+[Releases](https://docs.percona.com/percona-monitoring-and-management/release-notes/index.html)
+[Install now](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management/index.html)
 
 </div>
 </div>

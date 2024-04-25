@@ -31,7 +31,8 @@ Percona Operator for PostgreSQL is powerful open source software that automates 
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
+[Install now](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/)
 
 </div>
 </div>
@@ -44,7 +45,8 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-mongodb/RN/index.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
+[Install now](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/)
 
 </div>
 </div>
@@ -56,7 +58,8 @@ Create and manage highly available, enterprise-ready MySQL database clusters on 
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
+[Install now](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/)
 
 </div>
 </div>
@@ -70,7 +73,8 @@ Currently in Alpha stage.
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
+[Install now](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/)
 
 </div>
 </div>

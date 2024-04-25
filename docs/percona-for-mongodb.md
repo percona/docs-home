@@ -31,7 +31,8 @@ An enhanced, fully compatible, source available, drop-in replacement for MongoDB
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-server-for-mongodb/latest/release_notes/index.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-server-for-mongodb/latest/install/index.html)
+[Install now](https://docs.percona.com/percona-server-for-mongodb/latest/install/index.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-server-for-mongodb/)
 
 </div>
 </div>
@@ -44,7 +45,8 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-mongodb/RN/index.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
+[Install now](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/)
 
 </div>
 </div>
@@ -57,7 +59,8 @@ An open source, community backup tool for performing consistent backups and rest
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-backup-mongodb/release-notes.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-backup-mongodb/installation.html)
+[Install now](https://docs.percona.com/percona-backup-mongodb/installation.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-backup-mongodb/)
 
 </div>
 </div>
@@ -70,7 +73,8 @@ A collection of solutions to run and operate your MongoDB efficiently with the d
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-distribution-for-mongodb/7.0/release-notes.html)
-[Install now :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mongodb/7.0/installation.html)
+[Install now](https://docs.percona.com/percona-distribution-for-mongodb/7.0/installation.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mongodb/)
 
 </div>
 </div>
@@ -82,7 +86,9 @@ An open source database monitoring, management and observability solution for Mo
 
 <div class="actions" markdown>
 
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management)
+[Releases](https://docs.percona.com/percona-monitoring-and-management/release-notes/index.html)
+[Install now](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management/)
 
 </div>
 </div>
