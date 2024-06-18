@@ -99,7 +99,7 @@ hide:
     </div>
     <!--Links-->
     <div class="splash-links">
-      <a href="https://docs.percona.com/percona-monitoring-and-management/" class="splash-card">
+      <a href="https://docs.percona.com/percona-monitoring-and-management/index.html" class="splash-card">
         <img src="assets/logo-pmm.svg" alt="Percona Monitoring & Management logo" />
         <h3>
           Percona Monitoring & Management
@@ -108,7 +108,7 @@ hide:
           High-quality, polyglot monitoring, alerting and more for databases.
         </p>
       </a>
-      <a href="https://docs.percona.com/percona-toolkit" class="splash-card">
+      <a href="https://docs.percona.com/percona-toolkit/" class="splash-card">
         <img src="assets/logo-pt.svg" alt="Percona Toolkit logo" />
         <h3>
           Percona Toolkit
