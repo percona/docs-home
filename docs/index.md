@@ -120,4 +120,29 @@ hide:
     </div>
   </section>
 
+<!--Valkey theme-->
+
+  <section class="splash">
+    <!--Intro-->
+    <div class="splash-intro">
+      <h2>
+        Open source contribution
+      </h2>
+      <p>
+        Click to access the documentation for Percona's contribution to open source projects.
+      </p>
+    </div>
+    <!--Links-->
+    <div class="splash-links">
+      <a href="https://docs.percona.com/percona-monitoring-and-management/index.html" class="splash-card">
+        <img src="assets/logo-valkey.svg" alt="Percona for Valkey logo" />
+        <h3>
+          Percona Packages for Valkey
+        </h3>
+        <p>
+          Get started quickly with Valkey using Percona-built packages.
+        </p>
+      </a>
+    </div>
+  </section>
 </div>
