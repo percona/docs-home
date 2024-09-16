@@ -101,3 +101,4 @@ nav:
   - Utilities: percona-utilities.md
   - Legacy docs: "https://docs.percona.com/legacy-documentation/"
   - Percona Lab: percona-lab.md
+  - Valkey: "https://docs.percona.com/valkey/index.html"

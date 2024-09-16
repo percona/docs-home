@@ -120,3 +120,29 @@ hide:
     </div>
   </section>
 
+<!--Valkey theme-->
+
+  <section class="splash">
+    <!--Intro-->
+    <div class="splash-intro">
+      <h2>
+        Key Value Stores
+      </h2>
+      <p>
+        Percona Packages for Valkey is a seamless installation method for Valkey, the open-source, high-performance key-value store. Click to get started with Valkey using Percona-built
+      </p>
+    </div>
+    <!--Links-->
+    <div class="splash-links">
+      <a href="https://percona-valkey-doc.onrender.com/index.html" class="splash-card">
+        <img src="assets/logo-valkey.svg" alt="Percona for Valkey logo" />
+        <h3>
+          Percona Packages for Valkey
+        </h3>
+        <p>
+          Get started quickly with Valkey using Percona-built packages.
+        </p>
+      </a>
+    </div>
+  </section>
+</div>
