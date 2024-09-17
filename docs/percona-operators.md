@@ -14,15 +14,16 @@ hide:
 
 Easily create and manage highly available, enterprise-ready MySQL, PostgreSQL, and MongoDB clusters on Kubernetes with Percona Operators. Eliminate the complexities of Day 1 and Day 2 database operations and seamlessly integrate with your existing Infrastructure-as-code and DevOps tools.
 
-</div>
-</div>
+[Documentation](#documentation){.md-button} [Other resources](#other-resources){.md-button}
 
+</div>
+</div>
 
 
 ## Documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
 
@@ -36,7 +37,7 @@ Percona Operator for PostgreSQL is powerful open source software that automates 
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MongoDB {.title}
 
@@ -50,7 +51,7 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MySQL based on Percona XtraDB Cluster {.title}
 
@@ -63,7 +64,7 @@ Create and manage highly available, enterprise-ready MySQL database clusters on 
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MySQL based on Percona Server for MySQL {.title}
 
@@ -79,3 +80,16 @@ Currently in Alpha stage.
 </div>
 </div>
 </div>
+
+## Other resources
+
+<div data-resources markdown>
+
+[:material-newspaper-variant-outline: Join K8S Squad](https://www.percona.com/k8s?_gl=1*1x3nak3*_gcl_au*NDQzODI2NzEuMTY5MTQyMjA4OQ..)
+[:material-forum-outline: Community Forum](https://forums.percona.com/)
+[:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
+[:material-account-group: Percona Operators at Community Website](https://percona.community/projects/operators/)
+[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+
+</div>
+<br>

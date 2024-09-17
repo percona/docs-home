@@ -14,6 +14,8 @@ hide:
 
 The documentation in this section is based on early versions of the software and describes incomplete features. Expect frequent updates. The features described may change or be removed. New features may be added in the future.
 
+[Documentation](#documentation){.md-button} [Other resources](#other-resources){.md-button}
+
 </div>
 </div>
 
@@ -24,7 +26,7 @@ The documentation in this section is based on early versions of the software and
 ## Documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="postgresql" markdown>
 
 ### <span style="font-size:2em">:percona-postgresql:</span> Percona Transparent Data Encryption {.title}
 
@@ -38,7 +40,7 @@ A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to Postgre
 </div>
 </div>
 
-<div data-banner markdown>
+<div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Percona Monitoring & Management 3.0.0 {.title}
 
@@ -52,5 +54,18 @@ An open source database monitoring, management and observability solution for My
 </div>
 </div>
 </div>
+
+## Other resources
+
+<div data-resources markdown>
+
+[:material-account-group: Community Website](https://percona.community/)
+[:material-forum-outline: Community Forum](https://forums.percona.com/)
+[:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
+[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+
+</div>
+<br>
+
 
 

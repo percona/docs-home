@@ -14,6 +14,8 @@ hide:
 
 Tools and resources provided by Percona to enhance database management and performance.
 
+[Documentation](#documentation){.md-button} [Other resources](#other-resources){.md-button}
+
 </div>
 </div>
 
@@ -21,7 +23,7 @@ Tools and resources provided by Percona to enhance database management and perfo
 ## Documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="utilities" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-logo:</span> Percona Toolkit {.title}
 
@@ -35,7 +37,7 @@ Command-line tools for common MySQL database administration tasks.
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="pmm" markdown>
 
 ### <span style="font-size:2em">:percona-pmm:</span> PMM Dump {.title}
 
@@ -49,7 +51,7 @@ The utility performs a logical backup of the performance metrics, collected by t
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="utilities" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-logo:</span> Percona Software Repositories {.title}
 
@@ -63,4 +65,17 @@ Binary and source packages of the latest official product releases as well as de
 </div>
 </div>
 </div>
+
+## Other resources
+
+<div data-resources markdown>
+
+[:material-account-group: Community Website](https://percona.community/)
+[:material-forum-outline: Community Forum](https://forums.percona.com/)
+[:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
+[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+
+</div>
+<br>
+
 

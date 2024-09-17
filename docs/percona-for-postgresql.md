@@ -14,15 +14,16 @@ hide:
 
 Explore our Percona Software for PostgreSQL documentation. Find user guides, quickstarts, and how-tos tailored to help you build, deploy, manage, and automate PostgreSQL effectively.
 
-</div>
-</div>
+[Documentation](#documentation){.md-button} [Other resources](#other-resources){.md-button}
 
+</div>
+</div>
 
 
 ## Documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL {.title}
 
@@ -36,7 +37,7 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
 
@@ -50,7 +51,7 @@ Based on best practices for the configuration of Percona Distribution for Postgr
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Query Performance Monitoring for PostgreSQL {.title}
 
@@ -64,7 +65,7 @@ Explore `pg_stat_monitor` - a query performance monitoring tool that brings more
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring PostgreSQL with PMM {.title}
 
@@ -79,3 +80,16 @@ An open source database monitoring, management and observability solution for Po
 </div>
 </div>
 </div>
+
+## Other resources
+
+<div data-resources markdown>
+
+[:material-forum-outline: PostgreSQL at Community Forum](https://forums.percona.com/c/postgresql/25)
+[:material-newspaper-variant-outline: PostgreSQL Blog Articles](https://www.percona.com/blog/category/postgresql/)
+[:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
+[:material-account-group: PostgreSQL Community Website](https://percona.community/postgresql/)
+[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+
+</div>
+<br>

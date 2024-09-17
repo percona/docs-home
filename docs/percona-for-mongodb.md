@@ -14,15 +14,16 @@ hide:
 
 Explore our Percona Software for MongoDB documentation. Find user guides, quickstarts, and how-tos tailored to help you build, deploy, manage, and automate MongoDB effectively.
 
-</div>
-</div>
+[Documentation](#documentation){.md-button} [Other resources](#other-resources){.md-button}
 
+</div>
+</div>
 
 
 ## Documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
 
@@ -36,7 +37,7 @@ An enhanced, fully compatible, source available, drop-in replacement for MongoDB
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MongoDB {.title}
 
@@ -50,7 +51,7 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
 
@@ -64,7 +65,7 @@ An open source, community backup tool for performing consistent backups and rest
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Distribution for MongoDB {.title}
 
@@ -78,7 +79,7 @@ A collection of solutions to run and operate your MongoDB efficiently with the d
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring MongoDB with PMM {.title}
 
@@ -93,3 +94,16 @@ An open source database monitoring, management and observability solution for Mo
 </div>
 </div>
 </div>
+
+## Other resources
+
+<div data-resources markdown>
+
+[:material-forum-outline: MongoDB at Community Forum](https://forums.percona.com/c/mongodb/24)
+[:material-newspaper-variant-outline: MongoDB Blog Articles](https://www.percona.com/blog/category/mongodb/)
+[:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
+[:material-account-group: MongoDB at Community Website](https://percona.community/mongodb/)
+[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+
+</div>
+<br>
