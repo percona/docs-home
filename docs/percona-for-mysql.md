@@ -31,8 +31,8 @@ An enhanced, fully compatible, source available, drop-in replacement for MySQL C
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-server/innovation-release/release-notes/release-notes-index.html)
-[Install now](https://docs.percona.com/percona-server/innovation-release/quickstart-overview.html)
+[Releases](https://docs.percona.com/percona-server/8.4/release-notes/release-notes-index.html)
+[Install now](https://docs.percona.com/percona-server/8.4/quickstart-overview.html)
 [Documentation :material-arrow-right:](https://docs.percona.com/percona-server/)
 
 </div>
@@ -88,8 +88,8 @@ An open source, hot backup utility for MySQL-based servers that keeps your datab
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-xtrabackup/innovation-release/release-notes/release-notes.html)
-[Install now](https://docs.percona.com/percona-xtrabackup/innovation-release/quickstart-overview.html)
+[Releases](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/release-notes.html)
+[Install now](https://docs.percona.com/percona-xtrabackup/8.4/quickstart-overview.html)
 [Documentation :material-arrow-right:](https://docs.percona.com/percona-xtrabackup/)
 
 </div>
@@ -102,8 +102,8 @@ A single solution with the best and most critical enterprise components from the
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-distribution-for-mysql/innovation-release/)
-[Install now](https://docs.percona.com/percona-distribution-for-mysql/innovation-release/installing.html)
+[Releases](https://docs.percona.com/percona-distribution-for-mysql/8.4/)
+[Install now](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html)
 [Documentation :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mysql/)
 
 </div>
