@@ -102,7 +102,7 @@ A single solution with the best and most critical enterprise components from the
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-distribution-for-mysql/8.4/)
+[Releases](https://docs.percona.com/percona-distribution-for-mysql/8.4/release-notes.html)
 [Install now](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html)
 [Documentation :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mysql/)
 
