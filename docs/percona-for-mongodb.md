@@ -73,8 +73,8 @@ A collection of solutions to run and operate your MongoDB efficiently with the d
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-distribution-for-mongodb/7.0/release-notes.html)
-[Install now](https://docs.percona.com/percona-distribution-for-mongodb/7.0/installation.html)
+[Releases](https://docs.percona.com/percona-distribution-for-mongodb/latest/release-notes.html)
+[Install now](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html)
 [Documentation :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mongodb/)
 
 </div>
