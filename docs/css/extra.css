@@ -1,0 +1,18 @@
+.md-post__action {
+    display: none;
+  }
+
+/* Target only headings inside the blog section */
+.toclink {
+    font-size: 0.85rem;  /* Adjust as needed */
+    text-decoration: none !important; /* Remove underline */
+    font-weight: normal !important;   /* Remove bold */
+}
+
+.md-post--excerpt {
+    margin-bottom: 1rem;
+}
+
+.md-ellipsis {
+    font-weight: normal !important;   /* Remove bold */
+}
