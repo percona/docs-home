@@ -15,50 +15,65 @@ If you need assistance, visit the community forum for comprehensive and free dat
 [:material-forum-outline: Community Forum](https://forums.percona.com/){:target="_blank"} [:percona-logo: Get a Percona Expert](https://www.percona.com/about/contact){:target="_blank"}
 </div></div>
 
-## Featured announcements
+## Featured announcements 
 
-<div class="grid cards" markdown>
+<div data-grid markdown>
+<div data-banner="everest" markdown>
 
--   :material-newspaper-variant-outline: &nbsp; __[Telemetry on Percona Server for MySQL](../blog/posts/MySQL/telemetry-on-percona-server-for-mysql.md)__{:target="_blank"}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> RBAC in Percona Everest {.title}
+<br>
+With Role-Based Access Control (RBAC) in Percona Everest 1.2.0, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
 
-    ---
+<div class="actions" markdown>
 
-    Percona Server for MySQL 8.0.35-27 implements telemetry that fills in the gaps in our understanding of how you use Percona Server to improve our products.
+[Read more :material-arrow-right:](../blog/posts/Percona%20Everest/rbac-in-percona-everest.md){:target="_blank"}
 
-    ---
+<span style="float: right;">October 10, 2024</span>
 
-    December 27, 2023
+</div>
+</div>
+<div data-banner="mysql" markdown>
 
--   :material-newspaper-variant-outline: &nbsp; __[Secure Grafana image rendering with PMM](../blog/posts/Percona%20Monitoring%20and%20Management/secure-grafana-image-rendering.md)__{:target="_blank"}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Telemetry on Percona Server for MySQL {.title}
+<br>
+Percona Server for MySQL 8.0.35-27 implements telemetry that fills in the gaps in our understanding of how you use Percona Server to improve our products.
 
-    ---
+<div class="actions" markdown>
 
-    PMM Server 2.43.2 now supports secure Grafana image rendering capabilities through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.
+[Read more :material-arrow-right:](../blog/posts/MySQL/telemetry-on-percona-server-for-mysql.md){:target="_blank"}
 
-    ---
+<span style="float: right;">December 27, 2023</span>
 
-    October 30, 2024
+</div>
+</div>
+<div data-banner="pmm" markdown>
 
--   :material-newspaper-variant-outline: &nbsp; __[RBAC in Percona Everest](../blog/posts/Percona%20Everest/rbac-in-percona-everest.md)__{:target="_blank"}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> Secure Grafana image rendering with PMM {.title}
+<br>
+PMM Server 2.43.2 now supports secure Grafana image rendering capabilities through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.
 
-    ---
+<div class="actions" markdown>
 
-    With Role-Based Access Control (RBAC) in Percona Everest 1.2.0, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
+[Read more :material-arrow-right:](../blog/posts/Percona%20Monitoring%20and%20Management/secure-grafana-image-rendering.md){:target="_blank"}
 
-    ---
+<span style="float: right;">October 30, 2024</span>
 
-    October 10, 2024
+</div>
+</div>
+<div data-banner="postgresql" markdown>
 
--   :material-newspaper-variant-outline: &nbsp; __[Docker image for Percona Distribution for PostgreSQL for ARM architectures](../blog/posts/PostgreSQL/arm-support.md)__{:target="_blank"}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Docker image for Percona Distribution for PostgreSQL for ARM architectures {.title}
+<br>
+A Docker image for Percona Distribution for PostgreSQL 16.2 is now available for ARM architectures. 
 
-    ---
+<div class="actions" markdown>
 
-    A Docker image for Percona Distribution for PostgreSQL 16.2 is now available for ARM architectures. 
+[Read more :material-arrow-right:](../blog/posts/PostgreSQL/arm-support.md){:target="_blank"}
 
-    ---
+<span style="float: right;">February 27, 2024</span>
 
-    February 27, 2024
-
+</div>
+</div>
 </div>
 
 ## What's new feed
