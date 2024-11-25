@@ -1,5 +1,5 @@
 ---
-date: 2024-11-21
+date: 2024-11-22
 description: >
   Percona Monitoring and Management 3.0.0 has been released on Friday, November 22nd, 2024.
 authors: [catalinaadam]
@@ -15,7 +15,7 @@ tags:
 
 Percona Monitoring and Management 3.0.0 Beta has been released on Friday, November 22nd, 2024.
 
-Learn more in Percona Monitoring and Management 3.0.0 Beta [release notes](https://pmm-doc-m22e.onrender.com/release-notes/3.0.0_Beta.html){:target="_blank"}.
+Learn more in Percona Monitoring and Management 3.0.0 Beta [release notes](https://pmm-doc-3-0.onrender.com/release-notes/3.0.0_Beta.html){:target="_blank"}.
 
 <div data-banner markdown>
 
