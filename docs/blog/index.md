@@ -21,7 +21,7 @@ If you need assistance, visit the community forum for comprehensive and free dat
 <div data-banner="everest" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> MongoDB sharding in Percona Everest {.title}
-
+<br>
 MongoDB Sharding is currently in **Technical Preview**. Early adopters are advised to use this feature only for testing purposes and not in production environments.
 
 Percona Everest 1.3.0 now introduces support for MongoDB sharding, a feature that enables you to enhance the performance and scalability of your MongoDB databases.
