@@ -1,5 +1,5 @@
 ---
-date: 2023-10-10
+date: 2024-11-18
 description: >
   With Role-Based Access Control (RBAC) in Percona Everest 1.2.0, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
 authors: [rasika-chivate]
@@ -9,13 +9,17 @@ tags:
   - Percona Everest
 ---
 
-# Secure Grafana image rendering with PMM
+# MongoDB sharding with Percona Everest
 ---
 <!-- more -->
 
-With Role-Based Access Control (RBAC) in Percona Everest 1.2.0, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
+!!! warning
+    Sharding is currently in Technical Preview. Early adopters are advised to use this feature only for testing purposes and not in production environments.
 
-Learn more in Percona Everest 1.2.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.2.0-%282024-10-01%29.html){:target="_blank"}.
+
+We have introduced MongoDB sharding in Percona Everest 1.3.0. With Percona Everest, you can now harness the benefits of sharding to enhance the performance and scalability of your MongoDB databases.
+
+Learn more in Percona Everest 1.3.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.3.0-%282024-11-18%29.html){:target="_blank"}.
 
 <div data-banner markdown>
 
