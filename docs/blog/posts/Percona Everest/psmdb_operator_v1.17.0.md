@@ -1,7 +1,7 @@
 ---
 date: 2024-11-18
 description: >
-Support for PSMDB Operator v1.17.0 in Percona Everest 1.3.0.
+  Support for PSMDB Operator v1.17.0 in Percona Everest 1.3.0.
 authors: [rasika-chivate]
 categories:
   - Percona Everest
