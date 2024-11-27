@@ -28,7 +28,7 @@ Percona Everest 1.3.0 now introduces support for MongoDB sharding, a feature tha
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/sharding-in-percona-everest.md){:target="_blank"}
+[Read more :material-arrow-right:](../blog/posts/Percona%20Everest/sharding-in-percona-everest.md){:target="_blank"}
 
 <span style="float: right;">Nov 18, 2024</span>
 
