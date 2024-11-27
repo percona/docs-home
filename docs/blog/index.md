@@ -30,7 +30,7 @@ Percona Everest 1.3.0 now introduces support for MongoDB sharding, a feature tha
 
 [Read more :material-arrow-right:](../blog/posts/Percona%20Everest/rbac-in-percona-everest.md){:target="_blank"}
 
-<span style="float: right;">October 10, 2024</span>
+<span style="float: right;">Nov 18, 2024</span>
 
 </div>
 </div>
