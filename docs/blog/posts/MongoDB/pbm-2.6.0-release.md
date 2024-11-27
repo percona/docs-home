@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Backup for MongoDB 2.6.0 has been released
----
+
 <!-- more -->
 
 Percona Backup for MongoDB 2.6.0 has been released on September 2, 2024.

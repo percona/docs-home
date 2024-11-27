@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Operator for MySQL based on Percona XtraDB Cluster 1.15.1 has been released
----
+
 <!-- more -->
 
 Percona Operator for MySQL based on Percona XtraDB Cluster 1.15.1 has been released on October, October 16, 2024.

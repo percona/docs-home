@@ -1,8 +1,8 @@
 # What's new with Percona?
 
-At Percona, we are committed to leveraging the latest advancements in technology to help you experiment and innovate faster. Our “What’s new” posts provide concise overviews of new services, features, and regional expansions as they become available.
+At Percona, we've been listening closely to our customer's challenges. Our team continues to develop tools and technologies that transform database management from a potential roadblock into a strategic advantage.
 
-Explore the page below to discover our most recent innovations and enhancements.
+Percona is excited to announce a series of new releases and updates across our product suite. These latest versions bring a range of enhancements, performance optimizations, and innovative features designed to streamline your database operations and maximize your database's potential.
 
 <div data-banner markdown>
 
@@ -22,10 +22,7 @@ If you need assistance, visit the community forum for comprehensive and free dat
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> MongoDB sharding in Percona Everest {.title}
 <br>
-MongoDB Sharding is currently in **Technical Preview**. Early adopters are advised to use this feature only for testing purposes and not in production environments.
-
-Percona Everest 1.3.0 now introduces support for MongoDB sharding, a feature that enables you to enhance the performance and scalability of your MongoDB databases.
-
+Percona Everest 1.3.0 now introduces MongoDB sharding, currently available as a **Technical Preview** feature. Sharding enables you to enhance the performance and scalability of your MongoDB databases.
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../blog/posts/Percona%20Everest/sharding-in-percona-everest.md){:target="_blank"}

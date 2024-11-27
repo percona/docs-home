@@ -11,7 +11,7 @@ tags:
 ---
 
 # Encryption of sensitive data
----
+
 <!-- more -->
 
 Plaintext passwords and credentials are among the top ten security risks identified by OWASP (Open Web Application Security Project).
