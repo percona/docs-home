@@ -10,7 +10,7 @@ tags:
 ---
 
 # Support for PSMDB Operator v1.17.0
----
+
 <!-- more -->
 
 We have introduced support for PSMDB Operator v1.17.0 in Percona Everest 1.3.0. 

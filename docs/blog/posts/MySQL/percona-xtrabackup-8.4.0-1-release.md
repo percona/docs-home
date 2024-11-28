@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona XtraBackup 8.4.0-1 has been released
----
+
 <!-- more -->
 
 Percona XtraBackup 8.4.0-1 has been released on Tuesday, August 20, 2024. 

@@ -10,7 +10,7 @@ tags:
 ---
 
 # Docker image for Percona Distribution for PostgreSQL for ARM architectures
----
+
 <!-- more -->
 
 A Docker image for Percona Distribution for PostgreSQL 16.2 is now available for ARM architectures. 

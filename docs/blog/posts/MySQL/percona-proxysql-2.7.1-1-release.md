@@ -10,7 +10,7 @@ tags:
 ---
 
 # ProxySQL 2.7.1-1 has been released
----
+
 <!-- more -->
 
 ProxySQL 2.7.1-1 has been released on Monday, November 20, 2024. 

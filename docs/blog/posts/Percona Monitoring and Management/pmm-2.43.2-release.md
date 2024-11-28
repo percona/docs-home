@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Monitoring and Management 2.43.2 has been released
----
+
 <!-- more -->
 
 Percona Monitoring and Management 2.43.2 has been released on Wednesday, October 30, 2024. 

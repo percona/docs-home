@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Operator for MongoDB 1.18.0 has been released
----
+
 <!-- more -->
 
 Percona Operator for MongoDB 1.18.0 has been released on Thursday, November 14, 2024.

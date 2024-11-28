@@ -10,7 +10,7 @@ tags:
 ---
 
 # Telemetry in Percona Server for MongoDB
----
+
 <!-- more -->
 
 We have added Telemetry starting with Percona Server for MongoDB 6.0.16-13 and  7.0.12-7. This way we intend to improve our software as we believe that telemetry helps us identify popular features, detect problems, and plan future improvements.

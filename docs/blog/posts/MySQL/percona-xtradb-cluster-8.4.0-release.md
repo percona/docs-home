@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona XtraDB Cluster 8.4.0-1 has been released
----
+
 <!-- more -->
 
 Percona XtraDB Cluster 8.4.0-1 has been released on Thursday, November 7, 2024.

@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Server for MongoDB 6.0.18-15 has been released
----
+
 <!-- more -->
 
 Percona Server for MongoDB 6.0.18-15 has been released on November 5, 2024.

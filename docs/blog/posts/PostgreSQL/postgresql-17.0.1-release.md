@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Distribution for PostgreSQL 17.0.1 has been released
----
+
 <!-- more -->
 
 Percona Distribution for PostgreSQL 17.0.1 has been released on Thursday, October 3, 2024.

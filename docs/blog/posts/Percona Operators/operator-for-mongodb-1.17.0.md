@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Operator for MongoDB 1.17.0 has been released
----
+
 <!-- more -->
 
 Percona Operator for MongoDB 1.17.0 has been released on Monday, September 9, 2024.

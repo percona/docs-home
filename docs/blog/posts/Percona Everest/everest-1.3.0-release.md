@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Everest 1.3.0 has been released
----
+
 <!-- more -->
 
 Percona Everest 1.3.0 has been released on Monday, November 18, 2024. 

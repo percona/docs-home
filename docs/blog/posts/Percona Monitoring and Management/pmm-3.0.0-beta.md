@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Monitoring and Management 3.0.0 Beta has been released
----
+
 <!-- more -->
 
 Percona Monitoring and Management 3.0.0 Beta has been released on Friday, November 22, 2024.
