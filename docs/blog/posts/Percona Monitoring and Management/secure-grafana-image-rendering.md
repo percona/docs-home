@@ -10,7 +10,7 @@ tags:
 ---
 
 # Secure Grafana image rendering with PMM
----
+
 <!-- more -->
 
 PMM Server 2.43.2 now supports secure Grafana image rendering capabilities through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.

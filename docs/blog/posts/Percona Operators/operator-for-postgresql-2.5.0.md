@@ -10,7 +10,7 @@ tags:
 ---
 
 # Percona Operator for PostgreSQL 2.5.0 has been released
----
+
 <!-- more -->
 
 Percona Operator for PostgreSQL 2.5.0 has been released on Tuesday, October 08, 2024.

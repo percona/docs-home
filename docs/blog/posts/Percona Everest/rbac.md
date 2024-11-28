@@ -10,7 +10,7 @@ tags:
 ---
 
 # Role based access system (RBAC) in Percona Everest
----
+
 <!-- more -->
 
 !!! warning

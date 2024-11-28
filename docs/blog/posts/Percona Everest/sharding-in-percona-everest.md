@@ -10,7 +10,7 @@ tags:
 ---
 
 # MongoDB sharding with Percona Everest
----
+
 <!-- more -->
 
 !!! warning
