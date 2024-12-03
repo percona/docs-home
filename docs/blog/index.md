@@ -1,8 +1,6 @@
 # What's new with Percona?
 
-At Percona, we've been listening closely to our customer's challenges. Our team continues to develop tools and technologies that transform database management from a potential roadblock into a strategic advantage.
-
-Percona is excited to announce a series of new releases and updates across our product suite. These latest versions bring a range of enhancements, performance optimizations, and innovative features designed to streamline your database operations and maximize your database's potential.
+At Percona, we've been hard at work listening to your feedback and developing innovative solutions to improve your database experience. Our latest releases offer a range of enhancements, from performance optimizations to new features, designed to streamline your database operations and maximize your database's potential.
 
 <div data-banner markdown>
 
