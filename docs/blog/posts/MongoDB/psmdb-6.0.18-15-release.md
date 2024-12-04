@@ -13,7 +13,9 @@ tags:
 
 <!-- more -->
 
-Percona Server for MongoDB 6.0.18-15 has been released on November 5, 2024.
+[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/index.html){:target="_blank"} 6.0.18-15 has been released on November 5, 2024.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-for-mongodb/6.0/install/index.html){:target="_blank"}. 
 
 This release is of interest to users who use data-at-rest encryption with the Vault key management server. Before putting a new master encryption key as the versioned secret to Vault, Percona Server for MongoDB now checks if the secret's version reached the defined maximum. This prevents the loss of the old secret and the master encryption key it stores on the Vault server.
 
