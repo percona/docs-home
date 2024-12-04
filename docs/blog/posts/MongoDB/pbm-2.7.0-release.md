@@ -13,7 +13,9 @@ tags:
 ---
 <!-- more -->
 
-Percona Backup for MongoDB 2.7.0 has been released on October 10, 2024.
+[Percona Backup for MongoDB](https://docs.percona.com/percona-backup-mongodb/index.html){:target="_blank"} 2.7.0 has been released on October 10, 2024.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-mongodb/installation.html){:target="_blank"} 
 
 This release primarily focuses on bug fixing and code stability. Find the list of fixes in Percona Backup for MongoDB 2.7.0 [release notes](https://docs.percona.com/percona-backup-mongodb/release-notes/2.7.0.html){:target="_blank"}.
 

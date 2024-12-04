@@ -13,7 +13,9 @@ tags:
 ---
 <!-- more -->
 
-Percona Server for MongoDB 7.0.14-8 has been released on Monday, September 23, 2024.
+[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/7.0/index.html){:target="_blank"} 7.0.14-8 has been released on Monday, September 23, 2024.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-for-mongodb/6.0/install/index.html){:target="_blank"}.
 
 This release introduces the following improvements:
 
