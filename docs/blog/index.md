@@ -2,17 +2,6 @@
 
 At Percona, we've been hard at work listening to your feedback and developing innovative solutions to improve your database experience. Our latest releases offer a range of enhancements, from performance optimizations to new features, designed to streamline your database operations and maximize your database's potential.
 
-<div data-banner markdown>
-
-## Get expert help { .title }
-
-If you need assistance, visit the community forum for comprehensive and free database knowledge, or contact our Percona Database Experts for professional support and services.
-
-<div class="actions" markdown>
-
-[:material-forum-outline: Community Forum](https://forums.percona.com/){:target="_blank"} [:percona-logo: Get a Percona Expert](https://www.percona.com/about/contact){:target="_blank"}
-</div></div>
-
 ## Featured announcements 
 
 <div data-grid markdown>

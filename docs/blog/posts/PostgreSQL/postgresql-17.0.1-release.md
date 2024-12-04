@@ -31,13 +31,3 @@ In addition, this release includes the following improvements:
 
 Learn more in Percona Distribution for PostgreSQL 17.0.1 [release notes](https://docs.percona.com/postgresql/17/release-notes-v17.0.html){:target="_blank"}.
 
-<div data-banner markdown>
-
-## Get expert help { .title }
-
-If you need assistance, visit the community forum for comprehensive and free database knowledge, or contact our Percona Database Experts for professional support and services.
-
-<div class="actions" markdown>
-
-[:material-forum-outline: Community Forum](https://forums.percona.com/){:target="_blank"} [:percona-logo: Get a Percona Expert](https://www.percona.com/about/contact){:target="_blank"}
-</div></div>

@@ -23,13 +23,3 @@ Make sure Percona Server for MongoDB has read permissions for the secret’s met
 
 Learn more about this improvement and other changes in Percona Server for MongoDB 6.0.18-15 [release notes](https://docs.percona.com/percona-server-for-mongodb/6.0/release_notes/6.0.18-15.html){:target="_blank"}.
 
-<div data-banner markdown>
-
-## Get expert help { .title }
-
-If you need assistance, visit the community forum for comprehensive and free database knowledge, or contact our Percona Database Experts for professional support and services.
-
-<div class="actions" markdown>
-
-[:material-forum-outline: Community Forum](https://forums.percona.com/){:target="_blank"} [:percona-logo: Get a Percona Expert](https://www.percona.com/about/contact){:target="_blank"}
-</div></div>
