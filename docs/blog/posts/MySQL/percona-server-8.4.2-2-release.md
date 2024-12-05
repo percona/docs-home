@@ -6,7 +6,7 @@ authors: [alina-derkach-oaza]
 categories:
   - MySQL
 tags:
-  - Percona Server for MySQl
+  - Percona Server for MySQL
 ---
 
 # Percona Server for MySQL 8.4.2-2 has been released
