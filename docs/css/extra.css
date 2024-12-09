@@ -16,3 +16,8 @@
 .md-ellipsis {
     font-weight: normal !important;   /* Remove bold */
 }
+
+.md-sidebar__inner {
+    font-size: 0.65rem;   /* Font size */
+    line-height: 1.6;
+}

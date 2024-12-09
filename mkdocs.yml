@@ -107,7 +107,7 @@ nav:
   - Home: index.md
   - What's new: 
     - blog/index.md
-    - Products: blog/tags.md
+    - Updates per product : blog/tags.md
   - PostgreSQL: percona-for-postgresql.md
   - MongoDB: percona-for-mongodb.md
   - MySQL: percona-for-mysql.md
