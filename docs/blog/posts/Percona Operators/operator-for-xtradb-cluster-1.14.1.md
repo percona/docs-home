@@ -13,10 +13,10 @@ tags:
 
 <!-- more -->
 
-Percona Operator for MySQL based on Percona XtraDB Cluster 1.14.1 has been released on October, October 16, 2024.
+[Percona Operator for MySQL based on Percona XtraDB Cluster](https://docs.percona.com/percona-operator-for-mysql/pxc/index.html) 1.14.1 has been released on October, October 16, 2024.
 
-The new enableVolumeExpansion Custom Resource option introduced in this release allows to disable the automated storage scaling with Volume Expansion capability.
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html).
+
+The new `enableVolumeExpansion` Custom Resource option introduced in this release allows to disable the automated storage scaling with Volume Expansion capability, which is now disabled by default.
 
 Learn more in Percona Operator for MySQL based on Percona XtraDB Cluster 1.14.1 [release notes](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.14.1.html){:target="_blank"}.
-
-
