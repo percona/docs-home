@@ -15,7 +15,7 @@ tags:
 
 Percona Everest 1.3.0 has been released on Monday, November 18, 2024. 
 
-- Percona Everest implements sharding for MongoDB, allowing you to leverage its benefits for your databases.
+- Percona Everest implements [sharding](https://docs.percona.com/everest/use/mongo_sharding.html) for MongoDB, allowing you to leverage its benefits for your databases.
 
 - Percona Everest introduces a new feature that allows customization of the number of proxies and their resource allocation, including CPU and RAM for each proxy.
 
