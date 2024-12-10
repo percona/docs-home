@@ -6,3 +6,4 @@ mkdocs-meta-descriptions-plugin
 mkdocs-macros-plugin
 mkdocs-exclude
 markdown-include
+mkdocs-rss-plugin
