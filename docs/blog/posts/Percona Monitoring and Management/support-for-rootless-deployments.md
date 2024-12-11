@@ -10,9 +10,10 @@ tags:
   - Percona Monitoring and Management
 ---
 
-# Support for rootless deployments
+# Support for rootless deployments in Percona Monitoring and Management
 
 <!-- more -->
+Get hands-on with [Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html){:target="_blank"}, or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
 
 Using the root user in applications poses a significant security risk, particularly when outdated software is installed or resides in the environment.
 
