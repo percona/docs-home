@@ -13,7 +13,11 @@ tags:
 
 <!-- more -->
 
-Percona Server for MySQL 8.0.37-29 has been released on Tuesday, August 6, 2024. Percona Server for MySQL 8.0.37-29 includes all the features and bug fixes available in the MySQL 8.0.37 Community Edition in addition to enterprise-grade features developed by Percona. 
+[Percona Server for MySQL 8.0.37-29](https://docs.percona.com/percona-server/8.0/index.html) has been released on Tuesday, August 6, 2024. 
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.0/quickstart-overview.html).
+
+Percona Server for MySQL 8.0.37-29 includes all the features and bug fixes available in the MySQL 8.0.37 Community Edition in addition to enterprise-grade features developed by Percona. 
 
 This version includes bug fixes. 
 
