@@ -18,7 +18,7 @@ We're excited to announce the release of
 
 ## Get started
 
-Get hands-on with PMM 2.44.0 by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html) {:target="_blank"} or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
+Get hands-on with PMM 2.44.0 by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html){:target="_blank"} or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
 
 ## Key highlights
 
