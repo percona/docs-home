@@ -13,7 +13,11 @@ tags:
 
 <!-- more -->
 
-Percona Server for MySQL 8.0.39-30 has been released on Tuesday, August 6, 2024. Percona Server for MySQL 8.0.39-30 includes all the features and bug fixes available in the MySQL 8.0.39 Community Edition in addition to enterprise-grade features developed by Percona. 
+[Percona Server for MySQL 8.0.39-30](https://docs.percona.com/percona-server/8.0/) has been released on Tuesday, August 6, 2024.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.0/quickstart-overview.html).
+
+Percona Server for MySQL 8.0.39-30 includes all the features and bug fixes available in the MySQL 8.0.39 Community Edition in addition to enterprise-grade features developed by Percona. 
 
 This version add the [UUID_VX component](https://docs.percona.com/percona-server/8.0/uuid-versions.html) which provides a set of functions for generating and working with various versions of the Universally Unique Identifier (UUID).
 
