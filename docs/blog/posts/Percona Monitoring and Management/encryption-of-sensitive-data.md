@@ -10,9 +10,12 @@ tags:
   - Percona Monitoring and Management
 ---
 
-# Encryption of sensitive data
+# Encryption of sensitive data in Percona Monitoring and Management
 
 <!-- more -->
+
+Get hands-on with [Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html){:target="_blank"}, or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
+
 
 Plaintext passwords and credentials are among the top ten security risks identified by OWASP (Open Web Application Security Project).
 

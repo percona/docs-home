@@ -9,9 +9,10 @@ tags:
   - Percona Monitoring and Management
 ---
 
-# Secure Grafana image rendering with PMM
+# Secure Grafana image rendering with Percona Monitoring and Management
 
 <!-- more -->
+Get hands-on with [Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html){:target="_blank"}, or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
 
 PMM Server 2.43.2 now supports secure Grafana image rendering capabilities through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.
 
