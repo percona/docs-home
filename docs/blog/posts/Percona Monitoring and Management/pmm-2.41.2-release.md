@@ -23,22 +23,22 @@ Here's a summary of the main changes in this release:
 
 - Added support for Debian 12 (Bookworm) pmm-client packages
 - Introduced new experimental dashboards:
-  - Redesigned Kubernetes dashboards with improved clarity
-  - New Databases Overview dashboard for unified monitoring
-  - PostgreSQL Instance Summary for quick issue identification
-  - PostgreSQL Checkpoints, Buffers and WAL Usage dashboard
-  - PostgreSQL Patroni dashboard for external service monitoring
+   - Redesigned Kubernetes dashboards with improved clarity
+   - New Databases Overview dashboard for unified monitoring
+   - PostgreSQL Instance Summary for quick issue identification
+   - PostgreSQL Checkpoints, Buffers and WAL Usage dashboard
+   - PostgreSQL Patroni dashboard for external service monitoring
 - Enhanced PostgreSQL monitoring:
-  - Added fallback to pg_stat_statements when pg_stat_monitor is unavailable
-  - Added PostgreSQL wraparound metrics collection
-  - Improved connection management in postgres_exporter
-  - Optimized heavy queries performance
+   - Added fallback to pg_stat_statements when pg_stat_monitor is unavailable
+   - Added PostgreSQL wraparound metrics collection
+   - Improved connection management in postgres_exporter
+   - Optimized heavy queries performance
 - Fixed several issues:
-  - Updated ClickHouse engine to Atomic
-  - Resolved MongoDB disk space consumption issue
-  - Fixed PostgreSQL connections alert false positives
-  - Corrected PostgreSQL instance uptime information
-  - Addressed multiple security CVEs
+   - Updated ClickHouse engine to Atomic
+   - Resolved MongoDB disk space consumption issue
+   - Fixed PostgreSQL connections alert false positives
+   - Corrected PostgreSQL instance uptime information
+   - Addressed multiple security CVEs
 
 For detailed information, see the complete release notes.
 

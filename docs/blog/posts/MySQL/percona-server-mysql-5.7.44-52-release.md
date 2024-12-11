@@ -1,5 +1,5 @@
 ---
-date: 2024-12-05
+date: 2024-08-06
 description: >
   Percona Server for MySQL 5.7.44-52 has been released on Thursday, December 5, 2024.
 authors: [patrickbirch]
