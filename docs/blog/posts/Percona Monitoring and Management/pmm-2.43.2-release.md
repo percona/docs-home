@@ -14,7 +14,7 @@ tags:
 <!-- more -->
 
 We're excited to announce the release of 
-[Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html) 2.43.2, available since October 30, 2024. This release brings important enhancements to PostgreSQL support, security improvements, and performance optimizations.
+[Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} 2.43.2, available since October 30, 2024. This release brings important enhancements to PostgreSQL support, security improvements, and performance optimizations.
 
 ## Get started
 
@@ -29,7 +29,7 @@ Here's a summary of the main changes in this release:
 
 - Fixed high memory consumption in MongoDB exporter.
 
-You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.2.html){:target="_blank"}
+You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.2.html){:target="_blank"}.
 
 
 

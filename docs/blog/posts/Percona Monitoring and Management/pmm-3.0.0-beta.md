@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html) 3.0.0 Beta, available since Friday, November 22, 2024. This release brings important enhancements to security, stability, and user experience. 
+[Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} 3.0.0 Beta, available since Friday, November 22, 2024. This release brings important enhancements to security, stability, and user experience. 
 
 ## Get started
 
