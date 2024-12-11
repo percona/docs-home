@@ -20,6 +20,7 @@ Get hands-on with PMM 2.43.2 by setting up your instance using our [quickstart g
 
 
 Here's a summary of the main changes in this release:
+
 - **PostgreSQL 17 support for Query Analytics (QAN)**: This patch release adds PostgreSQL 17 support for Query Analytics with updates to the `pg_stat_statements` and `pg_stat_monitor` extensions.
 
 - **Secure Grafana image rendering**: PMM Server now supports secure Grafana image rendering capabilities through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.
