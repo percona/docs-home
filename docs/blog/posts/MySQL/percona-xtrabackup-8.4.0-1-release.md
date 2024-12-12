@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona XtraBackup 8.4.0-1](https://docs.percona.com/percona-xtrabackup/8.0/) has been released on Tuesday, August 20, 2024.
+[Percona XtraBackup 8.4.0-1](https://docs.percona.com/percona-xtrabackup/8.4/) has been released on Tuesday, August 20, 2024.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtrabackup/8.4/quickstart-overview.html).
 

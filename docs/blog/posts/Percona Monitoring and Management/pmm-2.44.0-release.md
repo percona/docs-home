@@ -14,7 +14,7 @@ tags:
 <!-- more -->
 
 We're excited to announce the release of 
-[Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"}. 2.44.0, available since December 11, 2024. This release brings important enhancements to PostgreSQL support, security improvements, and performance optimizations.
+[Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} 2.44.0, available since December 11, 2024. This release brings important enhancements to PostgreSQL support, security improvements, and performance optimizations.
 
 Get hands-on with PMM 2.44.0 by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html){:target="_blank"} or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
 

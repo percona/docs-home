@@ -13,7 +13,9 @@ tags:
 
 <!-- more -->
 
-[ProxySQL](https://docs.percona.com/proxysql/) 2.7.1-1 has been released on Monday, November 20, 2024. 
+[ProxySQL](https://docs.percona.com/proxysql/) 2.7.1-1 has been released on Monday, November 20, 2024.
+
+Try it out using the [Installation guide](https://docs.percona.com/proxysql/install-v2.html).
 
 This version updates the admin tools to support Percona XtraDB Cluster 8.4.0-1.
 
