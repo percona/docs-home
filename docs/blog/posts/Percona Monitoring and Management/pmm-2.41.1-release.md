@@ -1,5 +1,5 @@
 ---
-date: 2024-02-1
+date: 2024-02-01
 description: >
   Percona Monitoring and Management 2.41.2 has been released on Thursday, February 1, 2024.
 authors: [catalinaadam]

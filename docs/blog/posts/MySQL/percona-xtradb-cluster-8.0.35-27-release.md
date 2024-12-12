@@ -13,7 +13,9 @@ tags:
 
 <!-- more -->
 
-Percona XtraDB Cluster 8.0.35-27 has been released on Wednesday, January 17, 2024.
+[Percona XtraDB Cluster 8.0.35-27](https://docs.percona.com/percona-xtradb-cluster/8.0/) has been released on Wednesday, January 17, 2024.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtradb-cluster/8.0/quickstart-overview.html).
 
 This release contained fixes and the following deprecations:
 

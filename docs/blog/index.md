@@ -20,29 +20,29 @@ Percona Everest 1.3.0 now introduces MongoDB sharding, currently available as a 
 </div>
 <div data-banner="mysql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Telemetry on Percona Server for MySQL {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL feature - UUID_VX component {.title}
 <br>
-Percona Server for MySQL 8.0.35-27 implements telemetry that fills in the gaps in our understanding of how you use Percona Server to improve our products.
+Percona Server for MySQL 8.0.39-30 adds the UUID_VX component provides a set of functions for generating and working with various versions of the Universally Unique Identifier (UUID).
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/MySQL/telemetry-on-percona-server-for-mysql.md){:target="_blank"}
+[Read more :material-arrow-right:](../blog/posts/MySQL/UUID_VX-component.md){:target="_blank"}
 
-<span style="float: right;">December 27, 2023</span>
+<span style="float: right;">October 08, 2024</span>
 
 </div>
 </div>
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> Secure Grafana image rendering with PMM {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> Encryption of sensitive data in Percona Monitoring and Management {.title}
 <br>
-PMM Server 2.43.2 now supports secure Grafana image rendering capabilities through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.
+Plaintext passwords and credentials are among the top ten security risks identified by OWASP (Open Web Application Security Project).To address this risk, PMM now encrypts all sensitive information stored in its database.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/Percona%20Monitoring%20and%20Management/secure-grafana-image-rendering.md){:target="_blank"}
+[Read more :material-arrow-right:](../blog/posts/Percona%20Monitoring%20and%20Management/encryption-of-sensitive-data.md){:target="_blank"}
 
-<span style="float: right;">October 30, 2024</span>
+<span style="float: right;">November 22, 2024</span>
 
 </div>
 </div>
