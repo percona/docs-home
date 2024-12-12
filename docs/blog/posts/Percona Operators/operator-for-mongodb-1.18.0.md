@@ -13,23 +13,19 @@ tags:
 
 <!-- more -->
 
-Percona Operator for MongoDB 1.18.0 has been released on Thursday, November 14, 2024.
+[Percona Operator for MongoDB](https://docs.percona.com/percona-operator-for-mongodb/) 1.18.0 has been released on Thursday, November 14, 2024.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html).
 
 New features and improvements introduced by these release include:
 
-* Enhancements of the declarative user management make it possible to create custom MongoDB roles on various databases just like users via the Custom Resource
-* Partial restores allow selectively restoring only with the desired subset of data (a specific database or a collection) from a backup which is useful to reduce time on restore operations when fixing corrupted data fragment
-* Splitting the replica set of the database cluster over multiple Kubernetes clusters is now possible, useful to get a fault-tolerant system in which all replicas are in different data centers
+* [Enhancements of the declarative user management](https://docs.percona.com/percona-operator-for-mongodb/users.html#custom-mongodb-roles) make it possible to create custom MongoDB roles on various databases just like users via the Custom Resource
+* [Partial restores](https://docs.percona.com/percona-operator-for-mongodb/backups-restore.html#selective-restore) allow selectively restoring only with the desired subset of data (a specific database or a collection) from a backup which is useful to reduce time on restore operations when fixing corrupted data fragment
+* [Splitting the replica set of the database cluster](https://docs.percona.com/percona-operator-for-mongodb/replication-multi-dc.html) over multiple Kubernetes clusters is now possible, useful to get a fault-tolerant system in which all replicas are in different data centers
+
+[Important changes in the existing functionality](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.18.0.html#deprecation-rename-and-removal) ate the following ones:
+
+* [Automated storage scaling with Volume Expansion capability](https://docs.percona.com/percona-operator-for-mongodb/scaling.html#automated-scaling-with-volume-expansion-capability) is now disabled by default and has to be explicitly enabled with a [dedicated option](https://docs.percona.com/percona-operator-for-mongodb/operator.html#enablevolumeexpansion)
+* A number of Service exposure Custom Resource options [were renamed](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.18.0.html#deprecation-rename-and-removal) to provide a unified experience with other Percona Operators
 
 Learn more in Percona Operator for MongoDB 1.18.0 [release notes](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.18.0.html){:target="_blank"}.
-
-<div data-banner markdown>
-
-## Get expert help { .title }
-
-If you need assistance, visit the community forum for comprehensive and free database knowledge, or contact our Percona Database Experts for professional support and services.
-
-<div class="actions" markdown>
-
-[:material-forum-outline: Community Forum](https://forums.percona.com/){:target="_blank"} [:percona-logo: Get a Percona Expert](https://www.percona.com/about/contact){:target="_blank"}
-</div></div>

@@ -13,17 +13,25 @@ tags:
 
 <!-- more -->
 
-Percona Monitoring and Management 2.43.2 has been released on Wednesday, October 30, 2024. 
+We're excited to announce the release of 
+[Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} 2.43.2, available since October 30, 2024. This release brings important enhancements to PostgreSQL support, security improvements, and performance optimizations.
 
-Learn more in Percona Monitoring and Management 2.43.2 [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.2.html){:target="_blank"}.
+Get hands-on with PMM 2.43.2 by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html){:target="_blank"} or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
 
-<div data-banner markdown>
 
-## Get expert help { .title }
+Here's a summary of the main changes in this release:
 
-If you need assistance, visit the community forum for comprehensive and free database knowledge, or contact our Percona Database Experts for professional support and services.
+- **PostgreSQL 17 support for Query Analytics (QAN)**: This patch release adds PostgreSQL 17 support for Query Analytics with updates to the `pg_stat_statements` and `pg_stat_monitor` extensions.
 
-<div class="actions" markdown>
+- **Secure Grafana image rendering**: PMM Server now supports secure Grafana image rendering capabilities through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.
 
-[:material-forum-outline: Community Forum](https://forums.percona.com/){:target="_blank"} [:percona-logo: Get a Percona Expert](https://www.percona.com/about/contact){:target="_blank"}
-</div></div>
+- Fixed high memory consumption in MongoDB exporter.
+
+You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.2.html){:target="_blank"}.
+
+
+
+
+
+
+

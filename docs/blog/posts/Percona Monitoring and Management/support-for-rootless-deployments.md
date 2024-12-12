@@ -10,9 +10,10 @@ tags:
   - Percona Monitoring and Management
 ---
 
-# Support for rootless deployments
+# Support for rootless deployments in Percona Monitoring and Management
 
 <!-- more -->
+Get hands-on with [Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html){:target="_blank"}, or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
 
 Using the root user in applications poses a significant security risk, particularly when outdated software is installed or resides in the environment.
 
@@ -20,13 +21,3 @@ PMM Server now supports rootless deployment through multiple methods, including 
 
 Learn more in [PMM 3.0.0 Beta release notes](https://pmm-doc-3-0.onrender.com/release-notes/3.0.0_Beta.html#support-for-rootless-deployments){:target="_blank"}.
 
-<div data-banner markdown>
-
-## Get expert help { .title }
-
-If you need assistance, visit the community forum for comprehensive and free database knowledge, or contact our Percona Database Experts for professional support and services.
-
-<div class="actions" markdown>
-
-[:material-forum-outline: Community Forum](https://forums.percona.com/){:target="_blank"} [:percona-logo: Get a Percona Expert](https://www.percona.com/about/contact){:target="_blank"}
-</div></div>

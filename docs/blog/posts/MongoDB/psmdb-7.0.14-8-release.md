@@ -29,13 +29,3 @@ This release introduces the following improvements:
 
 Learn more about these improvements and other changes in Percona Server for MongoDB 7.0.14-8 [release notes](https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/7.0.14-8.html){:target="_blank"}.
 
-<div data-banner markdown>
-
-## Get expert help { .title }
-
-If you need assistance, visit the community forum for comprehensive and free database knowledge, or contact our Percona Database Experts for professional support and services.
-
-<div class="actions" markdown>
-
-[:material-forum-outline: Community Forum](https://forums.percona.com/){:target="_blank"} [:percona-logo: Get a Percona Expert](https://www.percona.com/about/contact){:target="_blank"}
-</div></div>
