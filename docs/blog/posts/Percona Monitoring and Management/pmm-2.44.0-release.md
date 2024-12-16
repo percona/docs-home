@@ -19,6 +19,7 @@ We're excited to announce the release of
 Get hands-on with PMM 2.44.0 by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html){:target="_blank"} or explore the new changes through our [live demo environment](https://pmmdemo.percona.com){:target="_blank"}.
 
 Here's a summary of the main changes in this release:
+
 - Expanded MongoDB 8.0 support with updated metrics collection and oplog monitoring.
 - Enhanced PostgreSQL 17 metrics collection with improved dashboard compatibility.
 - Fixed automatic collection of MongoDB backup metrics through PBM.
