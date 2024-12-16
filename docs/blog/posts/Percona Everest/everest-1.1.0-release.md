@@ -15,7 +15,7 @@ tags:
 
 [Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} 1.1.0 has been released on Thursday, August 12, 2024. 
 
-Try it out using our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
+Give Percona Everest a go by following our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
 
 Here's a brief overview of what's been added in Percona Everest 1.1.0:
 
