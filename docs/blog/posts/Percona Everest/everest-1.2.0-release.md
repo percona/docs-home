@@ -1,7 +1,7 @@
 ---
 date: 2024-10-01
 description: >
-  Percona Everest 1.2.0 has been released on Monday, October 01, 2024.
+  Percona Everest 1.2.0 has been released on Tuesday, October 01, 2024.
 authors: [rasika-chivate]
 categories:
   - Percona Everest
