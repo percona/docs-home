@@ -19,5 +19,5 @@ tags:
  Percona Everest 1.2.0 now features Role-Based Access Control (RBAC), which regulates resource access for better management and security.
 With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
 
-Learn more in Percona Everest 1.2.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.2.0-%282024-10-01%29.html#__tabbed_1_2){:target="_blank"}.
+Explore more in Percona Everest 1.2.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.2.0-%282024-10-01%29.html#__tabbed_1_2){:target="_blank"}.
 

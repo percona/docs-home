@@ -18,5 +18,5 @@ tags:
 
 Percona Everest 1.3.0 now includes MongoDB sharding. You can leverage sharding with Percona Everest to improve the performance and scalability of your MongoDB databases.
 
-Learn more in Percona Everest 1.3.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.3.0-%282024-11-18%29.html#__tabbed_1_2){:target="_blank"}.
+Explore more in Percona Everest 1.3.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.3.0-%282024-11-18%29.html#__tabbed_1_2){:target="_blank"}.
 
