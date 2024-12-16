@@ -29,9 +29,7 @@ Version 1.0.0 introduces the following changes:
 
 - [Identity provider (IdP) integration](https://docs.percona.com/everest/administer/Idp_integration.html){:target="_blank"}: Percona Everest integrates your Percona Everest instance using an external identity provider (IdP). This enables centralized authentication and authorization management, streamlining and simplifying user access. By tapping into IdP integration, you can ensure that users are authenticated and authorized securely.
 
-- [Components page](https://docs.percona.com/everest/release-notes/Percona-Everest-1.0.0-%282024-06-28%29.html#all-new-components-page){:target="_blank"}:
-
-This new page is your go-to destination for in-depth details about the pods and containers, such as their status, type, age, and much more.
+- [Components page](https://docs.percona.com/everest/release-notes/Percona-Everest-1.0.0-%282024-06-28%29.html#all-new-components-page){:target="_blank"}: This new page is your go-to destination for in-depth details about the pods and containers, such as their status, type, age, and much more.
 
 
 Explore the new features, improvements, bug fixes, and known issues in Percona Everest 1.0.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.0.0-%282024-06-28%29.html){:target="_blank"}.
