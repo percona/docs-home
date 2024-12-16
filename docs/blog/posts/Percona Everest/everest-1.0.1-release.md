@@ -15,7 +15,7 @@ tags:
 
 [Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} 1.1.1 has been released on Monday, July 08, 2024. 
 
-Try it out using our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
+Give Percona Everest a go by following our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
 
 In this release, we have addressed an issue that was causing our telemetry to be disabled.
 

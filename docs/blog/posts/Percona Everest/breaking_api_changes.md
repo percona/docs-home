@@ -13,11 +13,9 @@ tags:
 
 <!-- more -->
 
-[Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} now includes breaking API changes as part of Percona Everest 1.2.0. 
+Give [Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} a go by following our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
 
-Try it out using our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
-
-These breaking API changes include:
+The breaking API changes as part of Percona Everest 1.2.0 include: 
 
 - Previously, the resources `monitoring-instances` and `backup-storages` had a global scope. Percona Everest used a `.spec.allowedNamespaces` field to control access to these global resources. This field defined the namespaces where the resources could be accessed, thus providing some degree of access control.
 - With the upgrade to Percona Everest version 1.2.0, the transition from global scope to the designated namespaces for these resources is an important change in the way access control is managed. This improves security as the resources are only accessible within their designated namespaces. The database clusters can only use monitoring-instances and backup-storages located within the same namespace as the cluster.

@@ -15,7 +15,7 @@ tags:
 
 [Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} 1.3.0 has been released on Monday, November 18, 2024. 
 
-Try it out using our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
+Give Percona Everest a go by following our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
 
 
 Here's a brief overview of what's been added in Percona Everest 1.3.0:
@@ -26,7 +26,7 @@ Here's a brief overview of what's been added in Percona Everest 1.3.0:
 
 - Database status: Percona Everest enables you to quickly monitor the status of your databases directly from the details page for each database.
 
-- PSMDB Operator: Percona Everest now supports PSMDB Operator v1.17.0.
+- Supported operator: Percona Everest now supports PSMDB Operator v1.17.0.
 
 Explore the new features, improvements, bug fixes, and known issues in Percona Everest 1.3.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.3.0-%282024-11-18%29.html){:target="_blank"}.
 

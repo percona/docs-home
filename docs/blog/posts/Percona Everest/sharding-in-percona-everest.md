@@ -13,9 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} now includes Mongo sharding as part of version 1.3.0.
-
-Try it out using our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
+Give [Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} a go by following our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
 
 !!! warning
     Sharding is currently in Technical Preview. Early adopters are advised to use this feature only for testing purposes and not in production environments.

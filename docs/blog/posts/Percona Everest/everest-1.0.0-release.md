@@ -15,7 +15,7 @@ tags:
 
 [Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} 1.0.0 has been released on Friday, June 28, 2024. 
 
-Try it out using our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
+Give Percona Everest a go by following our [Quickstart guide](https://docs.percona.com/everest/quickstart-guide/quick-install.html){:target="_blank"}.
 
 
 Percona Everest has officially hit the general availability (GA) milestone with the release of version 1.0.0.
