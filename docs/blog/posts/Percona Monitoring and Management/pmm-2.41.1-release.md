@@ -23,11 +23,11 @@ Here's a summary of the main changes in this release:
 
 - Improved MongoDB Arbiter nodes support with easier setup and better dashboard visibility
 - Added new MongoDB sharded metric: `mongodb_shards_collection_chunks_count` for insight into chunk distribution
-- Introduced experimental **MongoDB Instance Summary** dashboard for critical metrics overview
+- [Introduced experimental **MongoDB Instance Summary** dashboard](https://docs.percona.com/percona-monitoring-and-management/details/dashboards/dashboard-mongodb-instance-summary.html?h=mongodb+instance+summary){:target="_blank"} for critical metrics overview
 - Made backup service name field case-insensitive
 - Added MongoDB shard distribution metrics
 - Enhanced Kubernetes experimental dashboard UX
-- Various bug fixes and stability improvements.
+- Various bug fixes and stability improvements
 
 You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.41.1.html){:target="_blank"}.
 

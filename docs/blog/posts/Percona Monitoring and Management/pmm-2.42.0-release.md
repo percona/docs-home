@@ -21,19 +21,12 @@ Get hands-on with PMM 2.42.0 by setting up your instance using our [quickstart g
 
 Here's a summary of the main changes in this release:
 
-- Added official support for Ubuntu 24.04 Noble Numbat operating system
-- Introduced configurable metrics resolutions (Low, Medium, High) per service via API
-- Improved PostgreSQL and PMM Agent connection management with configurable limits
-- Added new experimental PMM Health dashboard for self-monitoring
-- Released experimental redesigned MongoDB dashboards for Sharded Cluster and Replica Set
-- Enhanced MySQL Query Response Time Distribution graphs with sub-100ms resolution
-- Added per-database metrics collection and control parameters
-- Added new PostgreSQL replication metrics labels
-- Added support for MySQL 8.0's innodb_redo_log_capacity variable
-- Fixed MongoDB RepSet Summary dashboard data accuracy
-- Fixed MongoDB sharding information collection timeouts
-- Fixed PMM Server upgrade issues for AMI/OVF installations
-- Fixed incorrect MongoDB replication lag graph values
+- [Added official support for Ubuntu 24.04 Noble Numbat operating system](https://www.percona.com/services/policies/percona-software-support-lifecycle#:~:text=older%20minor%20versions..-,Percona%20Tools,-Software%3A%20Perconae){:target="_blank"}
+- [Introduced configurable metrics resolutions (Low, Medium, High) per service via API](https://docs.percona.com/percona-monitoring-and-management/how-to/configure.html#metrics-resolution){:target="_blank"}
+- [Improved PostgreSQL and PMM Agent connection management with configurable limits](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.42.0.html#improved-connection-management-for-postgresql-services-and-pmm-agent){:target="_blank"}
+- [Added new experimental PMM Health dashboard for self-monitoring](https://www.percona.com/blog/self-monitoring-for-percona-monitoring-and-management/){:target="_blank"}
+- [Released experimental redesigned MongoDB dashboards for Sharded Cluster and Replica Set](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.42.0.html#experimental-mongodb-dashboards-sharded-cluster-and-replica-set){:target="_blank"}
+- Several other imporvements and bug fixes
 
 You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.42.0.html){:target="_blank"}.
 

@@ -20,9 +20,9 @@ Get hands-on with PMM 2.44.0 by setting up your instance using our [quickstart g
 
 Here's a summary of the main changes in this release:
 
-- Expanded MongoDB 8.0 support with updated metrics collection and oplog monitoring.
-- Enhanced PostgreSQL 17 metrics collection with improved dashboard compatibility.
-- Fixed automatic collection of MongoDB backup metrics through PBM.
+- [Expanded MongoDB 8.0 support with updated metrics collection and oplog monitoring](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.44.0.html#support-for-version-80-of-percona-server-for-mongodb-psmdb-mongodb-community-and-mongodb-enterprise){:target="_blank"}
+- [Enhanced PostgreSQL 17 metrics collection with improved dashboard compatibility](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.44.0.html#improved-postgresql-17-metrics-collection){:target="_blank"}
+- [Fixed automatic collection of MongoDB backup metrics through PBM](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.44.0.html#fixed-metrics-collection-for-mongodb-backups){:target="_blank"}
 
 Note: MongoDB 8.0 monitoring requires PMM Agent 2.43.1 or later, while PBM metrics collection needs PMM Client 2.43.2 or later.
 

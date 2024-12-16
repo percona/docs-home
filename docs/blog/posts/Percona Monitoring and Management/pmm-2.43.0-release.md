@@ -21,19 +21,17 @@ Get hands-on with PMM 2.43.0 by setting up your instance using our [quickstart g
 
 Here's a summary of the main changes in this release:
 
-- Redesigned dashboards for Replica Set and Sharded Cluster monitoring
-- New experimental Router Summary dashboard
-- Added CurrentOp collector for tracking long-running operations
-- Support for Percona Backup for MongoDB (PBM) monitoring
-- Increased log retention to 50,000 lines (up from 1,000)
-- Enhanced Kubernetes diagnostics with new troubleshooting tools
-- Added customizable log line count parameter
-- Introduced experimental ARM support for PMM Client
-- End of support for CentOS 7, transition to Oracle Linux 9
-- Updated QAN with improved PostgreSQL query parsing (note: discontinued support for PostgreSQL 9.x)
-- Addressed GNU C Library security vulnerabilities
-- Streamlined update process with dedicated repository
-- Enhanced MongoDB replication lag alerts
+- [Redesigned dashboards for Replica Set and Sharded Cluster monitoring](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.0.html#mongodb-dashboard-improvements-and-ga-of-recent-experimental-dashboard){:target="_blank"}
+- [New experimental Router Summary dashboard](https://docs.percona.com/percona-monitoring-and-management/details/dashboards/dashboard-mongodb-router-summary.html){:target="_blank"}
+- [Added CurrentOp collector for tracking long-running operations](https://docs.percona.com/percona-monitoring-and-management/details/commands/pmm-admin.html#database-commands){:target="_blank"}
+- [Support for Percona Backup for MongoDB (PBM) monitoring](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.0.html#monitoring-percona-backup-for-mongodb-pbm){:target="_blank"}
+- [Increased log retention to 50,000 lines (up from 1,000)](https://percona-pmm.readme.io/reference/logs){:target="_blank"}
+- [Enhanced Kubernetes diagnostics with new troubleshooting tools](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.0.html#streamlined-kubernetes-diagnostics){:target="_blank"}
+- [Added customizable log line count parameter](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.0.html#enhanced-pmm-server-logs){:target="_blank"}
+- [Introduced experimental ARM support for PMM Client](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.0.html#experimental-arm-support-for-pmm-client){:target="_blank"}
+- [End of support for CentOS 7, transition to Oracle Linux 9](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.0.html#end-of-support-for-centos-7){:target="_blank"}
+- [Updated QAN with improved PostgreSQL query parsing (note: discontinued support for PostgreSQL 9.x)](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.0.html#maintenance-qan-update-and-postgresql-9x-support-changes){:target="_blank"}
+- Several fixed issues
 
 You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.0.html){:target="_blank"}.
 

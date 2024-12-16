@@ -21,11 +21,12 @@ Get hands-on with PMM 2.43.2 by setting up your instance using our [quickstart g
 
 Here's a summary of the main changes in this release:
 
-- **PostgreSQL 17 support for Query Analytics (QAN)**: This patch release adds PostgreSQL 17 support for Query Analytics with updates to the `pg_stat_statements` and `pg_stat_monitor` extensions.
+- [PostgreSQL 17 support for Query Analytics with updates to the `pg_stat_statements` and `pg_stat_monitor` extensions](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.2.html#postgresql-17-support-for-query-analytics-qan){:target="_blank"}
 
-- **Secure Grafana image rendering**: PMM Server now supports secure Grafana image rendering capabilities through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.
+- [Secure Grafana image rendering capabilities](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.2.html#secure-grafana-image-rendering){:target="_blank"} through a dedicated container deployment, providing isolated rendering operations without impacting PMM Server resources.
 
-- Fixed high memory consumption in MongoDB exporter.
+- [Fixed high memory consumption in MongoDB exporter](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.2.html#fixed-high-memory-consumption-in-mongodb-exporter){:target="_blank"}
+
 
 You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.43.2.html){:target="_blank"}.
 
