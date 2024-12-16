@@ -27,4 +27,4 @@ These breaking API changes include:
 
 <!-- more -->
 
-Explore more in Percona Everest 1.2.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.2.0-%282024-10-01%29.html){:target="_blank"}.
+Explore more in Percona Everest 1.2.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.2.0-%282024-10-01%29.html#__tabbed_1_1){:target="_blank"}.
