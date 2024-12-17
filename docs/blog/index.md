@@ -46,17 +46,17 @@ Plaintext passwords and credentials are among the top ten security risks identif
 
 </div>
 </div>
-<div data-banner="postgresql" markdown>
+<div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Docker image for Percona Distribution for PostgreSQL for ARM architectures {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> A new major release of Percona Server for MongoDB 8.0.4-1 is out {.title}
 <br>
-A Docker image for Percona Distribution for PostgreSQL 16.2 is now available for ARM architectures. 
+A new major version of Percona Server for MongoDB 8.0.4-1 is released. It adds a lot of features to performance, workload management, sharding, security and developer experience.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/PostgreSQL/arm-support.md){:target="_blank"}
+[Read more :material-arrow-right:](../blog/posts/MongoDB/psmdb-8.0.4-1-release.md){:target="_blank"}
 
-<span style="float: right;">February 27, 2024</span>
+<span style="float: right;">December 17, 2024</span>
 
 </div>
 </div>
