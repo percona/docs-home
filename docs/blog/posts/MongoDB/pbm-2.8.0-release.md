@@ -9,11 +9,11 @@ tags:
   - Percona Backup for MongoDB
 ---
 
-# Percona Backup for MongoDB 2.7.0 has been released
+# Percona Backup for MongoDB 2.8.0 has been released
 
 <!-- more -->
 
-[Percona Backup for MongoDB](https://docs.percona.com/percona-backup-mongodb/index.html){:target="_blank"} 2.7.0 has been released on December 12, 2024.
+[Percona Backup for MongoDB](https://docs.percona.com/percona-backup-mongodb/index.html){:target="_blank"} 2.8.0 has been released on December 12, 2024.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-mongodb/installation.html){:target="_blank"} 
 
