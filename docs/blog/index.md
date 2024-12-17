@@ -20,29 +20,29 @@ Percona Everest 1.3.0 now introduces MongoDB sharding, currently available as a 
 </div>
 <div data-banner="mysql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL feature - UUID_VX component {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup Pro feature - Reduced backup lock time {.title}
 <br>
-Percona Server for MySQL 8.0.39-30 adds the UUID_VX component provides a set of functions for generating and working with various versions of the Universally Unique Identifier (UUID).
+Percona XtraBackup 8.4.0-2 adds the `--lock-ddl=REDUCED` option to reduce the time the server remains locked by `xtrabackup` during full and incremental backups. Now, you can execute `Data Definition Language` (DDL) operations while the backup is in progress.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/MySQL/UUID_VX-component.md){:target="_blank"}
+[Read more :material-arrow-right:](../blog/posts/MySQL/reduced-backup-lock-time.md){:target="_blank"}
 
-<span style="float: right;">October 08, 2024</span>
+<span style="float: right;">December 18, 2024</span>
 
 </div>
 </div>
-<div data-banner="pmm" markdown>
+<div data-banner="mysql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> Encryption of sensitive data in Percona Monitoring and Management {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-2 Pro build {.title}
 <br>
-Plaintext passwords and credentials are among the top ten security risks identified by OWASP (Open Web Application Security Project).To address this risk, PMM now encrypts all sensitive information stored in its database.
+Percona XtraBackup 8.4.0-2 introduces Percona XtraBackup 8.4.0-2 Pro build, in addition to the regular community builds. The Pro build is specifically created and tested by Percona, and the corresponding packages are supported only for Percona customers with a valid subscription. 
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/Percona%20Monitoring%20and%20Management/encryption-of-sensitive-data.md){:target="_blank"}
+[Read more :material-arrow-right:](../blog/posts/MySQL/percona-xtrabackup-8.4.0-2-release.md){:target="_blank"}
 
-<span style="float: right;">November 22, 2024</span>
+<span style="float: right;">December 18, 2024</span>
 
 </div>
 </div>

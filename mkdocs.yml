@@ -1,5 +1,5 @@
 site_name: Percona Documentation
-site_url: https://docs.percona.com/blog/
+site_url: https://docs.percona.com/new/
 
 # Theme setup
 theme:
@@ -107,7 +107,7 @@ nav:
   - Home: index.md
   - What's new: 
     - blog/index.md
-    - Updates per product : blog/tags.md
+    - Updates per product: blog/tags.md
   - PostgreSQL: percona-for-postgresql.md
   - MongoDB: percona-for-mongodb.md
   - MySQL: percona-for-mysql.md
