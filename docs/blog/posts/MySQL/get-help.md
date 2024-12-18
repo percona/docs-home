@@ -1,4 +1,17 @@
+---
+date: 2024-01-01
+description: >
+  Get more help
+authors: [alina-derkach-oaza]
+categories:
+  - MySQL
+tags:
+  - Get more help
+---
+
 # Get more help
+
+<!-- more -->
 
 This guide is packed with information, but it can’t cover everything you need to know about Percona Server for MySQL. It also won’t cover every scenario you might come across.
 
