@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/16/index.html) 16.4 has been released on September 10, 2024.
+[Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/16/index.html){:target="_blank"} 16.4 has been released on September 10, 2024.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/postgresql/16/installing.html){:target="_blank"}.
 

@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Toolkit v3.6.0](https://docs.percona.com/percona-toolkit/) has been released on Wednesday, June 12, 2024.
+[Percona Toolkit v3.6.0](https://docs.percona.com/percona-toolkit/){:target="_blank"} has been released on Wednesday, June 12, 2024.
 
 This version has the following new features:
 

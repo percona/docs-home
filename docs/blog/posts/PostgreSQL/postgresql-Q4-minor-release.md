@@ -21,7 +21,7 @@ These releases are part of the quarter 4 release cycle and feature the following
 
 * A fix for [CVE-2024-10978](https://www.postgresql.org/support/security/CVE-2024-10978/) and for certain PostgreSQL extensions that break because they depend on the modified Application Binary Interface (ABI). These regressions were introduced in PostgreSQL 17.1, 16.5, 15.9, 14.14, 13.17, and 12.21. For this reason, the releases of Percona Distribution for PostgreSQL for the above mentioned versions were skipped. 
 
-* [`pgvector` :octicons-link-external-16:](https://github.com/pgvector/pgvector) is now part of Percona Distribution for PostgreSQL. It is an open-source extension that enables you to use PostgreSQL as a vector database. It is available as a package, a Docker image and is included in tarballs. 
+* [`pgvector` :octicons-link-external-16:](https://github.com/pgvector/pgvector){:target="_blank"} is now part of Percona Distribution for PostgreSQL. It is an open-source extension that enables you to use PostgreSQL as a vector database. It is available as a package, a Docker image and is included in tarballs. 
 
 * Percona Distribution for PostgreSQL now statically links `llvmjit.so` library for Red Hat Enterprise Linux 8 and 9 and compatible derivatives. This resolves the conflict between the LLVM version required by Percona Distribution for PostgreSQL and the one supplied with the operating system. This also enables you to use the LLVM modules supplied with the operating system for other software you require.
 

@@ -23,7 +23,7 @@ This release provides the following features and improvements:
 
 * [Control communication between pbm-agents residing behind different network settings and remote backup storage](https://docs.percona.com/percona-backup-mongodb/details/storage-configuration.html#support-of-multiple-endpoints-to-the-same-S3-storage){:target="_blank"}. This ensures proper functioning of PBM. 
 
-* Simplified troubleshooting with [restoring the same collection under a different name](https://docs.percona.com/percona-backup-mongodb/features/selective-backup.htmlrestore-a-collection-under-a-different-name){:target="_blank"}. The restored collection has the same data and indexes as the one you backed up. This makes it easier to compare the data in both collections and identify what caused the issue with the database. 
+* Simplified troubleshooting with [restoring the same collection under a different name](https://docs.percona.com/percona-backup-mongodb/features/selective-backup.html#restore-a-collection-under-a-different-name){:target="_blank"}. The restored collection has the same data and indexes as the one you backed up. This makes it easier to compare the data in both collections and identify what caused the issue with the database. 
 
 * [Reduce troubleshooting time with the diagnostics report](https://docs.percona.com/percona-backup-mongodb/troubleshoot/pbm-report.html){:target="_blank"}. Use the pbm diagnostic command to collect comprehensive information about a command execution and generate a report. Either dive deep yourself or file a bug report to our experts and attach the diagnostics archive to it. 
 
