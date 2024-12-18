@@ -3,8 +3,6 @@ date: 2024-01-01
 description: >
   Get more help
 authors: [alina-derkach-oaza]
-categories:
-  - MySQL
 tags:
   - Get more help
 ---
