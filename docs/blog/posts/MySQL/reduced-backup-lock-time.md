@@ -9,7 +9,7 @@ tags:
   - Percona XtraBackup
 ---
 
-# Reduced backup lock time Pro feature
+# Percona XtraBackup Pro feature - Reduced backup lock time 
 
 <!-- more -->
 
@@ -19,9 +19,9 @@ Percona XtraBackup Pro includes the [capabilities](https://docs.percona.com/perc
 
 !!! important
 
-    The `--lock-ddl=REDUCED` option is a [tech preview](./glossary.md#tech-preview). Before using this option in production, we recommend that you test restoring production from physical backups in your environment, and also use the alternative backup method for redundancy.
+    The `--lock-ddl=REDUCED` option is a [tech preview](https://docs.percona.com/percona-xtrabackup/8.4/glossary.html#tech-preview){.md-button}. Before using this option in production, we recommend that you test restoring production from physical backups in your environment, and also use the alternative backup method for redundancy.
 
-[Percona XtraBackup 8.4.0-2](https://docs.percona.com/percona-xtrabackup/release-notes/8.4.0-2.md){.md-button} adds the [`--lock-ddl=REDUCED`](https://docs.percona.com/percona-xtrabackup/8.4/xtrabackup-option-reference.html#lock-ddl){.md-button} option to reduce the time the server remains locked by `xtrabackup` during full and incremental backups. Now, you can execute `Data Definition Language` (DDL) operations while the backup is in progress.
+[Percona XtraBackup 8.4.0-2](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-2.html){.md-button} adds the [`--lock-ddl=REDUCED`](https://docs.percona.com/percona-xtrabackup/8.4/xtrabackup-option-reference.html#lock-ddl){.md-button} option to reduce the time the server remains locked by `xtrabackup` during full and incremental backups. Now, you can execute `Data Definition Language` (DDL) operations while the backup is in progress.
 
 ### Benefits
 
