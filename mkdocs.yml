@@ -106,8 +106,8 @@ copyright: >-
 nav:
   - Home: index.md
   - What's new: 
-    - What's new: https://docs.percona.com/new/index.html
-    - Updates per product: https://docs.percona.com/new/tags.html
+    - blog/index.md
+    - Updates per product: blog/tags.md
   - PostgreSQL: percona-for-postgresql.md
   - MongoDB: percona-for-mongodb.md
   - MySQL: percona-for-mysql.md
