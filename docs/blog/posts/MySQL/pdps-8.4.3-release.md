@@ -13,9 +13,9 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.4.3 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html) has been released on Thursday, December 18, 2024.
+[Percona Distribution for MySQL 8.4.3 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on Thursday, December 18, 2024.
 
-Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html).
+Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html){:target="_blank"}.
 
 This release is based on Percona Server for MySQL 8.4.3-3 that includes all the features and bug fixes available in the MySQL 8.4.3 Community Edition and enterprise-grade features developed by Percona.
 

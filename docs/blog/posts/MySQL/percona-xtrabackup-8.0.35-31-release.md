@@ -13,11 +13,11 @@ tags:
 
 <!-- more -->
 
-[Percona XtraBackup 8.0.35-31](https://docs.percona.com/percona-xtrabackup/8.0/){.md-button} has been released on Thursday, June 20, 2024. 
+[Percona XtraBackup 8.0.35-31](https://docs.percona.com/percona-xtrabackup/8.0/){:target="_blank"} has been released on Thursday, June 20, 2024. 
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtrabackup/8.0/quickstart-overview.html){.md-button}.
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtrabackup/8.0/quickstart-overview.html){:target="_blank"}.
 
-Starting with Percona XtraBackup 8.0.34, you can take backups of different versions of Percona Server for MySQL. See list of [Supported versions](https://docs.percona.com/percona-xtrabackup/8.0/supported-versions.html){.md-button}.
+Starting with Percona XtraBackup 8.0.34, you can take backups of different versions of Percona Server for MySQL. See list of [Supported versions](https://docs.percona.com/percona-xtrabackup/8.0/supported-versions.html){:target="_blank"}.
 
 This release adds Percona XtraBackup ARM64 packages and provides bug fixes.
 

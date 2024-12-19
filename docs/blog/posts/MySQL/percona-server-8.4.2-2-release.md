@@ -13,9 +13,9 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 8.4.2-2](https://docs.percona.com/percona-server/8.4/index.html){.md-button} has been released on Monday, November 4, 2024.
+[Percona Server for MySQL 8.4.2-2](https://docs.percona.com/percona-server/8.4/index.html){:target="_blank"} has been released on Monday, November 4, 2024.
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.4/quickstart-overview.html){.md-button}.
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.4/quickstart-overview.html){:target="_blank"}.
 
 Percona Server for MySQL 8.4.2-2 includes all the features and bug fixes available in the MySQL 8.4 Community Edition in addition to enterprise-grade features developed by Percona. 
 

@@ -13,11 +13,11 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.0.37 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){.md-button} has been released on Tuesday, August 06, 2024.
+[Percona Distribution for MySQL 8.0.37 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){:target="_blank"} has been released on Tuesday, August 06, 2024.
 
-Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html){.md-button}.
+Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html){:target="_blank"}.
 
-This release enhances telemetry and provides a more comprehensive explanation of how the telemetry works, including new components, metrics files, and additional methods for disabling telemetry. Find more information in the [Telemetry on Percona Server for MySQL](https://docs.percona.com/percona-server/8.0/telemetry.html){.md-button} document.
+This release enhances telemetry and provides a more comprehensive explanation of how the telemetry works, including new components, metrics files, and additional methods for disabling telemetry. Find more information in the [Telemetry on Percona Server for MySQL](https://docs.percona.com/percona-server/8.0/telemetry.html){:target="_blank"} document.
 
 Improvements and bug fixes provided by Oracle for MySQL 8.0.37 and included in Percona Server for MySQL are the following:
 

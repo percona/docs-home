@@ -13,9 +13,9 @@ tags:
 
 <!-- more -->
 
-[Percona XtraDB Cluster 8.0.37-29](https://docs.percona.com/percona-xtradb-cluster/8.0/){.md-button} has been released on Wednesday, September 09, 2024.
+[Percona XtraDB Cluster 8.0.37-29](https://docs.percona.com/percona-xtradb-cluster/8.0/){:target="_blank"} has been released on Wednesday, September 09, 2024.
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtradb-cluster/8.0/quickstart-overview.html){.md-button}.
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtradb-cluster/8.0/quickstart-overview.html){:target="_blank"}.
 
 Percona XtraDB Cluster 8.0.37-29 is based on Percona Server for MySQL 8.0.37-29.
 

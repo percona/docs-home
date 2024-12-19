@@ -13,9 +13,9 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 8.4.3-3](https://docs.percona.com/percona-server/8.4/index.html) has been released on Wednesday, December 18, 2024.
+[Percona Server for MySQL 8.4.3-3](https://docs.percona.com/percona-server/8.4/index.html){:target="_blank"} has been released on Wednesday, December 18, 2024.
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.4/quickstart-overview.html).
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.4/quickstart-overview.html){:target="_blank"}.
 
 Improvements and bug fixes introduced by Oracle for MySQL 8.4.3 and included in Percona Server for MySQL are the following:
 

@@ -13,9 +13,9 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 8.0.36-28](https://docs.percona.com/percona-server/8.0/){.md-button} has been released on Monday, March 4, 2024.
+[Percona Server for MySQL 8.0.36-28](https://docs.percona.com/percona-server/8.0/){:target="_blank"} has been released on Monday, March 4, 2024.
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.0/quickstart-overview.html){.md-button}.
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.0/quickstart-overview.html){:target="_blank"}.
 
 Percona Server for MySQL 8.0.36-28 includes all the features and bug fixes available in the MySQL 8.0.36 Community Edition in addition to enterprise-grade features developed by Percona. 
 

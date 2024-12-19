@@ -13,9 +13,9 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.0.39 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){.md-button} has been released on Tuesday, October 08, 2024.
+[Percona Distribution for MySQL 8.0.39 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){:target="_blank"} has been released on Tuesday, October 08, 2024.
 
-Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html){.md-button}.
+Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html){:target="_blank"}.
 
 Improvements and bug fixes provided by Oracle for MySQL 8.0.38, MySQL 8.0.39 and included in Percona Server for MySQL are the following:
 

@@ -13,15 +13,15 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 8.0.37-29](https://docs.percona.com/percona-server/8.0/index.html){.md-button} has been released on Tuesday, August 6, 2024. 
+[Percona Server for MySQL 8.0.37-29](https://docs.percona.com/percona-server/8.0/index.html){:target="_blank"} has been released on Tuesday, August 6, 2024. 
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.0/quickstart-overview.html){.md-button}.
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.0/quickstart-overview.html){:target="_blank"}.
 
 Percona Server for MySQL 8.0.37-29 includes all the features and bug fixes available in the MySQL 8.0.37 Community Edition in addition to enterprise-grade features developed by Percona. 
 
 This version includes bug fixes. 
 
-The `SEQUENCE_TABLE()` function is deprecated and may be removed in a future release. Use [`PERCONA_SEQUENCE_TABLE()`](https://docs.percona.com/percona-server/8.0/percona-sequence-table.html){.md-button} instead.
+The `SEQUENCE_TABLE()` function is deprecated and may be removed in a future release. Use [`PERCONA_SEQUENCE_TABLE()`](https://docs.percona.com/percona-server/8.0/percona-sequence-table.html){:target="_blank"} instead.
 
 Percona Server for MySQL 8.0.37-29 supports Ubuntu 24.04.
 
