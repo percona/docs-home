@@ -48,8 +48,8 @@ An open source database monitoring, management and observability solution for My
 
 <div class="actions" markdown>
 
-[Releases](https://pmm-doc-3-0.onrender.com/release-notes/index.html)
-[Documentation :material-arrow-right:](https://pmm-doc-3-0.onrender.com/index.html)
+[Releases](https://pmm-doc-3.onrender.com/release-notes/index.html)
+[Documentation :material-arrow-right:](https://pmm-doc-3.onrender.com/index.html)
 
 </div>
 </div>
