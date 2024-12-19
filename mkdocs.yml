@@ -1,5 +1,5 @@
 site_name: Percona Documentation
-site_url: https://docs.percona.com/blog
+site_url: https://docs.percona.com/new
 
 # Theme setup
 theme:
@@ -71,6 +71,7 @@ plugins:
     match_path: blog/posts/.* 
     date_from_meta:
       as_creation: date
+    feed_title: "Percona Documentation What's New Feed"
   tags:
     tags_file: blog/tags.md
   search: 
