@@ -24,7 +24,7 @@ New features and improvements introduced by these release include:
 
 [Important changes in the existing functionality](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.16.0.html#deprecation-rename-and-removal){:target="_blank"} are the following ones:
 
-Operator versions older than 1.14.1 [become incompatible](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.16.0.html#deprecation-rename-and-removal){:target="_blank"} with new HAProxy, ProxySQL and PXC Docker images due to the absence of the peer-list tool in them
+* Operator versions older than 1.14.1 [become incompatible](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.16.0.html#deprecation-rename-and-removal){:target="_blank"} with new HAProxy, ProxySQL and PXC Docker images due to the absence of the peer-list tool in them
 
 Learn more in Percona Operator for MySQL based on Percona XtraDB Cluster 1.16.0 [release notes](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.16.0.html){:target="_blank"}.
 
