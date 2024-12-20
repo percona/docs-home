@@ -109,6 +109,7 @@ nav:
   - What's new: 
     - blog/index.md
     - Updates per product: blog/tags.md
+  - What's new: "https://docs.percona.com/new/"
   - PostgreSQL: percona-for-postgresql.md
   - MongoDB: percona-for-mongodb.md
   - MySQL: percona-for-mysql.md
