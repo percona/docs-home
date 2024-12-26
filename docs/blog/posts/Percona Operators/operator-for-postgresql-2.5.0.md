@@ -17,7 +17,7 @@ tags:
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html){:target="_blank"}.
 
-New features and improvements introduced by these release include:
+New features and improvements introduced by this release include:
 
 * [Automated storage scaling](https://docs.percona.com/percona-operator-for-postgresql/2.0/scaling.html#scale-storage){:target="_blank"} allows the Operator to detect if the storage usage on the PVC reaches a certain threshold, and trigger the PVC resize
 * [Major versions upgrade improvements](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/Kubernetes-Operator-for-PostgreSQL-RN2.5.0.html#major-versions-upgrade-improvements){:target="_blank"} make it is possible to upgrade from one PostgreSQL major version to another with custom images for the database cluster components (PostgreSQL, pgBouncer, and pgBackRest)
