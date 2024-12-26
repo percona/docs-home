@@ -17,7 +17,7 @@ tags:
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html){:target="_blank"}.
 
-New features and improvements introduced by these release include:
+New features and improvements introduced by this release include:
 
 * [Enhancements of the declarative user management](https://docs.percona.com/percona-operator-for-mongodb/users.html#custom-mongodb-roles){:target="_blank"} make it possible to create custom MongoDB roles on various databases just like users via the Custom Resource
 * [Partial restores](https://docs.percona.com/percona-operator-for-mongodb/backups-restore.html#selective-restore){:target="_blank"} allow selectively restoring only with the desired subset of data (a specific database or a collection) from a backup which is useful to reduce time on restore operations when fixing corrupted data fragment
