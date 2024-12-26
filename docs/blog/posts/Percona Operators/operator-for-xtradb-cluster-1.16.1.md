@@ -17,8 +17,6 @@ tags:
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html){:target="_blank"}.
 
-[Important changes in the existing functionality](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.16.1.html#bugs-fixed){:target="_blank"}
-
-* [Fix a bug](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.16.1.html#bugs-fixed){:target="_blank"} where scheduled backups were not working due to a bug in the Operator that was creating Kubernetes resources with the names exceeding the allowed length
+This release [fixes a bug](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.16.1.html#bugs-fixed){:target=”_blank”} with not working scheduled backups. The issue was caused by the bug in the Operator that was creating Kubernetes resources with the names exceeding the allowed length.
 
 Learn more in Percona Operator for MySQL based on Percona XtraDB Cluster 1.16.1 [release notes](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/Kubernetes-Operator-for-PXC-RN1.16.1.html){:target="_blank"}.
