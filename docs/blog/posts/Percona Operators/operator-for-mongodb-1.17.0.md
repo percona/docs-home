@@ -17,7 +17,7 @@ tags:
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html){:target="_blank"}.
 
-New features and improvements introduced by these release include:
+New features and improvements introduced by this release include:
 
 * [Declarative user management](https://docs.percona.com/percona-operator-for-mongodb/users.html#unprivileged-users){:target="_blank"} (it has a technical preview) makes it possible to create and manage users via the Custom Resource
 * [Logging improvements](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.17.0.html#liveness-check-improvements){:target="_blank"} related to the liveness checks allow getting more information for debugging, and make these probes logs persist on failures to allow further examination
