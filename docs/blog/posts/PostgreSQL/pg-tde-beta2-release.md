@@ -9,7 +9,7 @@ tags:
   - Percona Distribution for PostgreSQL, TDE
 ---
 
-# pg_tde` Beta2 has been released
+# pg_tde Beta2 has been released
 
 <!-- more -->
 

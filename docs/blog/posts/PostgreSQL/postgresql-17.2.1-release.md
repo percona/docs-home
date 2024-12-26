@@ -21,7 +21,7 @@ This release of Percona Distribution for PostgreSQL 17.2.1 completes the quarter
 
 * A fix for [CVE-2024-10978](https://www.postgresql.org/support/security/CVE-2024-10978/) and for certain PostgreSQL extensions that break because they depend on the modified Application Binary Interface (ABI). These regressions were introduced in PostgreSQL 17.1. For this reason, the release of Percona Distribution for PostgreSQL 17.1 was skipped.
 
-* The `pg_tde` extension is now a part of the Percona Server for PostgreSQL server package. Therefore, if you installed the extension before, from its individual package, uninstall it first to avoid conflicts during the upgrade. See the [Minor Upgrade of Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/17/minor-upgrade.html#preconditions){:target="_blank"} for details. 
+* The `pg_tde` extension is now a part of the Percona Server for PostgreSQL server package and a Docker image. Therefore, if you installed the extension before, from its individual package, uninstall it first to avoid conflicts during the upgrade. See the [Minor Upgrade of Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/17/minor-upgrade.html#preconditions){:target="_blank"} for details. 
 
 * Use PostgreSQL as a vector database with [`pgvector` :octicons-link-external-16:](https://github.com/pgvector/pgvector){:target="_blank"} added to Percona Distribution for PostgreSQL. `pgvector` is an open-source extension that enriches PostgreSQL with vector similarity search. Interested but still not sure? [Talk to us](https://www.percona.com/contact-us/){:target="_blank"} to find the best solution for you.
 
