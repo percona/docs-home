@@ -1,0 +1,23 @@
+---
+date: 2024-03-26
+description: >
+  Percona Server for MongoDB 6.0.14-11 has been released on March 26, 2024.
+authors: [nastena1606]
+categories:
+  - MongoDB
+tags:
+  - Percona Server for MongoDB
+---
+
+# Percona Server for MongoDB 6.0.14-11 has been released
+
+<!-- more -->
+
+[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/index.html){:target="_blank"} 6.0.14-11 has been released on March 26, 2024.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-for-mongodb/6.0/install/index.html){:target="_blank"}. 
+
+This release includes all fixes and enhancements of MongoDB 6.0.14 Community Edition. 
+
+Learn more about this release in Percona Server for MongoDB 6.0.14-11 [release notes](https://docs.percona.com/percona-server-for-mongodb/6.0/release_notes/6.0.14-11.html){:target="_blank"}.
+
