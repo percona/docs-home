@@ -21,3 +21,8 @@
     font-size: 0.65rem;   /* Font size */
     line-height: 1.6;
 }
+
+/* Hide the second tab */
+.md-tabs__item:nth-child(2) {
+    display: none;
+}
