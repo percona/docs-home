@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 8.0.39-30](https://docs.percona.com/percona-server/8.0/){:target="_blank"} adds the [UUID_VX component](https://www.percona.com/blog/all-uuid-functions-in-percona-server-for-mysql-rfc-9562-implemented/){:target="_blank"} contains a functions to work with the different versions of the Universally Unique Identifier (UUID). These functions include the ability to:
+[Percona Server for MySQL 8.0.39-30](https://docs.percona.com/percona-server/8.0/){:target="_blank"} adds the [UUID_VX component](https://www.percona.com/blog/all-uuid-functions-in-percona-server-for-mysql-rfc-9562-implemented/){:target="_blank"}. The component contains a functions to work with the different versions of the Universally Unique Identifier (UUID). These functions include the ability to:
 
 * Manage any UUID version.
 
