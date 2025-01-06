@@ -9,7 +9,7 @@ tags:
   - Percona Toolkit
 ---
 
-# Percona Toolkit v3.6.0 has been released
+# Percona Toolkit v3.7.0 has been released
 
 <!-- more -->
 
