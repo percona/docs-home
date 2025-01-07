@@ -11,7 +11,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest deployments with Helm charts {.title}
 <br>
-We are excited to announce the launch of Helm charts in Percona Everest 1.4.0. Helm charts simplify the deployment process by packaging all necessary resources and configurations, making them ideal for automating and managing installations in Kubernetes environments.
+Simplify your Percona Everest deployments with Helm. Helm charts simplify the deployment process by packaging all necessary resources and configurations, making them ideal for automating and managing installations in Kubernetes environments.
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../blog/posts/Percona%20Everest/helm-charts-in-percona-everest.md){:target="_blank"}
