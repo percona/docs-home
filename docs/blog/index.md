@@ -9,14 +9,14 @@ At Percona, we've been hard at work listening to your feedback and developing in
 <div data-grid markdown>
 <div data-banner="everest" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> MongoDB sharding in Percona Everest {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest deployments with Helm charts {.title}
 <br>
-Percona Everest 1.3.0 now introduces MongoDB sharding, currently available as a **Technical Preview** feature. Sharding enables you to enhance the performance and scalability of your MongoDB databases.
+Simplify your Percona Everest deployments with Helm. Helm charts simplify the deployment process by packaging all necessary resources and configurations, making them ideal for automating and managing installations in Kubernetes environments.
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/Percona%20Everest/sharding-in-percona-everest.md){:target="_blank"}
+[Read more :material-arrow-right:](../blog/posts/Percona%20Everest/helm-charts-in-percona-everest.md){:target="_blank"}
 
-<span style="float: right;">Nov 18, 2024</span>
+<span style="float: right;">Jan 07, 2025</span>
 
 </div>
 </div>
