@@ -14,7 +14,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 We are excited to announce the launch of Helm charts in Percona Everest 1.4.0. Helm charts simplify the deployment process by packaging all necessary resources and configurations, making them ideal for automating and managing installations in Kubernetes environments.
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/Percona%20Everest/sharding-in-percona-everest.md){:target="_blank"}
+[Read more :material-arrow-right:](../blog/posts/Percona%20Everest/helm-charts-in-percona-everest.md){:target="_blank"}
 
 <span style="float: right;">Jan 07, 2025</span>
 
