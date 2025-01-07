@@ -25,6 +25,6 @@ New features and improvements introduced by this release include:
 [Important changes in the existing functionality](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.17.0.html#deprecation-rename-and-removal){:target="_blank"} are the following ones:
 
 * Finalizers [were renamed](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.17.0.html#deprecation-rename-and-removal){:target="_blank"} to contain fully qualified domain names to comply with the Kubernetes standards
-* The [psmdb-db Helm chart](https://github.com/percona/percona-helm-charts/tree/main/charts/psmdb-db) parameter for defining system users is renamed from `users` to `systemUsers`
+* The [psmdb-db Helm chart](https://github.com/percona/percona-helm-charts/tree/main/charts/psmdb-db){:target="_blank"} parameter for defining system users is renamed from `users` to `systemUsers`
 
 Learn more in Percona Operator for MongoDB 1.17.0 [release notes](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.17.0.html){:target="_blank"}.
