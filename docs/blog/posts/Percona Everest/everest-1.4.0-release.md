@@ -1,5 +1,5 @@
 ---
-date: 2025-07-01
+date: 2025-01-07
 description: >
   Percona Everest 1.3.0 has been released on Tuesday, January 07, 2025.
 authors: [rasika-chivate]
