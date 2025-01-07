@@ -9,7 +9,7 @@ tags:
   - Percona Everest
 ---
 
-# Namespaces management
+# Namespaces management in Percona Everest
 
 <!-- more -->
 

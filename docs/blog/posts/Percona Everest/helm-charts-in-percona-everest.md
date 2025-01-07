@@ -9,7 +9,7 @@ tags:
   - Percona Everest
 ---
 
-# Percona Everest deploymwnts using Helm charts
+# Percona Everest deployments using Helm charts
 
 <!-- more -->
 
