@@ -32,7 +32,7 @@ Percona Everest is the first open source platform for automated database provisi
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/everest/release-notes/release_notes_index.html)
-[Install now](https://docs.percona.com/everest/quickstart-guide/quick-install.html)
+[Install now](https://docs.percona.com/everest/quick-install.html)
 [Documentation :material-arrow-right:](https://docs.percona.com/everest/index.html)
 
 </div>
