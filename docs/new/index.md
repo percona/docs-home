@@ -14,9 +14,9 @@ At Percona, we've been hard at work listening to your feedback and developing in
 Simplify your Percona Everest deployments with Helm. Helm charts simplify the deployment process by packaging all necessary resources and configurations, making them ideal for automating and managing installations in Kubernetes environments.
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/Percona%20Everest/helm-charts-in-percona-everest.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/helm-charts-in-percona-everest.md){:target="_blank"}
 
-<span style="float: right;">Jan 07, 2025</span>
+<span style="float: right;">January 07, 2025</span>
 
 </div>
 </div>
@@ -28,7 +28,7 @@ Percona XtraBackup 8.4.0-2 adds the `--lock-ddl=REDUCED` option to reduce the ti
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/MySQL/reduced-backup-lock-time.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MySQL/reduced-backup-lock-time.md){:target="_blank"}
 
 <span style="float: right;">December 18, 2024</span>
 
@@ -42,7 +42,7 @@ Percona XtraBackup 8.4.0-2 introduces Percona XtraBackup 8.4.0-2 Pro build, in a
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/MySQL/percona-xtrabackup-8.4.0-2-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-2-release.md){:target="_blank"}
 
 <span style="float: right;">December 18, 2024</span>
 
@@ -56,7 +56,7 @@ A new major version of Percona Server for MongoDB 8.0.4-1 is released. It adds a
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../blog/posts/MongoDB/psmdb-8.0.4-1-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.0.4-1-release.md){:target="_blank"}
 
 <span style="float: right;">December 17, 2024</span>
 
