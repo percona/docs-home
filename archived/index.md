@@ -4,6 +4,8 @@ At Percona, we are committed to leveraging the latest advancements in technology
 
 Explore the page below to discover our most recent innovations and enhancements.
 
+[Subscribe to RSS feed](https://docs.percona.com/feed_rss_created.xml){.md-button target="_blank"}
+
 <div data-banner markdown>
 
 ## Get expert help { .title }
