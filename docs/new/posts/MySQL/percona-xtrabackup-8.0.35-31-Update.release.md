@@ -1,7 +1,7 @@
 ---
 date: 2024-09-20
 description: >
-  Percona Server for MySQL 8.0.39-30-Update has been released on Friday, September 20, 2024.
+  Percona XtraBackup 8.0.35-31-Update has been released on Friday, September 20, 2024.
 authors: [patrickbirch]
 categories:
   - MySQL
