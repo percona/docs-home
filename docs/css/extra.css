@@ -21,3 +21,19 @@
     font-size: 0.65rem;   /* Font size */
     line-height: 1.6;
 }
+
+/* Hide the unwanted elements from the start */
+.md-nav__title.md-nav__container {
+    display: none !important;       /* Completely hides the element */
+    visibility: hidden !important;  /* Ensures the element is hidden but not occupying space */
+    height: 0 !important;           /* Remove any height occupied by the element */
+    margin: 0 !important;           /* Remove any margins */
+    padding: 0 !important;          /* Remove any padding */
+    border: none !important;        /* Remove any borders */
+}
+
+/* Reset the layout styles of parent or surrounding containers if necessary */
+.md-nav__container {
+    margin: 0 !important;           /* Remove any unwanted margin from the parent container */
+    padding: 0 !important;          /* Remove any unwanted padding from the parent container */
+}
