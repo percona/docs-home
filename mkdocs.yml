@@ -45,6 +45,9 @@ extra_css:
   - css/osano.css
   - css/extra.css
 
+extra_javascript:
+  - js/hide-back-to-index.js
+
 markdown_extensions:
   - admonition
   - pymdownx.details
