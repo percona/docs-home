@@ -6,7 +6,8 @@ authors: [nastena1606]
 categories:
   - PostgreSQL
 tags:
-  - Percona Distribution for PostgreSQL, TDE
+  - Percona Distribution for PostgreSQL
+  - TDE
 ---
 
 # pg_tde Beta2 has been released

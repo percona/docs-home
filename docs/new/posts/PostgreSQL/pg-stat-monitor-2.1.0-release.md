@@ -7,7 +7,6 @@ categories:
   - PostgreSQL
 tags:
   - Percona Distribution for PostgreSQL
-  - TDE
 ---
 
 # `pg_stat_monitor` 2.1.0 has been released 
