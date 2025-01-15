@@ -1,13 +1,5 @@
----
-date: 2024-01-01
-description: >
-  Get more help
-authors: [alina-derkach-oaza]
----
 
 # Get more help
-
-<!-- more -->
 
 Our documentation guides are packed with information, but they can’t cover everything you need to know about Percona software. They also won’t cover every scenario you might come across.
 
