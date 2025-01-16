@@ -1,5 +1,4 @@
-
-# Get more help
+# Get help from Percona
 
 Our documentation guides are packed with information, but they can’t cover everything you need to know about Percona software. They also won’t cover every scenario you might come across.
 
@@ -9,16 +8,14 @@ There’s always more to learn, and you’ll keep discovering new things as you 
 
 Be a part of a space where you can tap into a wealth of knowledge from other database enthusiasts and experts who work with Percona’s software every day. While our service is entirely free, keep in mind that response times can vary depending on the complexity of the question. You are engaging with people who genuinely love solving database challenges.
 
-I recommend visiting our [Community Forum](https://forums.percona.com/t/welcome-to-perconas-community-forum/7). It’s an excellent place for discussions, technical insights, and support around Percona database software. If you’re new and feeling a bit unsure, our [FAQ](https://forums.percona.com/faq) and [Guide for New Users](https://forums.percona.com/t/faq-guide-for-new-users/8562) ease you in.
+I recommend visiting our [Community Forum](https://forums.percona.com/t/welcome-to-perconas-community-forum/7){:target="_blank"}. It’s an excellent place for discussions, technical insights, and support around Percona database software. If you’re new and feeling a bit unsure, our [FAQ](https://forums.percona.com/faq){:target="_blank"} and [Guide for New Users](https://forums.percona.com/t/faq-guide-for-new-users/8562){:target="_blank"} ease you in.
 
-Want a more dynamic conversation or real-time interaction? Check out our community on [Discord](http://per.co.na/discord). It has database specialists and enthusiasts discussing everything from performance tuning to architecture best practices.
-
-If you have thoughts, feedback, or ideas to share, the community team would like to hear from you at [community-team@percona.com](mailto:community-team@percona.com). We’re always excited to connect and improve everyone's experience.
+If you have thoughts, feedback, or ideas to share, the community team would like to hear from you at **community-team@percona.com**. We’re always excited to connect and improve everyone's experience.
 
 
 ## Percona experts
 
-[Percona experts](https://www.percona.com/services/consulting) bring years of experience in tackling tough database performance issues and design challenges. We understand your challenges when managing complex database environments. That's why we offer various services to help you simplify your operations and achieve your goals.
+[Percona experts](https://www.percona.com/services/consulting){:target="_blank"} bring years of experience in tackling tough database performance issues and design challenges. We understand your challenges when managing complex database environments. That's why we offer various services to help you simplify your operations and achieve your goals.
 
 | Service                    | Description                                                                                                                                                           |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
