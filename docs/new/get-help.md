@@ -10,8 +10,7 @@ Be a part of a space where you can tap into a wealth of knowledge from other dat
 
 I recommend visiting our [Community Forum](https://forums.percona.com/t/welcome-to-perconas-community-forum/7){:target="_blank"}. It’s an excellent place for discussions, technical insights, and support around Percona database software. If you’re new and feeling a bit unsure, our [FAQ](https://forums.percona.com/faq){:target="_blank"} and [Guide for New Users](https://forums.percona.com/t/faq-guide-for-new-users/8562){:target="_blank"} ease you in.
 
-If you have thoughts, feedback, or ideas to share, the community team would like to hear from you at **community-team@percona.com**. We’re always excited to connect and improve everyone's experience.
-
+If you have thoughts, feedback, or ideas, the community team would like to hear from you at [Any ideas on how to make the forum better?](https://forums.percona.com/t/any-ideas-on-how-to-make-the-forum-better/11522){:target="blank"}. We’re always excited to connect and improve everyone's experience.
 
 ## Percona experts
 
