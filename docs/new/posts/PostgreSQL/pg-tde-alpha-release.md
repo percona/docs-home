@@ -1,7 +1,7 @@
 ---
 date: 2024-03-28
 description: >
-  Percona Transparent Data Encryption Alpha1 has been released on March 28, 2024.
+  Percona Transparent Data Encryption (`pg_tde`) Alpha1 has been released on March 28, 2024
 authors: [nastena1606]
 categories:
   - PostgreSQL
@@ -10,7 +10,7 @@ tags:
   - TDE
 ---
 
-# Percona Transparent Data Encryption Alpha1 has been released.
+# Percona Transparent Data Encryption (`pg_tde`) Alpha1 has been released
 
 [pg_tde](https://percona.github.io/pg_tde/main/index.html){:target="_blank"} is the open source extension for PostgreSQL developed by us to enable you to keep sensitive data safe and secure. `pg_tde` provides data encryption at rest. The encryption happens transparently in the background and doesn't affect database operations.
 

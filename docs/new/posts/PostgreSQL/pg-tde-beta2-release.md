@@ -1,7 +1,7 @@
 ---
 date: 2024-12-26
 description: >
-  `pg_tde` Beta2 has been released on December 26, 2024.
+  Percona Transparent Data Encryption (`pg_tde`) Beta2 has been released on December 26, 2024
 authors: [nastena1606]
 categories:
   - PostgreSQL
@@ -10,7 +10,7 @@ tags:
   - TDE
 ---
 
-# pg_tde Beta2 has been released
+# Percona Transparent Data Encryption (`pg_tde`) Beta2 has been released
 
 <!-- more -->
 

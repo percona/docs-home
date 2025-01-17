@@ -1,7 +1,7 @@
 ---
 date: 2024-06-30
 description: >
-  Percona Transparent Data Encryption Beta has been released on June 30, 2024.
+  Percona Transparent Data Encryption (`pg_tde`) Beta has been released on June 30, 2024
 authors: [nastena1606]
 categories:
   - PostgreSQL
@@ -10,7 +10,7 @@ tags:
   - TDE
 ---
 
-# Percona Transparent Data Encryption Beta has been released.
+# Percona Transparent Data Encryption (`pg_tde`) Beta has been released
 
 [pg_tde](https://percona.github.io/pg_tde/main/index.html){:target="_blank"} Beta has been released on June 30, 2024.
 
