@@ -40,19 +40,6 @@ A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to Postgre
 </div>
 </div>
 
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Percona Monitoring & Management 3.0.0 {.title}
-
-An open source database monitoring, management and observability solution for MySQL, PostgreSQL, and MongoDB.
-
-<div class="actions" markdown>
-
-[Releases](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/index.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management/3/)
-
-</div>
-</div>
 </div>
 
 ## Other resources
