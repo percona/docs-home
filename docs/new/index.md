@@ -50,15 +50,16 @@ Percona XtraBackup 8.4.0-2 introduces Percona XtraBackup 8.4.0-2 Pro build, in a
 </div>
 <div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> A new major release of Percona Server for MongoDB 8.0.4-1 is out {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> A new major release of Percona Monitoring and Management 3.0.0 is out {.title}
 <br>
-A new major version of Percona Server for MongoDB 8.0.4-1 is released. It adds a lot of features to performance, workload management, sharding, security and developer experience.
+We’re excited to announce the General Availability of PMM 3.0.0, a new major version that introduces a complete architectural overhaul of PMM.
+
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.0.4-1-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona Monitoring and Management/pmm-3.0.0-release.md){:target="_blank"}
 
-<span style="float: right;">December 17, 2024</span>
+<span style="float: right;">January 30, 2025</span>
 
 </div>
 </div>
