@@ -10,14 +10,14 @@ At Percona, we've been hard at work listening to your feedback and developing in
 <div data-grid markdown>
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> A new major release of Percona Monitoring and Management 3.0.0 is out {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> Percona Monitoring and Management 3.0.0 General Availability {.title}
 <br>
-We’re excited to announce the General Availability of PMM 3.0.0, a new major version that introduces a complete architectural overhaul of PMM.
+We’re excited to announce the General Availability (GA) of PMM 3.0.0, a new major version that introduces a complete architectural overhaul of PMM.
 
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](docs/new/posts/Percona%20Monitoring%20and%20Management/pmm-3.0.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.0.0-release.md){:target="_blank"}
 
 <span style="float: right;">January 30, 2025</span>
 
