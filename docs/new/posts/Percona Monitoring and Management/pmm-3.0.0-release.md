@@ -20,7 +20,13 @@ We're excited to announce the General Availability of PMM 3.0.0, a new major ver
 
 This milestone delivers major security improvements with rootless deployments, encryption of sensitive data, enhanced stability through containerized architecture, and improved user experience with flexible monitoring configurations. 
 
-Key changes include official ARM support, MongoDB 8.0 monitoring, and a streamlined upgrade process.
+## Ready to install or migrate to PMM 3?
+We provide two installation scripts to help you get started with this new version:
+
+- For new installations, the [Easy-Install script](https://docs.percona.com/percona-monitoring-and-management/3/quickstart/index.html){:target="_blank"} comes with Watchtower pre-configured, enabling one-step PMM setup with automatic updates.
+- For existing PMM 2 users, we provide a dedicated [Upgrade script](https://docs.percona.com/percona-monitoring-and-management/3/pmm-upgrade/migrating_from_pmm_2.html#step-2-migrate-pmm-2-server-to-pmm-3){:target="_blank"} that safely migrates your installation to PMM 3 and ensures data is backed up before the upgrade.
+
+For detailed information about all changes and new features, see  the full [release notes](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.0.0.html){:target="_blank"}.
 
 ## Key features
 
@@ -73,10 +79,3 @@ Key changes include official ARM support, MongoDB 8.0 monitoring, and a streamli
 - ClickHouse Datasource plugin updated
 - ClickHouse-go driver upgraded to version 2
 
-## Ready to install or migrate to PMM 3?
-We provide two installation scripts to help you get started with this new version:
-
-- For new installations, the [Easy-Install script](https://docs.percona.com/percona-monitoring-and-management/3/quickstart/index.html){:target="_blank"} comes with Watchtower pre-configured, enabling one-step PMM setup with automatic updates.
-- For existing PMM 2 users, we provide a dedicated [Upgrade script](https://docs.percona.com/percona-monitoring-and-management/3/pmm-upgrade/migrating_from_pmm_2.html#step-2-migrate-pmm-2-server-to-pmm-3){:target="_blank"} that safely migrates your installation to PMM 3 and ensures data is backed up before the upgrade.
-
-For detailed information about all changes and new features, see  the full [release notes](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.0.0.html){:target="_blank"}.
