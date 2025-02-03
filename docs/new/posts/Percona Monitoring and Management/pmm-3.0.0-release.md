@@ -80,4 +80,3 @@ We provide two installation scripts to help you get started with this new versio
 - For existing PMM 2 users, we provide a dedicated [Upgrade script](https://docs.percona.com/percona-monitoring-and-management/3/pmm-upgrade/migrating_from_pmm_2.html#step-2-migrate-pmm-2-server-to-pmm-3):{:target="_blank"} that safely migrates your installation to PMM 3 and ensures data is backed up before the upgrade.
 
 For detailed information about all changes and new features, see  the full [release notes](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.0.0.html):{:target="_blank"}.
-```
