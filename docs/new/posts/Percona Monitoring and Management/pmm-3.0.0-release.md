@@ -1,5 +1,5 @@
 ---
-date: 2025-01-230
+date: 2025-01-30
 description: >
   Percona Monitoring and Management 3.0.0 has been released on Friday, January 30, 2025.
 authors: [catalinaadam]
