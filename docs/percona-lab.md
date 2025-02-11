@@ -34,7 +34,7 @@ A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to Postgre
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/pg-tde/release-notes/release-notes.htmll)
+[Releases](https://docs.percona.com/pg-tde/release-notes/release-notes.html)
 [Documentation :material-arrow-right:](https://percona.github.io/pg_tde/main/)
 
 </div>
