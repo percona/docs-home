@@ -18,7 +18,7 @@ Version 0.9.0 of the Percona Operator for MySQL is still **a tech preview releas
 
 New features and improvements introduced by this release include:
 
-* [Scheduled backups](https://docs.percona.com/percona-operator-for-mysql/ps/backups-scheduled.md){:target="_blank"} are now supported in addition to on-demand ones
+* [Scheduled backups](https://docs.percona.com/percona-operator-for-mysql/ps/backups-scheduled.html){:target="_blank"} are now supported in addition to on-demand ones
 * A new [percona.com/delete-mysql-pvc](https://docs.percona.com/percona-operator-for-mysql/ps/operator.html#metadata-name){:target="_blank"} Finalizer can be used to automatically delete Persistent Volume Claims for the database cluster Pods after the cluster deletion event (off by default)
 
 [Important changes in the existing functionality](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/Kubernetes-Operator-for-PS-RN0.9.0.html#deprecation-and-removal){:target="_blank"} are the following ones:
