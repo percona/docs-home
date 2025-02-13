@@ -19,8 +19,8 @@ We have released a critical security update addressing a vulnerability in PMM Op
 
 The security patch removes unnecessary system accounts during setup and strengthens overall system security. 
 
-!!! warning "Restrict SSH access"
-    If you're running PMM OVA installations version 3.0.0 or higher make sure to upgrade immediately to version 3.0.0-1.
+!!! warning "Immediate action required: SSH access vulnerability"
+    If you're running PMM OVA installations version 3.0.0, make sure to upgrade immediately to version 3.0.0-1.
 
 Required actions:
 
