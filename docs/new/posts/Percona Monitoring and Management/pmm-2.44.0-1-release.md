@@ -19,13 +19,11 @@ We have released a critical security update addressing a vulnerability in PMM Op
 The security patch removes unnecessary system accounts during setup and strengthens overall system security. 
 
 !!! warning "Immediate action required: SSH access vulnerability"
-    If you're running PMM OVA installations version 2.38 or higher make sure to upgrade immediately to version 2.44.0-1.
-
-Required actions:
-
-- Upgrade to PMM 2.44.0-1
-- Change all service credentials
-- Review access logs
+    If you're running PMM OVA installations version 2.38 or higher make sure to:
+    
+    - Upgrade IMMEDIATELY to PMM 2.44.0-1
+    - Change all service credentials
+    - Review access logs
 
 24/7 support is available through Percona's technical support channels for any assistance needed during the upgrade process.
 
