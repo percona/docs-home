@@ -23,7 +23,6 @@ New features and improvements introduced by this release include:
 
 [Important changes in the existing functionality](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/Kubernetes-Operator-for-PS-RN0.9.0.html#deprecation-and-removal){:target="_blank"} are the following ones:
 
-* The `psmdbCluster` option from the `deploy/backup/backup.yaml` manifest used for [on-demand backups](https://docs.percona.com/percona-operator-for-mongodb/backups-ondemand.html){:target="_blank"}, which was deprecated since the Operator version 1.12.0 in favor of the `clusterName` option, has been removed and is no longer supported.
 * Both upgrade to the Operator version 0.9.0 and the appropriate database cluster upgrade can not be done in a usual way due to a number of internal changes, and [require additional manual operations](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/Kubernetes-Operator-for-PS-RN0.9.0.html#known-limitations).
 
 Learn more in Percona Operator for MySQL based on Percona Server for MySQL 0.9.0 [release notes](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/Kubernetes-Operator-for-PS-RN0.9.0.html){:target="_blank"}.
