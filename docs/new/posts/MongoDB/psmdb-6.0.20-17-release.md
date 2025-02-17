@@ -1,7 +1,7 @@
 ---
-date: 2025-02-12
+date: 2025-02-18
 description: >
-  Percona Server for MongoDB 6.0.20-17 has been released on February 12, 2025.
+  Percona Server for MongoDB 6.0.20-17 has been released on February 18, 2025.
 authors: [nastena1606]
 categories:
   - MongoDB
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/index.html){:target="_blank"} 6.0.20-17 has been released on February 12, 2025.
+[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/6.0/index.html){:target="_blank"} 6.0.20-17 has been released on February 18, 2025.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-for-mongodb/6.0/install/index.html){:target="_blank"}. 
 

@@ -1,7 +1,7 @@
 ---
-date: 2025-02-12
+date: 2025-02-18
 description: >
-  Percona Backup for MongoDB 2.9.0 has been released on February 12, 2025.
+  Percona Backup for MongoDB 2.9.0 has been released on February 18, 2025.
 authors: [nastena1606]
 categories:
   - MongoDB
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Backup for MongoDB](https://docs.percona.com/percona-backup-mongodb/index.html){:target="_blank"} 2.9.0 has been released on February 12, 2025.
+[Percona Backup for MongoDB](https://docs.percona.com/percona-backup-mongodb/index.html){:target="_blank"} 2.9.0 has been released on February 18, 2025.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-mongodb/installation.html){:target="_blank"} 
 
