@@ -31,7 +31,7 @@ We’re excited to announce the General Availability (GA) of PMM 3.0.0, a new ma
 Simplify your Percona Everest deployments with Helm. Helm charts simplify the deployment process by packaging all necessary resources and configurations, making them ideal for automating and managing installations in Kubernetes environments.
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona Monitoring and Management/pmm-3.0.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona Everest/helm-charts-in-percona-everest.md){:target="_blank"}
 
 <span style="float: right;">January 07, 2025</span>
 
