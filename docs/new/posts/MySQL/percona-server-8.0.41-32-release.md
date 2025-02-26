@@ -2,7 +2,7 @@
 date: 2025-02-26
 description: >
   Percona Server for MySQL 8.0.41-32 has been released on Wednesday, February 26, 2025.
-authors: [patrickbirch]
+authors: [alina-derkach-oaza]
 categories:
   - MySQL
 tags:
