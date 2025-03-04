@@ -4,7 +4,28 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 [Subscribe to RSS feed](https://docs.percona.com/feed_rss_created.xml){.md-button target="_blank"}
 
-## Featured announcements 
+## Featured announcements
+
+
+<div data-grid markdown>
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest : RBAC General Availability {.title}
+<br>
+We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
+
+With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.0.0-release.md){:target="_blank"}
+
+<span style="float: right;">March 04, 2025</span>
+
+</div>
+</div>
+
+<div data-banner="everest" markdown>
 
 
 <div data-grid markdown>
