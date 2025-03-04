@@ -8,9 +8,9 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 
 <div data-grid markdown>
-<div data-banner="pmm" markdown>
+<div data-banner="everest" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest : RBAC General Availability {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest: RBAC General Availability {.title}
 <br>
 We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
 
@@ -74,17 +74,6 @@ Percona XtraBackup 8.4.0-2 adds the `--lock-ddl=REDUCED` option to reduce the ti
 </div>
 <div data-banner="mysql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-2 Pro build {.title}
-<br>
-Percona XtraBackup 8.4.0-2 introduces Percona XtraBackup 8.4.0-2 Pro build, in addition to the regular community builds. The Pro build is specifically created and tested by Percona, and the corresponding packages are supported only for Percona customers with a valid subscription. 
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-2-release.md){:target="_blank"}
-
-<span style="float: right;">December 18, 2024</span>
-
-</div>
 </div>
 
 </div>
