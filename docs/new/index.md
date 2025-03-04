@@ -18,7 +18,7 @@ With RBAC, only authorized individuals can access specific resources or perform 
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.0.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/everest-1.5.0-release.md){:target="_blank"}
 
 <span style="float: right;">March 04, 2025</span>
 
