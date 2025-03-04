@@ -4,10 +4,26 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 [Subscribe to RSS feed](https://docs.percona.com/feed_rss_created.xml){.md-button target="_blank"}
 
-## Featured announcements 
-
+## Featured announcements
 
 <div data-grid markdown>
+
+<div data-banner="everest" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest deployments with Helm charts {.title}
+<br>
+We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
+
+With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/everest-1.5.0-release.md){:target="_blank"}
+
+<span style="float: right;">March 04, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> Percona Monitoring and Management 3.0.0 General Availability {.title}
@@ -46,20 +62,6 @@ Percona XtraBackup 8.4.0-2 adds the `--lock-ddl=REDUCED` option to reduce the ti
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../new/posts/MySQL/reduced-backup-lock-time.md){:target="_blank"}
-
-<span style="float: right;">December 18, 2024</span>
-
-</div>
-</div>
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-2 Pro build {.title}
-<br>
-Percona XtraBackup 8.4.0-2 introduces Percona XtraBackup 8.4.0-2 Pro build, in addition to the regular community builds. The Pro build is specifically created and tested by Percona, and the corresponding packages are supported only for Percona customers with a valid subscription. 
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-2-release.md){:target="_blank"}
 
 <span style="float: right;">December 18, 2024</span>
 
