@@ -1,7 +1,7 @@
 ---
-date: 2025-01-07
+date: 2025-04-03
 description: >
-  Percona Everest 1.3.0 has been released on Tuesday, January 07, 2025.
+  Percona Everest 1.5.0 has been released on Tuesday, Mar 04, 2025.
 authors: [rasika-chivate]
 categories:
   - Percona Everest
@@ -9,25 +9,26 @@ tags:
   - Percona Everest
 ---
 
-# Percona Everest 1.4.0 has been released
+# Percona Everest 1.5.0 has been released
 
 <!-- more -->
 
-[Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} 1.4.0 has been released on Tuesday, January 07, 2025. 
+[Percona Everest](https://docs.percona.com/everest/index.html){:target="_blank"} 1.5.0 has been released on Tuesday, March 04, 2025. 
 
 Give Percona Everest a go by following our [Quickstart guide](https://docs.percona.com/everest/quick-install.html){:target="_blank"}.
 
 
-Here's a brief overview of what's been added in Percona Everest 1.4.0:
+Here's a brief overview of what's been added in Percona Everest 1.5.0:
 
-- [Install Percona Everest using Helm](https://docs.percona.com/everest/install/install_everest_helm_charts.html){:target="_blank"}: Helm charts simplify the deployment process by packaging all necessary resources and configurations, making them ideal for automating and managing installations in Kubernetes environments.
+- [RBAC is now GA](https://docs.percona.com/everest/Percona-Everest-1.5.0-%282025-03-04%29.html{:target="_blank"}: We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
 
-- [Namespaces management](https://docs.percona.com/everest/administer/manage_namespaces.html){:target="_blank"}: Managing namespaces in Percona Everest optimizes resource organization, security, and allocation, especially in large and complex Kubernetes environments. 
+  With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
 
-- [Improved edit database flow](https://docs.percona.com/everest/release-notes/Percona-Everest-1.4.0-%282025-01-07%29.html#__tabbed_1_3){:target="_blank"}: You can now edit specific fields directly from the DB Overview page using our new editable widgets, eliminating the need to navigate through the entire Edit DB wizard.
+- [RBAC with enhanced IdP](https://docs.percona.com/everest/Percona-Everest-1.5.0-%282025-03-04%29.html#__tabbed_1_2){:target="_blank"}: Starting with Percona Everest 1.5.0, you can now assign RBAC policies to user groups obtained from the external IDP. This enhancement simplifies permissions management for external users without the need for unique sub IDs. To use IdP groups in Percona Everest RBAC, you must set up the groups claim in your IdP provider configuration.
 
-- Supported operator: Percona Everest now supports PSMDB Operator v1.18.0 and PG operator v2.5.0.
 
-Explore the new features, improvements, bug fixes, and known issues in Percona Everest 1.4.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.4.0-%282025-01-07%29.html){:target="_blank"}.
+- Supported operator: Percona Everest now supports PSMDB Operator v1.19.1 and PXC operator v1.16.1.
+
+Explore the new features, improvements, bug fixes, and known issues in Percona Everest 1.5.0 [release notes](https://docs.percona.com/everest/Percona-Everest-1.5.0-%282025-03-04%29.html){:target="_blank"}.
 
 
