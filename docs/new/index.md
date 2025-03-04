@@ -6,16 +6,15 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 ## Featured announcements
 
-
 <div data-grid markdown>
+
 <div data-banner="everest" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest: RBAC General Availability {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest deployments with Helm charts {.title}
 <br>
 We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
 
 With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
-
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../new/posts/Percona%20Everest/everest-1.5.0-release.md){:target="_blank"}
@@ -25,10 +24,6 @@ With RBAC, only authorized individuals can access specific resources or perform 
 </div>
 </div>
 
-<div data-banner="everest" markdown>
-
-
-<div data-grid markdown>
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> Percona Monitoring and Management 3.0.0 General Availability {.title}
@@ -71,9 +66,6 @@ Percona XtraBackup 8.4.0-2 adds the `--lock-ddl=REDUCED` option to reduce the ti
 <span style="float: right;">December 18, 2024</span>
 
 </div>
-</div>
-<div data-banner="mysql" markdown>
-
 </div>
 
 </div>
