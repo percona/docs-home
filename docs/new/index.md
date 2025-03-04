@@ -10,7 +10,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-banner="everest" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest deployments with Helm charts {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest RBAC GA {.title}
 <br>
 We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
 
