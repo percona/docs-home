@@ -1,7 +1,7 @@
 ---
-date: 2025-04-03
+date: 2025-03-04
 description: >
-  Percona Everest 1.5.0 now includes Helm charts
+  Percona Everest 1.5.0 now streamlines RBAC with enhanced IdP group integration
 authors: [rasika-chivate]
 categories:
   - Percona Everest
