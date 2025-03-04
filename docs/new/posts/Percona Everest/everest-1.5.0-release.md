@@ -20,7 +20,7 @@ Give Percona Everest a go by following our [Quickstart guide](https://docs.perco
 
 Here's a brief overview of what's been added in Percona Everest 1.5.0:
 
-- [RBAC is now GA](https://docs.percona.com/everest/Percona-Everest-1.5.0-%282025-03-04%29.html{:target="_blank"}: We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
+- [RBAC is now GA](https://docs.percona.com/everest/Percona-Everest-1.5.0-%282025-03-04%29.html){:target="_blank"}: We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
 
   With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
 
