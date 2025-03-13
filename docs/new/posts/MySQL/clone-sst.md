@@ -15,7 +15,7 @@ tags:
 
 This feature is currently in [tech preview](https://docs.percona.com/percona-xtradb-cluster/8.0/glossary.html#tech-preview){:target="_blank"}. Before using this feature in production, we recommend that you test restoring production from physical backups in your environment. Implement an alternative backup method for redundancy.
 
-Percona XtraDB Cluster 8.0.41-32 implements the Clone plugin for State Snapshot Transfer (SST) Method. The Clone SST is a modern and efficient method that leverages MySQL's native cloning capabilities to transfer data from a donor node to a Joiner node. It is faster and more resource-efficient compared to traditional methods like xtrabackup or rsync.
+Percona XtraDB Cluster 8.0.41-32 implements the Clone plugin for State Snapshot Transfer (SST) Method. The Clone SST is a modern and efficient method that leverages MySQL's native cloning capabilities to transfer data from a Donor node to a Joiner node. It is faster and more resource-efficient compared to traditional methods like xtrabackup or rsync.
 
 ## Limitations
 
