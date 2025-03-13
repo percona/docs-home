@@ -21,7 +21,7 @@ Percona XtraDB Cluster 8.0.41-32 is based on Percona Server for MySQL and contai
 
 ### Percona XtraDB Cluster 8.0.41-32
 
-Implements the [Clone plugin for State Snapshot Transfer (SST) Method](https://docs.percona.com/percona-xtradb-cluster/8.0/clone-sst.html){:target="_blank"}. The Clone SST is a modern and efficient method that leverages MySQL's native cloning capabilities to transfer data from a donor node to a Joiner node. It is faster and more resource-efficient compared to traditional methods like xtrabackup or rsync.
+Implements the [Clone plugin for State Snapshot Transfer (SST) Method](https://docs.percona.com/percona-xtradb-cluster/8.0/clone-sst.html){:target="_blank"}. The Clone SST is a modern and efficient method that leverages MySQL's native cloning capabilities to transfer data from a Donor node to a Joiner node. It is faster and more resource-efficient compared to traditional methods like xtrabackup or rsync.
 
 ### Percona Server for MySQL 8.0.41-32
 
