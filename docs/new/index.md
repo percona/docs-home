@@ -8,6 +8,21 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="mysql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraDB Cluster feature - SST Method using Clone plugin {.title}
+<br>
+Percona XtraDB Cluster 8.0.41-32 implements the Clone plugin for State Snapshot Transfer (SST) Method. The Clone SST is a modern and efficient method that leverages MySQL's native cloning capabilities to transfer data from a Donor node to a Joiner node. It is faster and more resource-efficient compared to traditional methods like xtrabackup or rsync.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MySQL/clone-sst.md){:target="_blank"}
+
+<span style="float: right;">March 13, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="everest" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest RBAC General Availability {.title}
@@ -50,20 +65,6 @@ Simplify your Percona Everest deployments with Helm. Helm charts simplify the de
 [Read more :material-arrow-right:](../new/posts/Percona Everest/helm-charts-in-percona-everest.md){:target="_blank"}
 
 <span style="float: right;">January 07, 2025</span>
-
-</div>
-</div>
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup Pro feature - Reduced backup lock time {.title}
-<br>
-Percona XtraBackup 8.4.0-2 adds the `--lock-ddl=REDUCED` option to reduce the time the server remains locked by `xtrabackup` during full and incremental backups. Now, you can execute `Data Definition Language` (DDL) operations while the backup is in progress.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/reduced-backup-lock-time.md){:target="_blank"}
-
-<span style="float: right;">December 18, 2024</span>
 
 </div>
 </div>
