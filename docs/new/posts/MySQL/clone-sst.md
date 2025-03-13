@@ -26,7 +26,7 @@ Clone limitations are described in [Clone plugin limitations](https://docs.perco
 | Feature                 | Description                                                 |
 |-------------------------|-------------------------------------------------------------|
 | Efficient data transfer | The clone plugin transfers data at the file level, reducing overhead. |
-| Consistency            | Ensures data consistency between the donor and Joiner nodes. |
+| Consistency            | Ensures data consistency between the Donor and Joiner nodes. |
 | Minimal Downtime       | Reduces the time required for node synchronization.         |
 | Native Integration     | Fully integrated into MySQL, eliminating the need for external tools. |
 
