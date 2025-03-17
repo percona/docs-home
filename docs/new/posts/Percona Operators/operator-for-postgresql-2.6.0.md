@@ -21,7 +21,7 @@ New features and improvements introduced by this release include:
 
 * Backup improvements:
 
-    * An improved backup logic now allows retrying a failed backup in the same backup Pod for a specified number of times before deleting this Pod and creating a new one. This is beneficial in case of short connectivity issues or timeouts.   
+    * An improved backup logic now allows [retrying a failed backup](https://docs.percona.com/percona-operator-for-postgresql/2.0/operator.html#backupspgbackrestjobsbackofflimit){:target="_blank"} in the same backup Pod for a specified number of times before deleting this Pod and creating a new one. This is beneficial in case of short connectivity issues or timeouts.   
 
     * An ability to [overwrite](https://docs.percona.com/percona-operator-for-postgresql/2.0/backups-restore.html#use-custom-restore-command){:target="_blank"} the default restore command for `pgBackRest` allows to control and filter files restored to `pg_wal` directory without editing these files in the backup repository storage.  
 
