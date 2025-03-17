@@ -35,7 +35,11 @@ New features and improvements introduced by this release include:
 
     * PostgreSQL 12 is no longer supported by the Operator 2.6.0 and newer versions.
 
-* Known limitations: PostgreSQL 17.2 image and images for other database cluster components based on PostgreSQL 17 contain the known [CVE-2025-1094](https://www.postgresql.org/support/security/CVE-2025-1094/){:target="_blank"} - a vulnerability in the `libpq` PostgreSQL client library, which makes images used by the Operator vulnerable to SQL injection within the PostgreSQL interactive terminal due to the lack of neutralizing quoting. Images for other PosgreSQL versions are already fixed, while images for PostgreSQL 17 will be available soon.
+* Known limitations: 
+
+   * PostgreSQL 17.2 image and images for other database cluster components based on PostgreSQL 17 contain the known [CVE-2025-1094](https://www.postgresql.org/support/security/CVE-2025-1094/){:target="_blank"} - a vulnerability in the `libpq` PostgreSQL client library, which makes images used by the Operator vulnerable to SQL injection within the PostgreSQL interactive terminal due to the lack of neutralizing quoting. Images for other PosgreSQL versions are already fixed, while images for PostgreSQL 17 will be available soon.
+
+   * Percona Distribution for PostgreSQL now comes with a new Patroni 4.x version, which introduces breaking changes compared to previously used 3.x versions. The Operator automatically identifies Patroni version used in the image. You can also manually [define the required Patroni version via annotations](https://docs.percona.com/percona-operator-for-postgresql/2.0/annotations.html#customizing-patroni-version){:target="_blank"}
 
 Learn more in Percona Operator for PostgreSQL 2.6.0 [release notes](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/Kubernetes-Operator-for-PostgreSQL-RN2.6.0.html){:target="_blank"}.
 
