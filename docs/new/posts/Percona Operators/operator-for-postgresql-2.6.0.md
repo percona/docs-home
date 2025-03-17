@@ -1,7 +1,7 @@
 ---
 date: 2025-03-17
 description: >
-  Percona Operator for PostgreSQL 2.6.0 has been released on March 12, 2025.
+  Percona Operator for PostgreSQL 2.6.0 has been released on March 17, 2025.
 authors: [nastena1606]
 categories:
   - Percona Operators
