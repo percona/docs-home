@@ -31,4 +31,4 @@ The Alpha1 version of the extension introduces the following key features:
     * The keyring configuration is now stored in a catalog separately for each database, instead of a configuration file
     * Avoid storing secrets in the unencrypted catalog by configuring keyring parameters to be read from external sources (file, http(s) request)
 
-Learn more about `pg_tde` Alpha1 in the [release notes](https://percona.github.io/pg_tde/main/release-notes/release-notes.html#alpha-1-2024-03-28){:target="_blank"}. 
+Learn more about `pg_tde` Alpha1 in the [release notes](https://percona.github.io/pg_tde/main/release-notes/alpha1.html){:target="_blank"}. 
