@@ -15,7 +15,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 Simplify encryption configuration in single-tenant environments, manage key provider configuration, control access to key information and enjoy improved WAL encryption flow with a new Release Candidate of `pg_tde`.  
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona Everest/helm-charts-in-percona-everest.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/pg-tde-rc-release.md){:target="_blank"}
 
 <span style="float: right;">March 27, 2025</span>
 
