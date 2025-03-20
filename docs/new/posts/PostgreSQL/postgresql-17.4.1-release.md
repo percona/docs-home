@@ -19,11 +19,11 @@ Try it out using the [Quickstart guide](https://docs.percona.com/postgresql/17/i
 
 This release of Percona Distribution for PostgreSQL 17.4.1 completes the quarterly minor release cycle for PostgreSQL quarter 1. It provides the following enhancements:
 
-* The `pg_tde` extension for Transparent Data Encryption is now the Release Candidate. This version of `pg_tde` provides a bunch of improvements, among which is the redesigned WAL encryption, single-tenancy support, ability to change key provider configuration and more. Learn about these features in the [`pg_tde` release notes](https://docs.percona.com/pg-tde/release-notes/rc.html){:target="_blank"}.
+* The `pg_tde` extension for Transparent Data Encryption is now the Release Candidate. This version of `pg_tde` provides a bunch of improvements, among which is the redesigned WAL encryption, simplified configuration for single-tenant environments, the ability to change key provider configuration offline, and more. Learn about these features in the [`pg_tde` release notes](https://docs.percona.com/pg-tde/release-notes/rc.html){:target="_blank"}.
 
-* Improved security and user experience for Docker images. Docker images are now based on Universal Base Image (UBI) version 9, which includes the latest security fixes. Also, Docker image tags are improve so that you only have to specify the database version: Docker automatically identifies the architecture of your operating system and pulls the corresponding image. 
+* Improved security and user experience for Docker images. Docker images are now based on Universal Base Image (UBI) version 9, which includes the latest security fixes. Also, Docker image tags are improved so that you only have to specify the database version: Docker automatically identifies the architecture of your operating system and pulls the corresponding image. 
 
-* PostGIS is included in tarballs, enabling you to install and run PostgreSQL as a geospatial database on hosts without a direct access to the Internet.
+* PostGIS is included in tarballs, enabling you to install and run PostgreSQL as a geospatial database on hosts without direct access to the Internet.
 
 * Meta-packages for Percona Distribution for PostgreSQL are deprecated and will be removed in future releases.
 
