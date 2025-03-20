@@ -26,4 +26,4 @@ This release of `pg_tde` extension features the following:
 
 These features come with the Beta version of the `tde_heap` access method available for Percona Server for PostgreSQL.
 
-To learn more, refer to the [pg_tde release notes](https://percona.github.io/pg_tde/main/release-notes/release-notes.html){:target="_blank"}
+To learn more, refer to the [pg_tde release notes](https://percona.github.io/pg_tde/main/release-notes/beta2.html){:target="_blank"}

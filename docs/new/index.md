@@ -8,6 +8,20 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="postgresql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Release Candidate of `pg_tde` {.title}
+<br>
+Simplify encryption configuration in single-tenant environments, manage key provider configuration, control access to key information and enjoy improved WAL encryption flow with a new Release Candidate of `pg_tde`.  
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/pg-tde-rc-release.md){:target="_blank"}
+
+<span style="float: right;">March 27, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraDB Cluster feature - SST Method using Clone plugin {.title}
@@ -51,20 +65,6 @@ We’re excited to announce the General Availability (GA) of PMM 3.0.0, a new ma
 [Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.0.0-release.md){:target="_blank"}
 
 <span style="float: right;">January 30, 2025</span>
-
-</div>
-</div>
-
-<div data-banner="everest" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest deployments with Helm charts {.title}
-<br>
-Simplify your Percona Everest deployments with Helm. Helm charts simplify the deployment process by packaging all necessary resources and configurations, making them ideal for automating and managing installations in Kubernetes environments.
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona Everest/helm-charts-in-percona-everest.md){:target="_blank"}
-
-<span style="float: right;">January 07, 2025</span>
 
 </div>
 </div>

@@ -20,4 +20,4 @@ Try it out using the [installation instructions](https://percona.github.io/pg_td
 
 The Beta version is focused on bug fixing. 
 
-Learn more about `pg_tde` Beta in the [release notes](https://percona.github.io/pg_tde/main/release-notes/release-notes.html#beta-2024-06-30){:target="_blank"}. 
+Learn more about `pg_tde` Beta in the [release notes](https://percona.github.io/pg_tde/main/release-notes/beta.html){:target="_blank"}. 
