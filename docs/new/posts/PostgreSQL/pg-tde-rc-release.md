@@ -14,9 +14,9 @@ tags:
 
 <!-- more -->
 
-[`pg_tde`](https://percona.github.io/pg_tde/main/){:target="_blank"} is an open source extension for PostgreSQL that provides data encryption at rest. 
+[`pg_tde`](https://docs.percona.com/pg-tde/index.html){:target="_blank"} is an open source extension for PostgreSQL that provides data encryption at rest. 
 
-Try it out using the [installation guidelines](https://percona.github.io/pg_tde/main/install.html){:target="_blank"} and [leave your feedback](https://forums.percona.com/c/postgresql/pg-tde-transparent-data-encryption-tde/82){:target="_blank"}.
+Try it out using the [installation guidelines](https://docs.percona.com/pg-tde/install.html){:target="_blank"} and [leave your feedback](https://forums.percona.com/c/postgresql/pg-tde-transparent-data-encryption-tde/82){:target="_blank"}.
 
 This release of `pg_tde` extension features the following:
 
@@ -32,6 +32,6 @@ This release of `pg_tde` extension features the following:
 
 * **`tde_heap_basic` access method is deprecated** due to limitations in encryption capabilities, performance impact and a potential security risk when used in production environments due to indexes remaining unencrypted. Use the `tde_heap` access method instead to enjoy full encryption capabilities. 
 
-* **Upgrade considerations**. `pg_tde` Release Candidate is not backward compatible with `pg_tde` Beta2 due to significant changes in code. This means you cannot directly upgrade from one version to another. You must [uninstall](../uninstall.md) `pg_tde` Beta2 first and then [install](../install.md) and configure the new Release Candidate version.
+* **Upgrade considerations**. `pg_tde` Release Candidate is not backward compatible with `pg_tde` Beta2 due to significant changes in code. This means you cannot directly upgrade from one version to another. You must [uninstall](https://docs.percona.com/pg-tde/uninstall.html) `pg_tde` Beta2 first and then [install](https://docs.percona.com/pg-tde/install.html) and configure the new Release Candidate version.
 
-To learn more, refer to the [`pg_tde` release notes](https://percona.github.io/pg_tde/main/release-notes/rc.html){:target="_blank"}
+To learn more, refer to the [`pg_tde` release notes](https://docs.percona.com/pg-tde/release-notes/rc.html){:target="_blank"}
