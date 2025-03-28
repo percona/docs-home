@@ -12,9 +12,9 @@ tags:
 
 # Percona Transparent Data Encryption (`pg_tde`) Alpha1 has been released
 
-[pg_tde](https://percona.github.io/pg_tde/main/index.html){:target="_blank"} is the open source extension for PostgreSQL developed by us to enable you to keep sensitive data safe and secure. `pg_tde` provides data encryption at rest. The encryption happens transparently in the background and doesn't affect database operations.
+[pg_tde](https://docs.percona.com/pg-tde/index.html){:target="_blank"} is the open source extension for PostgreSQL developed by us to enable you to keep sensitive data safe and secure. `pg_tde` provides data encryption at rest. The encryption happens transparently in the background and doesn't affect database operations.
 
-Try it out using the [installation instructions](https://percona.github.io/pg_tde/main/install.html){:target="_blank"}
+Try it out using the [installation instructions](https://docs.percona.com/pg-tde/install.html){:target="_blank"}
 
 <!-- more -->
 
@@ -31,4 +31,4 @@ The Alpha1 version of the extension introduces the following key features:
     * The keyring configuration is now stored in a catalog separately for each database, instead of a configuration file
     * Avoid storing secrets in the unencrypted catalog by configuring keyring parameters to be read from external sources (file, http(s) request)
 
-Learn more about `pg_tde` Alpha1 in the [release notes](https://percona.github.io/pg_tde/main/release-notes/alpha1.html){:target="_blank"}. 
+Learn more about `pg_tde` Alpha1 in the [release notes](https://docs.percona.com/pg-tde/release-notes/alpha1.html){:target="_blank"}. 

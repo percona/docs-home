@@ -14,9 +14,9 @@ tags:
 
 <!-- more -->
 
-[`pg_tde`](https://percona.github.io/pg_tde/main/){:target="_blank"} is an open source extension for PostgreSQL that provides data encryption at rest. 
+[`pg_tde`](https://docs.percona.com/pg-tde/index.html){:target="_blank"} is an open source extension for PostgreSQL that provides data encryption at rest. 
 
-Try it out using the [installation guidelines](https://percona.github.io/pg_tde/main/install.html){:target="_blank"} and [leave your feedback](https://forums.percona.com/c/postgresql/pg-tde-transparent-data-encryption-tde/82){:target="_blank"}.
+Try it out using the [installation guidelines](https://docs.percona.com/pg-tde/install.html){:target="_blank"} and [leave your feedback](https://forums.percona.com/c/postgresql/pg-tde-transparent-data-encryption-tde/82){:target="_blank"}.
 
 This release of `pg_tde` extension features the following:
 
@@ -26,4 +26,4 @@ This release of `pg_tde` extension features the following:
 
 These features come with the Beta version of the `tde_heap` access method available for Percona Server for PostgreSQL.
 
-To learn more, refer to the [pg_tde release notes](https://percona.github.io/pg_tde/main/release-notes/beta2.html){:target="_blank"}
+To learn more, refer to the [pg_tde release notes](https://docs.percona.com/pg-tde/release-notes/beta2.html){:target="_blank"}
