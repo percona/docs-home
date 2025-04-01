@@ -55,16 +55,15 @@ With RBAC, only authorized individuals can access specific resources or perform 
 
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> Percona Monitoring and Management 3.0.0 General Availability {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.1.0: Enhanced MongoDB monitoring {.title}
 <br>
-We’re excited to announce the General Availability (GA) of PMM 3.0.0, a new major version that introduces a complete architectural overhaul of PMM.
-
+We're excited to announce Percona Monitoring and Management (PMM) 3.1.0, featuring enhanced MongoDB monitoring, refined role-based access controls, and improved dashboard visualizations.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.0.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.1.0-release.md){:target="_blank"}
 
-<span style="float: right;">January 30, 2025</span>
+<span style="float: right;">March 31, 2025</span>
 
 </div>
 </div>
