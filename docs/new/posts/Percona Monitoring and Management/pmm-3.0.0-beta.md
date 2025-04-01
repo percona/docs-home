@@ -12,8 +12,7 @@ tags:
 # Percona Monitoring and Management 3.0.0 Beta has been released
 
 <!-- more -->
-
-[Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/3/index.html){:target="_blank"} 3.0.0 Beta, available since Friday, November 22, 2024. This release brings important enhancements to security, stability, and user experience. 
+We're excited to announce the release of [Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/3/index.html){:target="_blank"} 3.0.0 Beta, available since Friday, November 22, 2024. This release brings important enhancements to security, stability, and user experience. 
 
 Get hands-on with PMM 3.0.0 Beta by setting up your instance using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/3/quickstart.html){:target="_blank"}.
 
