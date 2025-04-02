@@ -107,7 +107,7 @@ extra:
 #          note: >- 
 #            Thank you for your feedback! Help us improve by following this <a href="#" target="_blank" rel="noopener">feedback form</a>.
 copyright: >-
-  <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
+  <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2025 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
 
 nav:
   - Home: index.md
