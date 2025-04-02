@@ -9,11 +9,6 @@ authors:
     description: Principal Technical Writer
     avatar: https://avatars.githubusercontent.com/u/48594400
     url: https://github.com/patrickbirch
-  fiowro:
-    name: Dmitriy Kostiuk
-    description: Senior Technical Writer
-    avatar: https://avatars.githubusercontent.com/u/147437
-    url: https://github.com/fiowro
   nastena1606:
     name: Anastasia Alexandrova
     description: Senior Technical Writer
@@ -29,10 +24,20 @@ authors:
     description: Technical Writer
     avatar: https://avatars.githubusercontent.com/u/95711051
     url: https://github.com/rasika-chivate
+  Andriciuc:
+    name: Dragos Andriciuc
+    description: Senior Technical Writer
+    avatar: https://avatars.githubusercontent.com/u/9531841
+    url: https://github.com/Andriciuc/
   spron-in:
     name: Sergey Pronin
     description: Group Product Manager
     avatar: https://avatars.githubusercontent.com/u/11819154
     url: https://github.com/spron-in
+  fiowro:
+    name: Dmitriy Kostiuk
+    description: Senior Technical Writer
+    avatar: https://avatars.githubusercontent.com/u/147437
+    url: https://github.com/fiowro
 
   
