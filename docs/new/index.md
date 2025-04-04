@@ -8,6 +8,23 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+
+<div data-banner="everest" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest support for OpenShift {.title}
+<br>
+We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
+
+With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/everest-1.5.0-release.md){:target="_blank"}
+
+<span style="float: right;">March 04, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.1.0: Enhanced MongoDB monitoring {.title}
@@ -52,21 +69,6 @@ Percona XtraDB Cluster 8.0.41-32 implements the Clone plugin for State Snapshot 
 </div>
 </div>
 
-<div data-banner="everest" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest RBAC General Availability {.title}
-<br>
-We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
-
-With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Everest/everest-1.5.0-release.md){:target="_blank"}
-
-<span style="float: right;">March 04, 2025</span>
-
-</div>
-</div>
 
 
 </div>
