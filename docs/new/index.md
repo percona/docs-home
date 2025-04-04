@@ -13,9 +13,8 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest support for OpenShift {.title}
 <br>
-We’re delighted to announce the General Availability of RBAC in Percona Everest 1.5.0.
+We are thrilled to announce that Percona Everest is now fully compatible with **OpenShift**, bringing enterprise-grade database management to your Kubernetes environment.
 
-With RBAC, only authorized individuals can access specific resources or perform certain actions based on their assigned roles.
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../new/posts/Percona%20Everest/everest-1.5.0-release.md){:target="_blank"}
