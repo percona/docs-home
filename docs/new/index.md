@@ -17,7 +17,7 @@ We are thrilled to announce that Percona Everest is now fully compatible with�
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Everest/everest-1.5.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/openshift_support.md){:target="_blank"}
 
 <span style="float: right;">March 04, 2025</span>
 
