@@ -17,7 +17,7 @@ tags:
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html){:target="_blank"}.
 
-Percona XtraDB Cluster is based on Percona Server for MySQL and contains all improvements and bug fixes available in the Percona Server for MySQL 8.4.2-3 (2024-12-18) release notes.
+Percona XtraDB Cluster is based on Percona Server for MySQL and contains all improvements and bug fixes available in the Percona Server for MySQL 8.4.3-3 (2024-12-18) release notes.
 
 Learn more in Percona Distribution for MySQL 8.4.3 using Percona XtraDB Cluster [release notes](https://docs.percona.com/percona-distribution-for-mysql/8.4/release-notes-pxc-8.4.3.html){:target="_blank"}.
 
