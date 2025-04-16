@@ -11,15 +11,16 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-banner="everest" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest support for OpenShift {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.6.0: Storage scaling {.title}
 <br>
-We are thrilled to announce that Percona Everest is now fully compatible with **OpenShift**, bringing enterprise-grade database management to your Kubernetes environment.
+Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to increase the capacity of your database, offering greater control over resource allocation as your needs evolve.
+
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Everest/openshift_support.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
 
-<span style="float: right;">April 03, 2025</span>
+<span style="float: right;">April 16, 2025</span>
 
 </div>
 </div>
