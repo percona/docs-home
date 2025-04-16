@@ -1,7 +1,7 @@
 ---
-date: 2025-04-
+date: 2025-04-16
 description: >
-  Percona Distribution for MySQL 8.4.4 using Percona XtraDB Cluster has been released on Tuesday, April , 2025.
+  Percona Distribution for MySQL 8.4.4 using Percona XtraDB Cluster has been released on Wednesday, April 16, 2025.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.4.4 using Percona XtraDB Cluster](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on Tuesday, April , 2025.
+[Percona Distribution for MySQL 8.4.4 using Percona XtraDB Cluster](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on Wednesday, April 16, 2025.
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html){:target="_blank"}.
 
