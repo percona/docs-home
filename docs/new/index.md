@@ -18,7 +18,7 @@ Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to 
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Everest/openshift_support.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
 
 <span style="float: right;">April 16, 2025</span>
 
