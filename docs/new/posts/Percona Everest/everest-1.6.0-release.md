@@ -25,7 +25,7 @@ Here's a brief overview of what's been added in Percona Everest 1.6.0:
 
 - [Major version upgrades](https://docs.percona.com/everest/release-notes/Percona-Everest-1.6.0-%282025-04-16%29.html#__tabbed_1_2){:target="_blank"}: Percona Everest 1.6.0 introduces support for major version upgrades of MongoDB, enabling you to upgrade your databases with minimal downtime and disruption. This enhancement ensures your applications remain secure, performant, and compliant with the latest MongoDB features.
 
-- Expanded PostgreSQL support: Percona Everest 1.6.0 now includes support for Percona Operator for PostgreSQL 2.6.0 and PostgreSQL 17.
+- [Expanded PostgreSQL support](https://docs.percona.com/everest/release-notes/Percona-Everest-1.6.0-%282025-04-16%29.html#__tabbed_1_3): Percona Everest 1.6.0 now includes support for Percona Operator for PostgreSQL 2.6.0 and PostgreSQL 17.
 
 
 Explore the new features, improvements, bug fixes, and known issues in Percona Everest 1.6.0 [release notes](https://docs.percona.com/everest/release-notes/Percona-Everest-1.6.0-%282025-04-16%29.html){:target="_blank"}.
