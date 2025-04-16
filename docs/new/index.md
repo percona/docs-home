@@ -11,7 +11,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-banner="everest" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.6.0: Storage scaling{.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.6.0: Storage scaling {.title}
 <br>
 Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to increase the capacity of your database, offering greater control over resource allocation as your needs evolve.
 
