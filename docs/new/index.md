@@ -27,15 +27,15 @@ Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to 
 
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.1.0: Enhanced MongoDB monitoring {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 2.44.1: Maintenance release {.title}
 <br>
-We're excited to announce Percona Monitoring and Management (PMM) 3.1.0, featuring enhanced MongoDB monitoring, refined role-based access controls, and improved dashboard visualizations.
+We're excited to announce Percona Monitoring and Management (PMM) 3.1.0, which improves MongoDB monitoring reliability, adds PMM 3 migration guidance, and fixes security vulnerabilities.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.1.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-2.44.1-release.md){:target="_blank"}
 
-<span style="float: right;">March 31, 2025</span>
+<span style="float: right;">April 24, 2025</span>
 
 </div>
 </div>
