@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-We're excited to announce the release of [Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/index.html){:target="_blank"} 2.44.1, available since April 4, 2025. 
+We're excited to announce the release of [Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/2/){:target="_blank"} 2.44.1, available since April 24, 2025. 
 
 PMM 2.44.1 is a maintenance release that improves MongoDB monitoring reliability and addresses security vulnerabilities.
 
@@ -29,7 +29,7 @@ Here's a summary of the key changes in this release:
 
 Note: PMM 2 is now in maintenance phase and will only receive Critical and High CVE fixes until July 30, 2025. We strongly recommend upgrading to PMM 3 for continued support and access to all future improvements.
 
-You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/release-notes/2.44.1.html){:target="_blank"}.
+You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/2/release-notes/2.44.1.html){:target="_blank"}.
 
 
 
