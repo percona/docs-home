@@ -21,11 +21,11 @@ Get hands-on with PMM 2.44.1 by setting up your instance using our [quickstart g
 
 Here's a summary of the key changes in this release:
 
-- [PMM v3 migration notice](https://docs.percona.com/percona-monitoring-and-management/2/release-notes/2.44.1.html#pmm-v3-migration-notice) - PMM 2 now displays a notification with migration steps to help you upgrade to PMM 3, as PMM 2 will only receive security fixes until July 30, 2025.
+- [PMM v3 migration notice](https://docs.percona.com/percona-monitoring-and-management/2/release-notes/2.44.1.html#pmm-v3-migration-notice){:target="_blank"} - PMM 2 now displays a notification with migration steps to help you upgrade to PMM 3, as PMM 2 will only receive security fixes until July 30, 2025.
 
-- [Fixed visibility of offline MongoDB replica set nodes](https://docs.percona.com/percona-monitoring-and-management/2/release-notes/2.44.1.html#cve-fixes) - Improved monitoring reliability for MongoDB deployments
+- [Fixed visibility of offline MongoDB replica set nodes](https://docs.percona.com/percona-monitoring-and-management/2/release-notes/2.44.1.html#cve-fixes){:target="_blank"} - Improved monitoring reliability for MongoDB deployments
 
-- [Security vulnerability fixes](https://docs.percona.com/percona-monitoring-and-management//2/release-notes/2.44.1.html#cve-fixes) - Updated Docker images to address CVE-2023-45288
+- [Security vulnerability fixes](https://docs.percona.com/percona-monitoring-and-management//2/release-notes/2.44.1.html#cve-fixes){:target="_blank"} - Updated Docker images to address CVE-2023-45288
 
 Note: PMM 2 is now in maintenance phase and will only receive Critical and High CVE fixes until July 30, 2025. We strongly recommend upgrading to PMM 3 for continued support and access to all future improvements.
 
