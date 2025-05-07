@@ -1,7 +1,7 @@
 ---
-date: 2025-04-22
+date: 2025-05-01
 description: >
-  Percona Server for MongoDB 7.0.18-11 has been released on April 24, 2025.
+  Percona Server for MongoDB 8.0.8-3 has been released on May 1, 2025.
 authors: [nastena1606]
 categories:
   - MongoDB
@@ -9,13 +9,13 @@ tags:
   - Percona Server for MongoDB
 ---
 
-# Percona Server for MongoDB 7.0.18-11 has been released
+# Percona Server for MongoDB 8.0.8-3 has been released
 
 <!-- more -->
 
-[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/7.0/index.html){:target="_blank"} 7.0.18-11 has been released on April 24, 2025.
+[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/8.0/index.html){:target="_blank"} 8.0.8-3 has been released on May 1, 2025.
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-for-mongodb/7.0/install/index.html){:target="_blank"}. 
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-for-mongodb/8.0/install/index.html){:target="_blank"}. 
 
 This release provides the following improvements:
 
@@ -28,9 +28,9 @@ This release provides the following improvements:
 
 * Improve observability of your Percona Server for MongoDB Pro via binaries that include debug symbols. These binaries are added to Percona Server for MongoDB Pro packages and tarballs and make it compatible for runtime instrumentation to collect more detailed telemetry data. By integrating Percona Server for MongoDB Pro with advanced monitoring tools that use debug symbols, you receive detailed diagnostic data and logs.
 
-* Compatibility with Amazon Linux 2023. Because of the way Amazon Linux updates their libraries, Percona Server for MongoDB 7.0.18-11 is compatible only with Amazon Linux 2023.7.x and won't work on Amazon Linux 2023.6.x and older. 
+* Compatibility with Amazon Linux 2023. Because of the way Amazon Linux updates their libraries, Percona Server for MongoDB 8.0.8-3 is compatible only with Amazon Linux 2023.7.x and won't work on Amazon Linux 2023.6.x and older. 
 
-   To upgrade to 7.0.18-11, make sure that you run Amazon Linux 2023.7.x. Use the [update instructions :octicons-link-external-16:](https://docs.aws.amazon.com/linux/al2023/ug/updating.html){:target="_blank"}.
+   To upgrade to 8.0.8-3, make sure that you run Amazon Linux 2023.7.x. Use the [update instructions :octicons-link-external-16:](https://docs.aws.amazon.com/linux/al2023/ug/updating.html){:target="_blank"}.
 
-Learn more about this release in Percona Server for MongoDB 7.0.18-11 [release notes](https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/7.0.18-11.html){:target="_blank"}.
+Learn more about this release in Percona Server for MongoDB 8.0.8-3 [release notes](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.8-3.html){:target="_blank"}.
 
