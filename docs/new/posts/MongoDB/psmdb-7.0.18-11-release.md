@@ -23,8 +23,8 @@ This release provides the following improvements:
 
 * Better user experience with improved audit logging:
 
-   * Keep your system clean by having an audit log file only if you explicitly defined it as a destination in the logging configuration
-   * Regardless whether you use a default or a custom path for an audit log file, Percona Server for MongoDB checks if it can write to this path to ensure that logging information is written and available
+    * Keep your system clean by having an audit log file only if you explicitly defined it as a destination in the logging configuration
+    * Regardless whether you use a default or a custom path for an audit log file, Percona Server for MongoDB checks if it can write to this path to ensure that logging information is written and available
 
 * Improve observability of your Percona Server for MongoDB Pro via binaries that include debug symbols. These binaries are added to Percona Server for MongoDB Pro packages and tarballs and make it compatible for runtime instrumentation to collect more detailed telemetry data. By integrating Percona Server for MongoDB Pro with advanced monitoring tools that use debug symbols, you receive detailed diagnostic data and logs.
 
