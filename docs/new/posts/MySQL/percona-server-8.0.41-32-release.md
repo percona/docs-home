@@ -9,11 +9,11 @@ tags:
   - Percona Server for MySQL
 ---
 
-# Percona Server for MySQL 8.0.41-31 has been released
+# Percona Server for MySQL 8.0.41-32 has been released
 
 <!-- more -->
 
-[Percona Server for MySQL 8.0.41-31](https://docs.percona.com/percona-server/8.0/){:target="_blank"} has been released on Wednesday, February 26, 2025.
+[Percona Server for MySQL 8.0.41-32](https://docs.percona.com/percona-server/8.0/){:target="_blank"} has been released on Wednesday, February 26, 2025.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.0/quickstart-overview.html){:target="_blank"}.
 
@@ -45,4 +45,4 @@ Improvements and bug fixes provided by Oracle for MySQL 8.0.41 and included in P
 
 * Addressed a replication channel issue where MySQL failed to stop the channel properly when large transactions were being processed, and `STOP REPLICA` was requested. This issue also prevented graceful server shutdown, requiring process termination or system restart. (Bug #115966, Bug #37008345)
 
-Learn more in Percona Server for MySQL 8.0.41-31 [release notes](https://docs.percona.com/percona-server/8.0/release-notes/8.0.41-31.html){:target="_blank"}.
+Learn more in Percona Server for MySQL 8.0.41-32 [release notes](https://docs.percona.com/percona-server/8.0/release-notes/8.0.41-32.html){:target="_blank"}.
