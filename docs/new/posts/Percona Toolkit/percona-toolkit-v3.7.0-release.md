@@ -23,4 +23,4 @@ This version has the following new features:
 
 * Updated pt-mysql-summary.
 
-Learn more in the Percona Toolkit v3.7.0 [release notes](https://docs.percona.com/percona-toolkit/release_notes.html){:target="_blank"}.
+Learn more in the Percona Toolkit v3.7.0 [release notes](https://docs.percona.com/percona-toolkit/release_notes.html#v3-7-0-released-2024-12-23){:target="_blank"}.

@@ -49,4 +49,4 @@ This version has the following improvements:
 
 This release also includes fixes.
 
-Learn more in the Percona Toolkit v3.6.0 [release notes](https://docs.percona.com/percona-toolkit/release_notes.html){:target="_blank"}.
+Learn more in the Percona Toolkit v3.6.0 [release notes]https://docs.percona.com/percona-toolkit/release_notes.html#v3-6-0-released-2024-06-12){:target="_blank"}.
