@@ -1,7 +1,7 @@
 ---
-date: 2025-05-25
+date: 2025-05-26
 description: >
-  Percona Server for MySQL 5.7.44-54 has been released on Thursday, May 25, 2025.
+  Percona Server for MySQL 5.7.44-54 has been released on Monday, May 26, 2025.
 authors: [patrickbirch]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 5.7.44-54](https://docs.percona.com/percona-server/5.7/){:target="_blank"} has been released on Thursday, May 22, 2025.
+[Percona Server for MySQL 5.7.44-54](https://docs.percona.com/percona-server/5.7/){:target="_blank"} has been released on Monday, May 26, 2025.
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-server/5.7/installation.html){:target="_blank"}.
 
