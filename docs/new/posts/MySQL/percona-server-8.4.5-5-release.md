@@ -1,7 +1,7 @@
 ---
-date: 2025-05-
+date: 2025-05-29
 description: >
-  Percona Server for MySQL 8.4.5-5 has been released on Tuesday, May , 2025.
+  Percona Server for MySQL 8.4.5-5 has been released on Thursday, May 29, 2025.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 8.4.5-5](https://docs.percona.com/percona-server/8.4/index.html){:target="_blank"} has been released on Tuesday, May , 2025.
+[Percona Server for MySQL 8.4.5-5](https://docs.percona.com/percona-server/8.4/index.html){:target="_blank"} has been released on Thursday, May 29, 2025.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.4/quickstart-overview.html){:target="_blank"}.
 
