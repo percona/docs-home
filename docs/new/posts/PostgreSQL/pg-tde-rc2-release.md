@@ -28,7 +28,7 @@ This release of `pg_tde` extension features the following:
 
 * **Automatic WAL internal key generation at server startup**.
 
-    On each server start, a new internal key is generated for encrypting subsequent WAL records (assuming WAL encryption is enabled). The existing WAL records and their keys remain unchanged, this ensures continuity and secure key management without affecting historical data.
+    On each server start, a new internal key is generated for encrypting subsequent WAL records (assuming WAL encryption is enabled). The existing WAL records and their keys remain unchanged. This ensures continuity and secure key management without affecting historical data.
 
 * **Proper removal of relation-level encryption keys on table drop**
 
