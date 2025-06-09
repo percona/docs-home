@@ -55,13 +55,13 @@ Based on best practices for the configuration of Percona Distribution for Postgr
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Query Performance Monitoring for PostgreSQL {.title}
 
-Explore `pg_stat_monitor` - a query performance monitoring tool that brings more insight and details around query performance, planning statistics and metadata on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
+Explore `pg_tde` - an open source, community driven and futureproof PostgreSQL extension that provides Transparent Data Encryption (TDE) to protect data at rest. It ensures that the data stored on disk is encrypted, and that no one can read it without the proper encryption keys, even if they gain access to the physical storage media.
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/pg-stat-monitor/release-notes/release_notes.html)
-[Install now](https://docs.percona.com/pg-stat-monitor/install.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/)
+[Releases](https://docs.percona.com/pg-tde/release-notes/release-notes.html)
+[Install now](https://docs.percona.com/pg-tde/install.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/pg-tde/index.html)
 
 </div>
 </div>
