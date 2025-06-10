@@ -122,7 +122,7 @@ nav:
   - Percona Everest: percona-everest.md
   - PMM: pmm.md
   - Utilities: percona-utilities.md
-  - Percona Lab: percona-lab.md
+ # - Percona Lab: percona-lab.md
   - Legacy docs: "https://docs.percona.com/legacy-documentation/"
   - Valkey: "https://docs.percona.com/valkey/index.html"
   - Ivee: "https://docs.percona.com/ivee/index.html"
