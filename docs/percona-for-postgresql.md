@@ -19,7 +19,6 @@ Explore our Percona Software for PostgreSQL documentation. Find user guides, qui
 </div>
 </div>
 
-
 ## Documentation
 
 <div data-grid markdown>
@@ -37,6 +36,7 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 </div>
 </div>
+
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
@@ -51,20 +51,22 @@ Based on best practices for the configuration of Percona Distribution for Postgr
 
 </div>
 </div>
+
 <div data-banner="postgresql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Query Performance Monitoring for PostgreSQL {.title}
+### <span style="font-size:1.875em;margin-right:0.0625em">:percona-postgresql:</span> Percona Transparent Data Encryption {.title}
 
-Explore `pg_stat_monitor` - a query performance monitoring tool that brings more insight and details around query performance, planning statistics and metadata on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
+A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to PostgreSQL and enables users to keep sensitive data safe and secure.
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/pg-stat-monitor/release-notes/release_notes.html)
-[Install now](https://docs.percona.com/pg-stat-monitor/install.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/)
+[Releases](https://docs.percona.com/pg-tde/release-notes/release-notes.html)
+[Install now](https://docs.percona.com/pg-tde/install.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/pg-tde/index.html)
 
 </div>
 </div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring PostgreSQL with PMM {.title}
@@ -79,18 +81,20 @@ An open source database monitoring, management and observability solution for Po
 
 </div>
 </div>
+
 <div data-banner="postgresql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.0625em">:percona-postgresql:</span> Percona Transparent Data Encryption {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Query Performance Monitoring for PostgreSQL {.title}
 
-A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to PostgreSQL and enables users to keep sensitive data safe and secure.
+Explore `pg_stat_monitor` - a query performance monitoring tool that brings more insight and details around query performance, planning statistics and metadata on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/pg-tde/release-notes/release-notes.html)
-[Install now](https://docs.percona.com/pg-tde/install.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/pg-tde/index.html)
+[Releases](https://docs.percona.com/pg-stat-monitor/release-notes/release_notes.html)
+[Install now](https://docs.percona.com/pg-stat-monitor/install.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/)
 
+</div>
 </div>
 </div>
 
