@@ -54,7 +54,7 @@ Based on best practices for the configuration of Percona Distribution for Postgr
 
 <div data-banner="postgresql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.0625em">:percona-postgresql:</span> Percona Transparent Data Encryption {.title}
+### <span style="font-size:1.875em;margin-right:0.0625em">:percona-postgresql:</span> Percona Transparent Data Encryption for PostgreSQL {.title}
 
 A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to PostgreSQL and enables users to keep sensitive data safe and secure.
 
