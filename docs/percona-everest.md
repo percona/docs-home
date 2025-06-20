@@ -45,7 +45,7 @@ Comprehensive endpoint references for integrating Percona Everest’s powerful d
 
 <div class="actions" markdown>
 
-[Documentation :material-arrow-right:](https://percona-everest.readme.io/reference/getkubernetesclusterresources)
+[Documentation :material-arrow-right:](https://percona-everest.readme.io/reference/getkubernetesclusterresources-1)
 
 </div>
 </div>
