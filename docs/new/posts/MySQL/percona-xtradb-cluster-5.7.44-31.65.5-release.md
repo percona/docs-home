@@ -15,7 +15,7 @@ tags:
 
 [Percona XtraDB Cluster 5.7.44-31.65.5](https://docs.percona.com/percona-xtradb-cluster/5.7/){:target="_blank"} has been released on Tuesday, January 28, 2025.
 
-Try it out using the [Installation guide](https://docs.percona.com/percona-xtradb-cluster/5.7/install/index.html){:target="_blank"}.
+Try it out using the [Installation guide](https://docs.percona.com/percona-xtradb-cluster/5.7/install/install-eol.html){:target="_blank"}.
 
 This release contains security and non-security fixes.
 
