@@ -18,7 +18,7 @@ tags:
 
 Try it out using the [installation guidelines](https://docs.percona.com/pg-tde/install.html){:target="_blank"} and [leave your feedback](https://forums.percona.com/c/postgresql/pg-tde-transparent-data-encryption-tde/82){:target="_blank"}.
 
-This release of `pg_tde` extension features the following:
+This release marks the GA version of `pg_tde`.
 
 * **pg_tde 1.0 is now GA (Generally Available)**
 
