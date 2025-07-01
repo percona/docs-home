@@ -32,7 +32,7 @@ An open source database monitoring, management and observability solution for My
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/index.html)
-[Install now](https://docs.percona.com/percona-monitoring-and-management/3/quickstart.html)
+[Install now](https://docs.percona.com/percona-monitoring-and-management/3/quickstart/quickstart.html)
 [Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management/3/)
 
 </div>
