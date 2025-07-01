@@ -25,6 +25,6 @@ Here's a summary of the main changes in this release:
 - [Grafana 11.6 upgrade with enhanced visualization and alerting capabilities](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.2.0.html#grafana-116-update-and-upgrade-path-for-external-postgresql-users){:target="_blank"}
 - [Secure external ClickHouse connections with authenticated credential support](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.2.0.html#secure-external-clickhouse-connections){:target="_blank"}
 - [Feature Compatibility Version (FCV)panel in the MongoDB Replica Set and MongoDB Sharded Cluster Summary dashboards](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.2.0.html#feature-compatibility-version-fcv-panel-in-mongodb-dashboards).
-- [Query Analytics filters now load much faster](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.2.0.html#improved-query-analytics-filter-performancehhhhhh), making the PMM interface more responsive.
+- [Query Analytics filters now load much faster](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.2.0.html#improved-query-analytics-filter-performance), making the PMM interface more responsive.
 
 You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.2.0.html){:target="_blank"}.
