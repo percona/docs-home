@@ -42,14 +42,14 @@ We're excited to announce Percona Monitoring and Management (PMM) 3.2.0, featuri
 
 <div data-banner="postgresql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Release Candidate of `pg_tde` {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> `pg_tde` 1.0 General Availability release {.title}
 <br>
-Simplify encryption configuration in single-tenant environments, manage key provider configuration, control access to key information and enjoy improved WAL encryption flow with a new Release Candidate of `pg_tde`.  
+We're excited to announce the 1.0 General Availability release of `pg_tde`! It simplifies encryption setup in single-tenant environments, streamlines key provider configuration, enhances access control to key information, improves WAL encryption flow, and more!
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/pg-tde-rc-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
 
-<span style="float: right;">March 27, 2025</span>
+<span style="float: right;">June 30, 2025</span>
 
 </div>
 </div>
