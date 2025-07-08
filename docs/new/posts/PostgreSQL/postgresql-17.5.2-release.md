@@ -25,6 +25,6 @@ This release of Percona Distribution for PostgreSQL 17.5.2 provides the followin
 
     Learn more in the `pg_tde` [1.0 release notes](https://docs.percona.com/pg-tde/release-notes/release-notes-v1.0.html).
 
-* The `pg_tde` documentation has received significant updates, explore the full documentation [here](https://docs.percona.com/pg-tde/index.html).
+* The `pg_tde` documentation has received significant updates, explore the full documentation [here](https://docs.percona.com/pg-tde/index.html). 
 
 Learn more in Percona Distribution for PostgreSQL 17.5.2 [release notes](https://docs.percona.com/postgresql/17/release-notes-v17.5.html){:target="_blank"}.
