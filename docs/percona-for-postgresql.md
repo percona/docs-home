@@ -37,21 +37,6 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 </div>
 </div>
 
-<div data-banner="operators" markdown>
-
-### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
-
-Based on best practices for the configuration of Percona Distribution for PostgreSQL, the Operator automates deployment and management of PostgreSQL clusters on Kubernetes, saving your time and ensuring a consistent environment.
-
-<div class="actions" markdown>
-
-[Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
-[Install now](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/)
-
-</div>
-</div>
-
 <div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-postgresql:</span> Percona Transparent Data Encryption for PostgreSQL {.title}
@@ -63,6 +48,21 @@ A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to Postgre
 [Releases](https://docs.percona.com/pg-tde/release-notes/release-notes.html)
 [Install now](https://docs.percona.com/pg-tde/install.html)
 [Documentation :material-arrow-right:](https://docs.percona.com/pg-tde/index.html)
+
+</div>
+</div>
+
+<div data-banner="operators" markdown>
+
+### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
+
+Based on best practices for the configuration of Percona Distribution for PostgreSQL, the Operator automates deployment and management of PostgreSQL clusters on Kubernetes, saving your time and ensuring a consistent environment.
+
+<div class="actions" markdown>
+
+[Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
+[Install now](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
+[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/)
 
 </div>
 </div>
