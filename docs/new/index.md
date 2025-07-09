@@ -8,19 +8,16 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="postgresql" markdown>
 
-<div data-banner="everest" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.6.0: Storage scaling {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 1.0 General Availability release {.title}
 <br>
-Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to increase the capacity of your database, offering greater control over resource allocation as your needs evolve.
-
-
+We're excited to announce the 1.0 General Availability release of `pg_tde`! It simplifies encryption setup in single-tenant environments, streamlines key provider configuration, enhances access control to key information, improves WAL encryption flow, and more!
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
 
-<span style="float: right;">April 16, 2025</span>
+<span style="float: right;">June 30, 2025</span>
 
 </div>
 </div>
@@ -40,16 +37,18 @@ We're excited to announce Percona Monitoring and Management (PMM) 3.2.0, featuri
 </div>
 </div>
 
-<div data-banner="postgresql" markdown>
+<div data-banner="everest" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> `pg_tde` 1.0 General Availability release {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.6.0: Storage scaling {.title}
 <br>
-We're excited to announce the 1.0 General Availability release of `pg_tde`! It simplifies encryption setup in single-tenant environments, streamlines key provider configuration, enhances access control to key information, improves WAL encryption flow, and more!
+Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to increase the capacity of your database, offering greater control over resource allocation as your needs evolve.
+
+
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
 
-<span style="float: right;">June 30, 2025</span>
+<span style="float: right;">April 16, 2025</span>
 
 </div>
 </div>
