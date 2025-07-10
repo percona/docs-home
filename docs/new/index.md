@@ -24,13 +24,13 @@ We're excited to announce the 1.0 General Availability release of `pg_tde`! It s
 
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.2.0: New integrations and enhanced monitoring {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.3.0: Advanced PostgreSQL monitoring and enterprise security  {.title}
 <br>
-We're excited to announce Percona Monitoring and Management (PMM) 3.2.0, featuring native Amazon Linux 2023 support, complete MySQL 8.4 replication monitoring, Grafana upgrade, new MongoDB dashboard, and Query Analytics performance improvements.
+We're excited to announce Percona Monitoring and Management (PMM) 3.3.0, featuring five new dashboards and replication support for PostgreSQL, label-based access control for Query Analytics, MongoDB log-based monitoring for large-scale environments, and AWS Marketplace availability.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.2.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.0-release.md){:target="_blank"}
 
 <span style="float: right;">May 29, 2025</span>
 
