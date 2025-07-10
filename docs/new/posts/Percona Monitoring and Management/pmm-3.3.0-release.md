@@ -19,12 +19,12 @@ Get hands-on with PMM 3.3.0 by setting up your instance using our [quickstart gu
 
 Here's a summary of the main changes in this release:
 
-- [Enhanced PostgreSQL monitoring with five new production-ready dashboards and replication support](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#enhanced-postgresql-monitoring-with-replication-support){:target="_blank"}
-- [Label-based access control (LBAC) for Query Analytics to meet enterprise security requirements](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#label-based-access-control-for-query-analytics){:target="_blank"}
-- [MongoDB monitoring at scale with new `mongolog` query source that eliminates connection pool issues](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#mongodb-monitoring-at-scale-with-new-log-based-query-source){:target="_blank"}
-- [PMM 3.3.0 coming to AWS Marketplace for simplified cloud deployment](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#pmm-330-coming-to-aws-marketplace){:target="_blank"}
-- [Removed support for Ubuntu 20.04 LTS following its end-of-life](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#removed-support-for-ubuntu-2004-lts-focal-fossa){:target="_blank"}
+- [Enhanced PostgreSQL monitoring](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#enhanced-postgresql-monitoring-with-replication-support){:target="_blank"} with five new production-ready dashboards and replication support 
+- [Label-based access control (LBAC) for Query Analytics](https://docs.percona.com/percona-monitoring-and-management/3/admin/roles/access-control/intro.html){:target="_blank"} to meet enterprise security requirements
+- [MongoDB monitoring at scale with new `mongolog` query source](https://docs.percona.com/percona-monitoring-and-management/3/install-pmm/install-pmm-client/connect-database/mongodb.html?h=mongolo#set-up-mongolog-for-mongodb){:target="_blank"} that eliminates connection pool issues
+- [PMM 3.3.0 coming to AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-uww55ejutsnom?sr=0-1&ref_=beagle&applicationId=AWSMPContessa) {:target="_blank"} for simplified cloud deployment
+- [Removed support for Ubuntu 20.04 LTS](https://percona.com/services/policies/percona-software-support-lifecycle {:target="_blank"}) following its end-of-life 
 - [New --tls-skip-verify flag for monitoring services with self-signed certificates](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#improvements){:target="_blank"}
-- [Upgraded Go runtime to version 1.24.x with latest security fixes and performance improvements](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#improvements){:target="_blank"}
+- [Upgraded Go runtime to version 1.24.x](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#improvements){:target="_blank"} with latest security fixes and performance improvements
 
 You can find the full list of changes in the [release notes](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html){:target="_blank"}.

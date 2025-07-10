@@ -32,7 +32,7 @@ We're excited to announce Percona Monitoring and Management (PMM) 3.3.0, featuri
 
 [Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.0-release.md){:target="_blank"}
 
-<span style="float: right;">May 29, 2025</span>
+<span style="float: right;">July 9, 2025</span>
 
 </div>
 </div>
