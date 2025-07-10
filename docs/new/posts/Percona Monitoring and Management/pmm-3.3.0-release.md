@@ -23,7 +23,7 @@ Here's a summary of the main changes in this release:
 - [Label-based access control (LBAC) for Query Analytics](https://docs.percona.com/percona-monitoring-and-management/3/admin/roles/access-control/intro.html){:target="_blank"} to meet enterprise security requirements
 - [MongoDB monitoring at scale with new `mongolog` query source](https://docs.percona.com/percona-monitoring-and-management/3/install-pmm/install-pmm-client/connect-database/mongodb.html?h=mongolo#set-up-mongolog-for-mongodb){:target="_blank"} that eliminates connection pool issues
 - [PMM 3.3.0 coming to AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-uww55ejutsnom?sr=0-1&ref_=beagle&applicationId=AWSMPContessa){:target="_blank"} for simplified cloud deployment
-- [Removed support for Ubuntu 20.04 LTS](https://percona.com/services/policies/percona-software-support-lifecycle) {:target="_blank"} following its end-of-life 
+- [Removed support for Ubuntu 20.04 LTS](https://percona.com/services/policies/percona-software-support-lifecycle){:target="_blank"} following its end-of-life 
 - [New --tls-skip-verify flag for monitoring services with self-signed certificates](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#improvements){:target="_blank"}
 - [Upgraded Go runtime to version 1.24.x](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.3.0.html#improvements){:target="_blank"} with latest security fixes and performance improvements
 
