@@ -1,5 +1,5 @@
 ---
-date: 2025-07-
+date: 2025-07-14
 description: >
   Percona XtraDB Cluster 8.4.5-5 has been released on Monday, July 14, 2025.
 authors: [alina-derkach-oaza]
