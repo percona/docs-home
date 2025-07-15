@@ -31,8 +31,6 @@ Improves State Snapshot Transfer (SST) failure diagnostics. `garbd` now uses dis
 
 * Improves optimizer behavior by restoring correct handling of const tables in `test_quick_select()`. A MySQL Upstream refactor (commit [9a13c1c](https://github.com/percona/percona-server/commit/9a13c1c6971f4bd56d143179ecfb34cca8ecc018){:target="_blank"}) removed the `QEP_TAB` dependency, causing `get_quick_record_count()` to no longer pass const table information. This could lead to suboptimal range scan boundaries. The applied patch resolves the issue by explicitly passing `const_tables` to `test_quick_select()`, ensuring consistent behavior with the pre-refactor logic.
 
-* Adds changes to the list of [MyRocks variables](https://docs.percona.com/percona-server/8.4/myrocks-server-variables.html){:target="_blank"}.
-
 ### MySQL 8.4.5
 
 Improvements and bug fixes introduced by Oracle for MySQL 8.4.5 and included in Percona Server for MySQL are the following:
