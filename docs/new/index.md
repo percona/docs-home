@@ -17,7 +17,7 @@ Starting with Percona Everest 1.8.0, we are excited to roll out a new feature th
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/data_importers.md){:target="_blank"}
 
 <span style="float: right;">July 16, 2025</span>
 
