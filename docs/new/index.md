@@ -14,7 +14,6 @@ At Percona, we've been hard at work listening to your feedback and developing in
 <br>
 We are excited to roll out a new feature that allows you to directly import database backups from external object storage into clusters managed by Percona Everest. This feature leverages an extensible framework that streamlines your backup process.
 
-
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../new/posts/Percona%20Everest/data_importers.md){:target="_blank"}
@@ -23,8 +22,6 @@ We are excited to roll out a new feature that allows you to directly import data
 
 </div>
 </div>
-
-<div data-banner="mysql" markdown>
 
 <div data-banner="postgresql" markdown>
 
@@ -70,23 +67,6 @@ Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to 
 
 </div>
 </div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraDB Cluster feature - SST Method using Clone plugin {.title}
-<br>
-Percona XtraDB Cluster 8.0.41-32 implements the Clone plugin for State Snapshot Transfer (SST) Method. The Clone SST is a modern and efficient method that leverages MySQL's native cloning capabilities to transfer data from a Donor node to a Joiner node. It is faster and more resource-efficient compared to traditional methods like xtrabackup or rsync.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/clone-sst.md){:target="_blank"}
-
-<span style="float: right;">March 13, 2025</span>
-
-</div>
-</div>
-
-
 
 </div>
 
