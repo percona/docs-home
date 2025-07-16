@@ -8,6 +8,24 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="everest" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.8.0: Import backups from external storage {.title}
+<br>
+Starting with Percona Everest 1.8.0, we are excited to roll out a new feature that allows you to directly import database backups from external object storage into clusters managed by Percona Everest. This feature leverages an extensible framework that simplifies your backup process.
+
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
+
+<span style="float: right;">July 16, 2025</span>
+
+</div>
+</div>
+
+<div data-banner="mysql" markdown>
+
 <div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 1.0 General Availability release {.title}
