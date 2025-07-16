@@ -12,7 +12,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.8.0: Import backups from external storage {.title}
 <br>
-Starting with Percona Everest 1.8.0, we are excited to roll out a new feature that allows you to directly import database backups from external object storage into clusters managed by Percona Everest. This feature leverages an extensible framework that simplifies your backup process.
+We are excited to roll out a new feature that allows you to directly import database backups from external object storage into clusters managed by Percona Everest. This feature leverages an extensible framework that streamlines your backup process.
 
 
 <div class="actions" markdown>
