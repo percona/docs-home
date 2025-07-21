@@ -16,7 +16,7 @@ We are excited to roll out a new feature that allows you to directly import data
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Everest/data_importers.md){:target="_blank"}
+[Read more](../new/posts/Percona%20Everest/data_importers.md){:target="_blank"}
 
 <span style="float: right;">July 16, 2025</span>
 
@@ -30,7 +30,7 @@ We are excited to roll out a new feature that allows you to directly import data
 We're excited to announce the 1.0 General Availability release of `pg_tde`! It simplifies encryption setup in single-tenant environments, streamlines key provider configuration, enhances access control to key information, improves WAL encryption flow, and more!
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
+[Read more](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
 
 <span style="float: right;">June 30, 2025</span>
 
@@ -45,7 +45,7 @@ We're excited to announce Percona Monitoring and Management (PMM) 3.3.0, featuri
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.0-release.md){:target="_blank"}
+[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.0-release.md){:target="_blank"}
 
 <span style="float: right;">July 9, 2025</span>
 
@@ -61,7 +61,7 @@ Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to 
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
+[Read more](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
 
 <span style="float: right;">April 16, 2025</span>
 

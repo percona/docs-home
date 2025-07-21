@@ -33,7 +33,7 @@ An open source database monitoring, management and observability solution for My
 
 [Releases](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/index.html)
 [Install now](https://docs.percona.com/percona-monitoring-and-management/3/quickstart/quickstart.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management/3/)
+[Documentation](https://docs.percona.com/percona-monitoring-and-management/3/)
 
 </div>
 </div>
@@ -45,7 +45,7 @@ Comprehensive endpoint references and practical examples for integrating PMM's p
 
 <div class="actions" markdown>
 
-[Documentation :material-arrow-right:](https://percona-pmm.readme.io/v3/reference/introduction)
+[Documentation](https://percona-pmm.readme.io/v3/reference/introduction)
 
 </div>
 </div>

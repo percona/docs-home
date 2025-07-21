@@ -33,7 +33,7 @@ An enhanced, fully compatible, source available, drop-in replacement for MongoDB
 
 [Releases](https://docs.percona.com/percona-server-for-mongodb/latest/release_notes/index.html)
 [Install now](https://docs.percona.com/percona-server-for-mongodb/latest/install/index.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-server-for-mongodb/)
+[Documentation](https://docs.percona.com/percona-server-for-mongodb/)
 
 </div>
 </div>
@@ -47,7 +47,7 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 
 [Releases](https://docs.percona.com/percona-operator-for-mongodb/RN/index.html)
 [Install now](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-mongodb/)
+[Documentation](https://docs.percona.com/percona-operator-for-mongodb/)
 
 </div>
 </div>
@@ -61,7 +61,7 @@ An open source, community backup tool for performing consistent backups and rest
 
 [Releases](https://docs.percona.com/percona-backup-mongodb/release-notes.html)
 [Install now](https://docs.percona.com/percona-backup-mongodb/installation.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-backup-mongodb/)
+[Documentation](https://docs.percona.com/percona-backup-mongodb/)
 
 </div>
 </div>
@@ -75,7 +75,7 @@ A collection of solutions to run and operate your MongoDB efficiently with the d
 
 [Releases](https://docs.percona.com/percona-distribution-for-mongodb/latest/release-notes.html)
 [Install now](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mongodb/)
+[Documentation](https://docs.percona.com/percona-distribution-for-mongodb/)
 
 </div>
 </div>
@@ -89,7 +89,7 @@ An open source database monitoring, management and observability solution for Mo
 
 [Releases](https://docs.percona.com/percona-monitoring-and-management/release-notes/index.html)
 [Install now](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management/)
+[Documentation](https://docs.percona.com/percona-monitoring-and-management/)
 
 </div>
 </div>

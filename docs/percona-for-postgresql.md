@@ -32,7 +32,7 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 [Releases](https://docs.percona.com/postgresql/latest/release-notes.html)
 [Install now](https://docs.percona.com/postgresql/latest/installing.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/postgresql/)
+[Documentation](https://docs.percona.com/postgresql/)
 
 </div>
 </div>
@@ -47,7 +47,7 @@ A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to Postgre
 
 [Releases](https://docs.percona.com/pg-tde/release-notes/release-notes.html)
 [Install now](https://docs.percona.com/pg-tde/install.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/pg-tde/index.html)
+[Documentation](https://docs.percona.com/pg-tde/index.html)
 
 </div>
 </div>
@@ -62,7 +62,7 @@ Based on best practices for the configuration of Percona Distribution for Postgr
 
 [Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
 [Install now](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-postgresql/2.0/)
+[Documentation](https://docs.percona.com/percona-operator-for-postgresql/2.0/)
 
 </div>
 </div>
@@ -77,7 +77,7 @@ An open source database monitoring, management and observability solution for Po
 
 [Releases](https://docs.percona.com/percona-monitoring-and-management/release-notes/index.html)
 [Install now](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management/index.html)
+[Documentation](https://docs.percona.com/percona-monitoring-and-management/index.html)
 
 </div>
 </div>
@@ -92,7 +92,7 @@ Explore `pg_stat_monitor` - a query performance monitoring tool that brings more
 
 [Releases](https://docs.percona.com/pg-stat-monitor/release-notes/release_notes.html)
 [Install now](https://docs.percona.com/pg-stat-monitor/install.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/pg-stat-monitor/)
+[Documentation](https://docs.percona.com/pg-stat-monitor/)
 
 </div>
 </div>

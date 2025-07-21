@@ -33,7 +33,7 @@ An enhanced, fully compatible, source available, drop-in replacement for MySQL C
 
 [Releases](https://docs.percona.com/percona-server/8.4/release-notes/release-notes-index.html)
 [Install now](https://docs.percona.com/percona-server/8.4/quickstart-overview.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-server/)
+[Documentation](https://docs.percona.com/percona-server/)
 
 </div>
 </div>
@@ -47,7 +47,7 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 
 [Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
 [Install now](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/ps/)
+[Documentation](https://docs.percona.com/percona-operator-for-mysql/ps/)
 
 </div>
 </div>
@@ -62,7 +62,7 @@ It ensures high availability, prevents downtime and data loss, and provides line
 
 [Releases](https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html)
 [Install now](https://docs.percona.com/percona-xtradb-cluster/8.0/quickstart-overview.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-xtradb-cluster/)
+[Documentation](https://docs.percona.com/percona-xtradb-cluster/)
 
 </div>
 </div>
@@ -76,7 +76,7 @@ Automate deployment and management of Percona XtraDB Clusters (MySQL clustering 
 
 [Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
 [Install now](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-operator-for-mysql/pxc/)
+[Documentation](https://docs.percona.com/percona-operator-for-mysql/pxc/)
 
 </div>
 </div>
@@ -90,7 +90,7 @@ An open source, hot backup utility for MySQL-based servers that keeps your datab
 
 [Releases](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/release-notes.html)
 [Install now](https://docs.percona.com/percona-xtrabackup/8.4/quickstart-overview.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-xtrabackup/)
+[Documentation](https://docs.percona.com/percona-xtrabackup/)
 
 </div>
 </div>
@@ -104,7 +104,7 @@ A single solution with the best and most critical enterprise components from the
 
 [Releases](https://docs.percona.com/percona-distribution-for-mysql/8.4/release-notes.html)
 [Install now](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-distribution-for-mysql/)
+[Documentation](https://docs.percona.com/percona-distribution-for-mysql/)
 
 </div>
 </div>
@@ -118,7 +118,7 @@ Use ProxySQL Admin to configure Percona XtraDB Cluster nodes into ProxySQL. The 
 
 [Releases](https://docs.percona.com/proxysql/release-notes.html)
 [Install now](https://docs.percona.com/proxysql/install-v2.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/proxysql/)
+[Documentation](https://docs.percona.com/proxysql/)
 
 </div>
 </div>
@@ -132,7 +132,7 @@ An open source database monitoring, management and observability solution for My
 
 [Releases](https://docs.percona.com/percona-monitoring-and-management/release-notes/index.html)
 [Install now](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management/index.html)
+[Documentation](https://docs.percona.com/percona-monitoring-and-management/index.html)
 
 </div>
 </div>
