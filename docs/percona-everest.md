@@ -33,7 +33,7 @@ Percona Everest is the first open source platform for automated database provisi
 
 [Releases](https://docs.percona.com/everest/release-notes/release_notes_index.html)
 [Install now](https://docs.percona.com/everest/quickstart-guide/quick-install.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/everest/index.html)
+[Documentation](https://docs.percona.com/everest/index.html)
 
 </div>
 </div>
@@ -45,7 +45,7 @@ Comprehensive endpoint references for integrating Percona Everest’s powerful d
 
 <div class="actions" markdown>
 
-[Documentation :material-arrow-right:](https://percona-everest.readme.io/reference/getkubernetesclusterresources-1)
+[Documentation](https://percona-everest.readme.io/reference/getkubernetesclusterresources-1)
 
 </div>
 </div>

@@ -33,7 +33,7 @@ Command-line tools for common MySQL database administration tasks.
 
 [Releases](https://docs.percona.com/percona-toolkit/release_notes.html)
 [Install now](https://docs.percona.com/percona-toolkit/installation.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-toolkit/)
+[Documentation](https://docs.percona.com/percona-toolkit/)
 
 </div>
 </div>
@@ -47,7 +47,7 @@ The utility performs a logical backup of the performance metrics, collected by t
 
 [Releases](https://docs.percona.com/pmm-dump-documentation/ReleaseNotes/index.html)
 [Install now](https://docs.percona.com/pmm-dump-documentation/installation.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/pmm-dump-documentation/)
+[Documentation](https://docs.percona.com/pmm-dump-documentation/)
 
 </div>
 </div>
@@ -60,7 +60,7 @@ Binary and source packages of the latest official product releases as well as de
 <div class="actions" markdown>
 
 [Install now](https://docs.percona.com/percona-software-repositories/installing.html)
-[Documentation :material-arrow-right:](https://docs.percona.com/percona-software-repositories/)
+[Documentation](https://docs.percona.com/percona-software-repositories/)
 
 </div>
 </div>
