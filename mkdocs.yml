@@ -92,7 +92,7 @@ plugins:
 extra:
   analytics:
     provider: google
-    property: G-XXXXXXXXXX
+    property: G-J4J70BNH0G
 #    feedback:
 #      title: Was this page helpful?
 #      ratings:
