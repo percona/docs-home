@@ -111,8 +111,8 @@ copyright: >-
 
 nav:
   - Home: index.md
-  - What's new: 
-    - new/index.md
+  - What's new:
+    - new/index.md   
     - Get help from Percona: new/get-help.md
     - Updates per product: new/tags.md
   - PostgreSQL: percona-for-postgresql.md
