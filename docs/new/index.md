@@ -52,18 +52,17 @@ We're excited to announce Percona Monitoring and Management (PMM) 3.3.0, featuri
 </div>
 </div>
 
-<div data-banner="everest" markdown>
+<div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.6.0: Storage scaling {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> File copy-based initial sync in Percona Server for MongoDB {.title}
 <br>
-Starting with Percona Everest 1.6.0, you can leverage manual storage scaling to increase the capacity of your database, offering greater control over resource allocation as your needs evolve.
-
+Boost performance when scaling or restoring your Percona Server for MongoDB deployment via the file copy-based initial sync. Especially beneficial for large datasets and write-heavy workloads.
 
 <div class="actions" markdown>
 
-[Read more](../new/posts/Percona%20Everest/storage_scaling.md){:target="_blank"}
+[Read more](../new/posts/MongoDB/file-copy-based-init-sync.md)
 
-<span style="float: right;">April 16, 2025</span>
+<span style="float: right;">July 28, 2025</span>
 
 </div>
 </div>
