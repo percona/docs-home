@@ -43,7 +43,7 @@ extra_css:
   - css/design.css
   - css/landing.css
   - css/osano.css
-  - css/extra2.css
+  - css/extra.css
 
 extra_javascript:
   - js/hide-back-to-index.js
