@@ -8,6 +8,21 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="postgresql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 2.0 release: WAL General Availability {.title}
+<br>
+We're excited to announce the 2.0 release of `pg_tde`! This milestone delivers **official support for WAL (Write-Ahead Logging) encryption**, adding secure, end-to-end logging and expanding Percona’s Transparent Data Encryption coverage.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/PostgreSQL/pg-tde-2.0-release.md){:target="_blank"}
+
+<span style="float: right;">August 15, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="everest" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.8.0: Import backups from external storage {.title}
@@ -19,20 +34,6 @@ We are excited to roll out a new feature that allows you to directly import data
 [Read more](../new/posts/Percona%20Everest/data_importers.md){:target="_blank"}
 
 <span style="float: right;">July 16, 2025</span>
-
-</div>
-</div>
-
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 1.0 General Availability release {.title}
-<br>
-We're excited to announce the 1.0 General Availability release of `pg_tde`! It simplifies encryption setup in single-tenant environments, streamlines key provider configuration, enhances access control to key information, improves WAL encryption flow, and more!
-<div class="actions" markdown>
-
-[Read more](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
-
-<span style="float: right;">June 30, 2025</span>
 
 </div>
 </div>
