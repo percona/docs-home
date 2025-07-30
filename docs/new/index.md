@@ -8,6 +8,21 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> File copy-based initial sync in Percona Server for MongoDB {.title}
+<br>
+Boost performance when scaling or restoring your Percona Server for MongoDB deployment via the file copy-based initial sync. Especially beneficial for large datasets and write-heavy workloads.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/MongoDB/file-copy-based-init-sync.md)
+
+<span style="float: right;">July 28, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="everest" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.8.0: Import backups from external storage {.title}
@@ -19,20 +34,6 @@ We are excited to roll out a new feature that allows you to directly import data
 [Read more](../new/posts/Percona%20Everest/data_importers.md){:target="_blank"}
 
 <span style="float: right;">July 16, 2025</span>
-
-</div>
-</div>
-
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 1.0 General Availability release {.title}
-<br>
-We're excited to announce the 1.0 General Availability release of `pg_tde`! It simplifies encryption setup in single-tenant environments, streamlines key provider configuration, enhances access control to key information, improves WAL encryption flow, and more!
-<div class="actions" markdown>
-
-[Read more](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
-
-<span style="float: right;">June 30, 2025</span>
 
 </div>
 </div>
@@ -52,20 +53,21 @@ We're excited to announce Percona Monitoring and Management (PMM) 3.3.0, featuri
 </div>
 </div>
 
-<div data-banner="mongodb" markdown>
+<div data-banner="postgresql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> File copy-based initial sync in Percona Server for MongoDB {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 1.0 General Availability release {.title}
 <br>
-Boost performance when scaling or restoring your Percona Server for MongoDB deployment via the file copy-based initial sync. Especially beneficial for large datasets and write-heavy workloads.
-
+We're excited to announce the 1.0 General Availability release of `pg_tde`! It simplifies encryption setup in single-tenant environments, streamlines key provider configuration, enhances access control to key information, improves WAL encryption flow, and more!
 <div class="actions" markdown>
 
-[Read more](../new/posts/MongoDB/file-copy-based-init-sync.md)
+[Read more](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
 
-<span style="float: right;">July 28, 2025</span>
+<span style="float: right;">June 30, 2025</span>
 
 </div>
 </div>
+
+
 
 </div>
 
