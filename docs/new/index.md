@@ -8,6 +8,21 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.3.1: Critical security update for RCE vulnerability {.title}
+<br>
+We have released a critical security update addressing a Remote Command Execution (RCE) vulnerability affecting all PMM 2.x and PMM 3.x installations. This vulnerability allows users with CLI access to PMM Client nodes or those with admin-level privileges to exploit the API and execute unauthorized commands on registered nodes.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.1-release.md){:target="_blank"}
+
+<span style="float: right;">July 30, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> File copy-based initial sync in Percona Server for MongoDB {.title}
@@ -38,20 +53,6 @@ We are excited to roll out a new feature that allows you to directly import data
 </div>
 </div>
 
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.3.0: Advanced PostgreSQL monitoring and enterprise security  {.title}
-<br>
-We're excited to announce Percona Monitoring and Management (PMM) 3.3.0, featuring five new dashboards and replication support for PostgreSQL, label-based access control for Query Analytics, MongoDB log-based monitoring for large-scale environments, and AWS Marketplace availability.
-
-<div class="actions" markdown>
-
-[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.0-release.md){:target="_blank"}
-
-<span style="float: right;">July 9, 2025</span>
-
-</div>
-</div>
 
 <div data-banner="postgresql" markdown>
 
