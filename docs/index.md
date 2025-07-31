@@ -12,10 +12,10 @@ hide:
     <!--Intro-->
     <div class="splash-intro">
       <h1>
-        Open source databases
+        What solution do you need?
       </h1>
       <p>
-        Learn how to set up Percona's open source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
+        Understand which Percona database fits your use case. Compare capabilities and see how each works.
       </p>
     </div>
     <!--Links-->
