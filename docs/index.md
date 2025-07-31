@@ -50,6 +50,14 @@ hide:
     </div>
   </section>
 
+<!-- Solutions Overview -->
+
+<section class="splash highlight dark">
+  <div class="splash-intro">
+    <h1>What solution do you need?</h1>
+    <p>Understand which Percona database fits your use case. Compare capabilities and see how each works.</p>
+</div>
+
   <!--Cloud theme-->
 
   <section class="splash">
