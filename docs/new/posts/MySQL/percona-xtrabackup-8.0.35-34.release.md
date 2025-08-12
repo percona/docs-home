@@ -23,6 +23,4 @@ This release also contains a bug fix:
 
 - When streaming a backup that has been compressed (using `lz4` or `zstd` with the `--compress` option), the decompression process, whether performed by `xbstream --decompress` or `xtrabackup --decompress`, requires a significant amount of time.
 
-This release supports Red Hat Enterprise Linux 10.
-
 [Learn more in Percona XtraBackup 8.0.35-34 release notes](https://docs.percona.com/percona-xtrabackup/8.0/release-notes/8.0/8.0.35-34.0.html){:target="\_blank"}.
