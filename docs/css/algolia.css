@@ -1,0 +1,13 @@
+/* Style the Algolia DocSearch input */
+.algolia-docsearch-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  #docsearch {
+    width: 250px;
+    min-width: 150px;
+  }
+  
