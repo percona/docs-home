@@ -28,6 +28,11 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Color theme set to Dark Mode. Click to change
+  docsearch:
+    api_key: "a5222c0ed6e9e6c67a77cfd2e26000e1"
+    index_name: "Percona documentation"
+    app_id: "QDKRBCAI99"
+
   features:
     - navigation.indexes
     - navigation.instant
@@ -44,8 +49,11 @@ extra_css:
   - css/landing.css
   - css/osano.css
   - css/extra.css
+  - https://cdn.jsdelivr.net/npm/@docsearch/css@3
 
 extra_javascript:
+  - https://cdn.jsdelivr.net/npm/@docsearch/js@3
+  - js/algolia.js
   - js/hide-back-to-index.js
 
 markdown_extensions:
