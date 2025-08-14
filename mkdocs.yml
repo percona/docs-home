@@ -88,8 +88,8 @@ plugins:
     feed_title: "Percona Documentation What's New Feed"
   tags:
     tags_file: new/tags.md
-  search: 
-    separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  # search: 
+  # separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   meta-descriptions:
     export_csv: false
     quiet: false
