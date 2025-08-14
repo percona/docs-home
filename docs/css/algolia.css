@@ -1,0 +1,86 @@
+/* Style the Algolia DocSearch input */
+
+/* Increase font size for the search input */
+.DocSearch-Input {
+    font-size: 0.75rem !important;  /* adjust size as needed */
+  }
+  
+  /* Increase font size for the result title */
+  .DocSearch-Hit-title {
+    font-size: 0.65rem !important;
+  }
+  
+  /* Increase font size for the result content/snippet */
+  .DocSearch-Hit-path,
+  .DocSearch-Hit-text {
+    font-size: 0.7rem !important;
+  }
+  
+  /* Optionally increase font size for breadcrumbs or metadata */
+  .DocSearch-Hit-Tree,
+  .DocSearch-Hit-action {
+    font-size: 0.5rem !important;
+  }
+
+/* 🧭 Section headings like "Documentation", "Recent Searches" */
+.DocSearch-Dropdown-Container .DocSearch-Title {
+    font-size: 0.9rem !important;
+    font-weight: 600;
+  }
+  
+  /* ❌ "No recent searches" or empty state text */
+  .DocSearch-Help {
+    font-size: 0.8rem !important;
+  }
+  
+  /* ⌨️ Shortcut hints like "Press / to search" */
+  .DocSearch-StartScreen .DocSearch-Help,
+  .DocSearch-StartScreen .DocSearch-Label {
+    font-size: 0.8rem !important;
+  }
+
+  .DocSearch-Escape-Key {
+    font-size: 0.5rem !important;
+  }
+  
+  /* 🔣 Placeholder and input */
+  .DocSearch-Input {
+    font-size: 0.9rem !important;
+  }
+  
+  .DocSearch-Button-Keys {
+    display: none !important;
+  }
+
+  .DocSearch-Clear {
+    font-size: 0.7rem !important;
+  }
+  
+  /* Optional: make the overall modal content bigger */
+  .DocSearch-Container {
+    font-size: 0.8rem !important;
+  }
+
+  .DocSearch-Button-Placeholder {
+    font-size: 0.8rem !important;
+  }
+
+  .DocSearch-Button {
+    transition: background-color 0.2s ease;
+  }
+  
+  .DocSearch-Button:hover {
+    border: none !important;
+    box-shadow: none !important; /* Also removes simulated borders */
+  }
+
+  .DocSearch-Button {
+    width: 180px !important;  /* Adjust to desired width */
+  }
+
+  .DocSearch-Dropdown {
+    max-height: 600px !important;
+    overflow-y: auto !important;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+    border-radius: 6px;
+  }
