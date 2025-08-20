@@ -8,6 +8,23 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> OpenID Connect (OIDC) support in Percona Server for MongoDB {.title}
+<br>
+Strengthen authentication and simplify user management in Percona Server for MongoDB with OpenID Connect (OIDC) support. Centralize access control through your identity provider and enable secure, token-based login with SSO and MFA. Ideal for organizations managing multiple services and users across distributed environments.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/MongoDB/oidc-support.md)
+
+<span style="float: right;">August 21, 2025</span>
+
+
+</div>
+</div>
+
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.3.1: Critical security update for RCE vulnerability {.title}
@@ -53,20 +70,6 @@ We are excited to roll out a new feature that allows you to directly import data
 </div>
 </div>
 
-
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 1.0 General Availability release {.title}
-<br>
-We're excited to announce the 1.0 General Availability release of `pg_tde`! It simplifies encryption setup in single-tenant environments, streamlines key provider configuration, enhances access control to key information, improves WAL encryption flow, and more!
-<div class="actions" markdown>
-
-[Read more](../new/posts/PostgreSQL/pg-tde-1.0-release.md){:target="_blank"}
-
-<span style="float: right;">June 30, 2025</span>
-
-</div>
-</div>
 
 
 
