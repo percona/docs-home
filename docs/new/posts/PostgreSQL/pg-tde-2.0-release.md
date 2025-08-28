@@ -1,7 +1,7 @@
 ---
-date: 2025-08-15
+date: 2025-09-01
 description: >
-  Percona Transparent Data Encryption (`pg_tde`) 2.0 has been released on August 15, 2025
+  Percona Transparent Data Encryption (`pg_tde`) 2.0 has been released on September 01, 2025
 authors: [Andriciuc]
 categories:
   - PostgreSQL
