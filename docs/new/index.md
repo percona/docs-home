@@ -8,17 +8,49 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
-<div data-banner="postgresql" markdown>
+<div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 2.0 release: WAL General Availability {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> OpenID Connect (OIDC) support in Percona Server for MongoDB {.title}
 <br>
-We're excited to announce the 2.0 release of `pg_tde`! This milestone delivers **official support for WAL (Write-Ahead Logging) encryption**, adding secure, end-to-end logging and expanding Percona’s Transparent Data Encryption coverage.
+Strengthen authentication and simplify user management in Percona Server for MongoDB with OpenID Connect (OIDC) support. Centralize access control through your identity provider and enable secure, token-based login with SSO and MFA. Ideal for organizations managing multiple services and users across distributed environments.
 
 <div class="actions" markdown>
 
-[Read more](../new/posts/PostgreSQL/pg-tde-2.0-release.md){:target="_blank"}
+[Read more](../new/posts/MongoDB/oidc-support.md)
 
-<span style="float: right;">August 15, 2025</span>
+<span style="float: right;">August 21, 2025</span>
+
+
+</div>
+</div>
+
+
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.3.1: Critical security update for RCE vulnerability {.title}
+<br>
+We have released a critical security update addressing a Remote Command Execution (RCE) vulnerability affecting all PMM 2.x and PMM 3.x installations. This vulnerability allows users with CLI access to PMM Client nodes or those with admin-level privileges to exploit the API and execute unauthorized commands on registered nodes.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.1-release.md){:target="_blank"}
+
+<span style="float: right;">July 30, 2025</span>
+
+</div>
+</div>
+
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> File copy-based initial sync in Percona Server for MongoDB {.title}
+<br>
+Boost performance when scaling or restoring your Percona Server for MongoDB deployment via the file copy-based initial sync. Especially beneficial for large datasets and write-heavy workloads.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/MongoDB/file-copy-based-init-sync.md)
+
+<span style="float: right;">July 28, 2025</span>
 
 </div>
 </div>
@@ -38,35 +70,8 @@ We are excited to roll out a new feature that allows you to directly import data
 </div>
 </div>
 
-<div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.3.0: Advanced PostgreSQL monitoring and enterprise security  {.title}
-<br>
-We're excited to announce Percona Monitoring and Management (PMM) 3.3.0, featuring five new dashboards and replication support for PostgreSQL, label-based access control for Query Analytics, MongoDB log-based monitoring for large-scale environments, and AWS Marketplace availability.
 
-<div class="actions" markdown>
-
-[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.0-release.md){:target="_blank"}
-
-<span style="float: right;">July 9, 2025</span>
-
-</div>
-</div>
-
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> File copy-based initial sync in Percona Server for MongoDB {.title}
-<br>
-Boost performance when scaling or restoring your Percona Server for MongoDB deployment via the file copy-based initial sync. Especially beneficial for large datasets and write-heavy workloads.
-
-<div class="actions" markdown>
-
-[Read more](../new/posts/MongoDB/file-copy-based-init-sync.md)
-
-<span style="float: right;">July 28, 2025</span>
-
-</div>
-</div>
 
 </div>
 
