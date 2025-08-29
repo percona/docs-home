@@ -20,7 +20,7 @@ Try it out using the [Quickstart guide](https://docs.percona.com/percona-operato
 This release provides the following features and enhancements:
 
 * [Improved observability for HAProxy and ProxySQL](https://docs.percona.com/percona-operator-for-mysql/pxc/haproxy-conf.html){:target="_blank"} with the ability to connect to their statistics pages.
-* [Improved cluster load management during backups](https://docs.percona.com/percona-operator-for-mysql/pxc/backups.html){:target="_blank"} by queuing simultaneous backups if you disabled their parallel execution. You can fine-tune the queue by setting the start time for all backups or for a specific on-demand one using the [`spec.backup.startingDeadlineSeconds`](../operator.md#backupstartingdeadlineseconds) Custom Resource option.
+* [Improved cluster load management during backups](https://docs.percona.com/percona-operator-for-mysql/pxc/backups.html){:target="_blank"} by queuing simultaneous backups if you disabled their parallel execution. You can fine-tune the queue by setting the start time for all backups or for a specific on-demand one using the [`spec.backup.startingDeadlineSeconds`](https://docs.percona.com/percona-operator-for-mysql/pxc/operator.html#backupstartingdeadlineseconds) Custom Resource option.
 
     Another improvement is in suspending backups when your cluster becomes unhealthy and resuming them when the cluster recovers. You can configure how long a backups remains suspended to offload your cluster even more. In this case, after the set time expires, the Operator marks a backup as failed. 
 
