@@ -34,4 +34,6 @@ This release also includes significant documentation improvements, with a new FA
 
 [Read the full 17.5.3 release notes](https://docs.percona.com/postgresql/17/release-notes-v17.5.3.html){:target="_blank"}.
 
-⚙️ Upgrade today to secure your PostgreSQL with WAL encryption, explore improved docs, and [share your feedback on what you’d like to see next](https://forums.percona.com/c/postgresql/percona-distribution-for-postgresql/21).
+## ⚙️ Upgrade today 
+
+Upgrade today to secure your PostgreSQL with WAL encryption, explore improved docs, and [share your feedback on what you’d like to see next](https://forums.percona.com/c/postgresql/percona-distribution-for-postgresql/21).
