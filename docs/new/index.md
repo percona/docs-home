@@ -12,7 +12,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 2.0 release: WAL General Availability {.title}
 <br>
-We're excited to announce the 2.0 release of `pg_tde`! This milestone delivers **official support for WAL (Write-Ahead Logging) encryption**, adding secure, end-to-end logging and expanding Percona’s Transparent Data Encryption coverage.
+We're excited to announce the 2.0 release of `pg_tde`! This milestone delivers **official support for Write-Ahead Logging (WAL) encryption**, adding secure, end-to-end logging and expanding Percona’s Transparent Data Encryption coverage.
 
 <div class="actions" markdown>
 
