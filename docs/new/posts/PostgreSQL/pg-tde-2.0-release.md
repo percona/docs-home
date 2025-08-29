@@ -24,7 +24,7 @@ The WAL (Write-Ahead Logging) encryption feature is now fully supported and prod
 
 ## 📖 Major documentation update in pg_tde
 
-Documentation has been expanded with a new WAL backup and restore guide, updated limitations, new command-line interface (CLI) utilities (`pg_tde_archive_decrypt`, `pg_tde_restore_encrypt`), and improved uninstall instructions. These updates make it easier to deploy and operate `pg_tde` in production.
+Documentation has been expanded with a new WAL backup and restore guide, updated limitations, new command-line interface (CLI) utilities (`pg_tde_archive_decrypt`, `pg_tde_restore_encrypt`), and improved uninstall instructions. These updates simplify production deployment and operations of `pg_tde`.
 
 For details, [see the `pg_tde` release notes](https://docs.percona.com/pg-tde/release-notes/release-notes-v2.0.html){:target="_blank"}.
 
