@@ -18,11 +18,11 @@ tags:
 
 Try it out using the [installation guidelines](https://docs.percona.com/pg-tde/install.html){:target="_blank"}.
 
-## 🔐 WAL encryption is now Generally Available (GA)
+## WAL encryption is now Generally Available (GA)
 
 The WAL (Write-Ahead Logging) encryption feature is now fully supported and production-ready. It adds secure logging to `pg_tde`, expanding encryption coverage by protecting both data files and WAL using the same key infrastructure.
 
-## 📖 Major documentation update in pg_tde
+## Major documentation update in pg_tde
 
 Documentation has been expanded with a new WAL backup and restore guide, updated limitations, new command-line interface (CLI) utilities (`pg_tde_archive_decrypt`, `pg_tde_restore_encrypt`), and improved uninstall instructions. These updates simplify deploying and running `pg_tde` in production.
 
