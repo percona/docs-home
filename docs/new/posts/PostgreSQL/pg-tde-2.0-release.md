@@ -28,6 +28,6 @@ Documentation has been expanded with a new WAL backup and restore guide, updated
 
 For details, [see the `pg_tde` release notes](https://docs.percona.com/pg-tde/release-notes/release-notes-v2.0.html){:target="_blank"}.
 
-## ⚙️ Upgrade today
+## Upgrade today
 
 Upgrade today to secure your PostgreSQL with WAL encryption, explore improved docs, and [share your feedback on what you’d like to see next](https://forums.percona.com/c/postgresql/pg-tde-transparent-data-encryption-tde/82).
