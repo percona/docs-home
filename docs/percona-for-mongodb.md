@@ -65,20 +65,7 @@ An open source, community backup tool for performing consistent backups and rest
 
 </div>
 </div>
-<div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Link for MongoDB {.title}
-
-An open-source data migration tool between various MongoDB deployments with zero downtime. Supports cloning data, real-time replication of changes, and collection and index management.
-
-<div class="actions" markdown>
-
-[Releases](https://docs.percona.com/percona-link-for-mongodb/release-notes.html)
-[Install now](https://docs.percona.com/percona-link-for-mongodb/installation.html)
-[Documentation](https://docs.percona.com/percona-link-for-mongodb/index.html)
-
-</div>
-</div>
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring MongoDB with PMM {.title}
@@ -93,6 +80,21 @@ An open source database monitoring, management and observability solution for Mo
 
 </div>
 </div>
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Link for MongoDB {.title}
+
+An open-source data migration tool between various MongoDB deployments with zero downtime. Supports cloning data, real-time replication of changes, and collection and index management.
+
+<div class="actions" markdown>
+
+[Releases](https://docs.percona.com/percona-link-for-mongodb/release-notes.html)
+[Install now](https://docs.percona.com/percona-link-for-mongodb/installation.html)
+[Documentation](https://docs.percona.com/percona-link-for-mongodb/index.html)
+
+</div>
+</div>
+
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Distribution for MongoDB {.title}
