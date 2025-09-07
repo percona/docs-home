@@ -39,7 +39,7 @@ Find the complete list of bug fixes and changes in the [MySQL 8.4.6 release note
 
 * The official packages were built with the `WITH_LTO=ON` flag to enable the Link-Time Optimization (LTO) feature.
 
-* Percona Server for MySQL 8.4.6.6 suports Red Hat Enterprise Linux (RHEL) 10.
+* This release adds support for Red Hat Enterprise Linux 10.
 
 Learn more in Percona Server for MySQL 8.4.6-6 [release notes](https://docs.percona.com/percona-server/8.4/release-notes/8.4.6-6.html){:target="_blank"}.
 
