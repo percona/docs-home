@@ -19,7 +19,7 @@ Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-
 
 This release provides the following improvements:
 
-* Enhance security with token-based authentication using OpenID Connect (OIDC). Now you users no longer have to share their credentials with Percona Server for MongoDB or MongoDB clients when they authenticate in your infrastructure. Instead, you configure a Single Sign-On using an external identity provider and have users authenticate via tokens. This way you centralize user management and eliminate the need to store credentials in your database, reducing the risk of credential theft. Learn more about this new authentication method in our [documentation](https://docs.percona.com/percona-server-for-mongodb/7.0/oidc.html){:target="_blank"}.
+* Enhance security with token-based authentication using OpenID Connect (OIDC). Now your users no longer have to share their credentials with Percona Server for MongoDB or MongoDB clients when they authenticate in your infrastructure. Instead, you configure a Single Sign-On using an external identity provider and have users authenticate via tokens. This way you centralize user management and eliminate the need to store credentials in your database, reducing the risk of credential theft. Learn more about this new authentication method in our [documentation](https://docs.percona.com/percona-server-for-mongodb/7.0/oidc.html){:target="_blank"}.
 
    This feature is available in [Percona Server for MongoDB Pro](https://docs.percona.com/percona-server-for-mongodb/7.0/psmdb-pro.html){:target="_blank"} out of the box. You can also receive it by building Percona Server from the source code.
 
