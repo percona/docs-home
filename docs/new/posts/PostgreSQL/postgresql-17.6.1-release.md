@@ -41,6 +41,6 @@ See [Install Percona Distribution for PostgreSQL from binary tarballs](https://d
 
 ## CVE fixes
 
-This release includes important security fixes for the following CVEs: CVE-2012-0868, CVE-2017-7484, and CVE-2025-8715. For more details, see the [PostgreSQL 17.6](https://www.postgresql.org/docs/release/17.6/) release notes.
+This release includes important security fixes for the following CVEs: CVE-2012-0868, CVE-2017-7484, and CVE-2025-8715. For more details, see the [PostgreSQL 17.6 release notes](https://www.postgresql.org/docs/release/17.6/).
 
 For details specific to Percona Distribution for PostgreSQL 17.6.1, see the [release notes](https://docs.percona.com/postgresql/17/release-notes/release-notes-v17.6.1.html){:target="_blank"}.
