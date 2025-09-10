@@ -27,7 +27,15 @@ See [Software Bill of Materials (SBOMs)](https://docs.percona.com/postgresql/17/
 
 ## Tarball updates
 
-The binary tarballs for x86_64 and ARM64 architectures have been updated in this release.
+The binary tarballs for x86_64 and ARM64 architectures have been updated in this release. The following libraries and components have new versions:
+
+- LIBXSLT: 1.1.43
+- LUA: 5.3.6
+- LIBTIFF: 4.7.0
+- EXPAT: 2.5.0
+- PGPOOL: 4.6.2
+- PGBACKREST: 2.56.0
+- PATRONI: 4.0.6
 
 See [Install Percona Distribution for PostgreSQL from binary tarballs](https://docs.percona.com/postgresql/17/tarball.html) for the download links.
 
