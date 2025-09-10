@@ -23,7 +23,7 @@ This release of Percona Distribution for PostgreSQL 17.6.1 provides the followin
 
 Percona now provides Software Bill of Materials (SBOMs) to support compliance and security audits. SBOM files are available for tarball builds.
 
-See [Software Bill of Materials (SBOMs)](https://docs.percona.com/postgresql/17/tarball.html#software-bill-of-materials-sboms) for the full list.
+See [Software Bill of Materials (SBOMs)](https://docs.percona.com/postgresql/17/sboms.html) for the full list.
 
 ## Tarball updates
 
