@@ -12,8 +12,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.4.0: OpenShift support and centralized management {.title}
 <br>
-We've released PMM 3.4.0 with full OpenShift support for PMM Server, centralized vmagent configuration for all clients, enhanced RDS instance tracking, and RHEL 10 compatibility. This release improves enterprise deployments and monitoring reliability across your infrastructure.
-
+We've released PMM 3.4.0 with full OpenShift support, centralized `vmagent` configuration, enhanced RDS instance tracking, and RHEL 10 compatibility. 
 <div class="actions" markdown>
 
 [Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.4.0-release.md){:target="_blank"}
