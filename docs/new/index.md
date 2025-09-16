@@ -10,15 +10,15 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.3.1: Critical security update for RCE vulnerability {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.4.0: OpenShift support and centralized management {.title}
 <br>
-We have released a critical security update addressing a Remote Command Execution (RCE) vulnerability affecting all PMM 2.x and PMM 3.x installations. This vulnerability allows users with CLI access to PMM Client nodes or those with admin-level privileges to exploit the API and execute unauthorized commands on registered nodes.
+We've released PMM 3.4.0 with full OpenShift support for PMM Server, centralized vmagent configuration for all clients, enhanced RDS instance tracking, and RHEL 10 compatibility. This release improves enterprise deployments and monitoring reliability across your infrastructure.
 
 <div class="actions" markdown>
 
-[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.3.1-release.md){:target="_blank"}
+[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.4.0-release.md){:target="_blank"}
 
-<span style="float: right;">July 30, 2025</span>
+<span style="float: right;">September 15, 2025</span>
 
 </div>
 </div>
