@@ -12,11 +12,11 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.9.0 release {.title}
 <br>
-We are pleased to announce the release of Percona Everest 1.9.0, which introduces **Load balancer configuration** and more features.
+We’re excited to announce Percona Everest 1.9.0, introducing Load balancer configuration and a host of new features for your database deployments.
 
 <div class="actions" markdown>
 
-[Read more](../new/posts/PostgreSQL/pg-tde-2.0-release.md){:target="_blank"}
+[Read more](../new/posts/Percona%20Everest/everest-1.9.0-release.md){:target="_blank"}
 
 <span style="float: right;">September 23, 2025</span>
 
