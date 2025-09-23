@@ -8,7 +8,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
-<div data-banner="Percona Everest" markdown>
+<div data-banner="everest" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.9.0 release {.title}
 <br>
