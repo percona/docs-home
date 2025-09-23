@@ -69,23 +69,6 @@ We've released PMM 3.4.0 with full OpenShift support, centralized `vmagent` conf
 </div>
 </div>
 
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> File copy-based initial sync in Percona Server for MongoDB {.title}
-<br>
-Boost performance when scaling or restoring your Percona Server for MongoDB deployment via the file copy-based initial sync. Especially beneficial for large datasets and write-heavy workloads.
-
-<div class="actions" markdown>
-
-[Read more](../new/posts/MongoDB/file-copy-based-init-sync.md)
-
-<span style="float: right;">July 28, 2025</span>
-
-</div>
-</div>
-
-
-
 
 </div>
 
