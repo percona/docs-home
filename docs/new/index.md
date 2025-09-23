@@ -12,7 +12,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.9.0 release {.title}
 <br>
-We are pleased to announce the release of Percona Everest 1.9.0, which introduces Load balancer configurations and more features.
+We are pleased to announce the release of Percona Everest 1.9.0, which introduces **Load balancer configuration** and more features.
 
 <div class="actions" markdown>
 
