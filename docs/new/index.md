@@ -8,6 +8,21 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="everest" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.9.0 release {.title}
+<br>
+We’re excited to announce Percona Everest 1.9.0, introducing Load balancer configuration and a host of new features for your database deployments.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/Percona%20Everest/everest-1.9.0-release.md){:target="_blank"}
+
+<span style="float: right;">September 23, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 2.0 release: WAL General Availability {.title}
@@ -53,23 +68,6 @@ We've released PMM 3.4.0 with full OpenShift support, centralized `vmagent` conf
 
 </div>
 </div>
-
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> File copy-based initial sync in Percona Server for MongoDB {.title}
-<br>
-Boost performance when scaling or restoring your Percona Server for MongoDB deployment via the file copy-based initial sync. Especially beneficial for large datasets and write-heavy workloads.
-
-<div class="actions" markdown>
-
-[Read more](../new/posts/MongoDB/file-copy-based-init-sync.md)
-
-<span style="float: right;">July 28, 2025</span>
-
-</div>
-</div>
-
-
 
 
 </div>
