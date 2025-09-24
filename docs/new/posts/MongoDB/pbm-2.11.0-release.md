@@ -19,7 +19,7 @@ Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-
 
 This release provides the following features and improvements:
 
-* Ensure successful upload of any size backup. PBM now splits backups files that exceed the object size limit for backup storage into pieces and uploads them to the storage. When reading data from the storage, PBM merges these pieces into a single file. You can redefine the default size limit using PBM configuration and ensure your backups are uploaded regardless of the size. Learn more about how to do it in the [documentation](https://docs.percona.com/percona-backup-mongodb/features/split-merge-backup.html){:target="_blank"} .
+* Ensure successful upload of any size backup. PBM now splits backup files that exceed the object size limit for backup storage into pieces and uploads them to the storage. When reading data from the storage, PBM merges these pieces into a single file. You can redefine the default size limit using PBM configuration and ensure your backups are uploaded regardless of the size. Learn more about how to do it in the [documentation](https://docs.percona.com/percona-backup-mongodb/features/split-merge-backup.html){:target="_blank"} .
 
 * Percona Backup for MongoDB drops support of MongoDB 6.0. Existing functionality in Percona Backup for MongoDB remains compatible with MongoDB 6.0 and Percona Server for MongoDB 6.0; however, further enhancements and bug fixes are no longer tested against this version.
 
