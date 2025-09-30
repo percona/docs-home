@@ -21,26 +21,26 @@ Percona XtraDB Cluster 8.0.43-34 is based on Percona Server for MySQL and contai
 
 ### Percona XtraDB Cluster 8.0.43-34
 
-Improves State Snapshot Transfer (SST) failure diagnostics. `garbd` now uses distinct exit codes to differentiate between donor exit, SST script failure, and garbd-initiated termination, making SST issues easier to identify and debug.
+Improves State Snapshot Transfer (SST) by retrying Incremental State Transfer (IST) when initial SST attempts fail before any data changes, preventing unnecessary full data transfers.
 
 ### Percona Server for MySQL 8.0.43-34
 
-* By implementing Link-Time Optimization (LTO), new release binaries are more optimized, leading to improved performance for specific workloads.
-
-* The default SST timeout is often too short, which can cause the process to abort before completion.
-
-* Creating a foreign key without sufficient privileges causes an inconsistency where the originating node fails with a `1216` error, while other nodes fail with a `1452` error during replication.
+Implements Link-Time Optimization (LTO) to generate more optimized release binaries, resulting in improved performance for specific workloads.
 
 ### MySQL 8.0.43
 
 Improvements and bug fixes provided by Oracle for MySQL 8.0.43 and included in Percona Server for MySQL are the following:
 
-* Improves the `audit_log_filter_set_user()` UDF to accept account names with wildcard characters (`'%'` and `'_'`) in the host part. For example, you can use `‘usr1@%'`, `‘usr2%192.168.0.%’`, or `'usr3@%.mycorp.com'`.
+* Fixed an issue where rebuilding a primary key with duplicate entries could cause the server to stop unexpectedly. (Bug #37822992)
 
-* The `audit_log_filter_set_user()` UDF now accepts wildcards in the host part of account names, allowing for more flexible user filtering.
+* Fixed an issue related to dropping columns that were part of an index. (Bug #37726881)
 
-* The KMPI library has been updated with a new C++ level to enhance its error-handling capabilities.
+* Fixed an issue with indexing spatial datatype columns. (Bug #36682518)
 
-* A fix was implemented to restore the optimizer's correct handling of constant tables, resolving a bug that could lead to suboptimal range scan performance.
+* Fixed an issue where creating a secondary index on a `VARCHAR` column could exceed configured memory limits, with the amount allocated being directly related to the `value of innodb_ddl_buffer_size`, leading to errors such as ERROR 1136 (21S01): Column count doesn't match value count at row 1. (Bug #37233273)
+
+### Build & packaging notes
+
+* The official packages were built with the `WITH_LTO=ON` flag to enable the Link-Time Optimization (LTO) feature.
 
 Learn more in Percona XtraDB Cluster 8.0.43-34 [release notes](https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/8.0.43-34.html){:target="_blank"}.
