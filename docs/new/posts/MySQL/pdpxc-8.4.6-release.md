@@ -1,7 +1,7 @@
 ---
-date: 2025-10-
+date: 2025-10-06
 description: >
-  Percona Distribution for MySQL 8.4.6 using Percona XtraDB Cluster has been released on Thursday, October , 2025.
+  Percona Distribution for MySQL 8.4.6 using Percona XtraDB Cluster has been released on Monday, October 06, 2025.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.4.6 using Percona XtraDB Cluster](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on Thursday, October , 2025.
+[Percona Distribution for MySQL 8.4.6 using Percona XtraDB Cluster](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on Monday, October 06, 2025.
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html){:target="_blank"}.
 
@@ -21,7 +21,7 @@ Try it out using the [Installation guide](https://docs.percona.com/percona-distr
 
 * The official packages were built with the `WITH_LTO=ON` flag to enable the Link-Time Optimization (LTO) feature.
 
-* This release suports Red Hat Enterprise Linux (RHEL) 10.
+* This release supports Red Hat Enterprise Linux (RHEL) 10.
 
 ## Supplied components
 
