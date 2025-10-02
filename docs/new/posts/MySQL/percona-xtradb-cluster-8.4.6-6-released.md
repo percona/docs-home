@@ -1,7 +1,7 @@
 ---
-date: 2025-10-
+date: 2025-10-06
 description: >
-  Percona XtraDB Cluster 8.4.6-6 has been released on Thursday, October , 2025.
+  Percona XtraDB Cluster 8.4.6-6 has been released on Monday, October 06, 2025.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona XtraDB Cluster 8.4.6-6](https://docs.percona.com/percona-xtradb-cluster/8.4/){:target="_blank"} has been released on Thursday, October , 2025.
+[Percona XtraDB Cluster 8.4.6-6](https://docs.percona.com/percona-xtradb-cluster/8.4/){:target="_blank"} has been released on Monday, October 06, 2025.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtradb-cluster/8.4/quickstart-overview.html){:target="_blank"}.
 
