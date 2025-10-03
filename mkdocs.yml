@@ -28,6 +28,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Color theme set to Dark Mode. Click to change
+
   features:
     - navigation.indexes
     - navigation.instant
@@ -44,9 +45,13 @@ extra_css:
   - css/landing.css
   - css/osano.css
   - css/extra.css
+  - css/algolia.css
+  - https://cdn.jsdelivr.net/npm/@docsearch/css@3
 
 extra_javascript:
   - js/hide-back-to-index.js
+  - https://cdn.jsdelivr.net/npm/@docsearch/js@latest
+  - js/init-algolia.js
 
 markdown_extensions:
   - admonition
@@ -80,8 +85,8 @@ plugins:
     feed_title: "Percona Documentation What's New Feed"
   tags:
     tags_file: new/tags.md
-  search: 
-    separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+#  search: 
+#    separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   meta-descriptions:
     export_csv: false
     quiet: false
@@ -93,6 +98,10 @@ extra:
   analytics:
     provider: google
     property: G-J4J70BNH0G
+  docsearch:
+    api_key: "a5222c0ed6e9e6c67a77cfd2e26000e1"
+    index_name: "Percona documentation"
+    app_id: "QDKRBCAI99"
 #    feedback:
 #      title: Was this page helpful?
 #      ratings:
