@@ -1,7 +1,7 @@
 ---
-date: 2025-10-15
+date: 2025-10-16
 description: >
-  Percona Operator for MongoDB 1.21.0 has been released on October 14, 2025.
+  Percona Operator for MongoDB 1.21.0 has been released on October 16, 2025.
 authors: [nastena1606]
 categories:
   - Percona Operators
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Operator for MongoDB](https://docs.percona.com/percona-operator-for-mongodb/){:target="_blank"} 1.21.0 has been released on October 14, 2025.
+[Percona Operator for MongoDB](https://docs.percona.com/percona-operator-for-mongodb/){:target="_blank"} 1.21.0 has been released on October 16, 2025.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html){:target="_blank"}.
 
