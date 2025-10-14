@@ -8,7 +8,22 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
-<div data-banner="everest" markdown>
+
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.4.1: Security-focused maintenance release {.title}
+<br>
+We've released PMM 3.4.1 with critical security updates, including fixes for high-severity DoS vulnerabilities in Nomad and Percona Toolkit, removal of the vulnerable `clickhouse-diagnostics` package, and clarification on false-positive CVE reports.
+<div class="actions" markdown>
+
+[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.4.1-release.md){:target="_blank"}
+
+<span style="float: right;">October 13, 2025</span>
+
+</div>
+</div>
+
+<div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.9.0 release {.title}
 <br>
@@ -19,20 +34,6 @@ We’re excited to announce Percona Everest 1.9.0, introducing Load balancer con
 [Read more](../new/posts/Percona%20Everest/everest-1.9.0-release.md){:target="_blank"}
 
 <span style="float: right;">September 23, 2025</span>
-
-</div>
-</div>
-
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.4.0: OpenShift support and centralized management {.title}
-<br>
-We've released PMM 3.4.0 with full OpenShift support, centralized `vmagent` configuration, enhanced RDS instance tracking, and RHEL 10 compatibility. 
-<div class="actions" markdown>
-
-[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.4.0-release.md){:target="_blank"}
-
-<span style="float: right;">September 15, 2025</span>
 
 </div>
 </div>
