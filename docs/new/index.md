@@ -38,10 +38,6 @@ We’re excited to announce Percona Everest 1.9.0, introducing Load balancer con
 </div>
 </div>
 
-<div data-banner="pmm" markdown>
-
-</div>
-
 <div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> pg_tde 2.0 release: WAL General Availability {.title}
