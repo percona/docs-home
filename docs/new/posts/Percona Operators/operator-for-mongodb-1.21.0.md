@@ -48,9 +48,4 @@ New features and improvements introduced by this release include:
 
 * Delegate PVC resizing to an external autoscaler by disabling the built-in resizing functionality. Set `spec.enableExternalVolumeAutoscaling` option to `true` in your Custom Resource to prevent the Operator from attempting to resize PVCs. This is useful if you use an external tool to manage volume sizes.
 
-* Known limitation for deleting backups created with PBM versions earlier than 2.11.0. You need to delete these backups manually to free up the space. The steps are:
-  
-   1. Remove the finalizer from a `psmdb-backup` object.
-   2. [Delete the backup](https://docs.percona.com/percona-operator-for-mongodb/backups-delete.html){:target="_blank"}.
-
 Learn more in Percona Operator for MongoDB 1.21.0 [release notes](https://docs.percona.com/percona-operator-for-mongodb/RN/Kubernetes-Operator-for-PSMONGODB-RN1.21.0.html){:target="_blank"}.
