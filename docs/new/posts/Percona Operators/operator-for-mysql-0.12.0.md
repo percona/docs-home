@@ -19,7 +19,7 @@ Version 0.12.0 of the Percona Operator for MySQL is still **a tech preview relea
 
 New features and improvements introduced by this release include:
 
-* [Data-at-rest encryption for MySQL 8.4](Quickstart guide](https://docs.percona.com/percona-operator-for-mysql/ps/encryption-setup.html){:target="_blank"} makes Percona Server for MySQL 8.4 be fully supported by the Operator. This improvement empowers you to take full advantage of Percona Server for MySQL 8.4’s features while benefiting from seamless, automated lifecycle management provided by the Operator. Percona Server for MySQL 8.4 is now the default version for deploying a database cluster.
+* [Data-at-rest encryption for MySQL 8.4](https://docs.percona.com/percona-operator-for-mysql/ps/encryption-setup.html){:target="_blank"} makes Percona Server for MySQL 8.4 be fully supported by the Operator. This improvement empowers you to take full advantage of Percona Server for MySQL 8.4’s features while benefiting from seamless, automated lifecycle management provided by the Operator. Percona Server for MySQL 8.4 is now the default version for deploying a database cluster.
 
 * Ensure cluster availability with PodDisruptionBudgets. You can configure a PodDisruptionBudget for MySQL, HAProxy, MySQL Router, and Orchestrator Pods, thus ensuring your cluster remains available during voluntary disruptions, such as deleting a deployment or draining a node for maintenance.
 
