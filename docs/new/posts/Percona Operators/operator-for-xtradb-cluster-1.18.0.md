@@ -21,7 +21,7 @@ This release provides the following features and enhancements:
 
 * PMM improvements:
 
-    * With added PMM3 support, you can now monitor the health and performance of your Percona Distribution for PostgreSQL deployment and at the same time enjoy enhanced performance, new features, and improved security that PMM 3 provides. Note that PMM2 support remains in the Operator. The decision what PMM version to use is done based on the configured authentication method. Read more about PMM 3 configuration in the [documentation](https://docs.percona.com/percona-operator-for-mysql/pxc/monitoring.html){:target="_blank"}.
+    * With added PMM3 support, you can now monitor the health and performance of your Percona XtraDB Cluster deployment and at the same time enjoy enhanced performance, new features, and improved security that PMM 3 provides. Note that PMM2 support remains in the Operator. The decision what PMM version to use is done based on the configured authentication method. Read more about PMM 3 configuration in the [documentation](https://docs.percona.com/percona-operator-for-mysql/pxc/monitoring.html){:target="_blank"}.
 
     * Improved monitoring for clusters in multi-region or multi-namespace deployments with the ability to define a custom name for a database cluster in PMM. This helps PMM to correctly recognize how a cluster is deployed (in different data centers vs deployed with the same name in different namespaces) and correctly display metrics.
 
