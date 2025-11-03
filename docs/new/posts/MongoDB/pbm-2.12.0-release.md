@@ -17,7 +17,7 @@ tags:
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-mongodb/installation.html){:target="_blank"} 
 
-This release focuses on improvements to backup storages. It includes new storage types, enhances Azure and GCS implementations and fixes issues with S3-compatible storage services. 
+This release focuses on improvements to backup storages. It includes new storage types, enhances Azure Blob storage implementation, and fixes issues with S3-compatible storage services. 
 
 Details below:
 
