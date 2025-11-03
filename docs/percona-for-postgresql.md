@@ -30,7 +30,7 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/postgresql/17/release-notes/release-notes.html)
+[Releases](https://docs.percona.com/postgresql/latest/release-notes/release-notes.html)
 [Install now](https://docs.percona.com/postgresql/latest/installing.html)
 [Documentation](https://docs.percona.com/postgresql/)
 
