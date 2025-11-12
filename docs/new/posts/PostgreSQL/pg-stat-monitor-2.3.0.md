@@ -19,4 +19,4 @@ Try it out using the [installation instructions](https://docs.percona.com/pg-sta
 
 This release improves query annotation parsing, enhances SQL error visibility, and fixes diagnostic issues with command types, improving performance.
 
-Learn more about this release in the [release notes](https://docs.percona.com/pg-stat-monitor/release-notes/2.3.0.html){:target="_blank"}.
+Learn more about this release in the [release notes](https://docs.percona.com/pg-stat-monitor/release-notes/2.3.1.html){:target="_blank"}.
