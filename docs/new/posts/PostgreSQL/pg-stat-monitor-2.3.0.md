@@ -17,6 +17,6 @@ tags:
 
 Try it out using the [installation instructions](https://docs.percona.com/pg-stat-monitor/install.html){:target="_blank"}
 
-This release improves query annotation parsing, enhances SQL error visibility, and fixes diagnostic issues with command types, improving performance.
+This release adds compatibility with PostgreSQL 18 and introduces three new monitoring metrics for improved visibility into write-ahead log (WAL) and parallel workers.
 
 Learn more about this release in the [release notes](https://docs.percona.com/pg-stat-monitor/release-notes/2.3.1.html){:target="_blank"}.
