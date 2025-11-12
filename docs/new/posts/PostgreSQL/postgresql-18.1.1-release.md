@@ -24,6 +24,7 @@ This release of Percona Distribution for PostgreSQL 18.1.1 provides the followin
 - **Enhanced monitoring** with new statistics views for `pg_stat_io` and background writer activity
 - **Security improvements**, including expanded SSL/TLS configuration options
 - **Performance optimizations** for query execution and index management
+- Added support for **asynchronous I/O** (AIO)
 
 These features make PostgreSQL 18 a major step forward in scalability, observability, and operational efficiency.
 
