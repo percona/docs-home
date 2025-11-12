@@ -17,14 +17,6 @@ We're excited to announce the release of [Percona Distribution for PostgreSQL](h
 
 Try it out using the [Quickstart guide](https://docs.percona.com/postgresql/17/installing.html){:target="_blank"}. Check the [upgrade instructions](https://docs.percona.com/postgresql/17/major-upgrade.html){:target="_blank"}.
 
-This release of Percona Distribution for PostgreSQL 17.7.1 provides the following enhancements:
-
-## SBOMs available for download
-
-Percona now provides Software Bill of Materials (SBOMs) to support compliance and security audits. SBOM files are available for tarball builds.
-
-See [Software Bill of Materials (SBOMs)](https://docs.percona.com/postgresql/17/sboms.html) for the full list.
-
 ## Tarball updates
 
 The binary tarballs for x86_64 and ARM64 architectures have been updated in this release. The following libraries and components have new versions:
@@ -38,9 +30,5 @@ The binary tarballs for x86_64 and ARM64 architectures have been updated in this
 - PATRONI: 4.0.6
 
 See [Install Percona Distribution for PostgreSQL from binary tarballs](https://docs.percona.com/postgresql/17/tarball.html) for the download links.
-
-## Addressed CVEs
-
-This release includes important security measures that address the following CVEs: CVE-2012-0868, CVE-2017-7484, and CVE-2025-8715. For more details, see the [PostgreSQL 17.7 release notes](https://www.postgresql.org/docs/release/17.7/).
 
 For details specific to Percona Distribution for PostgreSQL 17.7.1, see the [release notes](https://docs.percona.com/postgresql/17/release-notes/release-notes-v17.7.1.html){:target="_blank"}.
