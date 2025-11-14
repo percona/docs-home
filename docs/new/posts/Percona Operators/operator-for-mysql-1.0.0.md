@@ -15,7 +15,7 @@ tags:
 
 We're excited to announce the General Availability (GA) of [Percona Operator for MySQL based on Percona Server for MySQL](https://docs.percona.com/percona-operator-for-mysql/ps/index.html){:target="_blank"} 1.0.0 with group replication. GA status means you can now safely deploy group replication clusters in production, backed by long‑term maintenance and enterprise‑grade reliability.
 
-Asynchronous replication remains in tech preview. We don't recommend it for production yet, but encourage you to experiment in testing or staging environments and share feedback. Ax utomated pod management in Kubernetes can introduce higher failover lag compared to bare‑metal setups, we're actively working to improve the user experience in these scenarios.
+Asynchronous replication remains in tech preview. We don't recommend it for production yet, but encourage you to experiment in testing or staging environments and share feedback. Automated pod management in Kubernetes can introduce higher failover lag compared to bare‑metal setups, we're actively working to improve the user experience in these scenarios.
 
 This release primarily focuses on stability and bug fixing, ensuring the Operator is ready for production use. Additionally, it introduces these improvements:
 
