@@ -25,7 +25,7 @@ This release primarily focuses on stability and bug fixing, ensuring the Operato
 
 * Streamlined backup and restore configuration management. 
 
-    The Operator now always applies `xtrabackup`, `xbstream` and `xbcloud` settings defined defined in dedicated backup or restore objects over global Custom Resource settings. This gives you maximum flexibility to fine‑tune performance or customize specific backup/restore scenarios without impacting global configuration.
+    The Operator now always applies `xtrabackup`, `xbstream` and `xbcloud` settings defined in dedicated backup or restore objects over global Custom Resource settings. This gives you maximum flexibility to fine‑tune performance or customize specific backup/restore scenarios without impacting global configuration.
 
 * Reliable cluster provisioning for large datasets and variable network conditions
 
