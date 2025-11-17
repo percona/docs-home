@@ -8,6 +8,21 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="operators" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span>  General Availability: Percona Operator for MySQL with Group Replication {.title}
+<br>
+Deploy MySQL group replication clusters in production with enterprise‑grade reliability.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/Percona%20Operators/operator-for-mysql-1.0.0.md)
+
+<span style="float: right;">November 17, 2025</span>
+
+
+</div>
+</div>
 
 <div data-banner="pmm" markdown>
 
@@ -53,21 +68,6 @@ We're excited to announce the 2.0 release of `pg_tde`! This milestone delivers *
 </div>
 </div>
 
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> OpenID Connect (OIDC) support in Percona Server for MongoDB {.title}
-<br>
-Strengthen authentication and simplify user management in Percona Server for MongoDB with OpenID Connect (OIDC) support. Centralize access control through your identity provider and enable secure, token-based login with SSO and MFA. Ideal for organizations managing multiple services and users across distributed environments.
-
-<div class="actions" markdown>
-
-[Read more](../new/posts/MongoDB/oidc-support.md)
-
-<span style="float: right;">August 21, 2025</span>
-
-
-</div>
-</div>
 
 </div>
 
