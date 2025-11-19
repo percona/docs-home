@@ -45,6 +45,7 @@ extra_css:
   - css/landing.css
   - css/osano.css
   - css/extra.css
+  - css/rating.css
   - css/algolia.css
   - https://cdn.jsdelivr.net/npm/@docsearch/css@3
 
@@ -52,6 +53,7 @@ extra_javascript:
   - js/hide-back-to-index.js
   - https://cdn.jsdelivr.net/npm/@docsearch/js@latest
   - js/init-algolia.js
+  - js/rating.js
 
 markdown_extensions:
   - admonition
@@ -93,6 +95,10 @@ plugins:
     enable_checks: false
     min_length: 50
     max_length: 160
+  git-committers:
+    enabled: !ENV [CI, false]
+    repository: percona/docs-home
+    branch: "main"
 
 extra:
   analytics:
@@ -102,19 +108,7 @@ extra:
     api_key: "a5222c0ed6e9e6c67a77cfd2e26000e1"
     index_name: "Percona documentation"
     app_id: "QDKRBCAI99"
-#    feedback:
-#      title: Was this page helpful?
-#      ratings:
-#        - icon: material/emoticon-happy-outline
-#          name: This page was helpful
-#          data: 1
-#          note: >-
-#            Thank you for your feedback!
-#        - icon: material/emoticon-sad-outline
-#          name: This page could be improved
-#          data: 0
-#          note: >- 
-#            Thank you for your feedback! Help us improve by following this <a href="#" target="_blank" rel="noopener">feedback form</a>.
+
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2025 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
 
