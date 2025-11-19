@@ -5,8 +5,22 @@ At Percona, we've been hard at work listening to your feedback and developing in
 [Subscribe to RSS feed](https://docs.percona.com/feed_rss_created.xml){.md-button target="_blank"}
 
 ## Featured announcements
-
 <div data-grid markdown>
+
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.5.0: Redis and Valkey monitoring with built-in advisors {.title}
+<br>
+We've released PMM 3.5.0 with comprehensive Redis and Valkey monitoring, built-in advisors and alert templates, PostgreSQL 18 support, and enhanced data privacy controls.
+<div class="actions" markdown>
+
+[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.5.0-release.md){:target="_blank"}
+
+<span style="float: right;">November 19, 2025</span>
+
+</div>
+</div>
+
 
 <div data-banner="everest" markdown>
 
@@ -23,19 +37,7 @@ We’re excited to announce Percona Everest 1.9.0, introducing Load balancer con
 </div>
 </div>
 
-<div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.4.0: OpenShift support and centralized management {.title}
-<br>
-We've released PMM 3.4.0 with full OpenShift support, centralized `vmagent` configuration, enhanced RDS instance tracking, and RHEL 10 compatibility. 
-<div class="actions" markdown>
-
-[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.4.0-release.md){:target="_blank"}
-
-<span style="float: right;">September 15, 2025</span>
-
-</div>
-</div>
 
 <div data-banner="postgresql" markdown>
 
