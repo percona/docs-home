@@ -1,7 +1,7 @@
 ---
-date: 2025-11-25
+date: 2025-12-01
 description: >
-  Percona Transparent Data Encryption (`pg_tde`) 2.1 has been released on November 25, 2025
+  Percona Transparent Data Encryption (`pg_tde`) 2.1 has been released on December 01, 2025
 authors: [Andriciuc]
 categories:
   - PostgreSQL
@@ -26,9 +26,9 @@ Try it out using the [installation guidelines :octicons-link-external-16:](https
 
 Added support for **asynchronous I/O (AIO)** which is now the default I/O mechanism.
 
-## Added support for Vault and OpenBao namespaces
+### Repository split for multi-version PostgreSQL support
 
-Implemented support for the "namespace" feature in Vault Enterprise and OpenBao, available both on the CLI and on the HTTP interface using the `X-Vault-Namespace` header.
+Reorganized the project into a multi-repository structure to support several PostgreSQL versions more efficiently.
 
 !!! note
 
