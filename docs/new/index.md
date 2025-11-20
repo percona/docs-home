@@ -69,3 +69,4 @@ We're excited to announce Percona Everest 1.9.0, introducing Load balancer confi
 </div>
 
 </div>
+## What's new feed
