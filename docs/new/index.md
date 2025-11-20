@@ -1,3 +1,11 @@
+# What's new with Percona?
+
+At Percona, we've been hard at work listening to your feedback and developing innovative solutions to improve your database experience. Our latest releases offer a range of enhancements, from performance optimizations to new features, designed to streamline your database operations and maximize your database's potential.
+
+[Subscribe to RSS feed](https://docs.percona.com/feed_rss_created.xml){.md-button target="_blank"}
+
+## Featured announcements
+
 <div data-grid markdown>
 
 <div data-banner="pmm" markdown>
