@@ -1,7 +1,7 @@
 ---
-date: 27-11-2025
+date: 2025-11-27
 description: >
-  Percona Distribution for PostgreSQL 18.1.1 has been released on 27 November, 2025.
+  Percona Distribution for PostgreSQL 18.1.1 has been released on November 27, 2025.
 authors: [Andriciuc]
 categories:
   - PostgreSQL
