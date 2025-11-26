@@ -19,7 +19,7 @@ Try it out using the [Quickstart guide](https://docs.percona.com/postgresql/17/i
 
 ## `pg_tde` is now a standalone package
 
-Starting with this release, `pg_tde` is no longer shipped with Percona Server for PostgreSQL. However, pg_tde is installed automatically as a hard dependency. 
+Starting with this release, `pg_tde` is no longer shipped with Percona Server for PostgreSQL. However, pg_tde is installed automatically as a hard dependency.
 
 For more information on the availability by PostgreSQL version, please see the [Install pg_tde](https://docs.percona.com/pg-tde/install.html) topic.
 
