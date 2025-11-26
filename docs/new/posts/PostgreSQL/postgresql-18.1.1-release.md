@@ -28,7 +28,7 @@ This release of Percona Distribution for PostgreSQL 18.1.1 provides the followin
 
 These features make PostgreSQL 18 a major step forward in scalability, observability, and operational efficiency. This release also includes `pg_stat_monitor` 2.3.1 for advanced query-level observability, `pg_tde` 2.1 for Transparent Data Encryption and more.
 
-## ### `pg_tde` is now a standalone package
+## `pg_tde` is now a standalone package
 
 Starting with PostgreSQL 18, `pg_tde` is no longer shipped with the server package. If your cluster relies on `pg_tde`, you must install the package manually.
 
