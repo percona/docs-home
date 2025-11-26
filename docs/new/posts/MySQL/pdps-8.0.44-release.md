@@ -1,7 +1,7 @@
 ---
-date: 2025-11-27
+date: 2025-12-01
 description: >
-  Percona Distribution for MySQL 8.0.44 using Percona Server for MySQL has been released on Thursday, November 27, 2025.
+  Percona Distribution for MySQL 8.0.44 using Percona Server for MySQL has been released on Monday, December 1, 2025.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.0.44 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){:target="_blank"} has been released on Thursday, November 27, 2025.
+[Percona Distribution for MySQL 8.0.44 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){:target="_blank"} has been released on Monday, December 1, 2025.
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html){:target="_blank"}.
 
@@ -23,7 +23,7 @@ Review each component’s release notes for What’s new, improvements, or bug f
 
 | Component           | Version   | Description                                |
 | ------------------- | --------- | -------------------------------------------|
-| Orchestrator        | [3.2.6-18](https://github.com/percona/orchestrator/releases/tag/v3.2.6-18)     | The replication topology manager for Percona Server for MySQL|
+| Orchestrator        | [3.2.6-19](https://github.com/percona/orchestrator/releases/tag/v3.2.6-19)     | The replication topology manager for Percona Server for MySQL|
 | ProxySQL            | [3.0.1](https://docs.percona.com/proxysql/3.0.1.html)     | A high performance, high-availability, protocol-aware proxy for MySQL|
 | Percona XtraBackup  | [8.0.35-34](https://docs.percona.com/percona-xtrabackup/8.0/release-notes/8.0/8.0.35-34.0.html)| An open-source hot backup utility for MySQL-based servers|
 | Percona Toolkit     | [3.7.0-2](https://docs.percona.com/percona-toolkit/release_notes.html#v3-7-0-2-released-2025-05-14)     | The set of scripts to simplify and optimize database operation|
