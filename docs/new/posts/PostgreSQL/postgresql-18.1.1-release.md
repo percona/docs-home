@@ -26,19 +26,31 @@ This release of Percona Distribution for PostgreSQL 18.1.1 provides the followin
 - **Performance optimizations** for query execution and index management
 - Added support for **asynchronous I/O** (AIO)
 
-These features make PostgreSQL 18 a major step forward in scalability, observability, and operational efficiency.
+These features make PostgreSQL 18 a major step forward in scalability, observability, and operational efficiency. This release also includes `pg_stat_monitor` 2.3.1 for advanced query-level observability, `pg_tde` 2.1 for Transparent Data Encryption and more.
+
+## ### `pg_tde` is now a standalone package
+
+Starting with PostgreSQL 18, `pg_tde` is no longer shipped with the server package. If your cluster relies on `pg_tde`, you must install the package manually.
+
+For more information on installing `pg_tde`, see [Install pg_tde :octicons-link-external-16:](https://docs.percona.com/pg-tde/install.html).
 
 ## Tarball updates
 
 The binary tarballs for x86_64 and ARM64 architectures have been updated in this release. The following libraries and components have new versions:
 
-- LIBXSLT: 1.1.43
-- LUA: 5.3.6
-- LIBTIFF: 4.7.0
-- EXPAT: 2.5.0
-- PGPOOL: 4.6.2
-- PGBACKREST: 2.56.0
-- PATRONI: 4.0.6
+- pgbouncer: 1.25.0
+- pgpool2: 4.6.3
+- etcd: 3.5.24
+- PostGIS: 3.5.4
+- set_user: 4.2.0
+- pg_repack: 1.5.3
+- pg_stat_monitor: 2.3.1
+- pgBackRest: 2.57.0
+- Patroni: 4.1.0
+- HAProxy: 2.8.16
+- pgvector: 0.8.1
+- libxml2: 2.12.10
+- pg_tde: 2.1.0
 
 See [Install Percona Distribution for PostgreSQL from binary tarballs](https://docs.percona.com/postgresql/18/tarball.html) for the download links.
 
