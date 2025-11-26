@@ -1,7 +1,7 @@
 ---
-date: 2025-12-01
+date: 27-11-2025
 description: >
-  Percona Transparent Data Encryption (`pg_tde`) 2.1 has been released on December 01, 2025
+  Percona Transparent Data Encryption (`pg_tde`) 2.1 has been released on 27 November, 2025.
 authors: [Andriciuc]
 categories:
   - PostgreSQL
@@ -21,6 +21,10 @@ Try it out using the [installation guidelines :octicons-link-external-16:](https
 ## Added support for PostgreSQL 18.1
 
 `pg_tde` is fully supported with the Postgres 18.1 version.
+
+## ### `pg_tde` packaging changes
+
+Starting with PostgreSQL 18, `pg_tde` is distributed as a **standalone package** and is no longer bundled with the server package. For more information on the availability by PostgreSQL version, please see the [Install pg_tde](https://docs.percona.com/pg-tde/install.html) topic.
 
 ## Added support for AIO
 
