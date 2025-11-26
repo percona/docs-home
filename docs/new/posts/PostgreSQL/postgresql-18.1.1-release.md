@@ -32,7 +32,7 @@ These features make PostgreSQL 18 a major step forward in scalability, observabi
 
 Starting with PostgreSQL 18, `pg_tde` is no longer shipped with the server package. If your cluster relies on `pg_tde`, you must install the package manually.
 
-For more information on installing `pg_tde`, see [Install pg_tde :octicons-link-external-16:](https://docs.percona.com/pg-tde/install.html).
+For more information on the availability by PostgreSQL version, please see the [Install pg_tde](https://docs.percona.com/pg-tde/install.html) topic.
 
 ## Tarball updates
 
