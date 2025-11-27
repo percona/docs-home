@@ -7,3 +7,4 @@ mkdocs-macros-plugin
 mkdocs-exclude
 markdown-include
 mkdocs-rss-plugin
+mkdocs-git-committers-plugin-2
