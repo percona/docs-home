@@ -1,7 +1,7 @@
 ---
-date: 2025-12-01
+date: 2025-11-27
 description: >
-  Percona Distribution for MySQL 8.0.44 using Percona Server for MySQL has been released on Monday, December 1, 2025.
+  Percona Distribution for MySQL 8.0.44 using Percona Server for MySQL has been released on Thursday, November 27, 2025.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.0.44 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){:target="_blank"} has been released on Monday, December 1, 2025.
+[Percona Distribution for MySQL 8.0.44 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){:target="_blank"} has been released on Thursday, November 27, 2025.
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html){:target="_blank"}.
 
