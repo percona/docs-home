@@ -8,6 +8,22 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="postgresql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.1 General Availability {.title}
+<br>
+
+We're excited to announce the release of [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.1.1! PostgreSQL 18.1 is a major step forward in scalability, observability, and operational efficiency.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/PostgreSQL/postgresql-18.1.1-release.md){:target="_blank"}
+
+<span style="float: right;">November 27, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.5.0: Redis/Valkey monitoring and built-in advisors {.title}
@@ -51,22 +67,5 @@ We've released PMM 3.4.1 with critical security updates, including fixes for hig
 <span style="float: right;">October 13, 2025</span>
 
 </div>
-</div>
-
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-everest:</span> Percona Everest 1.9.0 release {.title}
-<br>
-We're excited to announce Percona Everest 1.9.0, introducing Load balancer configuration and a host of new features for your database deployments.
-
-<div class="actions" markdown>
-
-[Read more](../new/posts/Percona%20Everest/everest-1.9.0-release.md){:target="_blank"}
-
-<span style="float: right;">September 23, 2025</span>
-
-</div>
-</div>
-
 </div>
 ## What's new feed
