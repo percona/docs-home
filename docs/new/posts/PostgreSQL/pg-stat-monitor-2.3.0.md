@@ -1,7 +1,7 @@
 ---
-date: 2025-11-15
+date: 2025-11-28
 description: >
-  `pg_stat_monitor` 2.3.1 has been released on November 15, 2025.
+  `pg_stat_monitor` 2.3.1 has been released on November 28, 2025.
 authors: [Andriciuc]
 categories:
   - PostgreSQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[pg_stat_monitor](https://docs.percona.com/pg-stat-monitor/index.html){:target="_blank"} is the Query Performance Monitoring tool for PostgreSQL. Version 2.3.1 of `pg_stat_monitor` has been released on November 15, 2025.
+[pg_stat_monitor](https://docs.percona.com/pg-stat-monitor/index.html){:target="_blank"} is the Query Performance Monitoring tool for PostgreSQL. Version 2.3.1 of `pg_stat_monitor` has been released on November 28, 2025.
 
 Try it out using the [installation instructions](https://docs.percona.com/pg-stat-monitor/install.html){:target="_blank"}
 
