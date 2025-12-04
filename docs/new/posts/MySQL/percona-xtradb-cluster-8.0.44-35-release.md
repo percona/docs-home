@@ -1,0 +1,52 @@
+---
+date: 2025-12-
+description: >
+  Percona XtraDB Cluster 8.0.44-35 has been released on , December , 2025.
+authors: [alina-derkach-oaza]
+categories:
+  - MySQL
+tags:
+  - Percona XtraDB Cluster
+---
+
+# Percona XtraDB Cluster 8.0.44-35 has been released
+
+<!-- more -->
+
+[Percona XtraDB Cluster 8.0.44-35](https://docs.percona.com/percona-xtradb-cluster/8.0/){:target="_blank"} has been released on , December , 2025.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtradb-cluster/8.0/quickstart-overview.html){:target="_blank"}.
+
+Percona XtraDB Cluster 8.0.44-35 is based on Percona Server for MySQL and contains all improvements and bug fixes available in Percona Server for MySQL 8.0.44-35.
+
+## Percona XtraDB Cluster 8.0.44-35
+
+Announcement – Discontinuation of the Percona PRO Program
+
+Percona has consolidated its build offerings. The Pro builds are no longer required, and all features have been merged into the main open source Community release.
+
+## MySQL 8.0.44
+
+Improvements and bug fixes provided by Oracle for MySQL 8.0.44 and included in Percona Server for MySQL are the following:
+
+* Fixed an issue where parallel scan thread creation could fail, causing assertion failures when falling back to single-thread mode. (Bug #38325137)
+
+* Fixed an issue where virtual index rollback could fail on 32-bit builds of MySQL Server under certain circumstances. (Bug #38167527)
+
+* Fixed an issue where very large buffer pools could require excessive memory chunks per instance, potentially causing allocation failures. The allocation is now validated to ensure proper memory allocation. (Bug #37994397)
+
+* Fixed an issue where assertion failures could occur due to data size and bounds mismatches during DDL file operations. (Bug #37882398)
+
+* Fixed an issue related to modifying the internal Full-Text Search (FTS) configuration. (Bug #37792010)
+
+* Fixed an issue related to virtual indexes. (Bug #37602657)
+
+* Fixed an issue where confusing warning messages could appear when row sizes exceeded maximum allowed limits with `innodb_strict_mode=OFF`, such as during table selection or column dropping operations. Error messages have been improved for clarity. (Bug #37003342, Bug #36768046, Bug #36867372)
+
+## Packaging and build notes
+
+* Percona XtraDB Cluster 8.0 does not support Debian 13 or Red Hat Enterprise Linux 10.
+
+* Percona XtraDB Cluster 8.0 has ended support for Ubuntu 20.04.
+
+Learn more in Percona XtraDB Cluster 8.0.44-35 [release notes](https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/8.0.44-35.html){:target="_blank"}.
