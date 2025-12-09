@@ -1,7 +1,7 @@
 ---
 date: 2025-12-09
 description: >
-  Percona Distribution for PostgreSQL 17.7, 16.11, 15.15, 14.20, 13.23 (EOL) have been released.
+  Percona Distribution for PostgreSQL: 17.7, 16.11, 15.15, 14.20, 13.23 (EOL) have been published.
 authors: [Andriciuc]
 categories:
   - PostgreSQL
@@ -9,7 +9,7 @@ tags:
   - Percona Distribution for PostgreSQL
 ---
 
-# Percona Distribution for PostgreSQL 17.7, 16.11, 15.15, 14.20, 13.23 (EOL) have been released
+# New releases of Percona Distribution for PostgreSQL: 17.7, 16.11, 15.15, 14.20, 13.23 (EOL) have been published
 
 <!-- more -->
 
