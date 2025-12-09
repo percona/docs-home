@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-The following releases of [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/17/index.html){:target="_blank"} were published in November-December 2025:
+This distribution has new releases for the following versions, published in November-December 2025:
 
 * [17.7](https://docs.percona.com/postgresql/17/release-notes/release-notes-v17.7.1.html){:target="_blank"}
 * [16.11](https://docs.percona.com/postgresql/16/release-notes/release-notes-v16.11.html){:target="_blank"}
