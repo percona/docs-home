@@ -1,5 +1,5 @@
 ---
-date: 2025-12-09
+date: 2025-12-10
 description: >
   Percona Distribution for PostgreSQL: 17.7, 16.11, 15.15, 14.20, 13.23 (EOL) have been published.
 authors: [Andriciuc]
