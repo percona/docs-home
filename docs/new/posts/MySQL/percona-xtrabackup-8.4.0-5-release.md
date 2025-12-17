@@ -17,7 +17,7 @@ tags:
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtrabackup/8.4/quickstart-overview.html){:target="\_blank"}.
 
-Percona has consolidated its build offerings. The Pro builds are no longer required. All features from the Percona XtraBackup 8.4.x Pro build series have been merged into the main open source Community release. The [Reduced backup lock time](https://docs.percona.com/percona-xtrabackup/8.4/reduction-in-locks.html){:target="\_blank"} feature, originally introduced in [Percona XtraBackup Pro 8.4.0-2](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-2.md){:target="\_blank"} for Pro builds, is now included in the Community release starting with Percona XtraBackup 8.4.0-5.
+Percona has consolidated its build offerings. The Pro builds are no longer required. All features from the Percona XtraBackup 8.4.x Pro build series have been merged into the main open source Community release. The [Reduced backup lock time](https://docs.percona.com/percona-xtrabackup/8.4/reduction-in-locks.html){:target="\_blank"} feature, originally introduced in [Percona XtraBackup Pro 8.4.0-2](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-2.html){:target="\_blank"} for Pro builds, is now included in the Community release starting with Percona XtraBackup 8.4.0-5.
 
 We recommend downloading Percona XtraBackup for the same platform as your MySQL-compatible server. For example, if your server runs on an ARM64 platform, download the Percona XtraBackup version for ARM64.
 
