@@ -13,7 +13,7 @@ At Percona, we've been hard at work listening to your feedback and developing in
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature - Reduced backup lock time {.title}
 <br>
 
-The [Reduced backup lock time](https://docs.percona.com/percona-xtrabackup/8.4/reduction-in-locks.html) feature, originally introduced in [Percona XtraBackup Pro 8.4.0-2](./release-notes/8.4.0-2.md) for Pro builds, is now included in the Community release starting with Percona XtraBackup 8.4.0-5.
+The [Reduced backup lock time](https://docs.percona.com/percona-xtrabackup/8.4/reduction-in-locks.html) feature, originally introduced in [Percona XtraBackup Pro 8.4.0-2](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-2.html) for Pro builds, is now included in the Community release starting with Percona XtraBackup 8.4.0-5.
 
 <div class="actions" markdown>
 
