@@ -8,6 +8,22 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 <div data-grid markdown>
 
+<div data-banner="mysql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature - Reduced backup lock time {.title}
+<br>
+
+The [Reduced backup lock time](https://docs.percona.com/percona-xtrabackup/8.4/reduction-in-locks.html) feature, originally introduced in [Percona XtraBackup Pro 8.4.0-2](./release-notes/8.4.0-2.md) for Pro builds, is now included in the Community release starting with Percona XtraBackup 8.4.0-5.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-5-release.md){:target="_blank"}
+
+<span style="float: right;">December 17, 2025</span>
+
+</div>
+</div>
+
 <div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.1 General Availability {.title}
@@ -55,17 +71,4 @@ Deploy MySQL group replication clusters in production with enterprise‑grade re
 </div>
 </div>
 
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.4.1: Security-focused maintenance release {.title}
-<br>
-We've released PMM 3.4.1 with critical security updates, including fixes for high-severity DoS vulnerabilities in Nomad and Percona Toolkit, removal of the vulnerable `clickhouse-diagnostics` package, and clarification on false-positive CVE reports.
-<div class="actions" markdown>
-
-[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.4.1-release.md){:target="_blank"}
-
-<span style="float: right;">October 13, 2025</span>
-
-</div>
-</div>
 ## What's new feed
