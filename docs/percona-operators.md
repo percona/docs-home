@@ -31,9 +31,9 @@ Percona Operator for PostgreSQL is powerful open source software that automates 
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-operator-for-postgresql/2.0/ReleaseNotes/index.html)
-[Install now](https://docs.percona.com/percona-operator-for-postgresql/2.0/quickstart.html)
-[Documentation](https://docs.percona.com/percona-operator-for-postgresql/2.0/)
+[Releases](https://docs.percona.com/percona-operator-for-postgresql/latest/ReleaseNotes/index.html)
+[Install now](https://docs.percona.com/percona-operator-for-postgresql/latest/quickstart.html)
+[Documentation](https://docs.percona.com/percona-operator-for-postgresql/latest/)
 
 </div>
 </div>
