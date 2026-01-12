@@ -1,5 +1,5 @@
 ---
-date: 2025-07-30
+date: 2026-01-12
 description: >
   Percona Server for MongoDB 6.0.27-21 has been released on January 12, 2026.
 authors: [nastena1606]
