@@ -37,4 +37,4 @@ This release also provides the following features and improvements:
    Learn more about this and other available environment variables in our [documentation](https://docs.percona.com/percona-clustersync-for-mongodb/install/parameters.html){:target="_blank"}.
 
 
-Read more about this release in Percona Link for MongoDB 0.7.0 [release notes](https://docs.percona.com/percona-link-for-mongodb/release-notes/0.7.0.html){:target="_blank"}
+Read more about this release in Percona ClusterSync for MongoDB 0.7.0 [release notes](https://docs.percona.com/percona-clustersync-for-mongodb/release-notes/0.7.0.html){:target="_blank"}
