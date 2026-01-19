@@ -1,5 +1,5 @@
 ---
-date: 2026-01-13
+date: 2026-01-19
 description: >
   Percona Operator for MySQL based on Percona XtraDB Cluster 1.19.0 has been released on January 13, 2026.
 authors: [nastena1606]
