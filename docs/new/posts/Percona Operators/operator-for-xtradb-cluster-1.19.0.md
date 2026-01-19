@@ -101,7 +101,7 @@ This release provides the following features and enhancements:
 
    This improvement reduces manual maintenance overhead, gives you control over the processes lifetime for debugging or auditing purposes and helps keep your cluster healthy and efficient.
 
-* Improved backup identification for point-in-time recovery readiness. The Operator now creates a `<backup-name>.pitr-not-ready` file in the backup storage if a backup contains binlog gaps. This file makes it easy to identify which backups are appropriate for point in time recovery both in the storage and when listing backup objects. Before starting a restore, the Operator checks for this marker file and blocks unsafe restores, protecting you from incomplete recovery attempts.
+* Improved backup identification for point-in-time recovery readiness. The Operator now creates a `<backup-name>.pitr-not-ready` file in the backup storage if a backup contains binlog gaps. This file makes it easy to identify which backups are appropriate for point-in-time recovery both in the storage and when listing backup objects. Before starting a restore, the Operator checks for this marker file and blocks unsafe restores, protecting you from incomplete recovery attempts.
 
 - External PVC mounting for shared data. You can now mount an external Persistent Volume Claim (PVC) to the Percona XtraDB Cluster, ProxySQL or HAProxy Pods in a clean, declarative way using the Custom Resource. This feature allows you to share data between the database Pods and other applications or tools running in your Kubernetes cluster such as reference files, shared configuration files or lookup tables. 
 
