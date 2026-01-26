@@ -94,9 +94,7 @@ An open-source data migration tool between various MongoDB deployments with zero
 
 </div>
 </div>
-
-<div data-banner="mongodb" markdown>
-
+</div>
 
 ## Other resources
 
