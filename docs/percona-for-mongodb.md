@@ -97,21 +97,6 @@ An open-source data migration tool between various MongoDB deployments with zero
 
 <div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Distribution for MongoDB {.title}
-
-A collection of solutions to run and operate your MongoDB efficiently with the data being consistently backed up.
-
-**This product has reached end-of-life and is no longer maintained.**
-
-<div class="actions" markdown>
-
-[Releases](https://docs.percona.com/percona-distribution-for-mongodb/latest/release-notes.html)
-[Install now](https://docs.percona.com/percona-distribution-for-mongodb/latest/installation.html)
-[Documentation](https://docs.percona.com/percona-distribution-for-mongodb/)
-
-</div>
-</div>
-</div>
 
 ## Other resources
 
