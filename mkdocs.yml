@@ -122,7 +122,6 @@ nav:
   - MongoDB: percona-for-mongodb.md
   - MySQL: percona-for-mysql.md
   - Percona Operators: percona-operators.md
-  - Percona Everest: percona-everest.md
   - PMM: pmm.md
   - Utilities: percona-utilities.md
  # - Percona Lab: percona-lab.md
