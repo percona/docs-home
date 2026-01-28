@@ -63,7 +63,7 @@ hide:
       </p>
     </div>
     <!--Links-->
-    
+    <div class="splash-links">
       <a href="percona-operators" class="splash-card">
         <img src="assets/logo-operators.svg" alt="Percona Operators logo" />
         <h3>
