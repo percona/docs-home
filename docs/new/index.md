@@ -18,7 +18,7 @@ We've released PMM 3.6.0 with a redesigned interface featuring native PMM naviga
 
 <div class="actions" markdown>
 
-[Read more](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.6.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.6.0-release.md){:target="_blank"}
 
 <span style="float: right;">February 5, 2026</span>
 
@@ -27,7 +27,7 @@ We've released PMM 3.6.0 with a redesigned interface featuring native PMM naviga
 
 <div data-banner="mysql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature - Reduced backup lock time {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature: Reduced backup lock time {.title}
 <br>
 
 The [Reduced backup lock time](https://docs.percona.com/percona-xtrabackup/8.4/reduction-in-locks.html) feature, originally introduced in [Percona XtraBackup Pro 8.4.0-2](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-2.html) for Pro builds, is now included in the Community release starting with Percona XtraBackup 8.4.0-5.
@@ -50,7 +50,7 @@ We're excited to announce the release of [Percona Distribution for PostgreSQL](h
 
 <div class="actions" markdown>
 
-[Read more](../new/posts/PostgreSQL/postgresql-18.1.1-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.1.1-release.md){:target="_blank"}
 
 <span style="float: right;">November 27, 2025</span>
 
@@ -65,7 +65,7 @@ Deploy MySQL group replication clusters in production with enterprise‑grade re
 
 <div class="actions" markdown>
 
-[Read more](../new/posts/Percona%20Operators/operator-for-mysql-1.0.0.md)
+[Read more :material-arrow-right: ](../new/posts/Percona%20Operators/operator-for-mysql-1.0.0.md)
 
 <span style="float: right;">November 17, 2025</span>
 
