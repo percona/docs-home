@@ -57,7 +57,7 @@ New features and improvements introduced by this release include:
 * Deprecations:
 
     * Percona Server for MongoDB 6.0 is deprecated (6.0 is EOL) and will be removed in Operator 1.23.0.
-    * PMM2 is deprecated and will be removed in two releases; plan to [migrate to PMM3]((https://docs.percona.com/percona-monitoring-and-management/3/pmm-upgrade/migrating_from_pmm_2.html){:target="_blank"}.
+    * PMM2 is deprecated and will be removed in two releases; plan to [migrate to PMM3](https://docs.percona.com/percona-monitoring-and-management/3/pmm-upgrade/migrating_from_pmm_2.html){:target="_blank"}.
     * `spec.enableVolumeExpansion` and `spec.enableExternalVolumeAutoscaling` are deprecated and will be removed in 1.25.0. Use the options under `spec.storageScaling` instead (`enableVolumeScaling` and  `enableExternalAutoscaling` respectively).
 
 
