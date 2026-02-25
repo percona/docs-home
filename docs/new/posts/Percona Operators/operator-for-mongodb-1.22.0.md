@@ -1,5 +1,5 @@
 ---
-date: 2025-02-25
+date: 2026-02-25
 description: >
   Percona Operator for MongoDB 1.22.0 has been released on February 25, 2026.
 authors: [nastena1606]
