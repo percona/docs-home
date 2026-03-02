@@ -1,7 +1,7 @@
 ---
-date: 2025-02-15
+date: 2026-03-02
 description: >
-  `pg_stat_monitor` 2.3.2 has been released on February 15, 2026.
+  `pg_stat_monitor` 2.3.2 has been released on March 02, 2026.
 authors: [Andriciuc]
 categories:
   - PostgreSQL
@@ -17,6 +17,6 @@ tags:
 
 Try it out using the [installation instructions](https://docs.percona.com/pg-stat-monitor/install.html){:target="_blank"}
 
-This release adds compatibility with PostgreSQL 18 and introduces three new monitoring metrics for improved visibility into write-ahead log (WAL) and parallel workers.
+This release fixes an issue where `pg_stat_monitor` could truncate queries in the middle of multi-byte characters.
 
 Learn more about this release in the [release notes](https://docs.percona.com/pg-stat-monitor/release-notes/2.3.2.html){:target="_blank"}.
