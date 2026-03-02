@@ -1,7 +1,7 @@
 ---
-date: 2026-02-29
+date: 2026-03-02
 description: >
-  Percona Distribution for PostgreSQL 18.3.1 has been released on February 29, 2026.
+  Percona Distribution for PostgreSQL 18.3.1 has been released on March 02, 2026.
 authors: [Andriciuc]
 categories:
   - PostgreSQL
