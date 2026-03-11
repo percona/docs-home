@@ -42,30 +42,41 @@
 {% block header %}
 {{ super() }}
 <script>
-  function addPerconaButton() {
-      const searchContainer = document.querySelector(".md-header__search");
-      if (!searchContainer) return false;
+  document.addEventListener("DOMContentLoaded", () => {
+      const observer = new MutationObserver((mutations, obs) => {
+          const searchContainer = document.getElementById("docsearch");
+          if (!searchContainer) return;
   
-      if (document.getElementById("ask-percona-ai")) return true; // already added
+          // Prevent duplicate button
+          if (document.getElementById("ask-percona-ai")) {
+              obs.disconnect();
+              return;
+          }
   
-      const btn = document.createElement("button");
-      btn.id = "ask-percona-ai";
-      btn.className = "md-button percona-ai-button";
-      btn.innerHTML = "✨ Ask Percona AI";
+          // Create the button
+          const btn = document.createElement("button");
+          btn.id = "ask-percona-ai";
+          btn.className = "md-button percona-ai-button";
+          btn.textContent = "✨ Ask Percona AI";
   
-      searchContainer.appendChild(btn);
+          // Insert after the Algolia search button
+          const algoliaBtn = searchContainer.querySelector(".DocSearch-Button");
+          if (algoliaBtn) {
+              algoliaBtn.insertAdjacentElement("afterend", btn);
+          } else {
+              searchContainer.appendChild(btn);
+          }
   
-      btn.addEventListener("click", function () {
-          if (window.Kapa) window.Kapa.open();
+          // Open Kapa.ai widget when clicked
+          btn.addEventListener("click", () => {
+              if (window.Kapa) window.Kapa.open();
+          });
+  
+          obs.disconnect();
       });
   
-      return true;
-  }
-  
-  // Poll until Algolia search is ready
-  const interval = setInterval(() => {
-      if (addPerconaButton()) clearInterval(interval);
-  }, 200);
+      observer.observe(document.body, { childList: true, subtree: true });
+  });
   </script>
   
   <style>
@@ -77,9 +88,14 @@
       border-radius: 4px;
       padding: 0.3rem 0.6rem;
       cursor: pointer;
+      vertical-align: middle;
   }
   .percona-ai-button:hover {
       background-color: #ffc107;
+  }
+  #docsearch {
+      display: flex;
+      align-items: center;
   }
   </style>
 {% endblock %}
