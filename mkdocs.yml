@@ -47,6 +47,7 @@ extra_css:
   - css/extra.css
   - css/rating.css
   - css/algolia.css
+  - css/kapa.css
   - https://cdn.jsdelivr.net/npm/@docsearch/css@3
 
 extra_javascript:
