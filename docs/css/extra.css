@@ -46,3 +46,20 @@
 nav[data-md-level="1"][aria-labelledby="__nav_2_label"] .md-ellipsis {
     text-indent: 0.8rem;
   }
+
+  /* Kapa.ai button */
+
+  .percona-ai-button {
+    margin-left: 8px;
+    padding: 6px 10px;
+    font-size: 14px;
+    background: #f0f4ff;
+    border: 1px solid #cbd5ff;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .percona-ai-button:hover {
+    background: #e2e8ff;
+  }
+  
