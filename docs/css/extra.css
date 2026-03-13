@@ -46,3 +46,45 @@
 nav[data-md-level="1"][aria-labelledby="__nav_2_label"] .md-ellipsis {
     text-indent: 0.8rem;
   }
+
+/* Style for Percona AI button to match Algolia search button */
+#docsearch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* spacing between search and button */
+}
+
+#ask-percona-ai {
+    font-family: var(--fHeading);
+    font-size: 0.75rem; /* match Algolia input */
+    font-weight: bold;
+    color: var(--docsearch-muted-color); /* grey text like Algolia placeholder */
+    background-color: #f9fafb; /* light grey like Algolia input */
+    border: 1px solid #d1d5db;
+    border-radius: 1rem; /* match Algolia rounded corners */
+    padding: 0 0.75rem;
+    height: 36px; /* match Algolia input height */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem; /* spacing between star and text */
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+#ask-percona-ai:hover {
+    background-color: #ffffff; /* white background on hover */
+    color: #111827; /* text turns black on hover */
+    border-color: #9ca3af;
+}
+
+#ask-percona-ai svg {
+    width: 20px;   /* bigger star */
+    height: 20px;  /* bigger star */
+    display: inline-block;
+    vertical-align: middle; /* aligns star with text */
+}
+
+#ask-percona-ai .percona-text {
+    font-size: 0.75rem; /* match Algolia input */
+    line-height: 1;
+}
