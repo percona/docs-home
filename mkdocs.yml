@@ -125,8 +125,6 @@ nav:
   - PMM: pmm.md
   - Utilities: percona-utilities.md
  # - Percona Lab: percona-lab.md
-  - Legacy docs: "https://docs.percona.com/legacy-documentation/"
+  - Percona projects: percona-projects.md
   - Valkey: "https://docs.percona.com/valkey/index.html"
-
-
-
+  - Legacy docs: "https://docs.percona.com/legacy-documentation/"
