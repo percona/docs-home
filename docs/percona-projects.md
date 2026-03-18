@@ -5,11 +5,19 @@ hide:
 - toc
 ---
 
+<div class="landing" markdown>
+<div class="splash header subpage lab dark" markdown>
+
+![Percona Lab](assets/percona-utilities.svg)
+
 # Percona Lab Projects
 
 This section lists experimental projects created by Perconians and shared with the open-source community.
 
 These projects are typically early-stage tools, research prototypes, or utilities developed to explore new ideas in open-source databases.
+
+</div>
+</div>
 
 !!! warning "Disclaimer"
 
