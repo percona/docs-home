@@ -126,5 +126,5 @@ nav:
   - Valkey: "https://docs.percona.com/valkey/index.html"
   - Utilities: percona-utilities.md
  # - Percona Lab: percona-lab.md
-  - Percona projects: percona-projects.md
+  - Percona Lab projects: percona-projects.md
   - Legacy docs: "https://docs.percona.com/legacy-documentation/"

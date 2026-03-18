@@ -10,7 +10,7 @@ hide:
 
 ![Percona Lab](assets/percona-utilities.svg)
 
-# Percona Lab Projects
+# Percona Lab projects
 
 This section lists experimental projects created by Perconians and shared with the open-source community.
 
