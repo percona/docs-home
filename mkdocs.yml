@@ -123,8 +123,8 @@ nav:
   - MySQL: percona-for-mysql.md
   - Percona Operators: percona-operators.md
   - PMM: pmm.md
+  - Valkey: "https://docs.percona.com/valkey/index.html"
   - Utilities: percona-utilities.md
  # - Percona Lab: percona-lab.md
   - Percona projects: percona-projects.md
-  - Valkey: "https://docs.percona.com/valkey/index.html"
   - Legacy docs: "https://docs.percona.com/legacy-documentation/"

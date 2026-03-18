@@ -37,4 +37,4 @@ These projects are typically early-stage tools, research prototypes, or utilitie
 
 ## Related resources
 
-Percona contributors and community activity are tracked separately on the **Percona Community Contributors** site.
+Percona contributors and community activity are tracked separately on the [Percona Community Contributors :octicons-link-external-16:](https://percona.community/contributors/) site.
