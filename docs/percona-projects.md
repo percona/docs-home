@@ -16,13 +16,6 @@ This section lists experimental projects created by Perconians and shared with t
 
 These projects are typically early-stage tools, research prototypes, or utilities developed to explore new ideas in open-source databases.
 
-## Quick navigation
-
-- [Database extensions](#extensions)
-- [Tools and utilities](#tools)
-- [Deployment and infrastructure](#deployment)
-- [Migration](#migration)
-
 </div>
 </div>
 
@@ -35,6 +28,13 @@ These projects are typically early-stage tools, research prototypes, or utilitie
     Use them at your own risk and carefully evaluate any code or binaries before deploying them in production.
 
 ---
+
+## Quick navigation
+
+- [Database extensions](#extensions)
+- [Tools and utilities](#tools)
+- [Deployment and infrastructure](#deployment)
+- [Migration](#migration)
 
 ## 🧩 Database extensions {#extensions}
 
@@ -54,11 +54,12 @@ External applications that interact with databases.
 |---|---|---|---|---|
 | github-stat | MySQL, PostgreSQL, MongoDB | Application for MySQL, PostgreSQL, and MongoDB load simulation with a web interface and database monitoring capabilities. | [github-stat :octicons-link-external-16:](https://github.com/dbazhenov/github-stat) | Daniil Bazhenov |
 | Hackorum | PostgreSQL | Open-source web application that archives, indexes, and makes the PostgreSQL hackers mailing list easier to read, search, and analyze. | [hackorum :octicons-link-external-16:](https://github.com/Percona-Lab/hackorum) | Zsolt Parragi |
-| mysql-random-data-generator | MySQL | MySQL tool that automatically detects column types and generates random data to populate tables. | [mysql-random-data-generator :octicons-link-external-16:](https://github.com/kedarvj/mysql-random-data-generator) | Kedar |
+| mongodb-log-obfuscator | MongoDB | Obfuscates sensitive data in MongoDB logs and FTDC diagnostic files while preserving structure for analysis and safe sharing. | [mongodb-log-obfuscator :octicons-link-external-16:](https://github.com/zelmario/mongodb-log-obfuscator) | Zelmar |
+| mysql-random-data-generator | MySQL | MySQL tool that automatically detects column types and generates random data to populate tables. **Consider using `random-data-load` for multi-database support.** | [mysql-random-data-generator :octicons-link-external-16:](https://github.com/kedarvj/mysql-random-data-generator) | Kedar |
 | mysqldumpsplitter | MySQL | Utility that splits and extracts databases or tables from mysqldump files with additional processing functionality. | [mysqldumpsplitter :octicons-link-external-16:](https://github.com/kedarvj/mysqldumpsplitter) | Kedar |
+| random-data-load | MySQL, PostgreSQL | Generates synthetic datasets based on schema, constraints, and cardinality to reproduce and optimize query execution behavior for MySQL and PostgreSQL. | [random-data-load :octicons-link-external-16:](https://github.com/Percona-Lab/random-data-load) | Yoann La Cancellera |
 | pg_gather | PostgreSQL | Collects minimal diagnostic data from PostgreSQL instances and generates an analysis report to identify potential issues. | [pg_gather :octicons-link-external-16:](https://github.com/jobinau/pg_gather) | Jobin Augustine |
 | plgm | MongoDB | High-performance load generator written in Go that simulates heavy workloads for both sharded and non-sharded MongoDB clusters. | [percona-load-generator-mongodb :octicons-link-external-16:](https://github.com/Percona-Lab/percona-load-generator-mongodb) | Daniel Almeida |
-| random-data-load | MySQL, PostgreSQL, MongoDB | Tool that generates synthetic datasets based on schema and cardinality to reproduce and optimize query execution behavior. | [random-data-load :octicons-link-external-16:](https://github.com/Percona-Lab/random-data-load) | Yoann La Cancellera |
 
 ---
 
@@ -86,3 +87,14 @@ Tools for moving data between systems.
 ## Related resources
 
 Percona contributors and community activity are tracked separately on the [Percona Community Contributors :octicons-link-external-16:](https://percona.community/contributors/) site.
+
+<!-- >
+## Contributing
+
+To add a new project:
+- Place it in the appropriate section
+- Keep entries alphabetically ordered
+- Provide a concise description (1–2 lines)
+- Specify supported database(s)
+- Specify the name of the author
+-->
