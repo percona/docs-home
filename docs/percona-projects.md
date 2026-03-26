@@ -84,9 +84,17 @@ Tools for moving data between systems.
 
 ---
 
-## Related resources
+## Other resources
 
-Percona contributors and community activity are tracked separately on the [Percona Community Contributors :octicons-link-external-16:](https://percona.community/contributors/) site.
+<div data-resources markdown>
+
+[:material-account-group: Community Website](https://percona.community/)
+[:material-forum-outline: Community Forum](https://forums.percona.com/)
+[:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
+[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+
+</div>
+<br>
 
 <!-- >
 ## Contributing
