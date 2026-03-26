@@ -79,6 +79,21 @@ Currently in Alpha stage.
 
 </div>
 </div>
+<div data-banner="everest" markdown>
+
+### <span style="font-size:2em">:percona-everest:</span> OpenEverest - Open-Source Database Platform {.title}
+
+Built on Percona Kubernetes Operators, OpenEverest extends their capabilities to deliver a unified, developer-friendly experience for running databases on Kubernetes. As a Percona partner project, it automates provisioning and management for PostgreSQL, MySQL, MongoDB, ClickHouse, and more.
+
+
+<div class="actions" markdown>
+
+[GitHub](https://github.com/openeverest/openeverest)
+[Learn more](https://openeverest.io/)
+[Documentation](https://openeverest.io/docs/)
+
+</div>
+</div>
 </div>
 
 ## Other resources
