@@ -140,12 +140,12 @@
         linear-gradient(
             110deg,
             rgba(0,0,0,0) 33%,
-            rgba(0,0,0,0.2) 95%
+            rgb(28, 29, 74) 60%
         ),
         linear-gradient(
             110deg,
-            rgb(14,95,181) 33%,
-            rgb(98,174,255) 95%
+            rgb(123, 146, 212) 33%,
+            rgb(62, 83, 165) 95%
         );
 }
 .splash.lab,
