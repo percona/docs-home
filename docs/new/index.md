@@ -21,7 +21,7 @@ We have released Percona Server for MongoDB 7.0.31-17.
 
 [Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-5-release.md){:target="_blank"}
 
-<span style="float: right;">December 17, 2025</span>
+<span style="float: right;">March 30, 2026</span>
 
 </div>
 </div>
