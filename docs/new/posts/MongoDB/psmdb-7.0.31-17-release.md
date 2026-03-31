@@ -29,12 +29,12 @@ This release provides the following improvements:
 
     **ldapShouldRefreshUserCacheEntries:** The ldapShouldRefreshUserCacheEntries parameter is a toggle that determines the cache renewal strategy. For more detailed information, refer to MongoDB server parameters.
 
-    - If set to true: The server will use the ldapUserCacheRefreshInterval to proactively update entries.
+      - If set to true: The server will use the ldapUserCacheRefreshInterval to proactively update entries.
 
-    - If set to false: The server will wait for the ldapUserCacheInvalidationInterval (already supported in PSMDB) to pass before clearing and refetching the entry on the next login attempt.
+      - If set to false: The server will wait for the ldapUserCacheInvalidationInterval (already supported in PSMDB) to pass before clearing and refetching the entry on the next login attempt.
 
 
-- Implement LDAP user cache refresh options
+- **Implement LDAP user cache refresh options**
 
     In addition to introducing these new LDAP cache parameters, this release enables more predictable and controllable cache behavior in production deployments. You can now configure `ldapUserCacheRefreshInterval` and `ldapShouldRefreshUserCacheEntries` through the standard `mongod` configuration file or startup parameters, and combine them with the existing `ldapUserCacheInvalidationInterval` to balance authentication latency against the freshness of user and group information.
 
