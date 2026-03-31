@@ -36,7 +36,7 @@ This release provides the following improvements:
 
 - Implement LDAP user cache refresh options
 
-  To provide better parity with MongoDB Enterprise and improve performance in high-scale environments, we have introduced two new configuration parameters for LDAP user caching. These options allow administrators to fine-tune how and when cached user information is refreshed, reducing unnecessary overhead on LDAP servers while ensuring security data remains current.
+  In addition to introducing these new LDAP cache parameters, this release enables more predictable and controllable cache behavior in production deployments. You can now configure `ldapUserCacheRefreshInterval` and `ldapShouldRefreshUserCacheEntries` through the standard `mongod` configuration file or startup parameters, and combine them with the existing `ldapUserCacheInvalidationInterval` to balance authentication latency against the freshness of user and group information.
 
 
 
