@@ -39,6 +39,4 @@ This release provides the following improvements:
   In addition to introducing these new LDAP cache parameters, this release enables more predictable and controllable cache behavior in production deployments. You can now configure `ldapUserCacheRefreshInterval` and `ldapShouldRefreshUserCacheEntries` through the standard `mongod` configuration file or startup parameters, and combine them with the existing `ldapUserCacheInvalidationInterval` to balance authentication latency against the freshness of user and group information.
 
 
-
-Learn more about this release in Percona Server for MongoDB 7.0.26-14 [release notes](https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/7.0.31-17.html){:target="_blank"}.
-
+Learn more about this release in Percona Server for MongoDB 7.0.31-17 [release notes](https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/7.0.31-17.html){:target="_blank"}.
