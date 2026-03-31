@@ -8,6 +8,23 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ## Featured announcements
 
+<div data-banner="operators" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span>  Percona Operator for PostgreSQL 2.9.0 — Upgrade Simpler, Secure Better, Recover Faster, Extend Further {.title}
+<br>
+
+A new release of Percona Operator for PostgreSQL features better backup/restore performance with volume snapshot support, production-ready major upgrades, automated TLS management with cert-manager, LDAP authentication support, and more.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right: ](../new/posts/Percona%20Operators/operator-for-mysql-1.0.0.md)
+
+<span style="float: right;">April 1, 2026</span>
+
+
+</div>
+</div>
+
 <div data-grid markdown>
 
 <div data-banner="pmm" markdown>
@@ -57,20 +74,5 @@ We're excited to announce the release of [Percona Distribution for PostgreSQL](h
 </div>
 </div>
 
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span>  General Availability: Percona Operator for MySQL with Group Replication {.title}
-<br>
-Deploy MySQL group replication clusters in production with enterprise‑grade reliability.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right: ](../new/posts/Percona%20Operators/operator-for-mysql-1.0.0.md)
-
-<span style="float: right;">November 17, 2025</span>
-
-
-</div>
-</div>
 
 ## What's new feed

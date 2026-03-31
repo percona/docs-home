@@ -35,13 +35,13 @@ New features and improvements introduced by this release include:
 
 * Ensure correct connections to external services with configurable DNS suffix — For vcluster or environments with custom DNS configuration, set the DNS suffix so internal names resolve correctly. Thereby connections to external services such as PMM, pgBackRest, and other integrations work correctly.
 
-* [Volumes on sidecars](https://docs.percona.com/percona-operator-for-postgresql/2.9.0/sidecar.html){:target="_blank"} — Mount PVCs, ConfigMaps, or Secrets into sidecars on Postgres, pgBouncer, and pgBackRest repo Pods directly. This unlocks a wide range of use cases for sidecars - from log exporters to agent that need sensitive data in secrets - all without the need for complex API calls for information exchange.
+* [Volumes on sidecars](https://docs.percona.com/percona-operator-for-postgresql/2.9.0/sidecar.html){:target="_blank"} — Mount PVCs, ConfigMaps, or Secrets into sidecars on Postgres, pgBouncer, and pgBackRest repo Pods directly. This unlocks a wide range of use cases for sidecars - from log exporters to agents that need sensitive data in secrets - all without the need for complex API calls for information exchange.
 
 * [Configurable Operator leader election](https://docs.percona.com/percona-operator-for-postgresql/2.9.0/env-var-operator.html){:target="_blank"} — Tune lease timing for the Operator ReplicaSet to reduce election misbehavior on high-latency or constrained clusters.
 
-* Configurable wal_level — Choose the right amount of WAL data you need for your environment (replica vs logical) and cut unnecessary I/O and CPU usage when you do not use logical replication.
+* Configurable `wal_level` — Choose the right amount of WAL data you need for your environment (replica vs logical) and cut unnecessary I/O and CPU usage when you do not use logical replication.
 
-* Official PostGIS images — Manage your geospatial workloads on Kubernets with ease. The Operator now uses the official PostGIS Docker image, maintained and supported by Percona. This ensures smooth operation of PostGIS alongside PostgreSQL.
+* Official PostGIS images — Manage your geospatial workloads on Kubernetes with ease. The Operator now uses the official PostGIS Docker image, maintained and supported by Percona. This ensures smooth operation of PostGIS alongside PostgreSQL.
 
 * Deprecation, rename and removal:
 
