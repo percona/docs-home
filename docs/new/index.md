@@ -27,6 +27,22 @@ A new release of Percona Operator for PostgreSQL features better backup/restore 
 
 <div data-grid markdown>
 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 7.0.31-17 {.title}
+<br>
+
+We have released Percona Server for MongoDB 7.0.31-17.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.31-17-release.md){:target="_blank"}
+
+<span style="float: right;">March 30, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.6.0: Native navigation, HA Cluster, and MongoDB improvements {.title}
@@ -42,21 +58,6 @@ We've released PMM 3.6.0 with a redesigned interface featuring native PMM naviga
 </div>
 </div>
 
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature: Reduced backup lock time {.title}
-<br>
-
-The [Reduced backup lock time](https://docs.percona.com/percona-xtrabackup/8.4/reduction-in-locks.html) feature, originally introduced in [Percona XtraBackup Pro 8.4.0-2](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-2.html) for Pro builds, is now included in the Community release starting with Percona XtraBackup 8.4.0-5.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-5-release.md){:target="_blank"}
-
-<span style="float: right;">December 17, 2025</span>
-
-</div>
-</div>
 
 <div data-banner="postgresql" markdown>
 
