@@ -29,15 +29,15 @@ A new release of Percona Operator for PostgreSQL features better backup/restore 
 
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.6.0: Native navigation, HA Cluster, and MongoDB improvements {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span>  PMM 3.7.0: Real-time Query Analytics, PMM Client encryption, and deprecation updates {.title}
 <br>
-We've released PMM 3.6.0 with a redesigned interface featuring native PMM navigation, High Availability Cluster (Technical Preview) for zero-downtime failover, simplified MongoDB dashboards, and expanded platform support for PostgreSQL 18 on RHEL 10 and Debian 13.
+We've released PMM 3.7.0 with Real-time Query Analytics (RTA) for MongoDB, optional PMM Client config file encryption, the `pmm-admin inventory change agent` command for live agent updates, and completion of the Percona Platform removal. This release also announces deprecations for GUI-based upgrades, OVF virtual appliance images, and direct migration from PMM 2.x.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.6.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.7.0-release.md){:target="_blank"}
 
-<span style="float: right;">February 5, 2026</span>
+<span style="float: right;">April 1, 2026</span>
 
 </div>
 </div>
