@@ -74,5 +74,7 @@ We're excited to announce the release of [Percona Distribution for PostgreSQL](h
 </div>
 </div>
 
+</div>
+
 
 ## What's new feed
