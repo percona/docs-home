@@ -12,7 +12,7 @@ hide:
     <!--Intro-->
     <div class="splash-intro">
       <h1>
-        Open source databases
+        Open source <span style="color: #f6fe54;">databases</span>
       </h1>
       <p>
         Learn how to set up Percona's open source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
@@ -110,4 +110,3 @@ hide:
       </a>
     </div>
   </section>
-
