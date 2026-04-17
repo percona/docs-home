@@ -35,7 +35,7 @@ Improvements and bug fixes provided by Oracle for MySQL 8.4.8 and included in Pe
 
 * Performance regressions affecting queries that rely on regular expression matching have been corrected. (Bug #114056, Bug #36326728)
 
-* The bundled OpenSSL dependency has been updated, addressing the issue tracked under Bug #38632932. (Bug #38632932)
+* The bundled OpenSSL dependency has been updated, addressing the issue tracked under (Bug #38632932).
 
 * A concurrency flaw in InnoDB that could occur when executing SQL through the `que_eval_sql` interface has been removed. (Bug #118705, Bug #38310595)
 
