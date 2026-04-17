@@ -15,7 +15,7 @@ tags:
 
 [Percona Operator for MySQL based on Percona Server for MySQL](https://docs.percona.com/percona-operator-for-mysql/ps/index.html){:target="_blank"} 1.1.0 has been released on April 17, 2026.
 
-This release focuses on significant improvements to backup functionality. It introduces incremental backups, backup compression, and the long awaited point in time recovery, enabling more efficient and flexible data protection workflows.
+This release focuses on significant improvements to backup functionality. It introduces incremental backups, backup compression, and the long awaited point-in-time recovery, enabling more efficient and flexible data protection workflows.
 
 New features and improvements introduced by this release include:
 
