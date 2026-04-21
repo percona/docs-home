@@ -2,6 +2,23 @@
 
 <div data-grid markdown>
 
+<div data-banner="postgresql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL ETCD security update available {.title}
+
+We have updated etcd packages to address authentication and authorization bypass vulnerabilities (CVE-2026-33413, CVE-2026-33343).
+
+If you are using etcd with authentication enabled in untrusted environments, you should update as soon as possible.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-etcd-sec-fix.md){:target="_blank"}
+
+<span style="float: right;">April 21, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 2.9.0 — Upgrade Simpler, Secure Better, Recover Faster, Extend Further {.title}
@@ -43,21 +60,6 @@ The Reduced backup lock time feature is now included in the Community release.
 [Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-5-release.md){:target="_blank"}
 
 <span style="float: right;">December 17, 2025</span>
-
-</div>
-</div>
-
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.1 General Availability {.title}
-
-PostgreSQL 18.1 is a major step forward in scalability and observability.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.1.1-release.md){:target="_blank"}
-
-<span style="float: right;">November 27, 2025</span>
 
 </div>
 </div>
