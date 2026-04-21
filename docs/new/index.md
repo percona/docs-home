@@ -4,7 +4,7 @@
 
 <div data-banner="postgresql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL ETCD security update available {.title}
+### Percona Distribution for PostgreSQL ETCD security update available {.title}
 
 We have updated etcd packages to address authentication and authorization bypass vulnerabilities (CVE-2026-33413, CVE-2026-33343).
 
