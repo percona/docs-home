@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-We have updated the etcd packages across all supported versions of Percona Distribution for PostgreSQL to address recently disclosed security vulnerabilities.
+We have updated the etcd packages to version 3.5.29 across all released versions in the Q1 minor update of Percona Distribution for PostgreSQL to address recently disclosed security vulnerabilities.
 
 ## What changed
 
