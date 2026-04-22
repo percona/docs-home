@@ -1,7 +1,7 @@
 ---
-date: 2026-04-16
+date: 2026-04-22
 description: >
-  Percona Build of ProxySQL 3.0.6 has been released on Thursday, April 16, 2026.
+  Percona Build of ProxySQL 3.0.6 has been released on Wednesday, April 22, 2026.
 authors: [patrickbirch]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[ProxySQL](https://docs.percona.com/proxysql/){:target="_blank"} 3.0.6 has been released on Thursday, April 16, 2026.
+[ProxySQL](https://docs.percona.com/proxysql/){:target="_blank"} 3.0.6 has been released on Wednesday, April 22, 2026.
 
 Try it out using the [Installation guide](https://docs.percona.com/proxysql/install-v3.html){:target="_blank"}.
 
