@@ -1,10 +1,18 @@
+# What's new with Percona?
+
+At Percona, we've been hard at work listening to your feedback and developing innovative solutions to improve your database experience. 
+
+Our latest releases offer a range of enhancements, from performance optimizations to new features, designed to streamline your database operations and maximize your database's potential.
+
+[Subscribe to RSS feed](https://docs.percona.com/feed_rss_created.xml){.md-button target="_blank"}
+
 ## Featured announcements
 
 <div data-grid markdown>
 
 <div data-banner="postgresql" markdown>
 
-### Percona Distribution for PostgreSQL ETCD security update available {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL ETCD security update available {.title}
 
 We have updated etcd packages to address authentication and authorization bypass vulnerabilities (CVE-2026-33413, CVE-2026-33343).
 
@@ -64,4 +72,4 @@ The Reduced backup lock time feature is now included in the Community release.
 </div>
 </div>
 
-</div>
+## What's new feed

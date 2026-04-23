@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_12" data-name="Layer 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1123.51 1123.51">
+<svg id="Layer_12" data-name="Layer 12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1123.51 1123.51">
   <defs>
     <style>
-      .cls-1 {
-        fill: #fff;
-      }
-
-      .cls-2 {
-        clip-path: url(#clippath);
-      }
+   .cls-1 { fill: #fff; }
     </style>
-    <clipPath id="clippath">
-      <polyline class="cls-1" points="305.31 827.37 328.46 787.35 378.35 787.35 442.63 898.29 498.94 898.29 433.67 787.35 548.29 787.45 573.7 743.44 516.78 645.54 473.31 569.38 374.65 570.25 305.94 688.19 305.88 704.68 279.05 752.33 279.05 799.28 306.72 752.18"/>
-    </clipPath>
   </defs>
   <g id="Background">
     <g>
