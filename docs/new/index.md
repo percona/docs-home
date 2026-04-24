@@ -12,6 +12,23 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="postgresql" markdown>
 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL Patroni update available {.title}
+
+We have updated Patroni to version 4.1.2 across all supported versions of Percona Distribution for PostgreSQL.
+
+This update ensures compatibility with the recently updated etcd version (3.5.29) and improves overall stability.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-etcd-patroni-fix.md){:target="_blank"}
+
+<span style="float: right;">April 24, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="postgresql" markdown>
+
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL ETCD security update available {.title}
 
 We have updated etcd packages to address authentication and authorization bypass vulnerabilities (CVE-2026-33413, CVE-2026-33343).
@@ -53,21 +70,6 @@ We've released PMM 3.7.0 with Real-time Query Analytics (RTA) for MongoDB, optio
 [Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.7.0-release.md){:target="_blank"}
 
 <span style="float: right;">April 1, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature: Reduced backup lock time {.title}
-
-The Reduced backup lock time feature is now included in the Community release.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-5-release.md){:target="_blank"}
-
-<span style="float: right;">December 17, 2025</span>
 
 </div>
 </div>
