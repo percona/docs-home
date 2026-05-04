@@ -2,6 +2,22 @@
 
 <div data-grid markdown>
 
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.7.1: Security fixes, MongoDB fragmentation analysis, and credential masking {.title}
+
+We've released PMM 3.7.1 with security fixes for several CVEs, a new MongoDB storage fragmentation view, and automatic credential masking in logs.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.7.1-release.md){:target="_blank"}
+
+<span style="float: right;">April 30, 2026</span>
+
+</div>
+</div>
+
+
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 2.9.0 — Upgrade Simpler, Secure Better, Recover Faster, Extend Further {.title}
