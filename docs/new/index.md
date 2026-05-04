@@ -33,21 +33,6 @@ A new release of Percona Operator for PostgreSQL features better backup/restore 
 </div>
 </div>
 
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.7.0: Real-time Query Analytics, PMM Client encryption, and deprecation updates {.title}
-
-We've released PMM 3.7.0 with Real-time Query Analytics (RTA) for MongoDB, optional PMM Client config file encryption, and more.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.7.0-release.md){:target="_blank"}
-
-<span style="float: right;">April 1, 2026</span>
-
-</div>
-</div>
-
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature: Reduced backup lock time {.title}
