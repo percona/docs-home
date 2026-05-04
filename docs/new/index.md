@@ -74,35 +74,6 @@ A new release of Percona Operator for PostgreSQL features better backup/restore 
 </div>
 </div>
 
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature: Reduced backup lock time {.title}
-
-The Reduced backup lock time feature is now included in the Community release.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-5-release.md){:target="_blank"}
-
-<span style="float: right;">December 17, 2025</span>
-
-</div>
-</div>
-
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.1 General Availability {.title}
-
-PostgreSQL 18.1 is a major step forward in scalability and observability.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.1.1-release.md){:target="_blank"}
-
-<span style="float: right;">November 27, 2025</span>
-
-</div>
-</div>
 
 </div>
 
