@@ -34,7 +34,7 @@
         // Modal content
         script.setAttribute(
             "data-modal-disclaimer",
-            "The **Percona AI Assistant** helps you find simple, clear answers to your Percona questions using [official documentation](https://docs.percona.com/), resolved [forum posts](https://forums.percona.com/) and [blog posts](https://www.percona.com/blog/). Note, do not enter personal or confidential information. Before using Percona AI assistant, read the [Legal Notice](https://homepage-pr-245.onrender.com/new/legal-notice)."
+            "The **Percona AI Assistant** helps you find simple, clear answers to your Percona questions using [official documentation](https://docs.percona.com/), resolved [forum posts](https://forums.percona.com/) and [blog posts](https://www.percona.com/blog/). Note, do not enter personal or confidential information. Before using Percona AI assistant, read the [Legal Notice](https://docs.percona.com/new/legal-notice)."
         );
 
         script.setAttribute(
@@ -44,7 +44,7 @@
 
         script.setAttribute(
             "data-project-logo",
-            "https://homepage-pr-245.onrender.com/assets/percona-logomark-one-color-dark.png"
+            "https://docs.percona.com/assets/percona-logomark-one-color-dark.png"
         );
 
         document.head.appendChild(script);
