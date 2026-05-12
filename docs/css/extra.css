@@ -46,3 +46,15 @@
 nav[data-md-level="1"][aria-labelledby="__nav_2_label"] .md-ellipsis {
     text-indent: 0.8rem;
   }
+
+
+/* Percona live announcement banner */
+
+  .md-banner {
+    text-align: center;
+  }
+
+  .md-banner,
+  .md-banner * {
+    font-family: "Poppins", sans-serif !important;
+  }
