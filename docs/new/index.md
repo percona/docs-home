@@ -16,7 +16,7 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.0.0.md)
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.0.0.md){:target="_blank"}
 
 <span style="float: right;">May 15, 2026</span>
 
