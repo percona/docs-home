@@ -27,7 +27,7 @@ New features and improvements introduced by this release include:
 
 * The `stable` channel for Certified Operator catalogues on OpenShift now supports both single-namespace and all-namespace installation modes. For this reason, the `stable-cw` channel is now deprecated and will be removed. We encourage users to switch to using the `stable` channel. If you use OLM console, change the channel to `stable`, preview and approve the Install Plan. 
 
-  If you use the command-line, update the subscription and approve the Install Plan in case of manual approval is required. 
+  If you use the command-line, update the subscription and approve the Install Plan if manual approval is required. 
 
 
 * Deprecation, rename and removal:
