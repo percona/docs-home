@@ -8,9 +8,11 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ## Featured announcements
 
+<div data-grid markdown>
+
 <div data-banner="operators" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.0.0 — Now a Fully Independent Open Source Solution {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.0.0 — Now a fully independent open source solution {.title}
 
 A new major release of Percona Operator for PostgreSQL is a landmark that marks a new chapter for the Operator and everyone who relies on it.
 
@@ -22,8 +24,6 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 
 </div>
 </div>
-
-<div data-grid markdown>
 
 <div data-banner="pmm" markdown>
 
