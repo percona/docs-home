@@ -19,17 +19,13 @@ Try it out using the [Quickstart guide](https://docs.percona.com/postgresql/18/i
 
 This release of Percona Distribution for PostgreSQL 18.4.1 provides the following enhancements:
 
-- **Parallel logical replication** for improved throughput during initial data synchronization
+- **Parallel logical replication** - for improved throughput during initial data synchronization.
 - **Ubuntu 26.04 LTS support added** - Percona Distribution for PostgreSQL is available on Ubuntu 26.04 LTS (Noble Numbat's successor).
 
-These features make PostgreSQL 18 a major step forward in scalability, observability, and operational efficiency. This release also includes `pg_tde` 2.2.0 for Transparent Data Encryption and more.
-
-## `pg_tde` is now a standalone package
-
-Starting with PostgreSQL 18, `pg_tde` is no longer shipped with the server package. If your cluster relies on `pg_tde`, you must install the package manually.
+This release also includes `pg_tde` 2.2.0 for Transparent Data Encryption and more.
 
 For more information on the availability by PostgreSQL version, please see the [Install pg_tde](https://docs.percona.com/pg-tde/install.html) topic.
 
 See [Install Percona Distribution for PostgreSQL from binary tarballs](https://docs.percona.com/postgresql/18/tarball.html) for the download links.
 
-For details specific to Percona Distribution for PostgreSQL 18.3.1, see the [release notes](https://docs.percona.com/postgresql/18/release-notes/release-notes-v18.3.1.html){:target="_blank"}.
+For details specific to Percona Distribution for PostgreSQL 18.4.1, see the [release notes](https://docs.percona.com/postgresql/18/release-notes/release-notes-v18.4.1.html){:target="_blank"}.
