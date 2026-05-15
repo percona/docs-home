@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="operators" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.0.0 — Now a fully independent open source solution {.title}
+
+A new major release of Percona Operator for PostgreSQL is a landmark that marks a new chapter for the Operator and everyone who relies on it.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.0.0.md){:target="_blank"}
+
+<span style="float: right;">May 15, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.7.1: Security fixes, MongoDB fragmentation analysis, and credential masking {.title}
@@ -59,20 +74,6 @@ If you are using etcd with authentication enabled in untrusted environments, you
 </div>
 </div>
 
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 2.9.0 — Upgrade Simpler, Secure Better, Recover Faster, Extend Further {.title}
-
-A new release of Percona Operator for PostgreSQL features better backup/restore performance with volume snapshot support, production-ready major upgrades, automated TLS management with cert-manager, LDAP authentication support, and more.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-2.9.0.md)
-
-<span style="float: right;">April 1, 2026</span>
-
-</div>
-</div>
 
 
 </div>
