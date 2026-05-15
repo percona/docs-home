@@ -1,7 +1,7 @@
 ---
-date: 2026-05-15
+date: 2026-05-20
 description: >
-  Percona Operator for PostgreSQL 3.0.0 has been released on May 15, 2026.
+  Percona Operator for PostgreSQL 3.0.0 has been released on May 20, 2026.
 authors: [nastena1606]
 categories:
   - Percona Operators
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Operator for PostgreSQL](https://docs.percona.com/percona-operator-for-postgresql/3.0/){:target="_blank"} 3.0.0 has been released on May 15, 2026.
+[Percona Operator for PostgreSQL](https://docs.percona.com/percona-operator-for-postgresql/3.0/){:target="_blank"} 3.0.0 has been released on May 20, 2026.
 
 This version establishes Percona Operator for PostgreSQL as a **hard fork of the [Crunchy PGO project :octicons-link-external-16:](https://github.com/CrunchyData/postgres-operator){:target="_blank"}**, making it fully independent and empowering the Percona team and community to drive and rapidly deliver features and improvements tailored to user needs.
 
