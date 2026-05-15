@@ -14,7 +14,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.4.1 {.title}
 
- [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.4.1 has been released together with the Q2 upstream update for PostgreSQL 18, completing the PostgreSQL minor version release cycle for Q2 2026.
+ [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.4.1 has been released together with the Q2 upstream update for PostgreSQL 18.
 
 <div class="actions" markdown>
 
