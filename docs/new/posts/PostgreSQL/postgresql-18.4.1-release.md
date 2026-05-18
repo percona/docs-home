@@ -20,7 +20,7 @@ Try it out using the [Quickstart guide](https://docs.percona.com/postgresql/18/i
 This release of Percona Distribution for PostgreSQL 18.4.1 provides the following enhancements:
 
 - **Parallel logical replication** - for improved throughput during initial data synchronization.
-- **Ubuntu 26.04 LTS support added** - Percona Distribution for PostgreSQL is available on Ubuntu 26.04 LTS (Noble Numbat's successor).
+- **Ubuntu 26.04 LTS support added** - Percona Distribution for PostgreSQL is available on Ubuntu 26.04 LTS.
 
 This release also includes `pg_tde` 2.2.0 for Transparent Data Encryption and more.
 
