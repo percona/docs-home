@@ -1,4 +1,4 @@
-  ---
+---
 date: 2026-05-22
 description: >
   Percona Operator for PostgreSQL 3.0.0 has been released on May 22, 2026.
@@ -8,6 +8,7 @@ categories:
 tags:
   - Percona Operator for PostgreSQL
 ---
+
 
 # Percona Operator for PostgreSQL 3.0.0 has been released
 
