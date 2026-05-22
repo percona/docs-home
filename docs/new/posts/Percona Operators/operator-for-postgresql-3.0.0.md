@@ -1,4 +1,4 @@
----
+  ---
 date: 2026-05-22
 description: >
   Percona Operator for PostgreSQL 3.0.0 has been released on May 22, 2026.
@@ -25,14 +25,7 @@ New features and improvements introduced by this release include:
 
 * Improved namespace scoping for Operator OLM installations from Community catalogues - Operator installs from Community catalogues now respect the OperatorGroup namespace scope. In the *all-namespaces* mode it now correctly watches the whole cluster instead of its install namespace as in previous versions. In the *single-namespace* mode it only watches the namespaces listed in `olm.targetNamespaces`. After upgrade, the Operator may start reconciling `PerconaPostgreSQL` resources in namespaces it previously ignored. [Check the Operator installation mode before you upgrade](https://docs.percona.com/percona-operator-for-postgresql/3.0.0/update-openshift.html#before-you-start){:target="_blank"}, especially if several Operators share a cluster; consider enabling the single-namespace mode per Operator to avoid overlapping reconciliation.
 
-* The `stable` channel for Certified Operator catalogues on OpenShift now supports both single-namespace and all-namespace installation modes. For this reason, the `stable-cw` channel is now deprecated and will be removed. We encourage users to switch to using the `stable` channel. If you use OLM console, change the channel to `stable`, preview and approve the Install Plan. 
 
-  If you use the command-line, update the subscription and approve the Install Plan if manual approval is required. 
-
-
-* Deprecation, rename and removal:
-
-    * The `stable-cw` installation channel for Certified Operator catalogues on OpenShift is deprecated. Switch to using the `stable` channel as it now supports both single-namespace and all-namespace installation modes.
 
 Learn more in Percona Operator for PostgreSQL 3.0.0 [release notes](https://docs.percona.com/percona-operator-for-postgresql/3.0/ReleaseNotes/Kubernetes-Operator-for-PostgreSQL-RN3.0.0.html){:target="_blank"}.
 
