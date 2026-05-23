@@ -1,6 +1,6 @@
 # What's new with Percona?
 
-At Percona, we've been hard at work listening to your feedback and developing innovative solutions to improve your database experience. 
+At Percona, we've been hard at work listening to your feedback and developing innovative solutions to improve your database experience.
 
 Our latest releases offer a range of enhancements, from performance optimizations to new features, designed to streamline your database operations and maximize your database's potential.
 
@@ -9,8 +9,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 ## Featured announcements
 
 <div data-grid markdown>
-
-<div data-banner="operators" markdown>
+ <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.0.0 — Now a fully independent open source solution {.title}
 
@@ -19,6 +18,19 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.0.0.md){:target="_blank"}
+
+</div>
+</div>
+  
+<div data-banner="postgresql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.4.1 {.title}
+
+ [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.4.1 has been released together with the Q2 upstream update for PostgreSQL 18.
+
+<div class="actions" markdown>
+
+[Read more](../new/posts/PostgreSQL/postgresql-18.4.1-release.md){:target="_blank"}
 
 <span style="float: right;">May 15, 2026</span>
 
@@ -56,25 +68,6 @@ This update ensures compatibility with the recently updated etcd version (3.5.29
 
 </div>
 </div>
-
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL ETCD security update available {.title}
-
-We have updated etcd packages to address authentication and authorization bypass vulnerabilities (CVE-2026-33413, CVE-2026-33343).
-
-If you are using etcd with authentication enabled in untrusted environments, you should update as soon as possible.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-etcd-sec-fix.md){:target="_blank"}
-
-<span style="float: right;">April 21, 2026</span>
-
-</div>
-</div>
-
-
 
 </div>
 
