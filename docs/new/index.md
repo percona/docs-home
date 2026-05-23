@@ -31,7 +31,7 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 
 <div class="actions" markdown>
 
-[Read more](../new/posts/PostgreSQL/postgresql-18.4.1-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.4.1-release.md){:target="_blank"}
 
 <span style="float: right;">May 15, 2026</span>
 
