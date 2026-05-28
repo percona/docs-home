@@ -12,7 +12,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.8.0: Grafana 12.4, encrypted dumps, and refreshed UI {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.8.0: Grafana 12.4, encrypted dumps, and refreshed UI {.title} 
 
 We've released PMM 3.8.0 with a Grafana 12.4 upgrade, AES-256-CTR encrypted PMM dumps, a native Settings page, and a refreshed visual identity.
 
