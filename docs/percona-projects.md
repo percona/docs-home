@@ -6,7 +6,7 @@ hide:
 ---
 
 <div class="landing" markdown>
-<div class="splash header subpage lab dark" markdown>
+<div class="splash header subpage utilities dark" markdown>
 
 ![Percona Lab](assets/percona-utilities.svg)
 
