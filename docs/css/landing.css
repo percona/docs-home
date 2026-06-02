@@ -1,4 +1,3 @@
-
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
@@ -21,7 +20,7 @@
 /* Layout adjustments */
 
 .md-header, .md-tabs {
-    background-color: var(--stone800);
+    background-color: #653df4;
 }
 .landing > :not(:last-child) {
     margin-bottom: 2em;
@@ -60,79 +59,29 @@
             rgba(44,50,62,0.9) 10%,
             rgba(44,50,62,0.1) 90%
         ),
-        url(../assets/highlight.jpg) center / cover var(--stone800);
+        url(../assets/highlight.png) center / cover var(--stone800);
     border: none;
     background-repeat: no-repeat;
 }
 .splash.mysql,
 [data-banner="mysql"]::before {
-    background:
-        linear-gradient(
-            110deg,
-            rgba(0,0,0,0.2) 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        linear-gradient(
-            110deg,
-            rgb(14,95,181) 33%,
-            rgb(48,209,178) 95%
-        );
+    background: #e65a15;
 }
 .splash.postgresql,
 [data-banner="postgresql"]::before {
-    background:
-        linear-gradient(
-            110deg,
-            rgba(0,0,0,0.4) 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        linear-gradient(
-            110deg,
-            rgb(78,91,150) 33%,
-            rgb(67,158,255) 95%
-        );
+    background: #005ed6;
 }
 .splash.mongodb,
 [data-banner="mongodb"]::before {
-    background:
-        linear-gradient(
-            110deg,
-            rgba(0,0,0,0.4) 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        linear-gradient(
-            110deg,
-            rgb(24,109,73) 33%,
-            rgb(48,209,190) 95%
-        );
+    background: #1fa23a;
 }
 .splash.operators,
 [data-banner="operators"]::before {
-    background:
-        linear-gradient(
-            110deg,
-            transparent 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        linear-gradient(
-            110deg,
-            rgb(11,39,140) 33%,
-            rgb(20,142,255) 95%
-        );
+    background: #2aa6df;
 }
 .splash.pmm,
 [data-banner="pmm"]::before {
-    background:
-        linear-gradient(
-            110deg,
-            rgba(0,0,0,0.25) 33%,
-            rgba(0,0,0,0.15) 95%
-        ),
-        linear-gradient(
-            110deg,
-            rgb(204,58,0) 33%,
-            rgb(255,137,45) 95%
-        );
+    background: #653df4;
 }
 .splash.everest,
 [data-banner="everest"]::before {
@@ -140,12 +89,12 @@
         linear-gradient(
             110deg,
             rgba(0,0,0,0) 33%,
-            rgba(0,0,0,0.2) 95%
+            rgb(28, 29, 74) 60%
         ),
         linear-gradient(
             110deg,
-            rgb(14,95,181) 33%,
-            rgb(98,174,255) 95%
+            rgb(123, 146, 212) 33%,
+            rgb(62, 83, 165) 95%
         );
 }
 .splash.lab,
@@ -164,17 +113,7 @@
 }
 .splash.utilities,
 [data-banner="utilities"]::before {
-    background:
-        linear-gradient(
-            110deg,
-            transparent 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        linear-gradient(
-            110deg,
-            rgb(132,98,30) 33%,
-            rgb(243,194,94) 95%
-        );
+    background: #a83fef;
 }
 .splash.header {
     flex-direction: column;

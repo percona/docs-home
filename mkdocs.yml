@@ -8,7 +8,7 @@ theme:
     - navigation.indexes
   custom_dir: overrides
   logo: assets/percona-mark.svg
-  favicon: assets/percona-fivicon.png
+  favicon: assets/percona-favicon.svg
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -47,6 +47,7 @@ extra_css:
   - css/extra.css
   - css/rating.css
   - css/algolia.css
+  - css/kapa.css
   - https://cdn.jsdelivr.net/npm/@docsearch/css@3
 
 extra_javascript:
@@ -54,6 +55,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/@docsearch/js@latest
   - js/init-algolia.js
   - js/rating.js
+  - js/kapa.js
 
 markdown_extensions:
   - admonition
@@ -85,6 +87,8 @@ plugins:
     date_from_meta:
       as_creation: date
     feed_title: "Percona Documentation What's New Feed"
+    image: https://docs.percona.com/assets/Percona-Logo.png
+
   tags:
     tags_file: new/tags.md
 #  search: 

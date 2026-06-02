@@ -1,6 +1,6 @@
 # What's new with Percona?
 
-At Percona, we've been hard at work listening to your feedback and developing innovative solutions to improve your database experience. 
+At Percona, we've been hard at work listening to your feedback and developing innovative solutions to improve your database experience.
 
 Our latest releases offer a range of enhancements, from performance optimizations to new features, designed to streamline your database operations and maximize your database's potential.
 
@@ -12,65 +12,65 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.6.0: Native navigation, HA Cluster, and MongoDB improvements {.title}
-<br>
-We've released PMM 3.6.0 with a redesigned interface featuring native PMM navigation, High Availability Cluster (Technical Preview) for zero-downtime failover, simplified MongoDB dashboards, and expanded platform support for PostgreSQL 18 on RHEL 10 and Debian 13.
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.8.0: Grafana 12.4, encrypted dumps, and refreshed UI {.title} 
+
+We've released PMM 3.8.0 with a Grafana 12.4 upgrade, AES-256-CTR encrypted PMM dumps, a native Settings page, and a refreshed visual identity.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.6.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.8.0-release.md){:target="_blank"}
 
-<span style="float: right;">February 5, 2026</span>
+<span style="float: right;">May 28, 2026</span>
 
 </div>
 </div>
+<div data-banner="operators" markdown>
 
-<div data-banner="mysql" markdown>
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.0.0 — Now a fully independent open source solution {.title}
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup feature: Reduced backup lock time {.title}
-<br>
-
-The [Reduced backup lock time](https://docs.percona.com/percona-xtrabackup/8.4/reduction-in-locks.html) feature, originally introduced in [Percona XtraBackup Pro 8.4.0-2](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/8.4.0-2.html) for Pro builds, is now included in the Community release starting with Percona XtraBackup 8.4.0-5.
+A new major release of Percona Operator for PostgreSQL is a landmark that marks a new chapter for the Operator and everyone who relies on it.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-5-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.0.0.md){:target="_blank"}
 
-<span style="float: right;">December 17, 2025</span>
+<span style="float: right;">May 22, 2026</span>
+
+</div>
+</div>
+  
+<div data-banner="postgresql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.4.1 {.title}
+
+[Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.4.1 has been released together with the Q2 upstream update for PostgreSQL 18.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.4.1-release.md){:target="_blank"}
+
+<span style="float: right;">May 15, 2026</span>
 
 </div>
 </div>
 
 <div data-banner="postgresql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.1 General Availability {.title}
-<br>
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL Patroni update available {.title}
 
-We're excited to announce the release of [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.1.1! PostgreSQL 18.1 is a major step forward in scalability, observability, and operational efficiency.
+We have updated Patroni to version 4.1.2 across all supported versions of Percona Distribution for PostgreSQL.
 
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.1.1-release.md){:target="_blank"}
-
-<span style="float: right;">November 27, 2025</span>
-
-</div>
-</div>
-
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span>  General Availability: Percona Operator for MySQL with Group Replication {.title}
-<br>
-Deploy MySQL group replication clusters in production with enterprise‑grade reliability.
+This update ensures compatibility with the recently updated etcd version (3.5.29) and improves overall stability.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right: ](../new/posts/Percona%20Operators/operator-for-mysql-1.0.0.md)
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-etcd-patroni-fix.md){:target="_blank"}
 
-<span style="float: right;">November 17, 2025</span>
-
+<span style="float: right;">April 24, 2026</span>
 
 </div>
+</div>
+
 </div>
 
 ## What's new feed
