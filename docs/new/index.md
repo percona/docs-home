@@ -54,19 +54,17 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 </div>
 </div>
 
-<div data-banner="postgresql" markdown>
+<div data-banner="mysql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL Patroni update available {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona XtraBackup 8.0 {.title}
 
-We have updated Patroni to version 4.1.2 across all supported versions of Percona Distribution for PostgreSQL.
-
-This update ensures compatibility with the recently updated etcd version (3.5.29) and improves overall stability.
+We have released of Percona XtraBackup 8.0.35-36. This release marks the final version for Percona XtraBackup 8.0.
 
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-etcd-patroni-fix.md){:target="_blank"}
 
-<span style="float: right;">April 24, 2026</span>
+<span style="float: right;">June 4, 2026</span>
 
 </div>
 </div>
