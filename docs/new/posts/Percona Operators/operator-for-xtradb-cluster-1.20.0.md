@@ -27,7 +27,7 @@ This release provides the following features and enhancements:
 
 * [Automatic storage resizing based on your usage thresholds](https://docs.percona.com/percona-operator-for-mysql/pxc/scaling.html#automatic-storage-resizing){:target="_blank"}. The Operator now monitors disk usage on Percona XtraDB Cluster Pods and expands the storage automatically when the usage crosses your thresholds. As a result, you spend less time on capacity planning, save costs by expanding only when needed and avoid outages from full disks.
 
-* Improved external HAProxy checks with a configurable file descriptor limit. When HAProxy performs external MySQL health checks, it tries to close every file descriptor (FD) up to the system limit before executing the check script. If the FD limit is huge this can lead to long delays and outages. This release sets the safe FD limit to the HAProxy entrypoint which you can also override via an environmental variable. This improvement ensures external checks are fast, stable, and predictable. 
+* Improved external HAProxy checks with a configurable file descriptor limit. When HAProxy performs external MySQL health checks, it tries to close every file descriptor (FD) up to the system limit before executing the check script. If the FD limit is huge, this can lead to long delays and outages. This release sets the safe FD limit to the HAProxy entrypoint which you can also override via an environment variable. This improvement ensures external checks are fast, stable, and predictable.
 
 * Version-aware `jemalloc` path selection for optimized memory usage. When you choose `jemalloc` as the memory allocator, the Operator now selects the correct shared library path for your Percona XtraDB Cluster version, so clusters start reliably without manual path fixes for 8.0 vs 8.4. The default `jemalloc` path is changed to `/usr/lib64/libjemalloc.so.2` to align with the default Percona XtraDB Cluster 8.4 version for new cluster deployments. 
 
@@ -35,7 +35,7 @@ This release provides the following features and enhancements:
 
 ## Operational excellence
 
-* Configurable leader election for the Operator Deployment. If the Operator struggles with leader election in high-latency or resource-constrained clusters, you can now tune lease duration, renewal deadlines, and retry behavior through environment variables instead of being stuck with fixed defaults. Refer to [Environment variables reference]https://docs.percona.com/percona-operator-for-mysql/pxc/env-vars-operator.html){:target="_blank"} for details.
+* Configurable leader election for the Operator Deployment. If the Operator struggles with leader election in high-latency or resource-constrained clusters, you can now tune lease duration, renewal deadlines, and retry behavior through environment variables instead of being stuck with fixed defaults. Refer to [Environment variables reference](https://docs.percona.com/percona-operator-for-mysql/pxc/env-vars-operator.html){:target="_blank"} for details.
 
 ## Deprecation, rename, removal
 
