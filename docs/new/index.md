@@ -12,7 +12,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="pcsm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pcsm:</span> Percona ClusterSync for MongoDB 0.9.0 {.title} 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona ClusterSync for MongoDB 0.9.0 {.title} 
 
 We've released Percona ClusterSync for MongoDB 0.9.0. This release introduces cross-version replication support, allowing replication from MongoDB 6.0 and 7.0 source clusters to MongoDB 8.0 targets.
 
