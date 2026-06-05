@@ -18,9 +18,9 @@ We've released Percona ClusterSync for MongoDB 0.9.0. This release introduces cr
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.8.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/pcsm-0.9.0-release.md){:target="_blank"}
 
-<span style="float: right;">Jun 03, 2026</span>
+<span style="float: right;">Jun 3, 2026</span>
 
 </div>
 </div>
