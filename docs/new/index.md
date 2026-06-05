@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="pcsm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona ClusterSync for MongoDB 0.9.0 {.title} 
+
+We've released Percona ClusterSync for MongoDB 0.9.0. This release introduces cross-version replication support, allowing replication from MongoDB 6.0 and 7.0 source clusters to MongoDB 8.0 targets.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/pcsm-0.9.0-release.md){:target="_blank"}
+
+<span style="float: right;">Jun 3, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.8.0: Grafana 12.4, encrypted dumps, and refreshed UI {.title} 
@@ -39,21 +54,6 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 </div>
 </div>
   
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.4.1 {.title}
-
-[Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.4.1 has been released together with the Q2 upstream update for PostgreSQL 18.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.4.1-release.md){:target="_blank"}
-
-<span style="float: right;">May 15, 2026</span>
-
-</div>
-</div>
-
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona XtraBackup 8.0 {.title}
