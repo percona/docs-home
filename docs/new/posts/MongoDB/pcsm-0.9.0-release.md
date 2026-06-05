@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona ClusterSync for MongoDB](https://docs.percona.com/percona-clustersync-for-mongodb/index.html){:target="_blank"} 0.9.0 has been released on Jun 03, 2026. 
+[Percona ClusterSync for MongoDB](https://docs.percona.com/percona-clustersync-for-mongodb/index.html){:target="_blank"} 0.9.0 has been released on June 3, 2026.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-clustersync-for-mongodb/installation.html){:target="_blank"} 
 
