@@ -20,7 +20,7 @@ We've released Percona ClusterSync for MongoDB 0.9.0. This release introduces cr
 
 [Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.8.0-release.md){:target="_blank"}
 
-<span style="float: right;">May 28, 2026</span>
+<span style="float: right;">Jun 03, 2026</span>
 
 </div>
 </div>
@@ -54,21 +54,6 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 </div>
 </div>
   
-<div data-banner="postgresql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.4.1 {.title}
-
-[Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.4.1 has been released together with the Q2 upstream update for PostgreSQL 18.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.4.1-release.md){:target="_blank"}
-
-<span style="float: right;">May 15, 2026</span>
-
-</div>
-</div>
-
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona XtraBackup 8.0 {.title}
