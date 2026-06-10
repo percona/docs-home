@@ -39,17 +39,19 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 </div>
 </div>
   
-<div data-banner="postgresql" markdown>
+<div data-banner="mysql" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.4.1 {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona Server for MySQL 8.0 {.title}
 
-[Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.4.1 has been released together with the Q2 upstream update for PostgreSQL 18.
+Percona Server for MySQL 8.0.46-37 is the final release of the Percona Server for MySQL 8.0 series. MySQL 8.0 has reached its End of Life (EOL).
+
+Percona offers tailored support before, during, and after your move to MySQL 8.4, and can keep your existing MySQL 8.0 deployment secure and performant post-EOL through [MySQL 8.0 Post-EOL Support from Percona](https://www.percona.com/mysql-8-0-eol-support/).
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-18.4.1-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-server-8.0.46-37-release.md){:target="_blank"}
 
-<span style="float: right;">May 15, 2026</span>
+<span style="float: right;">June 10, 2026</span>
 
 </div>
 </div>
@@ -58,11 +60,11 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona XtraBackup 8.0 {.title}
 
-We have released of Percona XtraBackup 8.0.35-36. This release marks the final version for Percona XtraBackup 8.0.
+We have released Percona XtraBackup 8.0.35-36. This release marks the final version for Percona XtraBackup 8.0.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/PostgreSQL/postgresql-etcd-patroni-fix.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.0.35-36.release.md){:target="_blank"}
 
 <span style="float: right;">June 4, 2026</span>
 
