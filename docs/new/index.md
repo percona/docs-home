@@ -64,7 +64,7 @@ We have released Percona XtraBackup 8.0.35-36. This release marks the final vers
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.0.35-36.release.md.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.0.35-36.release.md){:target="_blank"}
 
 <span style="float: right;">June 4, 2026</span>
 
