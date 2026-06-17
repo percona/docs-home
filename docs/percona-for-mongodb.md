@@ -59,9 +59,9 @@ An open source, community backup tool for performing consistent backups and rest
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-backup-mongodb/release-notes.html)
-[Install now](https://docs.percona.com/percona-backup-mongodb/installation.html)
-[Documentation](https://docs.percona.com/percona-backup-mongodb/)
+[Releases](https://docs.percona.com/percona-backup-mongodb/2.15.0/release-notes.html)
+[Install now](https://docs.percona.com/percona-backup-mongodb/2.15.0/installation.html)
+[Documentation](https://docs.percona.com/percona-backup-mongodb/2.15.0/)
 
 </div>
 </div>
