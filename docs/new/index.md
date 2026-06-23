@@ -20,7 +20,7 @@ This release introduces **Oracle Cloud Infrastructure (OCI)** Object Storage sup
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MySQL/pdps-8.0.46-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.15.0-release.md){:target="_blank"}
 
 <span style="float: right;">June 17, 2026</span>
 
