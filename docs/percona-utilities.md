@@ -73,7 +73,7 @@ Binary and source packages of the latest official product releases as well as de
 [:material-account-group: Community Website](https://percona.community/)
 [:material-forum-outline: Community Forum](https://forums.percona.com/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
-[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+[:material-newspaper-variant-outline: The Percona Database Performance Blog](https://www.percona.com/blog/)
 
 </div>
 <br>

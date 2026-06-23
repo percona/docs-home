@@ -58,7 +58,7 @@ Comprehensive endpoint references and practical examples for integrating PMM's p
 [:material-forum-outline: PMM at Community Forum](https://forums.percona.com/c/percona-monitoring-and-management-pmm/30/none)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-account-group: PMM at Community Website](https://percona.community/projects/pmm/)
-[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+[:material-newspaper-variant-outline: The Percona Database Performance Blog](https://www.percona.com/blog/)
 
 </div>
 <br>

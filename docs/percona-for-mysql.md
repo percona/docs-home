@@ -146,7 +146,7 @@ An open source database monitoring, management and observability solution for My
 [:material-newspaper-variant-outline: MySQL Blog Articles](https://www.percona.com/blog/category/mysql/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-account-group: MySQL at Community Website](https://percona.community/mysql/)
-[:material-newspaper-variant-outline: Community Blog](https://percona.community/categories/mysql/)
+[:material-newspaper-variant-outline: The Percona Database Performance Blog](https://www.percona.com/blog/)
 
 </div>
 <br>

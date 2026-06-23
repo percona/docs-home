@@ -104,7 +104,7 @@ Built on Percona Kubernetes Operators, OpenEverest extends their capabilities to
 [:material-forum-outline: Community Forum](https://forums.percona.com/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-account-group: Percona Operators at Community Website](https://percona.community/projects/operators/)
-[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+[:material-newspaper-variant-outline: The Percona Database Performance Blog](https://www.percona.com/blog/)
 
 </div>
 <br>
