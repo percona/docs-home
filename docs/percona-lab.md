@@ -49,7 +49,7 @@ A `pg_tde` extension that brings in Transparent Data Encryption (TDE) to Postgre
 [:material-account-group: Community Website](https://percona.community/)
 [:material-forum-outline: Community Forum](https://forums.percona.com/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
-[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+[:material-newspaper-variant-outline: Community Blog](https://percona.community/blog/)
 
 </div>
 <br>
