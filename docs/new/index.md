@@ -14,7 +14,9 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
 
-We've released Percona Backup for MongoDB 2.15.0.
+We've released Percona Backup for MongoDB (PBM) 2.15.0.
+
+This release introduces **Oracle Cloud Infrastructure (OCI)** Object Storage support as a remote backup destination through a dedicated OCI-native driver, enabling seamless backup and restore operations in OCI environments. PBM also supports multiple OCI authentication methods, including **Workload Identity authentication**, allowing secure access to OCI resources without API signing keys and reducing operational overhead.
 
 <div class="actions" markdown>
 
