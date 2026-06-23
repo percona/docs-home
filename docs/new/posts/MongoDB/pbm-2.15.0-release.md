@@ -19,6 +19,6 @@ Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-
 
  This release introduces Oracle Cloud Infrastructure (OCI) Object Storage support as a remote backup destination through a dedicated OCI-native driver, enabling seamless backup and restore operations in OCI environments. PBM also supports multiple OCI authentication methods, including Workload Identity authentication, allowing secure access to OCI resources without API signing keys and reducing operational overhead.
 
-
+ Learn more about other changes in Percona Backup for MongoDB 2.15.0 [release notes](https://docs.percona.com/percona-backup-mongodb/2.15.0/release-notes/2.15.0.html).
 
 
