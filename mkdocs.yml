@@ -88,6 +88,7 @@ plugins:
       as_creation: date
     feed_title: "Percona Documentation What's New Feed"
     image: https://docs.percona.com/assets/Percona-Logo.png
+    length: 40
 
   tags:
     tags_file: new/tags.md
