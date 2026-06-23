@@ -104,7 +104,7 @@ An open-source data migration tool between various MongoDB deployments with zero
 [:material-newspaper-variant-outline: MongoDB Blog Articles](https://www.percona.com/blog/category/mongodb/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-account-group: MongoDB at Community Website](https://percona.community/mongodb/)
-[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+[:material-newspaper-variant-outline: Community Blog](https://percona.community/categories/mongodb/)
 
 </div>
 <br>
