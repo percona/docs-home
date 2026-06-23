@@ -15,7 +15,7 @@ tags:
 
 [Percona Backup for MongoDB](https://docs.percona.com/percona-backup-mongodb/index.html){:target="_blank"} 2.15.0 has been released on June 17, 2026.
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-mongodb/2.15.0/installation.html){:target="_blank"} 
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-mongodb/2.15.0/installation.html){:target="_blank"}
 
 This release introduces Oracle Cloud Infrastructure (OCI) Object Storage support as a remote backup destination through a dedicated OCI-native driver, enabling seamless backup and restore operations in OCI environments. PBM also supports multiple OCI authentication methods, including Workload Identity authentication, allowing secure access to OCI resources without API signing keys and reducing operational overhead.
 
