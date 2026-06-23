@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Backup for MongoDB](https://docs.percona.com/percona-backup-mongodb/index.html){:target="_blank"} 2.15.0 has been released on June 17, 2025.
+[Percona Backup for MongoDB](https://docs.percona.com/percona-backup-mongodb/index.html){:target="_blank"} 2.15.0 has been released on June 17, 2026.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-backup-mongodb/2.15.0/installation.html){:target="_blank"} 
 
