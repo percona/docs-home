@@ -102,9 +102,9 @@ Built on Percona Kubernetes Operators, OpenEverest extends their capabilities to
 
 [:material-newspaper-variant-outline: Join K8S Squad](https://www.percona.com/k8s?_gl=1*1x3nak3*_gcl_au*NDQzODI2NzEuMTY5MTQyMjA4OQ..)
 [:material-forum-outline: Community Forum](https://forums.percona.com/)
+[:material-newspaper-variant-outline: The Percona Database Performance Blog](https://www.percona.com/blog/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-account-group: Percona Operators at Community Website](https://percona.community/projects/operators/)
-[:material-newspaper-variant-outline: The Percona Database Performance Blog](https://www.percona.com/blog/)
 
 </div>
 <br>

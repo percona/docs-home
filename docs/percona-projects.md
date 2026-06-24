@@ -88,10 +88,11 @@ Tools for moving data between systems.
 
 <div data-resources markdown>
 
-[:material-account-group: Community Website](https://percona.community/)
 [:material-forum-outline: Community Forum](https://forums.percona.com/)
-[:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-newspaper-variant-outline: The Percona Database Performance Blog](https://www.percona.com/blog/)
+[:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
+[:material-account-group: Community Website](https://percona.community/)
+[:material-newspaper-variant-outline: Community Blog](https://percona.community/blog/)
 
 </div>
 <br>
