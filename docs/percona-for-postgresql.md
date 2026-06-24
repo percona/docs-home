@@ -106,7 +106,7 @@ Explore `pg_stat_monitor` - a query performance monitoring tool that brings more
 [:material-newspaper-variant-outline: PostgreSQL Blog Articles](https://www.percona.com/blog/category/postgresql/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-account-group: PostgreSQL Community Website](https://percona.community/postgresql/)
-[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+[:material-newspaper-variant-outline: Community Blog](https://percona.community/blog/)
 
 </div>
 <br>
