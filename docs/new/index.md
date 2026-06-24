@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="mysql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-6: Enhanced backup validation and reporting {.title}
+
+Percona XtraBackup 8.4.0-6 introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-6-release.md){:target="_blank"}
+
+<span style="float: right;">June 24, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
@@ -27,6 +42,21 @@ This release introduces **Oracle Cloud Infrastructure (OCI)** Object Storage sup
 </div>
 </div>
 
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.8.1: Security-focused release with Grafana 12.4.3 {.title}
+
+We've released PMM 3.8.1, a security-focused update that patches critical and high-severity vulnerabilities in gRPC, Grafana, and nginx. This release upgrades Grafana to 12.4.3+security-02 and fixes ClickHouse and dashboard stability issues.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.8.1-release.md){:target="_blank"}
+
+<span style="float: right;">June 16, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona Distribution for MySQL 8.0 using Percona Server for MySQL {.title}
@@ -40,38 +70,6 @@ No additional releases, bug fixes, security updates, or post-EOL support will be
 [Read more :material-arrow-right:](../new/posts/MySQL/pdps-8.0.46-release.md){:target="_blank"}
 
 <span style="float: right;">June 10, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona Server for MySQL 8.0 {.title}
-
-Percona Server for MySQL 8.0.46-37 is the final release of the Percona Server for MySQL 8.0 series. MySQL 8.0 has reached its End of Life (EOL).
-
-Percona offers tailored support before, during, and after your move to MySQL 8.4, and can keep your existing MySQL 8.0 deployment secure and performant post-EOL through [MySQL 8.0 Post-EOL Support from Percona](https://www.percona.com/mysql-8-0-eol-support/).
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-server-8.0.46-37-release.md){:target="_blank"}
-
-<span style="float: right;">June 10, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.8.1: Security-focused release with Grafana 12.4.3 {.title}
-
-We've released PMM 3.8.1, a security-focused update that patches critical and high-severity vulnerabilities in gRPC, Grafana, and nginx. This release upgrades Grafana to 12.4.3+security-02 and fixes ClickHouse and dashboard stability issues.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.8.1-release.md){:target="_blank"}
-
-<span style="float: right;">June 16, 2026</span>
 
 </div>
 </div>
