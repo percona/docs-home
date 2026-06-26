@@ -25,5 +25,5 @@ This release provides the following improvements:
 
     If you require a Pro Build for a specific version, your Percona representative is ready to guide you. Our goal is to ensure a smooth transition and continued success with Percona's open‑source solutions, enhanced with enterprise‑grade capabilities.
 
-Learn more about this release in Percona Server for MongoDB 8.0.16-5 [release notes](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.16-5.html){:target="_blank"}.
+Learn more about this release in Percona Server for MongoDB 8.0.26-11 [release notes](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.26-11.html){:target="_blank"}.
 
