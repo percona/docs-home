@@ -20,9 +20,9 @@ This release contains multiple high-severity security fixes affecting all Percon
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.15.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.0.26-11.md){:target="_blank"}
 
-<span style="float: right;">June 17, 2026</span>
+<span style="float: right;">June 25, 2026</span>
 
 </div>
 </div>
