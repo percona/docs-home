@@ -14,8 +14,9 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
 
-We've released Percona Server for MongoDB 8.0.26-11, 7.0.37-20, and 6.0.29-23.
-This release contains multiple high-severity security fixes affecting all Percona Server for MongoDB 8.0.x, 7.0.x, and 6.0.x versions. 
+Percona Server for MongoDB 8.0.26-11, 7.0.37-20, and 6.0.29-23 are now available.
+
+These releases address multiple high-severity security vulnerabilities affecting all 8.0.x, 7.0.x, and 6.0.x versions of Percona Server for MongoDB. Users should upgrade to the latest release immediately.
 
 <div class="actions" markdown>
 
