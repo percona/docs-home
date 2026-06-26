@@ -1,7 +1,7 @@
 ---
 date: 2026-06-25
 description: >
-  Percona Server for MongoDB 8.0.26-11 has been released on June 25, 2025.
+  Percona Server for MongoDB 8.0.26-11 has been released on June 25, 2026.
 authors: [rasika-chivate]
 categories:
   - MongoDB
