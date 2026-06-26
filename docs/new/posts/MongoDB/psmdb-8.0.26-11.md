@@ -1,7 +1,7 @@
 ---
 date: 2026-06-25
 description: >
-  Percona Server for MongoDB 8.0.26-11 has been released on June 25, 2026.
+  Percona Server for MongoDB 8.0.26-11, 7.0.37-20, and 6.0.29-23 has been released on June 25, June 23 and June 24 2025 respectively.
 authors: [rasika-chivate]
 categories:
   - MongoDB
@@ -9,21 +9,21 @@ tags:
   - Percona Server for MongoDB
 ---
 
-# Percona Server for MongoDB 8.0.26-11 has been released
+# Percona Server for MongoDB 8.0.26-11, 7.0.37-20, 6.0.29-23  have been released
 
 <!-- more -->
 
-[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/8.0/index.html){:target="_blank"} 8.0.26-11 has been released on June 25, 2026.
+[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/8.0/index.html){:target="_blank"} 8.0.26-11, 7.0.37-20, and 6.0.29-23 has been released on June 25, June 23 and June 24 2025 respectively.
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-for-mongodb/8.0/install/index.html){:target="_blank"}. 
+Try it out using the Quickstart guides for versions:
 
-This release provides the following improvements:
+- [8.0](https://docs.percona.com/percona-server-for-mongodb/8.0/install/index.html){:target="_blank"}. 
+- [7.0](https://docs.percona.com/percona-server-for-mongodb/7.0/install/index.html){:target="_blank"}.
+- [6.0](https://docs.percona.com/percona-server-for-mongodb/6.0/install/index.html){:target="_blank"}.
 
-* No vendor lock-in with OpenBao support for data-at-rest encryption. Percona Server for MongoDB is integrated with OpenBao, the open-source fork of HashiCorp Vault. This enables you to offer the same level of security — without the constraints of vendor lock-in. For guidance on configuring OpenBao, check our [documentation](https://docs.percona.com/percona-server-for-mongodb/8.0/openbao.html){:target="_blank"}.
-* Percona Server for MongoDB is now officially supported and tested on Rocky Linux 8 and 9. The fully supported status for Rocky Linux gives you confidence to run production workloads on a community‑driven, enterprise‑ready operating system. 
-* Sunsetting Pro builds. We no longer release Pro builds of Percona Server for MongoDB. All features that were previously included in Pro Builds are now accessible to everyone in our regular public builds.
 
-    If you require a Pro Build for a specific version, your Percona representative is ready to guide you. Our goal is to ensure a smooth transition and continued success with Percona's open‑source solutions, enhanced with enterprise‑grade capabilities.
+Learn more about this release in Percona Server for MongoDB release notes:
 
-Learn more about this release in Percona Server for MongoDB 8.0.26-11 [release notes](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.26-11.html){:target="_blank"}.
-
+- [8.0.26-11](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.26-11.html){:target="_blank"}.
+- [7.0.37-20](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/7.0.37-20.html){:target="_blank"}.
+- [6.0.28-23](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/7.0.37-20.html){:target="_blank"}.
