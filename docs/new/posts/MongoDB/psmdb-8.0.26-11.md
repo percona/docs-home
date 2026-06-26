@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/8.0/index.html){:target="_blank"} 8.0.26-11 has been released on December 2, 2025.
+[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/8.0/index.html){:target="_blank"} 8.0.26-11 has been released on June 25, 2026.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-server-for-mongodb/8.0/install/index.html){:target="_blank"}. 
 
