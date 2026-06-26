@@ -10,6 +10,23 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
+
+We've released Percona Server for MongoDB versions Percona Server for MongoDB 8.0.26-11, 7.0.37-20, and 6.0.29-23.
+
+This release contains multiple high-severity security fixes affecting all Percona Server for MongoDB 8.0.x, 7.0.x, and 6.0.x versions. 
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.15.0-release.md){:target="_blank"}
+
+<span style="float: right;">June 17, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-6: Enhanced backup validation and reporting {.title}
