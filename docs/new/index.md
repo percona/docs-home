@@ -20,7 +20,7 @@ This release contains multiple high-severity security fixes affecting all Percon
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.0.26-11.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.0.26-11-release.md){:target="_blank"}
 
 <span style="float: right;">June 25, 2026</span>
 
