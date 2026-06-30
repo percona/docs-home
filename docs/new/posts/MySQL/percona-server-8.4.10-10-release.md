@@ -77,4 +77,4 @@ This release addresses the following security vulnerabilities:
 
 * See [Profile-Guided Optimization (PGO) and non-PGO builds](https://docs.percona.com/percona-server/8.4/pgo.html){:target="_blank"} for benefits, considerations, and which build you receive for your platform.
 
-Learn more in Percona Server for MySQL 8.4.10-10 [release notes](https://docs.percona.com/percona-server/8.4/release-notes/8.4.10-10.html){:target="_blank"}{:target="_blank"}.
+Learn more in Percona Server for MySQL 8.4.10-10 [release notes](https://docs.percona.com/percona-server/8.4/release-notes/8.4.10-10.html){:target="_blank"}.
