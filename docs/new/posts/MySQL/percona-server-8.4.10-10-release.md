@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 8.4.10-10](https://docs.percona.com/percona-server/8.4/index.html){:target="_blank"} has been released on Thursday, March 22, 2025.
+[Percona Server for MySQL 8.4.10-10](https://docs.percona.com/percona-server/8.4/index.html){:target="_blank"} has been released on Tuesday, June 30, 2026.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.4/quickstart-overview.html){:target="_blank"}.
 
