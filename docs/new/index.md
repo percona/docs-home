@@ -10,6 +10,23 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
+
+Percona Server for MongoDB **8.0.26-11**, **7.0.37-20**, and **6.0.29-23** are now available.
+
+These releases address high-severity security vulnerabilities affecting all supported versions of Percona Server for MongoDB. The 8.0.x and 7.0.x release series include fixes for multiple vulnerabilities, while the 6.0.x release addresses one high-severity vulnerability. Users should upgrade to the latest release immediately.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.0.26-11-release.md){:target="_blank"}
+
+<span style="float: right;">June 25, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-6: Enhanced backup validation and reporting {.title}
@@ -55,23 +72,4 @@ We've released PMM 3.8.1, a security-focused update that patches critical and hi
 <span style="float: right;">June 16, 2026</span>
 
 </div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona Distribution for MySQL 8.0 using Percona Server for MySQL {.title}
-
-Percona Distribution for MySQL 8.0.46 using Percona Server for MySQL is the final release of the Percona Distribution for MySQL 8.0 series. MySQL 8.0 has reached its End of Life (EOL).
-
-No additional releases, bug fixes, security updates, or post-EOL support will be provided for Percona Distribution for MySQL 8.0 using Percona Server for MySQL.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/pdps-8.0.46-release.md){:target="_blank"}
-
-<span style="float: right;">June 10, 2026</span>
-
-</div>
-</div>
-
 </div>
