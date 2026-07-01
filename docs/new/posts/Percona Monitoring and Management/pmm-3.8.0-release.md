@@ -29,4 +29,4 @@ Here's a summary of the main changes in this release:
 - [Security hardening](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.8.0.html#security-updates){:target="_blank"} with zero known vulnerabilities in PMM's own components and assessed third-party risks with mitigating factors documented
 - [Deprecation notice](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.8.0.html#deprecations){:target="_blank"} for UI-based PMM Server upgrades, to be removed in PMM 3.9.0 (July 2026) — switch to Docker, Podman, or Helm upgrade paths now
 
-You can find the full list of changes in the [Release Notes](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.8.0.html){:target="_blank"}.
+You can find the full list of changes in the [Release Notes](https://docs.percona.com/percona-monitoring-and-management/3/release-notes/3.8.0.html){:target="_blank"}. 
