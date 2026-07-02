@@ -58,9 +58,10 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 Create and manage highly available, enterprise-ready MySQL database clusters on Kubernetes powered by Percona XtraDB Cluster with syncronous replication.
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
-[Install now](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
-[Documentation](https://docs.percona.com/percona-operator-for-mysql/pxc/)
+[Releases](https://docs.percona.com/percona-operator-for-xtradb-cluster/latest/
+/ReleaseNotes/index.html)
+[Install now](https://docs.percona.com/percona-operator-for-xtradb-cluster/latest/quickstart.html)
+[Documentation](https://docs.percona.com/percona-operator-for-xtradb-cluster/latest/index.html)
 
 </div>
 </div>
@@ -73,9 +74,9 @@ Currently in Alpha stage.
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
-[Install now](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
-[Documentation](https://docs.percona.com/percona-operator-for-mysql/ps/)
+[Releases](https://docs.percona.com/percona-operator-for-mysql/latest/ReleaseNotes/index.html)
+[Install now](https://docs.percona.com/percona-operator-for-mysql/latest/quickstart.html)
+[Documentation](https://docs.percona.com/percona-operator-for-mysql/latest/index.html)
 
 </div>
 </div>
