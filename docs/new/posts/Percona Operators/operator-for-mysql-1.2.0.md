@@ -55,6 +55,6 @@ New features and improvements introduced by this release include:
 
 * Known limitation
 
-   * Binlog Server 0.3.1 is incompatible with the previous version. To upgrade, you need to start the fresh backup and binlog collection. Refer to the [documentation](https://docs.percona.com/percona-operator-for-mysql/1.2.0/upgrade-db.html){:target="_blank"} for steps.
+   * Binlog Server 0.3.1 is incompatible with the previous version. To upgrade, you need to start a fresh backup and binlog collection. Refer to the [documentation](https://docs.percona.com/percona-operator-for-mysql/1.2.0/upgrade-db.html){:target="_blank"} for steps.
 
 Learn more in Percona Operator for MySQL based on Percona Server for MySQL 1.2.0 [release notes](https://docs.percona.com/percona-operator-for-mysql/1.2.0/ReleaseNotes/Kubernetes-Operator-for-PS-RN1.2.0.html){:target="_blank"}.
