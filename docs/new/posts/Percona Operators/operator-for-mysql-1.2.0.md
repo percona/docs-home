@@ -51,7 +51,7 @@ New features and improvements introduced by this release include:
 
 * Deprecation, rename, removal
 
-   * Deprecated spec.enableVolumeExpansion. This option still works for backward compatibility but will be removed in version 1.5.0. Use spec.storageScaling.enableVolumeScaling instead.
+   * Deprecated `spec.enableVolumeExpansion`. This option still works for backward compatibility but will be removed in version 1.5.0. Use `spec.storageScaling.enableVolumeScaling` instead.
 
 * Known limitation
 
