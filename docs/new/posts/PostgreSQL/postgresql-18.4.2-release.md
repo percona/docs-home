@@ -1,7 +1,7 @@
 ---
 date: 2026-07-06
 description: >
-  Percona Distribution for PostgreSQL 18.4.2, 17.10.2 and `pg_tde` 2.2.1 have been released on July 03, 2026.
+  Percona Distribution for PostgreSQL 18.4.2, 17.10.2 and `pg_tde` 2.2.1 have been released on July 06, 2026.
 authors: [Andriciuc]
 categories:
   - PostgreSQL
