@@ -1,7 +1,7 @@
 ---
 date: 2026-07-03
 description: >
-  Percona Operator for MySQL based on Percona Server for MySQL 1.2.0 has been released on July 2, 2026.
+  Percona Operator for MySQL based on Percona Server for MySQL 1.2.0 has been released on July 3, 2026.
 authors: [nastena1606]
 categories:
   - Percona Operators
