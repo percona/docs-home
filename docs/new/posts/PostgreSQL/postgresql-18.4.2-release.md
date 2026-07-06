@@ -15,7 +15,7 @@ tags:
 
 We're pleased to announce the release of [Percona Distribution for PostgreSQL](https://docs.percona.com/postgresql/18/index.html){:target="_blank"} 18.4.2, 17.10.2 and [`pg_tde`](https://docs.percona.com/pg-tde/index.html){:target="_blank"} 2.2.1!
 
-This is an out-of-cycle maintenance release that resolves an issue preventing Citus and TimescaleDB from compiling against earlier Percona Server for PostgreSQL versions, and addresses high-severity CVEs where fixes were available.
+This is an out-of-cycle maintenance release that resolves an issue preventing Citus and TimescaleDB from compiling against earlier Percona Server for PostgreSQL versions, and addresses high-severity CVEs in the Docker Images for which fixes were available.
 
 This release covers the following:
 
