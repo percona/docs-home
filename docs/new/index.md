@@ -12,6 +12,23 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="mysql" markdown>
 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 9.7.1-rc1 Release Candidate {.title}
+
+We've released Percona XtraBackup 9.7.1-rc1.
+
+Percona XtraBackup 9.7.1-rc1 is a Release Candidate based on the MySQL 9.7 Long-Term Supported (LTS) release. Interfaces and behavior are subject to change before the General Availability (GA) release. This release introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-9.7.1-rc1-release.md){:target="_blank"}
+
+<span style="float: right;">July 15, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="mysql" markdown>
+
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-6: Enhanced backup validation and reporting {.title}
 
 Percona XtraBackup 8.4.0-6 introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
@@ -53,23 +70,6 @@ We've released PMM 3.8.1, a security-focused update that patches critical and hi
 [Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.8.1-release.md){:target="_blank"}
 
 <span style="float: right;">June 16, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Final release of Percona Distribution for MySQL 8.0 using Percona Server for MySQL {.title}
-
-Percona Distribution for MySQL 8.0.46 using Percona Server for MySQL is the final release of the Percona Distribution for MySQL 8.0 series. MySQL 8.0 has reached its End of Life (EOL).
-
-No additional releases, bug fixes, security updates, or post-EOL support will be provided for Percona Distribution for MySQL 8.0 using Percona Server for MySQL.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/pdps-8.0.46-release.md){:target="_blank"}
-
-<span style="float: right;">June 10, 2026</span>
 
 </div>
 </div>
