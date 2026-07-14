@@ -1,0 +1,96 @@
+---
+date: 2026-07-21
+description: >
+  Percona Server for MySQL 9.7.1-1 has been released on Tuesday, July 21, 2026.
+authors: [patrickbirch]
+categories:
+  - MySQL
+tags:
+  - Percona Server for MySQL
+---
+
+# Percona Server for MySQL 9.7.1-1 has been released
+
+<!-- more -->
+
+[Percona Server for MySQL 9.7.1-1](https://docs.percona.com/percona-server/9.7/index.html){:target="_blank"} has been released on Tuesday, July 21, 2026.
+
+Percona Server for MySQL 9.7.0-1 was not released; 9.7.1-1 is the first build in this series. This release includes enhancements and bug fixes from MySQL 9.7.0 and MySQL 9.7.1.
+
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/9.7/quickstart-overview.html){:target="_blank"}.
+
+## Percona Server for MySQL 9.7.1-1
+
+Percona Server for MySQL 9.7.1-1 introduces the following new features and improvements:
+
+* Integrates the new Key Management Interoperability Protocol (KMIP) library into the key management component.
+
+* Enhances Thread Pool statistics by adding new status variables for queue monitoring and wait time analysis. Reports the number of requests waiting in normal and high-priority queues, the number of requests not yet entered into a queue, and aggregate queue wait time statistics, including average, minimum, maximum, and standard deviation wait times.
+
+* Adds JSONL (JSON Lines) output format for Audit Log Filter.
+
+* Increases the verbosity of the data dictionary upgrade process, making it easier to diagnose issues that occur during upgrade.
+
+* Logs SQL statements for the Audit Log Filter `table_access` class and the `read` and `insert` subclasses.
+
+* Flushes the audit log buffer on server shutdown when the `ASYNCHRONOUS` logging strategy is in use, preventing the loss of buffered events.
+
+* Reduces memory pressure in the Audit Log Filter component caused by VFS buffering.
+
+* Aligns the `audit_log_filter.format=NEW` output between the 8.0 plugin and the 8.4 component.
+
+* Suppresses nested general/status records in Audit Log Filter output when `audit_log_filter.event_mode=REDUCED` is enabled.
+
+* Removes `format=OLD` and sets JSONL as the default Audit Log Filter output format.
+
+* Optimizes performance for `mem_root_deque`.
+
+## MySQL 9.7.1
+
+Improvements and bug fixes introduced by Oracle for MySQL 9.7.0 and MySQL 9.7.1 and included in Percona Server for MySQL are the following:
+
+* Connection attribute parsing could read a length-encoded size field before verifying that the complete field was present in the packet, leading to an out-of-bounds read. A size check is now performed before reading the field. (Bug #39116965)
+
+* A regression in row size estimation for `ROW_FORMAT=COMPRESSED` tables could cause `CREATE TABLE` to fail with `Row size too large` for tables that were accepted in earlier releases. (Bug #39129182, Bug #120323)
+
+* Under certain circumstances, when calculating the maximum possible index record size, an assertion failure could occur. (Bug #85060, Bug #25579578)
+
+Find the complete list of bug fixes and changes in the [MySQL 9.7.1 release notes :octicons-link-external-16:](https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-1.html){:target="_blank"}.
+
+## Security updates
+
+This release addresses the following security vulnerabilities:
+
+* [CVE-2026-46850](https://www.cve.org/CVERecord?id=CVE-2026-46850){:target="_blank"}: A vulnerability in MySQL Shell (Shell for VS Code) allows a low-privileged attacker with network access via HTTP to compromise MySQL Shell, with potential scope change impact on additional products (CVSS 3.1 Base Score 9.9).
+
+* [CVE-2026-46860](https://www.cve.org/CVERecord?id=CVE-2026-46860){:target="_blank"}: A vulnerability in MySQL Router allows an unauthenticated attacker with network access via HTTP to compromise MySQL Router (CVSS 3.1 Base Score 9.8).
+
+* [CVE-2026-46861](https://www.cve.org/CVERecord?id=CVE-2026-46861){:target="_blank"}: A vulnerability in MySQL NDB Cluster (NDB Operator) allows a low-privileged attacker with network access via HTTP to access or modify critical data, with potential scope change impact (CVSS 3.1 Base Score 9.6).
+
+* [CVE-2026-46862](https://www.cve.org/CVERecord?id=CVE-2026-46862){:target="_blank"}: A vulnerability in MySQL Router allows an unauthenticated attacker with network access via TLS to cause a hang or repeatable unexpected exit of MySQL Router (CVSS 3.1 Base Score 7.5).
+
+* [CVE-2026-46863](https://www.cve.org/CVERecord?id=CVE-2026-46863){:target="_blank"}: A vulnerability in MySQL Server connection handling allows an unauthenticated attacker with network access via multiple protocols to cause a hang or repeatable unexpected exit of the server (CVSS 3.1 Base Score 7.5).
+
+* [CVE-2026-46869](https://www.cve.org/CVERecord?id=CVE-2026-46869){:target="_blank"}: A vulnerability in MySQL Shell (Dump and Load) allows an unauthenticated attacker with network access to access critical data when user interaction is required (CVSS 3.1 Base Score 6.5).
+
+* [CVE-2026-46870](https://www.cve.org/CVERecord?id=CVE-2026-46870){:target="_blank"}: A vulnerability in MySQL Shell (Shell for VS Code) allows a low-privileged attacker with network access to compromise MySQL Shell, with potential scope change impact (CVSS 3.1 Base Score 8.5).
+
+* [CVE-2026-46871](https://www.cve.org/CVERecord?id=CVE-2026-46871){:target="_blank"}: A vulnerability in MySQL Shell (Shell for VS Code) allows a low-privileged attacker with network access via multiple protocols to access critical data (CVSS 3.1 Base Score 6.5).
+
+## Builds and packaging
+
+* Percona Server for MySQL releases include a mixture of PGO and non-PGO builds. Where Profile-Guided Optimization (PGO) is enabled, the compiler uses runtime profiling data from representative workloads to guide optimization, which can improve throughput and reduce latency compared with non-PGO builds.
+
+* See [Profile-Guided Optimization (PGO) and non-PGO builds](https://docs.percona.com/percona-server/9.7/pgo.html){:target="_blank"} for benefits, considerations, and which build you receive for your platform.
+
+* In Percona Server for MySQL 9.7.1-1 only, Debian and Ubuntu (APT) packaging was reorganized to align more closely with upstream MySQL. Several packages were split into separate components, which may affect upgrades and dependency resolution compared with earlier Percona Server releases. The APT packages are:
+
+    * percona-server-client-core
+    * percona-server-client-plugins
+    * percona-server-client
+    * percona-server-common
+    * percona-server-server-core
+    * percona-server-server
+    * percona-telemetry-agent
+
+Learn more in Percona Server for MySQL 9.7.1-1 [release notes](https://docs.percona.com/percona-server/9.7/release-notes/9.7.1-1.html){:target="_blank"}.
