@@ -60,8 +60,8 @@ It ensures high availability, prevents downtime and data loss, and provides line
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html)
-[Install now](https://docs.percona.com/percona-xtradb-cluster/8.0/quickstart-overview.html)
+[Releases](https://docs.percona.com/percona-xtradb-cluster/8.4/release-notes/release-notes_index.html)
+[Install now](https://docs.percona.com/percona-xtradb-cluster/8.4/quickstart-overview.html)
 [Documentation](https://docs.percona.com/percona-xtradb-cluster/)
 
 </div>
@@ -88,8 +88,8 @@ An open source, hot backup utility for MySQL-based servers that keeps your datab
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/release-notes.html)
-[Install now](https://docs.percona.com/percona-xtrabackup/8.4/quickstart-overview.html)
+[Releases](https://docs.percona.com/percona-xtrabackup/9.7/release-notes/release-notes.html)
+[Install now](https://docs.percona.com/percona-xtrabackup/9.7/quickstart-overview.html)
 [Documentation](https://docs.percona.com/percona-xtrabackup/)
 
 </div>
