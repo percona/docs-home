@@ -34,6 +34,8 @@ Percona Operator for PostgreSQL is powerful open source software that automates 
 [Releases](https://docs.percona.com/percona-operator-for-postgresql/latest/ReleaseNotes/index.html)
 [Install now](https://docs.percona.com/percona-operator-for-postgresql/latest/quickstart.html)
 [Documentation](https://docs.percona.com/percona-operator-for-postgresql/latest/)
+[Roadmap](https://github.com/orgs/percona/projects/10/views/6){:target="_blank"}
+[Release timeline](https://github.com/orgs/percona/projects/10/views/9){:target="_blank"}
 
 </div>
 </div>
@@ -48,6 +50,8 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 [Releases](https://docs.percona.com/percona-operator-for-mongodb/RN/index.html)
 [Install now](https://docs.percona.com/percona-operator-for-mongodb/quickstart.html)
 [Documentation](https://docs.percona.com/percona-operator-for-mongodb/)
+[Roadmap](https://github.com/orgs/percona/projects/10/views/1){:target="_blank"}
+[Release timeline](https://github.com/orgs/percona/projects/10/views/10){:target="_blank"}
 
 </div>
 </div>
@@ -62,6 +66,8 @@ Create and manage highly available, enterprise-ready MySQL database clusters on 
 /ReleaseNotes/index.html)
 [Install now](https://docs.percona.com/percona-operator-for-xtradb-cluster/latest/quickstart.html)
 [Documentation](https://docs.percona.com/percona-operator-for-xtradb-cluster/latest/index.html)
+[Roadmap](https://github.com/orgs/percona/projects/10/views/5){:target="_blank"}
+[Release timeline](https://github.com/orgs/percona/projects/10/views/7){:target="_blank"}
 
 </div>
 </div>
@@ -70,13 +76,14 @@ Create and manage highly available, enterprise-ready MySQL database clusters on 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MySQL based on Percona Server for MySQL {.title}
 
 Create and manage highly available, enterprise-ready MySQL database clusters on Kubernetes. Supports asyncronous and group replication.
-Currently in Alpha stage.
 
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-operator-for-mysql/latest/ReleaseNotes/index.html)
 [Install now](https://docs.percona.com/percona-operator-for-mysql/latest/quickstart.html)
 [Documentation](https://docs.percona.com/percona-operator-for-mysql/latest/index.html)
+[Roadmap](https://github.com/orgs/percona/projects/10/views/4){:target="_blank"}
+[Release timeline](https://github.com/orgs/percona/projects/10/views/8){:target="_blank"}
 
 </div>
 </div>
