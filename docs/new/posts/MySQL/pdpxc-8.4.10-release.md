@@ -1,7 +1,7 @@
 ---
-date: 2026-07-
+date: 2026-07-23
 description: >
-  Percona Distribution for MySQL 8.4.10 using Percona XtraDB Cluster has been released on July , 2026.
+  Percona Distribution for MySQL 8.4.10 using Percona XtraDB Cluster has been released on July 23, 2026.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,11 +13,13 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.4.10 using Percona XtraDB Cluster](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on July , 2026.
+[Percona Distribution for MySQL 8.4.10 using Percona XtraDB Cluster](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on July 23, 2026.
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html){:target="_blank"}.
 
 ## Builds and packaging
+
+* Percona XtraDB Cluster 8.4.10-10 adds support for Ubuntu 26.04.
 
 * Percona Server for MySQL releases include a mixture of PGO and non-PGO builds. Where Profile-Guided Optimization (PGO) is enabled, the compiler uses runtime profiling data from representative workloads to guide optimization, which can improve throughput and reduce latency compared with non-PGO builds.
 
