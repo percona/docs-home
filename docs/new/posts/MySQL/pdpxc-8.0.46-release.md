@@ -1,7 +1,7 @@
 ---
-date: 2026-07-22
+date: 2026-07-23
 description: >
-  Percona Distribution for MySQL 8.0.46 using Percona XtraDB Cluster has been released on Wednesday, July 22, 2026.
+  Percona Distribution for MySQL 8.0.46 using Percona XtraDB Cluster has been released on Wednesday, July 23, 2026.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.0.46 using Percona XtraDB Cluster](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){:target="_blank"} has been released on Wednesday, July 22, 2026.
+[Percona Distribution for MySQL 8.0.46 using Percona XtraDB Cluster](https://docs.percona.com/percona-distribution-for-mysql/8.0/index.html){:target="_blank"} has been released on Wednesday, July 23, 2026.
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.0/installing.html){:target="_blank"}.
 
@@ -55,5 +55,5 @@ Review each component’s release notes for What’s new, improvements, or bug f
 | Percona Toolkit         | [3.7.1](https://docs.percona.com/percona-toolkit/release_notes.html#v3-7-1-4-released-2026-07-02){:target="_blank"}     | The set of scripts to simplify and optimize database operation. |
 | relication_manager.sh   | [1.0](https://docs.percona.com/percona-distribution-for-mysql/8.0/replication-manager/replication-manager-for-pxc.html){:target="_blank"}  | A tool to manage multi-source replication between multiple Percona XtraDB Cluster clusters. |
 
-Learn more in Percona Distribution for MySQL 8.0.45 using Percona XtraDB Cluster [release notes](https://docs.percona.com/percona-distribution-for-mysql/8.0/release-notes-pxc-v8.0.45.html){:target="_blank"}.
+Learn more in Percona Distribution for MySQL 8.0.43 using Percona XtraDB Cluster [release notes](https://docs.percona.com/percona-distribution-for-mysql/8.0/release-notes-pxc-v8.0.43.html){:target="_blank"}.
 
