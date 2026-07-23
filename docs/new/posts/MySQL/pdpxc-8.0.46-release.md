@@ -19,13 +19,13 @@ Try it out using the [Installation guide](https://docs.percona.com/percona-distr
 
 !!! note "Final 8.0 series release"
 
-    MySQL 8.0 has officially reached End of Life (EOL). Percona Distribution for MySQL 8.0.46 and Percona Server for MySQL 8.0.46-37 are the final standard releases in the 8.0 series.
+    MySQL 8.0 has officially reached End of Life (EOL). Percona Distribution for MySQL 8.0.46 and Percona XtraDB Cluster 8.0.46-38 are the final standard releases in the 8.0 series.
 
     Future support depends on your product:
 
     **Percona Distribution for MySQL 8.0**: Fully retired. No further releases, bug fixes, security updates, or post-EOL support will be provided.
 
-    **Percona Server for MySQL 8.0**: Standard public support has ended, but extended lifecycle options are available:
+    **Percona XtraDB Cluster 8.0**: Standard public support has ended, but extended lifecycle options are available:
       * **Paid subscribers**: Access to critical updates and precompiled binaries through a private repository.
       * **Community users**: Access to source code only, published quarterly with a delay.
 
@@ -41,7 +41,7 @@ This release addresses the following security vulnerabilities:
 
 ## Packaging and builds
 
-Percona XtraDB Cluster 8.0.46-37 adds support for Ubuntu 26.04.
+Percona XtraDB Cluster 8.0.46-38 adds support for Ubuntu 26.04.
 
 ## Supplied components
 
@@ -55,5 +55,5 @@ Review each component’s release notes for What’s new, improvements, or bug f
 | Percona Toolkit         | [3.7.1](https://docs.percona.com/percona-toolkit/release_notes.html#v3-7-1-4-released-2026-07-02){:target="_blank"}     | The set of scripts to simplify and optimize database operation. |
 | relication_manager.sh   | [1.0](https://docs.percona.com/percona-distribution-for-mysql/8.0/replication-manager/replication-manager-for-pxc.html){:target="_blank"}  | A tool to manage multi-source replication between multiple Percona XtraDB Cluster clusters. |
 
-Learn more in Percona Distribution for MySQL 8.0.43 using Percona XtraDB Cluster [release notes](https://docs.percona.com/percona-distribution-for-mysql/8.0/release-notes-pxc-v8.0.43.html){:target="_blank"}.
+Learn more in Percona Distribution for MySQL 8.0.46 using Percona XtraDB Cluster [release notes](https://docs.percona.com/percona-distribution-for-mysql/8.0/release-notes-pxc-v8.0.46.html){:target="_blank"}.
 
