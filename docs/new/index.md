@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="operators" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.0 - real-time replication, semantic search, fast storage-layer backups, and more {.title}
+
+A new release of Percona Operator for MongoDB 1.23.0 is here, bringing powerful features such as real‑time replication, semantic search, fast storage‑layer backups. This release also includes numerous improvements driven directly by community feedback.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona Operators/operator-for-mongodb-1.23.0.md){:target="_blank"}
+
+<span style="float: right;">July 23, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 9.7.1-rc1 Release Candidate {.title}
@@ -55,21 +70,6 @@ This release introduces **Oracle Cloud Infrastructure (OCI)** Object Storage sup
 [Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.15.0-release.md){:target="_blank"}
 
 <span style="float: right;">June 17, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.8.1: Security-focused release with Grafana 12.4.3 {.title}
-
-We've released PMM 3.8.1, a security-focused update that patches critical and high-severity vulnerabilities in gRPC, Grafana, and nginx. This release upgrades Grafana to 12.4.3+security-02 and fixes ClickHouse and dashboard stability issues.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.8.1-release.md){:target="_blank"}
-
-<span style="float: right;">June 16, 2026</span>
 
 </div>
 </div>
