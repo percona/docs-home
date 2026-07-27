@@ -1,7 +1,7 @@
 ---
-date: 2026-07-23
+date: 2026-07-27
 description: >
-  Percona XtraDB Cluster 8.4.10-10 has been released on July 23, 2026.
+  Percona XtraDB Cluster 8.4.10-10 has been released on July 27, 2026.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona XtraDB Cluster 8.4.10-10](https://docs.percona.com/percona-xtradb-cluster/8.4/){:target="_blank"} has been released on July 23, 2026.
+[Percona XtraDB Cluster 8.4.10-10](https://docs.percona.com/percona-xtradb-cluster/8.4/){:target="_blank"} has been released on July 27, 2026.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-xtradb-cluster/8.4/quickstart-overview.html){:target="_blank"}.
 
