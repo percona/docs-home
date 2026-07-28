@@ -31,8 +31,8 @@ An enhanced, fully compatible, source available, drop-in replacement for MySQL C
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-server/8.4/release-notes/release-notes-index.html)
-[Install now](https://docs.percona.com/percona-server/8.4/quickstart-overview.html)
+[Releases](https://docs.percona.com/percona-server/9.7/release-notes/release-notes-index.html)
+[Install now](https://docs.percona.com/percona-server/9.7/quickstart-overview.html)
 [Documentation](https://docs.percona.com/percona-server/)
 
 </div>
@@ -102,8 +102,8 @@ A single solution with the best and most critical enterprise components from the
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-distribution-for-mysql/8.4/release-notes.html)
-[Install now](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html)
+[Releases](https://docs.percona.com/percona-distribution-for-mysql/9.7/release-notes.html)
+[Install now](https://docs.percona.com/percona-distribution-for-mysql/9.7/installing.html)
 [Documentation](https://docs.percona.com/percona-distribution-for-mysql/)
 
 </div>
