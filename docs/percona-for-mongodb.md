@@ -61,7 +61,7 @@ An open source, community backup tool for performing consistent backups and rest
 
 [Releases](https://docs.percona.com/percona-backup-mongodb/release-notes.html)
 [Install now](https://docs.percona.com/percona-backup-mongodb/installation.html)
-[Documentation](https://docs.percona.com/percona-backup-mongodb/)
+[Documentation](https://docs.percona.com/percona-backup-mongodb/index.html)
 
 </div>
 </div>
@@ -104,7 +104,7 @@ An open-source data migration tool between various MongoDB deployments with zero
 [:material-newspaper-variant-outline: MongoDB Blog Articles](https://www.percona.com/blog/category/mongodb/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-account-group: MongoDB at Community Website](https://percona.community/mongodb/)
-[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+[:material-newspaper-variant-outline: Community Blog](https://percona.community/blog/)
 
 </div>
 <br>
