@@ -20,7 +20,7 @@ We've released PMM 3.9.0 with a new Alert Status page, data size panels for Mong
 
 [Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.9.0-release.md){:target="_blank"}
 
-<span style="float: right;">May 28, 2026</span>
+<span style="float: right;">July 30, 2026</span>
 
 </div>
 </div>
