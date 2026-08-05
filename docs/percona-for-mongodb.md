@@ -51,15 +51,6 @@ Integrated full-text and vector search for Percona Server for MongoDB using Apac
 </div>
 <div data-banner="operators" markdown>
 
-</div> </div> <div data-banner="mongodb" markdown>
-<span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB {.title}
-
-Integrated full-text and vector search for Percona Server for MongoDB using Apache Lucene. Create and manage search indexes with standard MongoDB commands to build lexical and semantic search applications.
-
-<div class="actions" markdown>
-
-Releases Install now Documentation
-
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MongoDB {.title}
 
 Based on best practices for the configuration of Percona Server for MongoDB, the Operator automates deployment and management of MongoDB clusters on Kubernetes, saving your time and ensuring a consistent environment.
