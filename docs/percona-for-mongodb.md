@@ -43,9 +43,9 @@ Integrated full-text and vector search for Percona Server for MongoDB using Apac
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-server-for-mongodb/latest/release_notes/index.html)
-[Install now](https://docs.percona.com/percona-server-for-mongodb/latest/install/index.html)
-[Documentation](https://docs.percona.com/percona-server-for-mongodb/)
+[Releases](https://docs.percona.com/percona-search-for-mongodb/release_notes/index.html)
+[Install now](https://docs.percona.com/percona-search-for-mongodb/install-mongot.html)
+[Documentation](https://docs.percona.com/percona-search-for-mongodb/)
 
 </div>
 </div>
