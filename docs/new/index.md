@@ -12,6 +12,15 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="operators" markdown>
 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.0: Alert Status page, new dashboard panels, and CSV export for RTA {.title} 
+
+We've released PMM 3.9.0 with a new Alert Status page, data size panels for MongoDB, four new PostgreSQL Top Queries panels, CSV export for Real-Time Analytics data, and Ubuntu 26.04 LTS support for PMM Client.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.9.0-release.md){:target="_blank"}
+
+<span style="float: right;">July 30, 2026</span>
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.0 - real-time replication, semantic search, fast storage-layer backups, and more {.title}
 
 A new release of Percona Operator for MongoDB 1.23.0 is here, bringing powerful features such as real‑time replication, semantic search, fast storage‑layer backups. This release also includes numerous improvements driven directly by community feedback.
