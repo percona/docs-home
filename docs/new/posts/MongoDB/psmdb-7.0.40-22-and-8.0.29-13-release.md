@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/8.0/index.html){:target="_blank"} 7.0.28-15 and 8.0.17-6 have been released on August 19 and August 20, 2026 respectively.
+[Percona Server for MongoDB](https://docs.percona.com/percona-server-for-mongodb/8.0/index.html){:target="_blank"} 7.0.40-22 and 8.0.29-13 have been released on August 19 and August 20, 2026 respectively.
 
 We recommend updating to Percona Server for MongoDB 7.0.40-22 or 8.0.29-13 as soon as possible to ensure your deployments remain secure. Find the [update instructions for Percona Server for MongoDB 7.0](https://docs.percona.com/percona-server-for-mongodb/7.0/install/minor-upgrade.html){:target="_blank"} and [Percona Server for MongoDB 8.0](https://docs.percona.com/percona-server-for-mongodb/8.0/install/minor-upgrade.html){:target="_blank"}. 
 
