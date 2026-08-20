@@ -31,8 +31,8 @@ An enhanced, fully compatible, source available, drop-in replacement for MySQL C
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-server/8.4/release-notes/release-notes-index.html)
-[Install now](https://docs.percona.com/percona-server/8.4/quickstart-overview.html)
+[Releases](https://docs.percona.com/percona-server/9.7/release-notes/release-notes-index.html)
+[Install now](https://docs.percona.com/percona-server/9.7/quickstart-overview.html)
 [Documentation](https://docs.percona.com/percona-server/)
 
 </div>
@@ -45,9 +45,9 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-operator-for-mysql/ps/ReleaseNotes/index.html)
-[Install now](https://docs.percona.com/percona-operator-for-mysql/ps/quickstart.html)
-[Documentation](https://docs.percona.com/percona-operator-for-mysql/ps/)
+[Releases](https://docs.percona.com/percona-operator-for-mysql/latest/ReleaseNotes/index.html)
+[Install now](https://docs.percona.com/percona-operator-for-mysql/latest/quickstart.html)
+[Documentation](https://docs.percona.com/percona-operator-for-mysql/latest/index.html)
 
 </div>
 </div>
@@ -60,8 +60,8 @@ It ensures high availability, prevents downtime and data loss, and provides line
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-xtradb-cluster/8.0/release-notes/release-notes_index.html)
-[Install now](https://docs.percona.com/percona-xtradb-cluster/8.0/quickstart-overview.html)
+[Releases](https://docs.percona.com/percona-xtradb-cluster/8.4/release-notes/release-notes_index.html)
+[Install now](https://docs.percona.com/percona-xtradb-cluster/8.4/quickstart-overview.html)
 [Documentation](https://docs.percona.com/percona-xtradb-cluster/)
 
 </div>
@@ -74,9 +74,9 @@ Automate deployment and management of Percona XtraDB Clusters (MySQL clustering 
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-operator-for-mysql/pxc/ReleaseNotes/index.html)
-[Install now](https://docs.percona.com/percona-operator-for-mysql/pxc/quickstart.html)
-[Documentation](https://docs.percona.com/percona-operator-for-mysql/pxc/)
+[Releases](https://docs.percona.com/percona-operator-for-xtradb-cluster/latest/ReleaseNotes/index.html)
+[Install now](https://docs.percona.com/percona-operator-for-xtradb-cluster/latest/quickstart.html)
+[Documentation](https://docs.percona.com/percona-operator-for-xtradb-cluster/latest/index.html)
 
 </div>
 </div>
@@ -88,8 +88,8 @@ An open source, hot backup utility for MySQL-based servers that keeps your datab
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-xtrabackup/8.4/release-notes/release-notes.html)
-[Install now](https://docs.percona.com/percona-xtrabackup/8.4/quickstart-overview.html)
+[Releases](https://docs.percona.com/percona-xtrabackup/9.7/release-notes/release-notes.html)
+[Install now](https://docs.percona.com/percona-xtrabackup/9.7/quickstart-overview.html)
 [Documentation](https://docs.percona.com/percona-xtrabackup/)
 
 </div>
@@ -102,8 +102,8 @@ A single solution with the best and most critical enterprise components from the
 
 <div class="actions" markdown>
 
-[Releases](https://docs.percona.com/percona-distribution-for-mysql/8.4/release-notes.html)
-[Install now](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html)
+[Releases](https://docs.percona.com/percona-distribution-for-mysql/9.7/release-notes.html)
+[Install now](https://docs.percona.com/percona-distribution-for-mysql/9.7/installing.html)
 [Documentation](https://docs.percona.com/percona-distribution-for-mysql/)
 
 </div>
@@ -146,7 +146,7 @@ An open source database monitoring, management and observability solution for My
 [:material-newspaper-variant-outline: MySQL Blog Articles](https://www.percona.com/blog/category/mysql/)
 [:percona-logo: Get a Percona Expert](https://www.percona.com/services/consulting)
 [:material-account-group: MySQL at Community Website](https://percona.community/mysql/)
-[:material-newspaper-variant-outline: Community Blog](https://www.percona.com/blog/)
+[:material-newspaper-variant-outline: Community Blog](https://percona.community/blog/)
 
 </div>
 <br>
