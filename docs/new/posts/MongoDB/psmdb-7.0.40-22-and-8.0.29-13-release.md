@@ -1,5 +1,5 @@
 ---
-date: 2026-20-08
+date: 2026-08-20
 description: >
   Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 have been released on August 20, 2026 respectively
 authors: [rasika-chivate]
