@@ -12,7 +12,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="pmm" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release — upgrade now {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release: upgrade now {.title}
 
 PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user to run arbitrary SQL via the Grafana ClickHouse data source. This release also removes eight high-severity CVEs and fixes encryption key rotation and client reconnection bugs.
 

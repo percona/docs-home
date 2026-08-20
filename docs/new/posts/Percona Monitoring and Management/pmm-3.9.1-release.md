@@ -15,7 +15,8 @@ tags:
 
 We're announcing the release of [Percona Monitoring and Management](https://docs.percona.com/percona-monitoring-and-management/3/index.html){:target="_blank"} 3.9.1, available since Wednesday, August 19, 2026.
 
-PMM 3.9.1 is a security-focused release. It fixes a high-severity vulnerability where the Grafana ClickHouse data source connected using a privileged account, giving any signed-in user — including those with the lowest-privilege Viewer role — the ability to run arbitrary SQL. We strongly recommend upgrading as soon as possible. This release also removes eight high-severity CVEs by dropping the `percona-telemetry-agent` binary, fixes an encryption key rotation bug that corrupted stored credentials, and resolves an issue where PMM Client stayed disconnected after a network interruption.
+PMM 3.9.1 is a security-focused release. It fixes a high-severity vulnerability where the Grafana ClickHouse data source connected using a privileged account, giving any signed-in user the ability to run arbitrary SQL. We strongly recommend upgrading as soon as possible. 
+This release also removes eight high-severity CVEs by dropping the `percona-telemetry-agent` binary, fixes an encryption key rotation bug that corrupted stored credentials, and resolves an issue where PMM Client stayed disconnected after a network interruption.
 
 Get hands-on with PMM 3.9.1 using our [quickstart guide](https://docs.percona.com/percona-monitoring-and-management/3/quickstart/quickstart.html){:target="_blank"}.
 
