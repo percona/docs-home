@@ -19,7 +19,7 @@ Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 are now available, bringing t
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/PLACEHOLDER.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.40-22-and-8.0.29-13-release.md){:target="_blank"}
 
 <span style="float: right;">August 20, 2026</span>
 
