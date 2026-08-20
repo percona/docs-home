@@ -14,12 +14,14 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
 
+Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 are now available, bringing the latest upstream MongoDB Community Edition fixes. These releases help you stay current with MongoDB Community patches while benefiting from Percona's enterprise grade enhancements.
+
 
 <div class="actions" markdown>
 
 [Read more :material-arrow-right:](../new/posts/MongoDB/PLACEHOLDER.md){:target="_blank"}
 
-<span style="float: right;">PLACEHOLDER DATE</span>
+<span style="float: right;">August 20, 2026</span>
 
 </div>
 </div>
