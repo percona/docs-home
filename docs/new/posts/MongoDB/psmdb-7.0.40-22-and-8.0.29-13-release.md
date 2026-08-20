@@ -9,7 +9,7 @@ tags:
   - Percona Server for MongoDB
 ---
 
-# Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 have been released.
+# Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 have been released
 
 <!-- more -->
 
