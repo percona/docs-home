@@ -10,13 +10,10 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
-<div data-grid markdown>
-
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
 
-<!-- TODO: Add PSMDB release content here -->
 
 <div class="actions" markdown>
 
@@ -72,23 +69,4 @@ Percona XtraBackup 8.4.0-6 introduces InnoDB B-tree index validation during the 
 <span style="float: right;">June 24, 2026</span>
 
 </div>
-</div>
-
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
-
-We've released Percona Backup for MongoDB (PBM) 2.15.0.
-
-This release introduces **Oracle Cloud Infrastructure (OCI)** Object Storage support as a remote backup destination through a dedicated OCI-native driver, enabling seamless backup and restore operations in OCI environments. PBM also supports multiple OCI authentication methods, including **Workload Identity authentication**, allowing secure access to OCI resources without API signing keys and reducing operational overhead.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.15.0-release.md){:target="_blank"}
-
-<span style="float: right;">June 17, 2026</span>
-
-</div>
-</div>
-
 </div>
