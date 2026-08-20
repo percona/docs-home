@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="mysql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL 8.4.11-11: OpenID Connect (OIDC) authentication and authorization {.title}
+
+Percona Server for MySQL 8.4.11-11 introduces OpenID Connect (OIDC) authentication and authorization. Users can authenticate with Identity tokens issued by external Identity Providers (IDPs) instead of MySQL passwords. The OIDC plugin supports multiple IDPs, maps IDP groups to MySQL roles, supports proxy users based on group membership, and refreshes JSON Web Key Set (JWKS) signing keys at runtime.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-server-8.4.11-11-release.md){:target="_blank"}
+
+<span style="float: right;">August 20, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
@@ -57,17 +72,4 @@ Percona XtraBackup 9.7.1-rc1 is a Release Candidate based on the MySQL 9.7 Long-
 </div>
 </div>
 
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-6: Enhanced backup validation and reporting {.title}
-
-Percona XtraBackup 8.4.0-6 introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-6-release.md){:target="_blank"}
-
-<span style="float: right;">June 24, 2026</span>
-
-</div>
 </div>
