@@ -10,25 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
-<div data-banner="pmm" markdown>                                              
-                                                                                
-  ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> 
-  PMM 3.9.1: Security release — upgrade now {.title}                          
-                                                                                
-  PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user 
-  to run arbitrary SQL via the Grafana ClickHouse data source. This release also
-   removes eight high-severity CVEs and fixes encryption key rotation and client
-   reconnection bugs.
-                                                                              
-  <div class="actions" markdown>                                                
-   
-  [Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20M
-  anagement/pmm-3.9.1-release.md){:target="_blank"}
-                                                                                
-  <span style="float: right;">August 19, 2026</span>
-                                                                              
-  </div>
-  </div>       
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release — upgrade now {.title}
+
+PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user to run arbitrary SQL via the Grafana ClickHouse data source. This release also removes eight high-severity CVEs and fixes encryption key rotation and client reconnection bugs.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.9.1-release.md){:target="_blank"}
+
+<span style="float: right;">August 19, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.0.0 — Now a fully independent open source solution {.title}
@@ -43,7 +39,7 @@ A new major release of Percona Operator for PostgreSQL is a landmark that marks 
 
 </div>
 </div>
-  
+
 <div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL 18.4.1 {.title}
