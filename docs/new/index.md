@@ -24,7 +24,6 @@ PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user to
 </div>
 </div>
 
-<div data-banner="operators" markdown>
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL 8.4.11-11: OpenID Connect (OIDC) authentication and authorization {.title}
