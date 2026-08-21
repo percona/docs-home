@@ -88,5 +88,4 @@ This release introduces **Oracle Cloud Infrastructure (OCI)** Object Storage sup
 
 </div>
 </div>
-
 </div>
