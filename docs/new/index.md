@@ -9,7 +9,22 @@ Our latest releases offer a range of enhancements, from performance optimization
 ## Featured announcements
 
 <div data-grid markdown>
+<div data-banner="pmm" markdown>
 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release: upgrade now {.title}
+
+PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user to run arbitrary SQL via the Grafana ClickHouse data source. This release also removes eight high-severity CVEs and fixes encryption key rotation and client reconnection bugs.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.9.1-release.md){:target="_blank"}
+
+<span style="float: right;">August 19, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="operators" markdown>
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL 8.4.11-11: OpenID Connect (OIDC) authentication and authorization {.title}
@@ -53,23 +68,4 @@ A new release of Percona Operator for MongoDB 1.23.0 is here, bringing powerful 
 <span style="float: right;">July 23, 2026</span>
 
 </div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 9.7.1-rc1 Release Candidate {.title}
-
-We've released Percona XtraBackup 9.7.1-rc1.
-
-Percona XtraBackup 9.7.1-rc1 is a Release Candidate based on the MySQL 9.7 Long-Term Supported (LTS) release. Interfaces and behavior are subject to change before the General Availability (GA) release. This release introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-9.7.1-rc1-release.md){:target="_blank"}
-
-<span style="float: right;">July 15, 2026</span>
-
-</div>
-</div>
-
 </div>
