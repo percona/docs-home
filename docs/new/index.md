@@ -9,7 +9,6 @@ Our latest releases offer a range of enhancements, from performance optimization
 ## Featured announcements
 
 <div data-grid markdown>
-
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release: upgrade now {.title}
@@ -26,6 +25,37 @@ PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user to
 </div>
 
 <div data-banner="operators" markdown>
+<div data-banner="mysql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL 8.4.11-11: OpenID Connect (OIDC) authentication and authorization {.title}
+
+Percona Server for MySQL 8.4.11-11 introduces OpenID Connect (OIDC) authentication and authorization. Users can authenticate with Identity tokens issued by external Identity Providers (IDPs) instead of MySQL passwords. The OIDC plugin supports multiple IDPs, maps IDP groups to MySQL roles, supports proxy users based on group membership, and refreshes JSON Web Key Set (JWKS) signing keys at runtime.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-server-8.4.11-11-release.md){:target="_blank"}
+
+<span style="float: right;">August 20, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
+
+Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 are now available. These releases bring the latest fixes from MongoDB Community Edition, keeping your deployments aligned with upstream patches and improvements.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.40-22-and-8.0.29-13-release.md){:target="_blank"}
+
+<span style="float: right;">August 20, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.0 - real-time replication, semantic search, fast storage-layer backups, and more {.title}
 
@@ -37,55 +67,5 @@ A new release of Percona Operator for MongoDB 1.23.0 is here, bringing powerful 
 
 <span style="float: right;">July 23, 2026</span>
 
-</div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 9.7.1-rc1 Release Candidate {.title}
-
-We've released Percona XtraBackup 9.7.1-rc1.
-
-Percona XtraBackup 9.7.1-rc1 is a Release Candidate based on the MySQL 9.7 Long-Term Supported (LTS) release. Interfaces and behavior are subject to change before the General Availability (GA) release. This release introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-9.7.1-rc1-release.md){:target="_blank"}
-
-<span style="float: right;">July 15, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-6: Enhanced backup validation and reporting {.title}
-
-Percona XtraBackup 8.4.0-6 introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-6-release.md){:target="_blank"}
-
-<span style="float: right;">June 24, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
-
-We've released Percona Backup for MongoDB (PBM) 2.15.0.
-
-This release introduces **Oracle Cloud Infrastructure (OCI)** Object Storage support as a remote backup destination through a dedicated OCI-native driver, enabling seamless backup and restore operations in OCI environments. PBM also supports multiple OCI authentication methods, including **Workload Identity authentication**, allowing secure access to OCI resources without API signing keys and reducing operational overhead.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.15.0-release.md){:target="_blank"}
-
-<span style="float: right;">June 17, 2026</span>
-
-</div>
 </div>
 </div>
