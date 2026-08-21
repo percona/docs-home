@@ -69,3 +69,5 @@ A new release of Percona Operator for MongoDB 1.23.0 is here, bringing powerful 
 
 </div>
 </div>
+
+</div>
