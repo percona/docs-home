@@ -9,6 +9,22 @@ Our latest releases offer a range of enhancements, from performance optimization
 ## Featured announcements
 
 <div data-grid markdown>
+
+<div data-banner="operators" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0 - transparent data encryption, persistent logging, logical replication and more {.title}
+
+A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support for community and custom PostgreSQL images, auto-growing backup volumes and a handful of TLS improvements. Official RKE2 and full ARM64 support are in as well.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona Operators/operator-for-postgresql-3.1.0.md){:target="_blank"}
+
+<span style="float: right;">September 4, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release: upgrade now {.title}
@@ -50,21 +66,6 @@ Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 are now available. These rele
 [Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.40-22-and-8.0.29-13-release.md){:target="_blank"}
 
 <span style="float: right;">August 20, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.0 - real-time replication, semantic search, fast storage-layer backups, and more {.title}
-
-A new release of Percona Operator for MongoDB 1.23.0 is here, bringing powerful features such as real‑time replication, semantic search, fast storage‑layer backups. This release also includes numerous improvements driven directly by community feedback.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona Operators/operator-for-mongodb-1.23.0.md){:target="_blank"}
-
-<span style="float: right;">July 23, 2026</span>
 
 </div>
 </div>
