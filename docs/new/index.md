@@ -8,7 +8,9 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ## Featured announcements
 
-<div data-grid markdown> <div data-banner="mongodb" markdown>
+<div data-grid markdown> 
+<div data-banner="mongodb" markdown>
+
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB 1.70.4-2: automatic embedding with OpenAI-compatible providers {.title}
 
 Percona Search for MongoDB 1.70.4-2 introduces the OPENAI_COMPATIBLE embedding provider. Automatic embedding no longer requires a Voyage AI account: mongot can generate vector embeddings using any server that implements the OpenAI /v1/embeddings API. That covers local engines such as Ollama, vLLM, and Hugging Face Text Embeddings Inference, alongside OpenAI and Azure OpenAI. Run embeddings on your own hardware with no API key and no per-token charges, or point at a hosted service. Voyage and OpenAI-compatible models can run side by side on the same mongot instance.
@@ -19,6 +21,8 @@ Read more :material-arrow-right:{:target="_blank"}
 
 <span style="float: right;">September 03, 2026</span>
 
+</div>
+</div>
 
 <div data-grid markdown>
 <div data-banner="pmm" markdown>
