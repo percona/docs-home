@@ -13,9 +13,9 @@ tags:
 
 <!-- more -->
 
-[Percona Search for MongoDB](https://docs.percona.com/percona-search-for-mongodb/){:target="_blank"} 1.70.4-2 has been released on September 3, 2026.
+[Percona Search for MongoDB 1.70.4-2](https://docs.percona.com/percona-search-for-mongodb/){:target="_blank"} has been released on September 3, 2026.
 
-Percona Search for MongoDB now supports automatic embedding with services that implement the OpenAI /v1/embeddings API. You are no longer limited to Voyage AI. The new OPENAI_COMPATIBLE provider lets you use local or hosted embedding servers, including self-hosted options that can run without API keys or usage-based token charges.
+Percona Search for MongoDB now supports automatic embedding with services that implement the OpenAI `/v1/embeddings `API. You are no longer limited to Voyage AI. The new `OPENAI_COMPATIBLE` provider lets you use local or hosted embedding servers, including self-hosted options that can run without API keys or usage-based token charges.
 
 This covers Ollama, vLLM, llama.cpp, LM Studio, LocalAI, and Hugging Face Text Embeddings Inference, alongside OpenAI and Azure OpenAI. Voyage AI and OpenAI-compatible models can be configured on the same mongot instance. The model specified in an autoEmbed index determines which embedding provider mongot uses.
 
