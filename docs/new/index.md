@@ -11,9 +11,9 @@ Our latest releases offer a range of enhancements, from performance optimization
 <div data-grid markdown> 
 <div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB 1.70.4-2 {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB {.title}
 
-Percona Search for MongoDB now supports automatic embedding with services that implement the OpenAI `/v1/embeddings `API. You are no longer limited to Voyage AI. The new `OPENAI_COMPATIBLE` provider lets you use local or hosted embedding servers, including self-hosted options that can run without API keys or usage-based token charges.
+Percona Search for MongoDB 1.70.4-2 supports automatic embedding with services that implement the OpenAI `/v1/embeddings `API. You are no longer limited to Voyage AI. The new `OPENAI_COMPATIBLE` provider lets you use local or hosted embedding servers, including self-hosted options that can run without API keys or usage-based token charges.
 
 <div class="actions" markdown>
 
