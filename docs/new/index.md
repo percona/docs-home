@@ -17,7 +17,7 @@ Percona Search for MongoDB 1.70.4-2 supports automatic embedding with services t
 
 <div class="actions" markdown>
 
-Read more :material-arrow-right:{:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.4-2-release.md){:target="_blank"}
 
 <span style="float: right;">September 03, 2026</span>
 
