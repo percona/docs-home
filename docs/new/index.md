@@ -8,7 +8,22 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ## Featured announcements
 
-<div data-grid markdown>
+<div data-grid markdown> 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB {.title}
+
+Percona Search for MongoDB 1.70.4-2 supports automatic embedding with services that implement the OpenAI `/v1/embeddings `API. You are no longer limited to Voyage AI. The new `OPENAI_COMPATIBLE` provider lets you use local or hosted embedding servers, including self-hosted options that can run without API keys or usage-based token charges.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.4-2-release.md){:target="_blank"}
+
+<span style="float: right;">September 03, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release: upgrade now {.title}
@@ -53,20 +68,4 @@ Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 are now available. These rele
 
 </div>
 </div>
-
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.0 - real-time replication, semantic search, fast storage-layer backups, and more {.title}
-
-A new release of Percona Operator for MongoDB 1.23.0 is here, bringing powerful features such as real‑time replication, semantic search, fast storage‑layer backups. This release also includes numerous improvements driven directly by community feedback.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona Operators/operator-for-mongodb-1.23.0.md){:target="_blank"}
-
-<span style="float: right;">July 23, 2026</span>
-
-</div>
-</div>
-
 </div>
