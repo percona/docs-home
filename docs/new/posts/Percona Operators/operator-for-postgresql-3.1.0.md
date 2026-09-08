@@ -1,7 +1,7 @@
 ---
-date: 2026-09-04
+date: 2026-09-09
 description: >
-  Percona Operator for PostgreSQL 3.1.0 has been released on September 4, 2026.
+  Percona Operator for PostgreSQL 3.1.0 has been released on September 9, 2026.
 authors: [nastena1606]
 categories:
   - Percona Operators
@@ -14,13 +14,11 @@ tags:
 
 <!-- more -->
 
-[Percona Operator for PostgreSQL](https://docs.percona.com/percona-operator-for-postgresql/3.0/){:target="_blank"} 3.1.0 has been released on September 4, 2026.
+[Percona Operator for PostgreSQL](https://docs.percona.com/percona-operator-for-postgresql/3.0/){:target="_blank"} 3.1.0 has been released on September 9, 2026.
 
 This version establishes Percona Operator for PostgreSQL as a **hard fork of the [Crunchy PGO project :octicons-link-external-16:](https://github.com/CrunchyData/postgres-operator){:target="_blank"}**, making it fully independent and empowering the Percona team and community to drive and rapidly deliver features and improvements tailored to user needs.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-operator-for-postgresql/3.1.0/quickstart.html){:target="_blank"}.
-
-Here is a [what's new](https://docs.percona.com/new/2026/07/23/percona-operator-for-mongodb-1230-has-been-released/) style draft for Operator 3.1.0 (September 4, 2026). You can paste it as-is.
 
 New features and improvements introduced by this release include:
 
@@ -46,6 +44,21 @@ another volume source that Kubernetes supports. See our [documentation](https://
 * **Evaluate PostgreSQL 19 (tech preview).** Deploy Community PostgreSQL 19 now to test the next major version and plan your upgrade before GA.
 
 * **RKE2 and full ARM64 support.** Official RKE2 testing adds a new supported Kubernetes distribution. Full ARM64 images let you run natively on ARM-based cloud and edge clusters.
+
+* **Deprecation, rename and removal**:
+   
+    * **Removed support for PMM2.** This Operator release no longer supports PMM2 as it has reached the end-of-life state. [Upgrade to PMM3](https://docs.percona.com/percona-monitoring-and-management/3/pmm-upgrade/migrating_from_pmm_2.html){:target="_blank"} as soon as possible.
+
+    * The `extensions.builtin` section is deprecated and will be removed after version 3.4.0. We encourage you to use `extensions.<extension>.enabled`. You can still use the old form during the transition. If both forms are set at the same time, `extensions.builtin` takes precedence.
+
+    * `pg_cron` and `set_user` extensions have been added to the list of built-in extensions. Your existing setup via `extensions.custom` remains unchanged and works as expected after the upgrade. Reconfigure the extensions after you upgraded the database to ensure the cluster finishes each change in one pass. Switch to built-in extensions as follows:
+
+       * Remove the extension from the `extensions.custom` list
+       * Set `extensions.pg_cron.enabled` or `extensions.set_user.enabled` to `true`.
+
+       You must do these two Custom Resource changes in the same apply so they land in one reconciliation loop. Removing the extension from `extensions.custom` alone instructs the Operator to delete it.
+
+    * Field descriptions were removed from the inherited `CrunchyBridgeCluster` CRD (upstream.pgv2.percona.com/v1beta1). The object schema and cluster behavior are unchanged. Running `kubectl explain` for those fields no longer shows help text.
 
 Learn more in Percona Operator for PostgreSQL 3.1.0 [release notes](https://docs.percona.com/percona-operator-for-postgresql/3.0/ReleaseNotes/Kubernetes-Operator-for-PostgreSQL-RN3.1.0.html){:target="_blank"}.
 
