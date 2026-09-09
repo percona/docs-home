@@ -14,7 +14,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0 - transparent data encryption, persistent logging, logical replication and more {.title}
 
-A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support for community and custom PostgreSQL images, auto-growing backup volumes and a handful of TLS improvements. Official RKE2 and full ARM64 support are in as well.
+A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support for transparent data encryption, community and custom PostgreSQL images, auto-growing backup volumes and a handful of TLS improvements. Official RKE2 and full ARM64 support are in as well.
 
 <div class="actions" markdown>
 
@@ -22,7 +22,8 @@ A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support f
 
 <span style="float: right;">September 9, 2026</span>
 
-<div data-grid markdown> 
+</div>
+</div>
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB {.title}
@@ -37,7 +38,6 @@ Percona Search for MongoDB 1.70.4-2 supports automatic embedding with services t
 
 </div>
 </div>
-
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release: upgrade now {.title}
@@ -52,7 +52,6 @@ PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user to
 
 </div>
 </div>
-
 <div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL 8.4.11-11: OpenID Connect (OIDC) authentication and authorization {.title}
@@ -65,5 +64,6 @@ Percona Server for MySQL 8.4.11-11 introduces OpenID Connect (OIDC) authenticati
 
 <span style="float: right;">August 20, 2026</span>
 
+</div>
 </div>
 </div>
