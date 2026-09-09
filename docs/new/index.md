@@ -18,7 +18,7 @@ A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support f
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona Operators/operator-for-postgresql-3.1.0.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.1.0.md){:target="_blank"}
 
 <span style="float: right;">September 9, 2026</span>
 
