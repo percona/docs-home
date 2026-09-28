@@ -1,5 +1,28 @@
 {% extends "base.html" %}
 
+{% block site_meta %}
+  {{ super() }}
+
+  <!-- . Google Consent Mode v2 defaults (must run before gtag and Osano) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'personalization_storage': 'denied',
+      'functionality_storage': 'granted',
+      'security_storage': 'granted',
+      'wait_for_update': 500
+    });
+    gtag('set', 'ads_data_redaction', true);
+  </script>
+
+  <script src="https://cmp.osano.com/Azqe5vTyLOSbN3OuT/49ad85b5-0418-4794-ab81-7599dddd534c/osano.js"></script>
+{% endblock %}
+
 {% block scripts %}
   <script>
     (function (m, a, z, e) {
@@ -7,14 +30,14 @@
       try {
         t = m.sessionStorage.getItem('maze-us');
       } catch (err) {}
-    
+
       if (!t) {
         t = new Date().getTime();
         try {
           m.sessionStorage.setItem('maze-us', t);
         } catch (err) {}
       }
-    
+
       s = a.createElement('script');
       s.src = z + '?t=' + t + '&apiKey=' + e;
       s.async = true;
@@ -30,7 +53,20 @@
       posthog.init('phc_7unoI9J6Fm0SMrfDp35xNOpCRTkOAibbffQwdGWbHnL',{api_host:'https://eu.posthog.com'})
   </script>
 
-  <script src="https://cmp.osano.com/Azqe5vTyLOSbN3OuT/49ad85b5-0418-4794-ab81-7599dddd534c/osano.js"></script>
+  <script
+    id="kapa-widget-script"
+    async
+    data-osano="ESSENTIAL"
+    src="https://widget.kapa.ai/kapa-widget.bundle.js"
+    data-website-id="0e0d55cf-6370-4a6d-a987-96670a7fe935"
+    data-button-hide="true"
+    data-project-name="Percona"
+    data-modal-title="Percona AI Assistant"
+    font-size="0.875rem"
+    data-modal-disclaimer="The **Percona AI Assistant** helps you find simple, clear answers to your Percona questions using [official documentation](https://docs.percona.com/), resolved [forum posts](https://forums.percona.com/) and [blog posts](https://www.percona.com/blog/). Note, do not enter personal or confidential information. Before using Percona AI assistant, read the [Legal Notice](https://docs.percona.com/new/legal-notice)."
+    data-modal-example-questions="How do I install Percona Server?, How do I get started with PMM?, Why should I use Percona Monitoring and Management (PMM)?, What free enterprise-grade features does Percona Server for MongoDB have?, What does Percona Transparent Data Encryption for PostgreSQL do?, What are Kubernetes-native Percona Operators?"
+    data-project-logo="https://docs.percona.com/assets/percona-logomark-one-color-dark.png"
+  ></script>
 {% endblock %}
 
 {% block extrahead %}
