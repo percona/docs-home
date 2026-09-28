@@ -31,7 +31,7 @@ theme:
 
   features:
     - navigation.indexes
-    - navigation.instant
+#    - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
