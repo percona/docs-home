@@ -20,7 +20,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 [Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.43-23-and-8.0.32-14-release.md){:target="_blank"}
 
-<span style="float: right;">September 28, 2026 respectively</span>
+<span style="float: right;">September 28, 2026</span>
 
 </div>
 </div>
