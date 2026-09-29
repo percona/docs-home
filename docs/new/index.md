@@ -14,7 +14,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
 
-Percona Server for MongoDB **7.0.43-23**, **8.0.32-14** and **8.3.11-3** are now available. These releases bring the latest fixes from MongoDB Community Edition, keeping your deployments aligned with upstream patches and improvements.
+**Percona Server for MongoDB 7.0.43-23**, **8.0.32-14** and **8.3.11-3** are now available. These releases bring the latest fixes from MongoDB Community Edition, keeping your deployments aligned with upstream patches and improvements.
 
 <div class="actions" markdown>
 
