@@ -14,7 +14,7 @@ tags:
 <!-- more -->
 
 !!! Technical Preview
-    Percona Server for MongoDB 8.3.11-3 is till in Technical Preview.
+    Percona Server for MongoDB 8.3.11-3 is still in Technical Preview.
     
     We recommend that early adopters use this release for testing purposes only and not in production environments.
 
