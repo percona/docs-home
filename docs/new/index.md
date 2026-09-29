@@ -10,64 +10,60 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
-<div data-banner="mongodb" markdown>
+<div data-banner="operators" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0 - transparent data encryption, persistent logging, logical replication and more {.title}
 
-Percona Server for MongoDB 7.0.40-22 and 8.0.29-13 are now available. These releases bring the latest fixes from MongoDB Community Edition, keeping your deployments aligned with upstream patches and improvements.
+A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support for transparent data encryption, community and custom PostgreSQL images, auto-growing backup volumes and a handful of TLS improvements. Official RKE2 and full ARM64 support are in as well.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.40-22-and-8.0.29-13-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.1.0.md){:target="_blank"}
+
+<span style="float: right;">September 9, 2026</span>
+
+</div>
+</div>
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB {.title}
+
+Percona Search for MongoDB 1.70.4-2 supports automatic embedding with services that implement the OpenAI `/v1/embeddings `API. You are no longer limited to Voyage AI. The new `OPENAI_COMPATIBLE` provider lets you use local or hosted embedding servers, including self-hosted options that can run without API keys or usage-based token charges.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.4-2-release.md){:target="_blank"}
+
+<span style="float: right;">September 03, 2026</span>
+
+</div>
+</div>
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release: upgrade now {.title}
+
+PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user to run arbitrary SQL via the Grafana ClickHouse data source. This release also removes eight high-severity CVEs and fixes encryption key rotation and client reconnection bugs.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.9.1-release.md){:target="_blank"}
+
+<span style="float: right;">August 19, 2026</span>
+
+</div>
+</div>
+<div data-banner="mysql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL 8.4.11-11: OpenID Connect (OIDC) authentication and authorization {.title}
+
+Percona Server for MySQL 8.4.11-11 introduces OpenID Connect (OIDC) authentication and authorization. Users can authenticate with Identity tokens issued by external Identity Providers (IDPs) instead of MySQL passwords. The OIDC plugin supports multiple IDPs, maps IDP groups to MySQL roles, supports proxy users based on group membership, and refreshes JSON Web Key Set (JWKS) signing keys at runtime.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MySQL/percona-server-8.4.11-11-release.md){:target="_blank"}
 
 <span style="float: right;">August 20, 2026</span>
 
 </div>
-</div>
-
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.0 - real-time replication, semantic search, fast storage-layer backups, and more {.title}
-
-A new release of Percona Operator for MongoDB 1.23.0 is here, bringing powerful features such as real‑time replication, semantic search, fast storage‑layer backups. This release also includes numerous improvements driven directly by community feedback.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona Operators/operator-for-mongodb-1.23.0.md){:target="_blank"}
-
-<span style="float: right;">July 23, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 9.7.1-rc1 Release Candidate {.title}
-
-We've released Percona XtraBackup 9.7.1-rc1.
-
-Percona XtraBackup 9.7.1-rc1 is a Release Candidate based on the MySQL 9.7 Long-Term Supported (LTS) release. Interfaces and behavior are subject to change before the General Availability (GA) release. This release introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-9.7.1-rc1-release.md){:target="_blank"}
-
-<span style="float: right;">July 15, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="mysql" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup 8.4.0-6: Enhanced backup validation and reporting {.title}
-
-Percona XtraBackup 8.4.0-6 introduces InnoDB B-tree index validation during the prepare phase and backup size reporting for successful backups. These enhancements help detect potential corruption before restore, improve backup verification, and simplify storage capacity planning.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MySQL/percona-xtrabackup-8.4.0-6-release.md){:target="_blank"}
-
-<span style="float: right;">June 24, 2026</span>
-
 </div>
 </div>
