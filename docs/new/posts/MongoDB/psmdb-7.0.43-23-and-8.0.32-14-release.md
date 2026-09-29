@@ -29,7 +29,7 @@ Find the instructions to upgrade to these releases:
  
 - [Percona Server for MongoDB 8.0](https://docs.percona.com/percona-server-for-mongodb/8.0/install/minor-upgrade.html){:target="_blank"} 
 
-- [Percona Server for MongoDB 8.3](https://docs.percona.com/percona-server-for-mongodb/8.3/install/minor-upgrade.html){:target="_blank"}. 
+- [Percona Server for MongoDB 8.3](https://docs.percona.com/percona-server-for-mongodb/8.3/install/minor-upgrade.html){:target="_blank"} 
 
 Below are the release notes for these versions:
 
