@@ -33,8 +33,8 @@ Find the instructions to upgrade to these releases:
 
 Below are the release notes for these versions:
 
-- Percona Server for MongoDB [7.0.43-23](https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/7.0.43-23.html){:target="_blank"} 
+- [Percona Server for MongoDB 7.0.43-23](https://docs.percona.com/percona-server-for-mongodb/7.0/release_notes/7.0.43-23.html){:target="_blank"} 
 
-- [8.0.32-14](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.32-14.html){:target="_blank"}
+- [Percona Server for MongoDB 8.0.32-14](https://docs.percona.com/percona-server-for-mongodb/8.0/release_notes/8.0.32-14.html){:target="_blank"}
 
-- [8.3.11-3](https://docs.percona.com/percona-server-for-mongodb/8.3/release_notes/8.3.11-3.html){:target="_blank"}
+- [Percona Server for MongoDB 8.3.11-3](https://docs.percona.com/percona-server-for-mongodb/8.3/release_notes/8.3.11-3.html){:target="_blank"}
