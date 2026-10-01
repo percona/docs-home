@@ -39,6 +39,22 @@ A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support f
 
 </div>
 </div>
+
+<div data-banner="mysql" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> `pg_stat_monitor` 2.4 has been released {.title}
+
+Improves `pg_stat_monitor` stability and reliability with fixes for memory leaks, buffer overflows, and incorrect statistics. Adds PostgreSQL 19 beta 3 support and improves query normalization and application-name tracking. PostgreSQL 13 support is removed.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/PostgreSQL/pg-stat-monitor-2.4-release.md){:target="_blank"}
+
+<span style="float: right;">September 08, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB {.title}
