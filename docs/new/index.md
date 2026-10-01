@@ -10,17 +10,17 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
-<div data-banner="mongodb" markdown>
+<div data-banner="operators" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.1 improves day-to-day operations {.title}
 
-**Percona Server for MongoDB 7.0.43-23**, **8.0.32-14** and **8.3.11-3** are now available. These releases bring the latest fixes from MongoDB Community Edition, keeping your deployments aligned with upstream patches and improvements.
+Day-to-day operations get two practical controls with this release: query router logs that survive a restart, and a setting for how often the Operator reads system user passwords from HashiCorp Vault.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.43-23-and-8.0.32-14-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-mongodb-1.23.1.md){:target="_blank"}
 
-<span style="float: right;">September 28, 2026</span>
+<span style="float: right;">October 1, 2026</span>
 
 </div>
 </div>
@@ -39,6 +39,7 @@ A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support f
 
 </div>
 </div>
+
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB {.title}
