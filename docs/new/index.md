@@ -12,6 +12,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="operators" markdown>
 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0: updated component images {.title}
+
+Percona Operator for PostgreSQL 3.1.0 now ships updated images for Percona Distribution for PostgreSQL, Percona Distribution for PostgreSQL with PostGIS, PostgreSQL major upgrade image, pgBouncer and pgBackRest. Check the Operator documentation for the full list of certified images.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.1.0-image-update.md){:target="_blank"}
+
+<span style="float: right;">October 5, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="operators" markdown>
+
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.1 improves day-to-day operations {.title}
 
 Day-to-day operations get two practical controls with this release: query router logs that survive a restart, and a setting for how often the Operator reads system user passwords from HashiCorp Vault.
@@ -51,20 +66,6 @@ Percona Search for MongoDB 1.70.4-2 supports automatic embedding with services t
 [Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.4-2-release.md){:target="_blank"}
 
 <span style="float: right;">September 03, 2026</span>
-
-</div>
-</div>
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.9.1: Security release: upgrade now {.title}
-
-PMM 3.9.1 fixes a high-severity vulnerability that allowed any signed-in user to run arbitrary SQL via the Grafana ClickHouse data source. This release also removes eight high-severity CVEs and fixes encryption key rotation and client reconnection bugs.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.9.1-release.md){:target="_blank"}
-
-<span style="float: right;">August 19, 2026</span>
 
 </div>
 </div>
