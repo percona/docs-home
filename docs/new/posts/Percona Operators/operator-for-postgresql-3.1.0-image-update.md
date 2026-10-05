@@ -1,5 +1,5 @@
 ---
-date: 2026-10-02
+date: 2026-10-05
 description: >
   Percona Operator for PostgreSQL 3.1.0 now uses updated images for its components.
 authors: [nastena1606]

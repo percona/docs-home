@@ -14,7 +14,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0: updated component images {.title}
 
-Percona Operator for PostgreSQL 3.1.0 now ships updated images for Percona Distribution for PostgreSQL, Percona Distribution for PostgreSQL with PostGIS, PostgreSQL major upgrade image, pgBouncer and pgBackRest. Check the Operator documentation for the full list of certified images.
+Percona Operator for PostgreSQL 3.1.0 now ships updated images for Percona Distribution for PostgreSQL, pgBouncer and pgBackRest. Check the Operator documentation for the full list of certified images.
 
 <div class="actions" markdown>
 
