@@ -20,7 +20,7 @@ Day-to-day operations get two practical controls with this release: query router
 
 [Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-mongodb-1.23.1.md){:target="_blank"}
 
-<span style="float: right;">October 1, 2026</span>
+<span style="float: right;">October 5, 2026</span>
 
 </div>
 </div>
