@@ -38,14 +38,15 @@
     padding: 0 !important;          /* Remove any unwanted padding from the parent container */
 }
 
-.md-nav__container > a[href="https://docs.percona.com/new/"] .md-ellipsis {
-    text-indent: 0.8rem;
-}
-
-/* Select only elements inside the What's new section */
-nav[data-md-level="1"][aria-labelledby="__nav_2_label"] .md-ellipsis {
+@media screen and (min-width: 76.25em) {
+  #__nav_2 ~ .md-nav__container > a .md-ellipsis {
     text-indent: 0.8rem;
   }
+
+  nav[data-md-level="1"][aria-labelledby="__nav_2_label"] .md-ellipsis {
+    text-indent: 0.8rem;
+  }
+}
 
 
 /* Percona live announcement banner */
