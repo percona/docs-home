@@ -38,16 +38,11 @@
     padding: 0 !important;          /* Remove any unwanted padding from the parent container */
 }
 
-/* Indent the "What's new" section in the desktop sidebar only.
-   On mobile the drawer shows the section as a title bar, so the extra
-   indent would push the items out of line with it. */
 @media screen and (min-width: 76.25em) {
-  /* Section heading. MkDocs renders relative hrefs, so match it by its toggle id. */
   #__nav_2 ~ .md-nav__container > a .md-ellipsis {
     text-indent: 0.8rem;
   }
 
-  /* Items inside the What's new section */
   nav[data-md-level="1"][aria-labelledby="__nav_2_label"] .md-ellipsis {
     text-indent: 0.8rem;
   }
