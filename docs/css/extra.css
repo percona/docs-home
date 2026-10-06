@@ -38,7 +38,9 @@
     padding: 0 !important;          /* Remove any unwanted padding from the parent container */
 }
 
-.md-nav__container > a[href="https://docs.percona.com/new/"] .md-ellipsis {
+/* Indent the "What's new" section heading to match its child items.
+   MkDocs renders relative hrefs, so match the section by its toggle id instead. */
+#__nav_2 ~ .md-nav__container > a .md-ellipsis {
     text-indent: 0.8rem;
 }
 
