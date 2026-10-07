@@ -55,8 +55,6 @@ PBM 2.16.0 introduces lifecycle policies for managing backup retention and exper
 </div>
 </div>
 
-</div>
-
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0 - transparent data encryption, persistent logging, logical replication and more {.title}
@@ -69,5 +67,6 @@ A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support f
 
 <span style="float: right;">September 9, 2026</span>
 
+</div>
 </div>
 </div>
