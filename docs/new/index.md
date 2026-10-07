@@ -48,7 +48,7 @@ PBM 2.16.0 introduces lifecycle policies for managing backup retention and exper
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.4-2-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.16.0-release.md){:target="_blank"}
 
 <span style="float: right;">September 24, 2026</span>
 
