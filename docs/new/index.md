@@ -40,6 +40,23 @@ Day-to-day operations get two practical controls with this release: query router
 </div>
 </div>
 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
+
+PBM 2.16.0 introduces lifecycle policies for managing backup retention and experimental parallel uploads to Google Cloud Storage (GCS). Moreover, it extends platform support to Debian 13 (x64 and ARM64) and Red Hat Enterprise Linux 10, and compatibility to MongoDB Community and Percona Server for MongoDB 8.3.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.4-2-release.md){:target="_blank"}
+
+<span style="float: right;">September 24, 2026</span>
+
+</div>
+</div>
+
+</div>
+
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0 - transparent data encryption, persistent logging, logical replication and more {.title}
@@ -53,21 +70,4 @@ A new release of Percona Operator for PostgreSQL 3.1.0 is here, adding support f
 <span style="float: right;">September 9, 2026</span>
 
 </div>
-</div>
-
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB {.title}
-
-Percona Search for MongoDB 1.70.4-2 supports automatic embedding with services that implement the OpenAI `/v1/embeddings `API. You are no longer limited to Voyage AI. The new `OPENAI_COMPATIBLE` provider lets you use local or hosted embedding servers, including self-hosted options that can run without API keys or usage-based token charges.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.4-2-release.md){:target="_blank"}
-
-<span style="float: right;">September 03, 2026</span>
-
-</div>
-</div>
-
 </div>
