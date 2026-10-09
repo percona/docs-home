@@ -1,5 +1,5 @@
 ---
-date: 2025-09-28
+date: 2026-09-28
 description: >
   Percona ClusterSync for MongoDB 1.0.0 has been released on September 29, 2026.
 authors: [rasika-chivate]
