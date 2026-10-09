@@ -17,6 +17,6 @@ tags:
 
 Percona ClusterSync for MongoDB (PCSM) 1.0.0 marks the general availability of sharding support, introduces active-standby high availability during replication, and expands the supported migration topologies. It also allows you to run multiple PCSM instances against the same source cluster, with each instance synchronizing a different subset of data to a separate target.
 
-Try it out using the [Quickstart guide](https://docs.percona.com/percona-clustersync-for-mongodb/installation.html){:target="_blank"} 
+Try it out using the [Quickstart guide](https://docs.percona.com/percona-clustersync-for-mongodb/installation.html){:target="_blank"}.
 
-Read more about this release in Percona ClusterSync for MongoDB 1.0.0 [release notes](https://docs.percona.com/percona-clustersync-for-mongodb/release-notes/1.0.0.html){:target="_blank"}
+Read more about this release in Percona ClusterSync for MongoDB 1.0.0 [release notes](https://docs.percona.com/percona-clustersync-for-mongodb/release-notes/1.0.0.html){:target="_blank"}.
