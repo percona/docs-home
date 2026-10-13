@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB 2.17.0 {.title}
+
+PBM 2.17.0 improves physical point-in-time recovery and restores of time series collections. It also reports the cause of backup failures in sharded clusters and lets you delete unfinished backups with stale heartbeats.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.17.0-release.md){:target="_blank"}
+
+<span style="float: right;">October 14, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0: updated component images {.title}
@@ -57,16 +72,4 @@ Percona ClusterSync for MongoDB (PCSM) 1.0.0 marks the general availability of s
 </div>
 </div>
 
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
-
-PBM 2.16.0 introduces lifecycle policies for managing backup retention and experimental parallel uploads to Google Cloud Storage (GCS). Moreover, it extends platform support to Debian 13 (x64 and ARM64) and Red Hat Enterprise Linux 10, and compatibility to MongoDB Community and Percona Server for MongoDB 8.3.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.16.0-release.md){:target="_blank"}
-
-<span style="float: right;">September 24, 2026</span>
-</div>
 </div>
