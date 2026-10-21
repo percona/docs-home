@@ -74,8 +74,12 @@
     box-shadow: none !important; /* Also removes simulated borders */
   }
 
-  .DocSearch-Button {
-    width: 180px !important;  /* Adjust to desired width */
+  /* Fixed width only on wider screens; below 768px DocSearch shows an
+     icon-only button, which keeps the mobile header from overflowing */
+  @media (min-width: 768px) {
+    .DocSearch-Button {
+      width: 180px !important;  /* Adjust to desired width */
+    }
   }
 
   .DocSearch-Dropdown {

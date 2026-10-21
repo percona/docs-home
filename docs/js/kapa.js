@@ -16,7 +16,9 @@
         const button = document.createElement("button");
         button.id = "ask-percona-ai";
         button.type = "button";
-        button.innerHTML = `<span class="percona-star">✨</span><span class="percona-text">Ask Percona AI</span>`;
+        button.setAttribute("aria-label", "Ask Percona AI");
+        button.title = "Ask Percona AI";
+        button.innerHTML = `<span class="percona-star" aria-hidden="true">✨</span><span class="percona-text">Ask Percona AI</span><span class="percona-text-short" aria-hidden="true">Ask AI</span>`;
 
         button.addEventListener("click", function (event) {
             event.preventDefault();
