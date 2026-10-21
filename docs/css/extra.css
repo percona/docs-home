@@ -32,10 +32,14 @@
     border: none !important;        /* Remove any borders */
 }
 
-/* Reset the layout styles of parent or surrounding containers if necessary */
-.md-nav__container {
+/* Reset the layout styles of parent or surrounding containers if necessary.
+   Desktop only: in the mobile drawer the container is itself an .md-nav__link
+   and carries the item padding, so resetting it misaligns "What's new". */
+@media screen and (min-width: 76.25em) {
+  .md-nav__container {
     margin: 0 !important;           /* Remove any unwanted margin from the parent container */
     padding: 0 !important;          /* Remove any unwanted padding from the parent container */
+  }
 }
 
 @media screen and (min-width: 76.25em) {

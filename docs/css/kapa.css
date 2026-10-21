@@ -23,6 +23,8 @@
     border-radius: 1rem;
 
     cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
 
     transition: background-color 0.2s ease,
                 color 0.2s ease,
@@ -54,4 +56,26 @@
 #ask-percona-ai .percona-text {
     font-size: 0.75rem;
     line-height: 1;
+}
+
+#ask-percona-ai .percona-text-short {
+    display: none;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+/* Mobile: use the short label so the header fits the screen width */
+@media (max-width: 767px) {
+    #ask-percona-ai {
+        padding: 0 10px 0 8px;
+        gap: 4px;
+    }
+
+    #ask-percona-ai .percona-text {
+        display: none;
+    }
+
+    #ask-percona-ai .percona-text-short {
+        display: inline;
+    }
 }
