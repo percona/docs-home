@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.10.0: HA Cluster is now generally available {.title}
+
+PMM 3.10.0 makes PMM HA Cluster generally available with OpenShift support, in-place Helm upgrades, and backup and restore. It also introduces the first database management Apps, native ARM64 support for PMM Server, MySQL 9.7 support, and a new MongoDB Unused Indexes dashboard.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm_3.10.0-release.md){:target="_blank"}
+
+<span style="float: right;">October 22, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0: updated component images {.title}
@@ -54,19 +69,5 @@ Percona ClusterSync for MongoDB (PCSM) 1.0.0 marks the general availability of s
 
 <span style="float: right;">September 28, 2026</span>
 
-</div>
-</div>
-
-<div data-banner="mongodb" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
-
-PBM 2.16.0 introduces lifecycle policies for managing backup retention and experimental parallel uploads to Google Cloud Storage (GCS). Moreover, it extends platform support to Debian 13 (x64 and ARM64) and Red Hat Enterprise Linux 10, and compatibility to MongoDB Community and Percona Server for MongoDB 8.3.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.16.0-release.md){:target="_blank"}
-
-<span style="float: right;">September 24, 2026</span>
 </div>
 </div>
