@@ -33,7 +33,7 @@ You can now encrypt binlogs before Percona Binlog Server uploads them. The Opera
 
 * [Manage application users via the Custom Resource](https://docs.percona.com/percona-operator-for-mysql/1.3.0/users.html#create-users-in-the-custom-resource){:target="_blank"} when you create or update the cluster. Set the username, databases to connect to, and grants. The Operator takes over and creates users for you. To rotate the password, change the Secret and the Operator applies it on the next reconcile.
 
-* [Size an asynchronous cluster with an even number of instances](https://docs.percona.com/percona-operator-for-mysql/1.3.0/scaling.html#horizontal-scaling){:target="_blank"} Use the replica count that fits your workload. You can set `mysql.size` to 2, 4, 6, or any larger even count on an asynchronous cluster without `unsafeFlags.mysqlSize`. Orchestrator still needs an odd size of 3 or greater.
+* [Size an asynchronous cluster with an even number of instances](https://docs.percona.com/percona-operator-for-mysql/1.3.0/scaling.html#horizontal-scaling){:target="_blank"}. Use the replica count that fits your workload. You can set `mysql.size` to 2, 4, 6, or any larger even count on an asynchronous cluster without `unsafeFlags.mysqlSize`. Orchestrator still needs an odd size of 3 or greater.
 
 * Improved bootstrapping behavior for async replication clusters. A joining replica is no longer stopped by a fixed clone timeout. The Operator stops the clone only when it makes no progress. Control the timeout with the `BOOTSTRAP_CLONE_TIMEOUT` environment variable.
 
