@@ -53,7 +53,7 @@ You can now encrypt binlogs before Percona Binlog Server uploads them. The Opera
 
 * [Persistent logging for MySQL error log](https://docs.percona.com/percona-operator-for-mysql/1.3.0/persistent-logging.html){:target="_blank"}. The Operator now uses Fluent Bit to collect MySQL error logs and keep them on the MySQL data volume so that it survives Pod restarts. The logrotate utility rotates those files so that they don't fill the volume. This simplifies troubleshooting during accidents and gives you flexibility to apply your rotation policies.
 
-* Receive a High or Critical vulnerability fixes without a version upgrade via security builds. A weekly scan rebuilds the Operator image you already run when it finds a High or Critical CVE. Use a numbered tag, such as `1.3.0-2`, to stay on that exact fix, or `1.3.0-latest` to pick up every later fix for this version. The database cluster keeps running. When the next Operator version ships, these images stay available, and new scans start for that version. 
+* Receive High or Critical vulnerability fixes without a version upgrade via security builds. A weekly scan rebuilds the Operator image you already run when it finds a High or Critical CVE. Use a numbered tag, such as `1.3.0-2`, to stay on that exact fix, or `1.3.0-latest` to pick up every later fix for this version. The database cluster keeps running. When the next Operator version ships, these images stay available, and new scans start for that version.
 
 * Added support for the latest major version of MySQL 9.7.
 
