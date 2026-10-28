@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="operators" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MySQL 1.3.0 is here {.title}
+
+Automatic MySQL configuration tuning, zero-data-loss failover for async clusters, a replication type switch on a running cluster (tech preview), encrypted binlogs for point-in-time recovery, and more are available for you with this release
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-mysql-1.3.0.md){:target="_blank"}
+
+<span style="float: right;">October 29, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.10.0: HA Cluster is now generally available {.title}
@@ -55,19 +70,3 @@ Day-to-day operations get two practical controls with this release: query router
 </div>
 </div>
 
-<div data-banner="mongodb" markdown>
-
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona ClusterSync for MongoDB {.title}
-
-Percona ClusterSync for MongoDB (PCSM) 1.0.0 marks the general availability of sharding support, introduces active-standby high availability during replication, and expands the supported migration topologies. It also allows you to run multiple PCSM instances against the same source cluster, with each instance synchronizing a different subset of data to a separate target.
-
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MongoDB/pcsm-1.0.0-release.md){:target="_blank"}
-
-<span style="float: right;">September 28, 2026</span>
-
-</div>
-</div>
