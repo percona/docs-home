@@ -27,6 +27,6 @@ These releases include improvements and security fixes from their corresponding 
 
 If you install from binary tarballs, download MongoDB Database Tools separately: they are no longer bundled in the server tarball. RPM and DEB installations continue to install these tools as before.
 
-For PSMDB 8.3.13-4, review the [known issue affecting file copy based initial sync after an unclean shutdown](https://docs.percona.com/percona-server-for-mongodb/8.3/release_notes/8.3.13-4.html#known-issues){:target="_blank"} before upgrading.
+For PSMDB 8.3.13-4, review the [known issue affecting file-copy-based initial sync after an unclean shutdown](https://docs.percona.com/percona-server-for-mongodb/8.3/release_notes/8.3.13-4.html#known-issues){:target="_blank"} before upgrading.
 
 Follow the minor upgrade guide for your release series: [7.0](https://docs.percona.com/percona-server-for-mongodb/7.0/install/minor-upgrade.html){:target="_blank"}, [8.0](https://docs.percona.com/percona-server-for-mongodb/8.0/install/minor-upgrade.html){:target="_blank"}, or [8.3](https://docs.percona.com/percona-server-for-mongodb/8.3/install/minor-upgrade.html){:target="_blank"}.
