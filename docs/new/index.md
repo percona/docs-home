@@ -44,7 +44,7 @@ Automatic MySQL configuration tuning, zero-data-loss failover for async clusters
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 7.0.45-24, 8.0.34-15, and 8.3.13-4 have been released {.title}
 
-PSMDB 8.3 is now generally available. These releases include upstream fixes and require a separate MongoDB Database Tools download for tarball installations. Versions 7.0.45-24, 8.0.34-15, and 8.3.13-4 were released on October 21, 22, and 27, 2026, respectively.
+PSMDB 8.3 is now generally available (GA). These releases include upstream fixes and require a separate MongoDB Database Tools download for tarball installations. Versions 7.0.45-24, 8.0.34-15, and 8.3.13-4 were released on October 21, 22, and 27, 2026, respectively.
 
 <div class="actions" markdown>
 
