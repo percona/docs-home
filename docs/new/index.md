@@ -10,6 +10,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-grid markdown>
 
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB 1.70.5-3 is generally available {.title}
+
+Full-text search, vector search, and automatic embedding are now supported for production use. This release also adds Hugging Face Inference API as an automatic embedding provider.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.5-3-release.md){:target="_blank"}
+
+<span style="float: right;">October 29, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="operators" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MySQL 1.3.0 is here {.title}
@@ -21,6 +36,21 @@ Automatic MySQL configuration tuning, zero-data-loss failover for async clusters
 [Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-mysql-1.3.0.md){:target="_blank"}
 
 <span style="float: right;">October 29, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 8.0.34-15 has been released {.title}
+
+This release includes upstream improvements and security fixes, and fixes backups to Google Cloud Storage through its S3-compatible API. Tarball installations now require a separate download of MongoDB Database Tools.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.0.34-15-release.md){:target="_blank"}
+
+<span style="float: right;">October 22, 2026</span>
 
 </div>
 </div>
@@ -70,3 +100,4 @@ Day-to-day operations get two practical controls with this release: query router
 </div>
 </div>
 
+</div>
