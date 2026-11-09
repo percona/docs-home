@@ -70,34 +70,4 @@ PMM 3.10.0 makes PMM HA Cluster generally available with OpenShift support, in-p
 </div>
 </div>
 
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0: updated component images {.title}
-
-Percona Operator for PostgreSQL 3.1.0 now ships updated images for Percona Distribution for PostgreSQL, pgBouncer and pgBackRest. Check the Operator documentation for the full list of certified images.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.1.0-image-update.md){:target="_blank"}
-
-<span style="float: right;">October 5, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.1 improves day-to-day operations {.title}
-
-Day-to-day operations get two practical controls with this release: query router logs that survive a restart, and a setting for how often the Operator reads system user passwords from HashiCorp Vault.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-mongodb-1.23.1.md){:target="_blank"}
-
-<span style="float: right;">October 5, 2026</span>
-
-</div>
-</div>
-
 </div>
