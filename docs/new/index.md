@@ -12,62 +12,60 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB 2.17.0 {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona ClusterSync for MongoDB 1.1.0 has been released {.title}
 
-PBM 2.17.0 improves physical point-in-time recovery and restores of time series collections. It also reports the cause of backup failures in sharded clusters and lets you delete unfinished backups with stale heartbeats.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/MongoDB/pbm-2.17.0-release.md){:target="_blank"}
-
-<span style="float: right;">October 14, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for PostgreSQL 3.1.0: updated component images {.title}
-
-Percona Operator for PostgreSQL 3.1.0 now ships updated images for Percona Distribution for PostgreSQL, pgBouncer and pgBackRest. Check the Operator documentation for the full list of certified images.
+Choose the write concern for target data writes and optionally skip chunk pre-splitting during clone. This release also improves recovery and high availability.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-postgresql-3.1.0-image-update.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/pcsm-1.1.0-release.md){:target="_blank"}
 
-<span style="float: right;">October 5, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="operators" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MongoDB 1.23.1 improves day-to-day operations {.title}
-
-Day-to-day operations get two practical controls with this release: query router logs that survive a restart, and a setting for how often the Operator reads system user passwords from HashiCorp Vault.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-mongodb-1.23.1.md){:target="_blank"}
-
-<span style="float: right;">October 5, 2026</span>
+<span style="float: right;">November 9, 2026</span>
 
 </div>
 </div>
 
 <div data-banner="mongodb" markdown>
 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB 1.70.5-3 is generally available {.title}
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona ClusterSync for MongoDB {.title}
-
-Percona ClusterSync for MongoDB (PCSM) 1.0.0 marks the general availability of sharding support, introduces active-standby high availability during replication, and expands the supported migration topologies. It also allows you to run multiple PCSM instances against the same source cluster, with each instance synchronizing a different subset of data to a separate target.
-
+Full-text search, vector search, and automatic embedding are now supported for production use. This release also adds Hugging Face Inference API as an automatic embedding provider.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/pcsm-1.0.0-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/ps4m-1.70.5-3-release.md){:target="_blank"}
 
-<span style="float: right;">September 28, 2026</span>
+<span style="float: right;">October 29, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="operators" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MySQL 1.3.0 is here {.title}
+
+Automatic MySQL configuration tuning, zero-data-loss failover for async clusters, a replication type switch on a running cluster (tech preview), encrypted binlogs for point-in-time recovery, and more are available for you with this release
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-mysql-1.3.0.md){:target="_blank"}
+
+<span style="float: right;">October 29, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="mongodb" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 7.0.45-24, 8.0.34-15, and 8.3.13-4 have been released {.title}
+
+PSMDB 8.3 is now generally available (GA). These releases include upstream fixes and require a separate MongoDB Database Tools download for tarball installations. Versions 7.0.45-24, 8.0.34-15, and 8.3.13-4 were released on October 21, 22, and 27, 2026, respectively.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.45-24-8.0.34-15-and-8.3.13-4-release.md){:target="_blank"}
+
+<span style="float: right;">October 27, 2026</span>
 
 </div>
 </div>

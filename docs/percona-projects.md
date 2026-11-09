@@ -27,14 +27,32 @@ These projects are typically early-stage tools, research prototypes, or utilitie
 
     Use them at your own risk and carefully evaluate any code or binaries before deploying them in production.
 
+    To report a bug or ask a question, open an issue in the project's GitHub repository.
+
 ---
 
 ## Quick navigation
 
-- [Database extensions](#extensions)
-- [Tools and utilities](#tools)
-- [Deployment and infrastructure](#deployment)
-- [Migration](#migration)
+<div class="splash-links splash-row">
+  <a href="#extensions" class="splash-card">
+    <h3>Database extensions</h3>
+    <p>Components that run inside the database engine.</p>
+  </a>
+  <a href="#tools" class="splash-card">
+    <h3>Tools and utilities</h3>
+    <p>Diagnostics, backup and recovery, and load generation.</p>
+  </a>
+  <a href="#deployment" class="splash-card">
+    <h3>Deployment and infrastructure</h3>
+    <p>Tools for provisioning or managing database environments.</p>
+  </a>
+  <a href="#migration" class="splash-card">
+    <h3>Migration</h3>
+    <p>Tools for moving data between systems.</p>
+  </a>
+</div>
+
+Want to add your project? See [Contributing](#contributing).
 
 ## 🧩 Database extensions {#extensions}
 
@@ -50,16 +68,38 @@ Components that run inside the database engine.
 
 External applications that interact with databases.
 
+### Diagnostics and monitoring {#diagnostics}
+
 | Project | Database | Description | Managed by |
 |---|---|---|---|
-| github-stat ([github-stat :octicons-link-external-16:](https://github.com/dbazhenov/github-stat)) | MySQL, PostgreSQL, MongoDB | Application for MySQL, PostgreSQL, and MongoDB load simulation with a web interface and database monitoring capabilities. | Daniil Bazhenov |
-| Hackorum ([hackorum :octicons-link-external-16:](https://github.com/Percona-Lab/hackorum)) | PostgreSQL | Open-source web application that archives, indexes, and makes the PostgreSQL hackers mailing list easier to read, search, and analyze. | Zsolt Parragi |
-| mongodb-log-obfuscator ([mongodb-log-obfuscator :octicons-link-external-16:](https://github.com/zelmario/mongodb-log-obfuscator)) | MongoDB | Obfuscates sensitive data in MongoDB logs and FTDC diagnostic files while preserving structure for analysis and safe sharing. | Zelmar |
-| mysql-random-data-generator ([mysql-random-data-generator :octicons-link-external-16:](https://github.com/kedarvj/mysql-random-data-generator)) | MySQL | MySQL tool that automatically detects column types and generates random data to populate tables. **Consider using `random-data-load` for multi-database support.** | Kedar |
-| mysqldumpsplitter ([mysqldumpsplitter :octicons-link-external-16:](https://github.com/kedarvj/mysqldumpsplitter)) | MySQL | Utility that splits and extracts databases or tables from mysqldump files with additional processing functionality. | Kedar |
-| random-data-load ([random-data-load :octicons-link-external-16:](https://github.com/Percona-Lab/random-data-load)) | MySQL, PostgreSQL | Generates synthetic datasets based on schema, constraints, and cardinality to reproduce and optimize query execution behavior for MySQL and PostgreSQL. | Yoann La Cancellera |
-| pg_gather ([pg_gather :octicons-link-external-16:](https://github.com/jobinau/pg_gather)) | PostgreSQL | Collects minimal diagnostic data from PostgreSQL instances and generates an analysis report to identify potential issues. | Jobin Augustine |
+| [Big Hole :octicons-link-external-16:](https://github.com/zelmario/Big-hole) | MongoDB | Browser-based, offline viewer for MongoDB FTDC diagnostic data. Plots metrics alongside the mongod log and flags common issues such as ticket exhaustion and cache pressure. Data never leaves your machine. | Zelmar Michelini |
+| [mongo-health :octicons-link-external-16:](https://github.com/zelmario/mongo-health) | MongoDB | Collects and retains FTDC data from Atlas and self-managed replica sets, runs hourly health checks, and reports a per-replica-set verdict with supporting evidence. | Zelmar Michelini |
+| [mongodb-log-obfuscator :octicons-link-external-16:](https://github.com/zelmario/mongodb-log-obfuscator) | MongoDB | Obfuscates sensitive data in MongoDB logs and FTDC diagnostic files while preserving structure for analysis and safe sharing. | Zelmar Michelini |
+| [MongoDB-Log-Plotter :octicons-link-external-16:](https://github.com/zelmario/MongoDB-Log-Plotter) | MongoDB | Python script that parses MongoDB 4.4+ log files and plots slow queries, connections, and errors in an interactive dashboard. | Zelmar Michelini |
+| [pg_gather :octicons-link-external-16:](https://github.com/jobinau/pg_gather) | PostgreSQL | Collects minimal diagnostic data from PostgreSQL instances and generates an analysis report to identify potential issues. | Jobin Augustine |
+
+### Backup and recovery {#backup}
+
+| Project | Database | Description | Managed by |
+|---|---|---|---|
+| [mongorewind :octicons-link-external-16:](https://github.com/zelmario/mongorewind) | MongoDB | Terminal app that records inserts, updates, and deletes in a MongoDB replica set or sharded cluster and rolls them back, newest first. Resets test environments without a full restore. | Zelmar Michelini |
+| [mysqldumpsplitter :octicons-link-external-16:](https://github.com/kedarvj/mysqldumpsplitter) | MySQL | Utility that splits and extracts databases or tables from mysqldump files with additional processing functionality. | Kedar Vaijanapurkar |
+| [PBM UI :octicons-link-external-16:](https://github.com/zelmario/pbm-ui) | MongoDB | Web interface for Percona Backup for MongoDB that manages backups, restores, point-in-time recovery, configuration, and logs for replica sets. | Zelmar Michelini |
+
+### Data and load generation {#load-generation}
+
+| Project | Database | Description | Managed by |
+|---|---|---|---|
+| [github-stat :octicons-link-external-16:](https://github.com/dbazhenov/github-stat) | MySQL, PostgreSQL, MongoDB | Application for MySQL, PostgreSQL, and MongoDB load simulation with a web interface and database monitoring capabilities. | Daniil Bazhenov |
+| [mysql-random-data-generator :octicons-link-external-16:](https://github.com/kedarvj/mysql-random-data-generator) | MySQL | MySQL tool that automatically detects column types and generates random data to populate tables. **Consider using `random-data-load` for multi-database support.** | Kedar Vaijanapurkar |
 | plgm ([percona-load-generator-mongodb :octicons-link-external-16:](https://github.com/Percona-Lab/percona-load-generator-mongodb)) | MongoDB | High-performance load generator written in Go that simulates heavy workloads for both sharded and non-sharded MongoDB clusters. | Daniel Almeida |
+| [random-data-load :octicons-link-external-16:](https://github.com/Percona-Lab/random-data-load) | MySQL, PostgreSQL | Generates synthetic datasets based on schema, constraints, and cardinality to reproduce and optimize query execution behavior for MySQL and PostgreSQL. | Yoann La Cancellera |
+
+### Other utilities {#other-utilities}
+
+| Project | Database | Description | Managed by |
+|---|---|---|---|
+| [Hackorum :octicons-link-external-16:](https://github.com/Percona-Lab/hackorum) | PostgreSQL | Open-source web application that archives, indexes, and makes the PostgreSQL hackers mailing list easier to read, search, and analyze. | Zsolt Parragi |
 
 ---
 
@@ -69,8 +109,9 @@ Tools for provisioning or managing database environments.
 
 | Project | Database | Description | Managed by |
 |---|---|---|---|
-| dbdeployer ([dbdeployer :octicons-link-external-16:](https://github.com/Robertoh98/dbdeployer)) | MySQL | Tool for quickly deploying MySQL database servers. A Go-based redesign of MySQL-Sandbox. | Roberto Garcia de Bem |
-| mongo_terraform_ansible ([mongo_terraform_ansible :octicons-link-external-16:](https://github.com/percona/mongo_terraform_ansible)) | MongoDB | Automation toolkit for deploying MongoDB environments using Terraform and Ansible. | — |
+| [anydbver :octicons-link-external-16:](https://github.com/ihanick/anydbver) | MySQL, PostgreSQL, MongoDB | Creates local multi-node clusters of exact Percona and upstream database versions using Docker containers, with optional Kubernetes deployment via K3d. A [fork :octicons-link-external-16:](https://github.com/zelmario/anydbver) is also maintained. | Nickolay Ihalainen (author), Zelmar Michelini (fork) |
+| [dbdeployer :octicons-link-external-16:](https://github.com/Robertoh98/dbdeployer) | MySQL | Tool for quickly deploying MySQL database servers. A Go-based redesign of MySQL-Sandbox. | Roberto Garcia de Bem |
+| [mongo_terraform_ansible :octicons-link-external-16:](https://github.com/percona/mongo_terraform_ansible) | MongoDB | Automation toolkit for deploying MongoDB environments using Terraform and Ansible. | Ivan Groenewold |
 
 ---
 
@@ -81,6 +122,18 @@ Tools for moving data between systems.
 | Project | Database | Description | Managed by |
 |---|---|---|---|
 | docMongoStream ([percona-docstreamer :octicons-link-external-16:](https://github.com/Percona-Lab/percona-docstreamer)) | MongoDB | Automated end-to-end tool for migrating data from Amazon DocumentDB to MongoDB. | Daniel Almeida |
+
+---
+
+## Contributing {#contributing}
+
+To add a project to this page, open [a pull request](https://github.com/percona/docs-home/pulls) that:
+
+- Places the project in the appropriate section
+- Keeps entries alphabetically ordered
+- Provides a concise description (1–2 lines)
+- Specifies the supported database(s)
+- Specifies the name of the author or maintainer
 
 ---
 
@@ -96,14 +149,3 @@ Tools for moving data between systems.
 
 </div>
 <br>
-
-<!-- >
-## Contributing
-
-To add a new project:
-- Place it in the appropriate section
-- Keep entries alphabetically ordered
-- Provide a concise description (1–2 lines)
-- Specify supported database(s)
-- Specify the name of the author
--->
