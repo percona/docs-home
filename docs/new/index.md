@@ -12,6 +12,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="mongodb" markdown>
 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona ClusterSync for MongoDB 1.1.0 has been released {.title}
+
+Choose the write concern for target data writes and optionally skip chunk pre-splitting during clone. This release also improves recovery and high availability.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/pcsm-1.1.0-release.md){:target="_blank"}
+
+<span style="float: right;">November 9, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="mongodb" markdown>
+
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Search for MongoDB 1.70.5-3 is generally available {.title}
 
 Full-text search, vector search, and automatic embedding are now supported for production use. This release also adds Hugging Face Inference API as an automatic embedding provider.
@@ -51,21 +66,6 @@ PSMDB 8.3 is now generally available (GA). These releases include upstream fixes
 [Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.45-24-8.0.34-15-and-8.3.13-4-release.md){:target="_blank"}
 
 <span style="float: right;">October 27, 2026</span>
-
-</div>
-</div>
-
-<div data-banner="pmm" markdown>
-
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.10.0: HA Cluster is now generally available {.title}
-
-PMM 3.10.0 makes PMM HA Cluster generally available with OpenShift support, in-place Helm upgrades, and backup and restore. It also introduces the first database management Apps, native ARM64 support for PMM Server, MySQL 9.7 support, and a new MongoDB Unused Indexes dashboard.
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm_3.10.0-release.md){:target="_blank"}
-
-<span style="float: right;">October 22, 2026</span>
 
 </div>
 </div>
