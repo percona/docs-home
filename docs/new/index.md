@@ -42,15 +42,15 @@ Automatic MySQL configuration tuning, zero-data-loss failover for async clusters
 
 <div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 8.0.34-15 has been released {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 7.0.45-24, 8.0.34-15, and 8.3.13-4 have been released {.title}
 
-This release includes upstream improvements and security fixes, and fixes backups to Google Cloud Storage through its S3-compatible API. Tarball installations now require a separate download of MongoDB Database Tools.
+PSMDB 8.3 is now generally available. These releases include upstream fixes and require a separate MongoDB Database Tools download for tarball installations. Versions 7.0.45-24, 8.0.34-15, and 8.3.13-4 were released on October 21, 22, and 27, 2026, respectively.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.0.34-15-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-7.0.45-24-8.0.34-15-and-8.3.13-4-release.md){:target="_blank"}
 
-<span style="float: right;">October 22, 2026</span>
+<span style="float: right;">October 27, 2026</span>
 
 </div>
 </div>
