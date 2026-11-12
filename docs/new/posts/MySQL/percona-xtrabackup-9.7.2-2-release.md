@@ -1,5 +1,5 @@
 ---
-date: 2026-11-04
+date: 2026-10-04
 description: >
   Percona XtraBackup 9.7.2-2 has been released on Wednesday, November 04, 2026.
 authors: [alina-derkach-oaza]
