@@ -110,9 +110,9 @@ extra:
     provider: google
     property: G-J4J70BNH0G
   docsearch:
-    api_key: "a5222c0ed6e9e6c67a77cfd2e26000e1"
-    index_name: "Percona documentation"
-    app_id: "QDKRBCAI99"
+    api_key: "72ae01e59f74373372979e09001708fb"
+    index_name: "percona_docs_pages"
+    app_id: "QPF6EL892Z"
 
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2026 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
