@@ -14,7 +14,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 7.0.48-25 and 8.0.38-16 have been released {.title}
 
-Upgrade for upstream security fixes and improved AWS IAM authentication for assumed roles in GovCloud and China. Review IAM user mappings before upgrading in non-commercial AWS partitions.
+Upgrade for upstream security fixes and improved AWS IAM authentication for assumed roles in GovCloud and China.
 
 <div class="actions" markdown>
 
