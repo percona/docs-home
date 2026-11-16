@@ -2,3 +2,4 @@
 COMMIT_MESSAGE
 site/
 
+__pycache__/

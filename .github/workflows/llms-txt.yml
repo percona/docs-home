@@ -17,6 +17,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,3 +30,15 @@ jobs:
         with:
           name: llms.txt
           path: llms.txt
+
+  # The docs build may run an older Python than CI does
+  oldest-python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: Build llms.txt offline
+        run: python hooks/llms_txt.py --offline --out llms.txt

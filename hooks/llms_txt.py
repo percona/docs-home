@@ -9,8 +9,9 @@ When a product site publishes its own llms.txt, the entry links to it.
 Used two ways:
 
 - As an MkDocs hook (`hooks:` in mkdocs.yml): writes site/llms.txt after every
-  build. Set LLMS_TXT_OFFLINE=1 to skip network lookups (versions and product
-  llms.txt files are then left out).
+  build. It never fails the build; problems are logged. LLMS_TXT_OFFLINE=1
+  skips network lookups (versions and product llms.txt files are then left
+  out). `mkdocs serve` skips them by default; LLMS_TXT_OFFLINE=0 turns them on.
 - From the command line, for CI:
       python hooks/llms_txt.py [--out llms.txt] [--offline] [--check]
   --check fetches every docs.percona.com link and exits 1 on a broken link,
@@ -19,6 +20,8 @@ Used two ways:
 
 Standard library only.
 """
+import argparse
+import http.client
 import json
 import logging
 import os
@@ -59,28 +62,37 @@ MD_LINK_RE = re.compile(r"\]\(([^)]*)\)")
 LINK_LABELS = {"Install now": "install", "Releases": "release notes"}
 
 log = logging.getLogger("mkdocs.hooks.llms_txt")
-_cache = {}  # url -> fetch result, so `mkdocs serve` rebuilds don't refetch
+_cache = {}  # url -> fetch result (200 and 404 only), so `mkdocs serve` rebuilds don't refetch
+_net = {"timeout": 20, "tries": 3, "failures": 0}
+MAX_NETWORK_FAILURES = 5  # after this many unreachable URLs, stop trying for this run
+_serving = False
 
 
-def fetch(url, timeout=20, tries=3):
+def fetch(url):
     """Return (status, body, final_url, content_type). Status 0 = network error."""
     if url in _cache:
         return _cache[url]
+    if _net["failures"] >= MAX_NETWORK_FAILURES:
+        return (0, b"", url, "")
     req = urllib.request.Request(url, headers={"User-Agent": "percona-docs-llms-txt"})
     result = (0, b"", url, "")
-    for attempt in range(tries):
+    for attempt in range(_net["tries"]):
+        if attempt:
+            time.sleep(2 * attempt)
         try:
-            with urllib.request.urlopen(req, timeout=timeout) as r:
+            with urllib.request.urlopen(req, timeout=_net["timeout"]) as r:
                 result = (r.status, r.read(), r.geturl(), r.headers.get("Content-Type", ""))
                 break
         except urllib.error.HTTPError as e:
             result = (e.code, b"", url, "")
             if e.code < 500 and e.code != 429:
                 break
-        except (urllib.error.URLError, TimeoutError, ConnectionError):
-            pass
-        time.sleep(2 * (attempt + 1))
-    _cache[url] = result
+        except (OSError, http.client.HTTPException, ValueError):
+            result = (0, b"", url, "")  # unreachable, timed out, or a bad URL
+    if result[0] == 0:
+        _net["failures"] += 1
+    if result[0] in (200, 404):
+        _cache[url] = result
     return result
 
 
@@ -107,7 +119,7 @@ def parse_products(text):
             cur["desc"].append(stripped)
     for p in products:
         p["desc"] = " ".join(p["desc"])
-    return [p for p in products if p["links"]]
+    return products
 
 
 def docs_link(p):
@@ -129,9 +141,10 @@ def versions(root, notes):
         notes.append(f"{root}versions.json: status {status}, versions left out")
         return []
     try:
-        return [(v["version"], "latest" in v.get("title", "").lower() or "latest" in v.get("aliases", []))
+        return [(str(v["version"]),
+                 "latest" in str(v.get("title") or "").lower() or "latest" in (v.get("aliases") or []))
                 for v in json.loads(body)]
-    except (ValueError, KeyError, TypeError) as e:
+    except (ValueError, KeyError, TypeError, AttributeError) as e:
         notes.append(f"{root}versions.json: unreadable ({e})")
         return []
 
@@ -139,9 +152,11 @@ def versions(root, notes):
 def own_llms_txt(base):
     """The product's own llms.txt URL, if it publishes one."""
     url = base + "llms.txt"
-    status, _, final, ctype = fetch(url)
-    # Some sites answer a missing page with a redirect to a 404.html that returns 200.
-    return url if status == 200 and final == url and "html" not in ctype else None
+    status, body, final, ctype = fetch(url)
+    # Some sites answer a missing page with a redirect to a 404.html that returns 200,
+    # so require no redirect, a text response, and a markdown title.
+    ok = status == 200 and final == url and "html" not in ctype and body.lstrip().startswith(b"#")
+    return url if ok else None
 
 
 def entry(p, offline, notes):
@@ -172,7 +187,14 @@ def build(docs_dir, offline=False):
         if not path.exists():
             problems.append(f"{fname}: not found")
             continue
-        pages[fname] = parse_products(path.read_text(encoding="utf-8"))
+        cards = parse_products(path.read_text(encoding="utf-8"))
+        for p in cards:
+            if not p["links"]:
+                problems.append(f"{fname}: card {p['name']!r} has no links it can read; left out")
+            for url in p["links"].values():
+                if not url.startswith(("https://", "http://")):
+                    problems.append(f"{fname}: card {p['name']!r} has a relative link {url!r}")
+        pages[fname] = [p for p in cards if p["links"]]
         if not pages[fname]:
             problems.append(f"{fname}: no product cards found; did the page layout change?")
 
@@ -222,30 +244,49 @@ def check_links(text):
     return broken
 
 
-# MkDocs hook
+# MkDocs hooks
+def on_startup(command, **kwargs):
+    global _serving
+    _serving = command == "serve"
+
+
 def on_post_build(config, **kwargs):
-    offline = os.environ.get("LLMS_TXT_OFFLINE") == "1"
-    text, problems, notes = build(config["docs_dir"], offline)
+    """Write site/llms.txt. Never fails the build: problems are logged instead."""
+    # `mkdocs serve` skips network lookups unless LLMS_TXT_OFFLINE=0 is set.
+    offline = os.environ.get("LLMS_TXT_OFFLINE", "1" if _serving else "0") == "1"
+    _net.update(timeout=8, tries=2, failures=0)  # keep a docs build fast when the site is down
+    try:
+        text, problems, notes = build(config["docs_dir"], offline)
+        out = pathlib.Path(config["site_dir"]) / "llms.txt"
+        out.write_text(text, encoding="utf-8")
+    except Exception:
+        log.warning("llms.txt: not written", exc_info=True)
+        return
     for msg in problems:
         log.warning("llms.txt: %s", msg)
     for msg in notes:
         log.info("llms.txt: %s", msg)
-    out = pathlib.Path(config["site_dir"]) / "llms.txt"
-    out.write_text(text, encoding="utf-8")
     log.info("llms.txt: wrote %s (%d characters)", out, len(text))
 
 
 def main(argv):
+    ap = argparse.ArgumentParser(description="Build llms.txt from the product pages.")
+    ap.add_argument("--out", help="write here instead of stdout")
+    ap.add_argument("--offline", action="store_true", help="skip network lookups")
+    ap.add_argument("--check", action="store_true",
+                    help="fetch every link; exit 1 on broken links, layout problems or size")
+    args = ap.parse_args(argv)
     docs_dir = pathlib.Path(__file__).resolve().parent.parent / "docs"
-    out = argv[argv.index("--out") + 1] if "--out" in argv else None
-    text, problems, notes = build(docs_dir, offline="--offline" in argv)
-    if out:
-        pathlib.Path(out).write_text(text, encoding="utf-8")
+    text, problems, notes = build(docs_dir, offline=args.offline)
+    if args.out:
+        pathlib.Path(args.out).write_text(text, encoding="utf-8")
     else:
         sys.stdout.write(text)
     for msg in notes:
         print(f"note: {msg}", file=sys.stderr)
-    if "--check" not in argv:
+    if not args.check:
+        for msg in problems:
+            print(f"warning: {msg}", file=sys.stderr)
         return 0
     errors = problems + check_links(text)
     if len(text) > MAX_CHARS:
