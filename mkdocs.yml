@@ -108,6 +108,13 @@ plugins:
     enabled: !ENV [CI, false]
     repository: percona/docs-home
     branch: "main"
+  # Markdown version of every page (page/index.md) for AI agents.
+  # Its own llms.txt is replaced by hooks/llms_txt.py, which runs after it.
+  llmstxt:
+    preprocess: hooks/llmstxt_directive.py
+    sections:
+      Pages:
+        - "*.md"
 
 extra:
   analytics:
