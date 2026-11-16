@@ -69,6 +69,13 @@
   ></script>
 {% endblock %}
 
+{% block header %}
+  <div class="agent-hint">
+    For AI agents: an index of this documentation is at <a href="/llms.txt">/llms.txt</a>.
+  </div>
+  {{ super() }}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
 
