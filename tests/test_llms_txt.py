@@ -573,3 +573,43 @@ class _AllPagesLoad(dict):  # type: ignore[type-arg]
         from conftest import Page
 
         return Page(body="<html>")
+
+
+# --- compare_live ------------------------------------------------------------------------------
+
+BUILT = f"# P\n\n## MySQL\n\n- [PS]({PS}9.8/): v\n- [PXC](x)\n\n## Documentation home\n\n- [Home]({SITE}/)\n"
+
+
+def test_product_part_ignores_this_sites_pages() -> None:
+    assert llms_txt.product_part(BUILT) == [f"- [PS]({PS}9.8/): v", "- [PXC](x)"]
+
+
+def test_compare_live_not_published_yet(fetcher: Fetcher) -> None:
+    assert llms_txt.compare_live(BUILT, fetcher) == []
+
+
+def test_compare_live_up_to_date(web: Any, fetcher: Fetcher) -> None:
+    web.add(f"{SITE}/llms.txt", BUILT.replace(f"[Home]({SITE}/)", "[Home](other)"), content_type="text/plain")
+    assert llms_txt.compare_live(BUILT, fetcher) == []
+
+
+def test_compare_live_out_of_date(web: Any, fetcher: Fetcher) -> None:
+    web.add(f"{SITE}/llms.txt", BUILT.replace("9.8", "9.7"), content_type="text/plain")
+    assert llms_txt.compare_live(BUILT, fetcher) == [
+        "published llms.txt is out of date: 1 product entries differ; rebuild and deploy docs-home",
+        f"  now: - [PS]({PS}9.8/): v",
+    ]
+
+
+def test_compare_live_unreadable(web: Any, fetcher: Fetcher) -> None:
+    web.add(f"{SITE}/llms.txt", "<!doctype html>", redirect_to=f"{SITE}/404.html")
+    assert llms_txt.compare_live(BUILT, fetcher) == ["published llms.txt could not be read (status 200)"]
+
+
+def test_main_compare_live(
+    docs_dir: Path, web: Any, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+) -> None:
+    monkeypatch.setattr(llms_txt, "Fetcher", lambda: Fetcher(opener=web, sleep=lambda _: None))
+    web.add(f"{SITE}/llms.txt", "# P\n\n- [Old](x)\n", content_type="text/plain")
+    assert llms_txt.main(["--compare-live", "--offline", "--docs-dir", str(docs_dir)]) == 1
+    assert "error: published llms.txt is out of date" in capsys.readouterr().err

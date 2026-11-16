@@ -52,7 +52,7 @@
   }
 }
 
-/* Link to /llms.txt for AI agents: hidden on screen, kept for screen readers and crawlers */
+/* Link to /llms.txt for AI agents: hidden on screen (and aria-hidden in the template) */
 .agent-hint {
     position: absolute;
     width: 1px;

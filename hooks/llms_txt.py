@@ -23,7 +23,9 @@ Used two ways:
       python hooks/llms_txt.py [--out llms.txt] [--offline] [--check]
 
   ``--check`` exits 1 on a broken or malformed link, a product page without
-  product cards, or a file over 50,000 characters.
+  product cards, or a file over 50,000 characters. ``--compare-live`` exits 1
+  when the published /llms.txt lists different products or versions, which
+  means docs-home needs a rebuild.
 
 Standard library only.
 """
@@ -93,6 +95,7 @@ TITLE_RE = re.compile(r"^###\s+(?:<span[^>]*>.*?</span>\s*)?(.+?)\s*\{\.title\}\
 CARD_LINK_RE = re.compile(r"^\[([^\]]+)\]\(([^)\s]+)\)\s*$")
 MD_LINK_RE = re.compile(r"\]\(([^)]*)\)")
 WHATS_NEW_DIR = "new"
+SITE_SECTION = "## Documentation home"  # starts the part of /llms.txt about this site's own pages
 
 log = logging.getLogger("mkdocs.hooks.llms_txt")
 
@@ -171,6 +174,7 @@ class Fetcher:
             with self.opener(request, timeout=self.timeout) as r:
                 return Response(r.status, r.read(), r.geturl(), r.headers.get("Content-Type", ""))
         except urllib.error.HTTPError as e:
+            e.close()  # an HTTPError holds the open response
             return Response(e.code, b"", url, "")
         except (OSError, http.client.HTTPException, ValueError):
             return Response(0, b"", url, "")
@@ -470,7 +474,7 @@ def render_site_section(pages: Sequence[SitePage], site_dir: Path | None) -> lis
     """This site's own pages, and the What's new indexes."""
     own = [p for p in pages if not p.path.startswith(WHATS_NEW_DIR + "/")]
     years = sorted({m.group(1) for p in pages if (m := POST_RE.match(p.path))}, reverse=True)
-    lines = ["## Documentation home", ""]
+    lines = [SITE_SECTION, ""]
     lines += [f"- [{p.title}]({page_link(p, site_dir)})" for p in sorted(own, key=lambda p: p.path)]
     lines.append(f"- [What's new]({SITE}/{WHATS_NEW_DIR}/llms.txt): release announcements and their archive")
     lines += [f"- [What's new in {year}]({SITE}/{WHATS_NEW_DIR}/{year}/llms.txt)" for year in years]
@@ -541,6 +545,29 @@ def check_links(text: str, fetcher: Fetcher) -> list[str]:
     ]
 
 
+def product_part(text: str) -> list[str]:
+    """The product entries of an llms.txt, without this site's own pages."""
+    return [line for line in text.split(SITE_SECTION, 1)[0].splitlines() if line.startswith("- [")]
+
+
+def compare_live(text: str, fetcher: Fetcher) -> list[str]:
+    """Differences between the product entries of ``text`` and the published /llms.txt."""
+    response = fetcher.get(f"{SITE}/llms.txt")
+    if response.status == 404:
+        return []  # not published yet
+    if not response.is_markdown:
+        return [f"published llms.txt could not be read (status {response.status})"]
+    live = product_part(response.body.decode("utf-8", "replace"))
+    built = product_part(text)
+    if live == built:
+        return []
+    changed = [line for line in built if line not in live]
+    return [
+        f"published llms.txt is out of date: {len(changed)} product entries differ; rebuild and deploy docs-home",
+        *(f"  now: {line[:160]}" for line in changed[:5]),
+    ]
+
+
 # --- MkDocs hooks -------------------------------------------------------------------------
 
 _state: dict[str, Any] = {"serving": False, "pages": {}}
@@ -595,6 +622,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser.add_argument("--out", type=Path, help="write here instead of stdout")
     parser.add_argument("--offline", action="store_true", help="skip network lookups")
     parser.add_argument("--check", action="store_true", help="fail on broken links, layout problems or size")
+    parser.add_argument("--compare-live", action="store_true", help="fail if the published llms.txt is out of date")
     parser.add_argument("--docs-dir", type=Path, default=Path(__file__).resolve().parent.parent / "docs")
     args = parser.parse_args(argv)
 
@@ -609,10 +637,13 @@ def main(argv: Sequence[str] | None = None) -> int:
     errors = list(result.problems)
     if args.check:
         errors += check_links(result.text, fetcher or Fetcher())
+    if args.compare_live:
+        errors += compare_live(result.text, fetcher or Fetcher())
+    strict = args.check or args.compare_live
     for msg in errors:
-        print(f"{'error' if args.check else 'warning'}: {msg}", file=sys.stderr)
+        print(f"{'error' if strict else 'warning'}: {msg}", file=sys.stderr)
     print(f"llms.txt: {len(result.text)} characters, {len(errors)} problems", file=sys.stderr)
-    return 1 if args.check and errors else 0
+    return 1 if strict and errors else 0
 
 
 if __name__ == "__main__":
