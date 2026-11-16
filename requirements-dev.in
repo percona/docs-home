@@ -1,0 +1,7 @@
+# Tools to test and lint hooks/. Compile with (releases at least two weeks old):
+#   uv pip compile --generate-hashes --python-version 3.12 --exclude-newer <date two weeks ago> requirements-dev.in -o requirements-dev.txt
+pytest
+pytest-cov
+ruff
+mypy
+beautifulsoup4
