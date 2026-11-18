@@ -8,3 +8,4 @@ mkdocs-exclude
 markdown-include
 mkdocs-rss-plugin
 mkdocs-git-committers-plugin-2
+mkdocs-llmstxt>=0.5.1

@@ -1,0 +1,25 @@
+# Keeps the pinned action SHAs and the hash-pinned dev tools up to date.
+# The cooldown skips releases younger than two weeks.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 14
+    groups:
+      actions:
+        patterns: ["*"]
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 14
+    allow:
+      - dependency-type: all
+    groups:
+      dev-tools:
+        patterns: ["*"]

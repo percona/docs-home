@@ -69,6 +69,14 @@
   ></script>
 {% endblock %}
 
+{% block header %}
+  {#- For AI agents only: hidden on screen and from screen readers, kept out of the tab order. #}
+  <div class="agent-hint" aria-hidden="true">
+    For AI agents: an index of this documentation is at <a href="/llms.txt" tabindex="-1">/llms.txt</a>.
+  </div>
+  {{ super() }}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
 

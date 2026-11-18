@@ -51,3 +51,14 @@
     text-indent: 0.8rem;
   }
 }
+
+/* Link to /llms.txt for AI agents: hidden on screen (and aria-hidden in the template) */
+.agent-hint {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
