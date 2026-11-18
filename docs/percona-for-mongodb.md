@@ -87,7 +87,7 @@ An open source database monitoring, management and observability solution for Mo
 <div class="actions" markdown>
 
 [Releases](https://docs.percona.com/percona-monitoring-and-management/release-notes/index.html)
-[Install now](https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html)
+[Install now](https://docs.percona.com/percona-monitoring-and-management/3/quickstart/quickstart.html)
 [Documentation](https://docs.percona.com/percona-monitoring-and-management/)
 
 </div>
