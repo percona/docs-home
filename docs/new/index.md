@@ -14,7 +14,7 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 8.3.17-5 has been released {.title}
 
-Upgrade for upstream security fixes and improved AWS IAM authentication. f you use `createBackup`, plan your switch to Percona Backup for MongoDB, as the command is deprecated in 8.3.
+Upgrade for upstream security fixes and improved AWS IAM authentication. If you use `createBackup`, plan your switch to Percona Backup for MongoDB, as the command is deprecated in 8.3.
 
 <div class="actions" markdown>
 
