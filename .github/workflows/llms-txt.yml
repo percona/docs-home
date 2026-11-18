@@ -5,6 +5,7 @@ on:
     paths:
       - "docs/*.md"
       - "hooks/**"
+      - "checks/**"
       - "tests/**"
       - "mkdocs.yml"
       - "pyproject.toml"
@@ -17,6 +18,7 @@ on:
     paths:
       - "docs/*.md"
       - "hooks/**"
+      - "checks/**"
       - "tests/**"
       - "mkdocs.yml"
       - "pyproject.toml"

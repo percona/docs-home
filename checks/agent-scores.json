@@ -1,0 +1,26 @@
+{
+  "_comment": "Minimum AFDocs score per site: the first folder of its URL, or / for docs.percona.com. A score below its minimum opens an issue. Raise a minimum when a site improves, as the daily report suggests.",
+  "minimums": {
+    "/": 90,
+    "percona-backup-mongodb": 71,
+    "percona-clustersync-for-mongodb": 57,
+    "percona-distribution-for-mysql": 94,
+    "percona-monitoring-and-management": 64,
+    "percona-operator-for-mongodb": 71,
+    "percona-operator-for-mysql": 72,
+    "percona-operator-for-postgresql": 71,
+    "percona-operator-for-xtradb-cluster": 72,
+    "percona-search-for-mongodb": 72,
+    "percona-server": 95,
+    "percona-server-for-mongodb": 72,
+    "percona-software-repositories": 71,
+    "percona-toolkit": 72,
+    "percona-xtrabackup": 95,
+    "percona-xtradb-cluster": 95,
+    "pg-stat-monitor": 57,
+    "pg-tde": 95,
+    "pmm-dump-documentation": 70,
+    "postgresql": 72,
+    "proxysql": 95
+  }
+}
