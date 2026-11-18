@@ -12,6 +12,21 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="mongodb" markdown>
 
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 8.3.17-5 has been released {.title}
+
+Upgrade for upstream security fixes and improved AWS IAM authentication. f you use `createBackup`, plan your switch to Percona Backup for MongoDB, as the command is deprecated in 8.3.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.3.17-5-release.md){:target="_blank"}
+
+<span style="float: right;">November 18, 2026</span>
+
+</div>
+</div>
+
+<div data-banner="mongodb" markdown>
+
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 7.0.48-25 and 8.0.38-16 have been released {.title}
 
 Upgrade for upstream security fixes and improved AWS IAM authentication for assumed roles in GovCloud and China.
@@ -55,20 +70,7 @@ Full-text search, vector search, and automatic embedding are now supported for p
 </div>
 </div>
 
-<div data-banner="operators" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-operators:</span> Percona Operator for MySQL 1.3.0 is here {.title}
-
-Automatic MySQL configuration tuning, zero-data-loss failover for async clusters, a replication type switch on a running cluster (tech preview), encrypted binlogs for point-in-time recovery, and more are available for you with this release
-
-<div class="actions" markdown>
-
-[Read more :material-arrow-right:](../new/posts/Percona%20Operators/operator-for-mysql-1.3.0.md){:target="_blank"}
-
-<span style="float: right;">October 29, 2026</span>
-
-</div>
-</div>
 
 
 </div>
