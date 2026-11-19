@@ -1,6 +1,6 @@
 """Build the llms.txt indexes of docs.percona.com for AI agents.
 
-See https://llmstxt.org/ for the format. Two files are written:
+See https://llmstxt.org/ for the format. The files written:
 
 - ``/llms.txt``: every product on the product pages (percona-for-mysql.md,
   percona-operators.md, ...) with its description, its documentation versions,
@@ -8,6 +8,10 @@ See https://llmstxt.org/ for the format. Two files are written:
   llms.txt are linked to it. It ends with the pages of this site.
 - ``/new/llms.txt`` and ``/new/<year>/llms.txt``: every page of the "What's new"
   section, the posts split by year so each file stays small.
+- ``/llms-full.txt``: ``/llms.txt``, then the markdown of this site's own pages
+  (the What's new posts are left out: they are listed by year above).
+- ``/skill.md``: ``agents/skill.md`` from this repo, guidance for agents on how
+  to use the Percona documentation (https://agentskills.io/specification).
 
 Product details are looked up on the live site: each product's mike
 ``versions.json``, the version folders, and the final address of every link.
@@ -96,6 +100,10 @@ CARD_LINK_RE = re.compile(r"^\[([^\]]+)\]\(([^)\s]+)\)\s*$")
 MD_LINK_RE = re.compile(r"\]\(([^)]*)\)")
 WHATS_NEW_DIR = "new"
 SITE_SECTION = "## Documentation home"  # starts the part of /llms.txt about this site's own pages
+FULL_FILE = "llms-full.txt"
+SKILL_FILE = "skill.md"
+SKILL_SOURCE = Path("agents") / SKILL_FILE  # relative to the repo root, next to docs/
+DIRECTIVE_START = "> For the complete Percona documentation index"  # added by hooks/llmstxt_directive.py
 
 log = logging.getLogger("mkdocs.hooks.llms_txt")
 
@@ -419,13 +427,24 @@ class SitePage:
         return urllib.parse.urlsplit(self.url).path.lstrip("/")
 
 
+def markdown_file(page: SitePage, site_dir: Path) -> tuple[str, Path] | None:
+    """The URL and file of the page's markdown version, when the build wrote one."""
+    for candidate in markdown_candidates(page.url):
+        path = site_dir / urllib.parse.urlsplit(candidate).path.lstrip("/")
+        if path.is_file():
+            return candidate, path
+    return None
+
+
 def page_link(page: SitePage, site_dir: Path | None) -> str:
     """Link the page's markdown version when the build wrote one."""
-    if site_dir is not None:
-        for candidate in markdown_candidates(page.url):
-            if (site_dir / urllib.parse.urlsplit(candidate).path.lstrip("/")).is_file():
-                return candidate
-    return page.url
+    found = markdown_file(page, site_dir) if site_dir is not None else None
+    return found[0] if found else page.url
+
+
+def own_pages(pages: Iterable[SitePage]) -> list[SitePage]:
+    """This site's pages without the What's new section, in path order."""
+    return sorted((p for p in pages if not p.path.startswith(WHATS_NEW_DIR + "/")), key=lambda p: p.path)
 
 
 POST_RE = re.compile(rf"^{WHATS_NEW_DIR}/(\d{{4}})/")
@@ -472,13 +491,33 @@ def _render_listing(pages: list[SitePage], years: list[str], site_dir: Path | No
 
 def render_site_section(pages: Sequence[SitePage], site_dir: Path | None) -> list[str]:
     """This site's own pages, and the What's new indexes."""
-    own = [p for p in pages if not p.path.startswith(WHATS_NEW_DIR + "/")]
     years = sorted({m.group(1) for p in pages if (m := POST_RE.match(p.path))}, reverse=True)
     lines = [SITE_SECTION, ""]
-    lines += [f"- [{p.title}]({page_link(p, site_dir)})" for p in sorted(own, key=lambda p: p.path)]
+    lines += [f"- [{p.title}]({page_link(p, site_dir)})" for p in own_pages(pages)]
     lines.append(f"- [What's new]({SITE}/{WHATS_NEW_DIR}/llms.txt): release announcements and their archive")
     lines += [f"- [What's new in {year}]({SITE}/{WHATS_NEW_DIR}/{year}/llms.txt)" for year in years]
+    lines.append(f"- [All pages of this site in one file]({SITE}/{FULL_FILE}): this index and the pages above")
+    lines.append(f"- [Skill for AI agents]({SITE}/{SKILL_FILE}): how to find the right product, version and page")
     return lines
+
+
+def without_directive(markdown: str) -> str:
+    """A page's markdown without the pointer to /llms.txt at its top."""
+    text = markdown.lstrip()
+    if text.startswith(DIRECTIVE_START):
+        text = text.split("\n\n", 1)[1] if "\n\n" in text else ""
+    return text.strip()
+
+
+def full_text(index: str, pages: Iterable[SitePage], site_dir: Path) -> str:
+    """/llms-full.txt: the index, then each of this site's pages with its markdown URL."""
+    parts = [index.rstrip()]
+    for page in own_pages(pages):
+        found = markdown_file(page, site_dir)
+        if found:
+            url, path = found
+            parts.append(f"> Source: {url}\n\n{without_directive(path.read_text(encoding='utf-8'))}")
+    return "\n\n---\n\n".join(parts) + "\n"
 
 
 # --- Building -------------------------------------------------------------------------
@@ -593,20 +632,29 @@ def on_post_page(output: str, page: Any, config: Any, **kwargs: Any) -> str:
 
 
 def on_post_build(config: Any, **kwargs: Any) -> None:
-    """Write site/llms.txt and site/new/llms.txt. Never fails the build."""
+    """Write llms.txt, the What's new indexes, llms-full.txt and skill.md. Never fails the build."""
     offline = os.environ.get("LLMS_TXT_OFFLINE", "1" if _state["serving"] else "0") == "1"
     fetcher = None if offline else Fetcher(timeout=8, tries=2)  # keep the build fast when the site is down
     site_dir = Path(config["site_dir"])
     pages = list(_state["pages"].values())
+    docs_dir = Path(config["docs_dir"])
     try:
-        result = build_index(Path(config["docs_dir"]), fetcher, pages, site_dir)
+        result = build_index(docs_dir, fetcher, pages, site_dir)
         (site_dir / "llms.txt").write_text(result.text, encoding="utf-8")
         for path, text in whats_new_files(pages, site_dir).items():
             (site_dir / path).parent.mkdir(parents=True, exist_ok=True)
             (site_dir / path).write_text(text, encoding="utf-8")
+        full = full_text(result.text, pages, site_dir)
+        (site_dir / FULL_FILE).write_text(full, encoding="utf-8")
     except Exception:
         log.warning("llms.txt: not written", exc_info=True)
         return
+    log.info("llms.txt: wrote %s, %d characters", FULL_FILE, len(full))
+    skill = docs_dir.parent / SKILL_SOURCE
+    if skill.is_file():
+        (site_dir / SKILL_FILE).write_text(skill.read_text(encoding="utf-8"), encoding="utf-8")
+    else:
+        log.warning("llms.txt: %s not found, so /%s is not published", SKILL_SOURCE, SKILL_FILE)
     for msg in result.problems:
         log.warning("llms.txt: %s", msg)
     for msg in result.notes:
