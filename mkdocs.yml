@@ -111,6 +111,8 @@ plugins:
   # Markdown version of every page (page/index.md) for AI agents.
   # Its own llms.txt is replaced by hooks/llms_txt.py, which runs after it.
   llmstxt:
+    # hooks/llmstxt_directive.py runs the clean-up itself, after it converts the product cards.
+    autoclean: false
     preprocess: hooks/llmstxt_directive.py
     sections:
       Pages:
