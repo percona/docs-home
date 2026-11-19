@@ -6,6 +6,7 @@ on:
       - "docs/*.md"
       - "hooks/**"
       - "checks/**"
+      - "agents/**"
       - "tests/**"
       - "mkdocs.yml"
       - "pyproject.toml"
@@ -19,6 +20,7 @@ on:
       - "docs/*.md"
       - "hooks/**"
       - "checks/**"
+      - "agents/**"
       - "tests/**"
       - "mkdocs.yml"
       - "pyproject.toml"
@@ -27,7 +29,7 @@ on:
       - "overrides/**"
       - ".github/workflows/llms-txt.yml"
   schedule:
-    - cron: "17 6 * * 1"  # Mondays: catch links broken by changes on the product sites
+    - cron: "17 6 * * *"  # daily: catch changes on the product sites (new llms.txt files, broken links)
   workflow_dispatch:
 
 permissions: {}
@@ -92,6 +94,9 @@ jobs:
           test -s site/new/llms.txt
           head -n 1 site/pmm/index.md | grep -q "https://docs.percona.com/llms.txt"
           grep -q 'class="agent-hint" aria-hidden="true"' site/index.html
+          head -n 1 site/llms-full.txt | grep -qx "# Percona Documentation"
+          grep -q "^> Source: https://docs.percona.com/pmm/index.md$" site/llms-full.txt
+          head -n 2 site/skill.md | grep -qx "name: percona-docs"
 
   links:
     name: Build llms.txt and check its links
@@ -108,9 +113,6 @@ jobs:
           python-version: "3.12"
       - name: Build llms.txt, fail on broken links, layout problems or size
         run: python hooks/llms_txt.py --check --out llms.txt
-      - name: Fail if the published llms.txt is out of date (docs-home needs a rebuild)
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: python hooks/llms_txt.py --compare-live --out /dev/null
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
@@ -118,3 +120,39 @@ jobs:
           path: llms.txt
           if-no-files-found: ignore
           retention-days: 14
+
+  # /llms.txt is built when docs-home deploys, from what the product sites publish at that moment.
+  # When a product site starts publishing its own llms.txt or changes its versions, redeploy docs-home.
+  refresh:
+    name: Redeploy docs-home when the published llms.txt is out of date
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Compare the published llms.txt with a fresh build
+        id: compare
+        run: |
+          if python hooks/llms_txt.py --compare-live --out /dev/null; then
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Start a docs-home deploy on Render
+        if: steps.compare.outputs.stale == 'true'
+        env:
+          DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}  # Render > the docs-home service > Settings > Deploy Hook
+        run: |
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo "::error::The published llms.txt is out of date and the RENDER_DEPLOY_HOOK_URL secret is not set. Deploy docs-home by hand."
+            exit 1
+          fi
+          curl --fail --silent --show-error --max-time 30 --request POST --output /dev/null "$DEPLOY_HOOK"
+          echo "::notice::The published llms.txt was out of date: started a docs-home deploy."

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 from pathlib import Path
 from types import SimpleNamespace
 from typing import Any
@@ -376,7 +377,53 @@ def test_render_site_section() -> None:
         f"- [PMM]({SITE}/pmm/)",
         f"- [What's new]({SITE}/new/llms.txt): release announcements and their archive",
         f"- [What's new in 2026]({SITE}/new/2026/llms.txt)",
+        f"- [All pages of this site in one file]({SITE}/llms-full.txt): this index and the pages above",
+        f"- [Skill for AI agents]({SITE}/skill.md): how to find the right product, version and page",
     ]
+
+
+@pytest.mark.parametrize(
+    ("markdown", "expected"),
+    [
+        ("> For the complete Percona documentation index, see [llms.txt](x).\n\n# PMM\n\nText\n", "# PMM\n\nText"),
+        ("> For the complete Percona documentation index, see [llms.txt](x).\n", ""),
+        ("\n> A quote that stays\n\n# Page\n", "> A quote that stays\n\n# Page"),
+    ],
+)
+def test_without_directive(markdown: str, expected: str) -> None:
+    assert llms_txt.without_directive(markdown) == expected
+
+
+def test_full_text_has_the_index_then_this_sites_pages(tmp_path: Path) -> None:
+    directive = "> For the complete Percona documentation index, see [llms.txt](x).\n\n"
+    (tmp_path / "index.md").write_text(directive + "# Home\n\nWelcome.\n")
+    (tmp_path / "pmm").mkdir()
+    (tmp_path / "pmm" / "index.md").write_text(directive + "# PMM\n\nMonitoring.\n")
+    (tmp_path / "new" / "2026" / "x").mkdir(parents=True)
+    (tmp_path / "new" / "2026" / "x" / "index.md").write_text("# A post\n")
+    pages = [
+        site_page("pmm/", "PMM"),
+        site_page("", "Home"),
+        site_page("new/2026/x/", "A post"),
+        site_page("no-markdown/", "Skipped"),
+    ]
+    text = llms_txt.full_text("# Percona Documentation\n\n> Index\n\n", pages, tmp_path)
+    assert text == (
+        "# Percona Documentation\n\n> Index"
+        f"\n\n---\n\n> Source: {SITE}/index.md\n\n# Home\n\nWelcome."
+        f"\n\n---\n\n> Source: {SITE}/pmm/index.md\n\n# PMM\n\nMonitoring.\n"
+    )
+
+
+def test_published_skill_has_valid_frontmatter() -> None:
+    text = (Path(__file__).parent.parent / "agents" / "skill.md").read_text(encoding="utf-8")
+    assert text.startswith("---\n")
+    front = text.split("---\n", 2)[1]
+    fields = dict(line.split(": ", 1) for line in front.splitlines() if ": " in line and not line.startswith(" "))
+    assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", fields["name"])  # agentskills.io name rules
+    assert len(fields["name"]) <= 64
+    assert 0 < len(fields["description"]) <= 1024
+    assert SITE + "/llms.txt" in text
 
 
 # --- build_index / check_links -------------------------------------------------------------------
@@ -481,6 +528,29 @@ def test_on_post_build_writes_indexes(
     assert (site / "llms.txt").read_text().startswith("# Percona Documentation\n")
     assert "[X]" in (site / "new" / "2026" / "llms.txt").read_text()
     assert (site / "new" / "llms.txt").is_file()
+    assert (site / "llms-full.txt").read_text() == (site / "llms.txt").read_text()  # no page has markdown here
+    assert not (site / "skill.md").exists()  # tests/agents/skill.md is not there
+
+
+def test_on_post_build_publishes_the_skill(
+    hook_state: Any, docs_dir: Path, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setenv("LLMS_TXT_OFFLINE", "1")
+    (tmp_path / "agents").mkdir()
+    (tmp_path / "agents" / "skill.md").write_text("---\nname: x\n---\n")
+    site = tmp_path / "site"
+    site.mkdir()
+    llms_txt.on_post_build({"docs_dir": str(docs_dir), "site_dir": str(site)})
+    assert (site / "skill.md").read_text() == "---\nname: x\n---\n"
+
+
+def test_on_post_build_warns_without_the_skill(
+    hook_state: Any, docs_dir: Path, tmp_path: Path, monkeypatch: pytest.MonkeyPatch, caplog: pytest.LogCaptureFixture
+) -> None:
+    monkeypatch.setenv("LLMS_TXT_OFFLINE", "1")
+    with caplog.at_level(logging.WARNING, logger="mkdocs.hooks.llms_txt"):
+        llms_txt.on_post_build({"docs_dir": str(docs_dir), "site_dir": str(tmp_path)})
+    assert "agents/skill.md not found" in caplog.text
 
 
 def test_on_post_build_never_raises(

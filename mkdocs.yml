@@ -74,7 +74,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-# Writes site/llms.txt, the documentation index for AI agents
+# Writes llms.txt, the documentation index for AI agents, plus llms-full.txt and skill.md (from agents/)
 hooks:
   - hooks/llms_txt.py
 

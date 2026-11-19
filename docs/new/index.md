@@ -12,15 +12,15 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 <div data-banner="mongodb" markdown>
 
-### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 8.3.17-5 has been released {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 6.0.30-24 and 8.3.17-5 have been released {.title}
 
-Upgrade for upstream security fixes and improved AWS IAM authentication. If you use `createBackup`, plan your switch to Percona Backup for MongoDB, as the command is deprecated in 8.3.
+Upgrade for critical and high-severity security fixes. Version 8.3.17-5 also improves AWS IAM authentication and deprecates `createBackup`; plan your switch to Percona Backup for MongoDB.
 
 <div class="actions" markdown>
 
-[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-8.3.17-5-release.md){:target="_blank"}
+[Read more :material-arrow-right:](../new/posts/MongoDB/psmdb-6.0.30-24-and-8.3.17-5-release.md){:target="_blank"}
 
-<span style="float: right;">November 18, 2026</span>
+<span style="float: right;">November 19, 2026</span>
 
 </div>
 </div>
