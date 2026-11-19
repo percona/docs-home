@@ -2,12 +2,13 @@
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["hooks", "tests"]
+pythonpath = ["hooks", "checks", "tests"]
 addopts = [
     "--strict-markers",
     "--strict-config",
     "--cov=llms_txt",
     "--cov=llmstxt_directive",
+    "--cov=agent_scores",
     "--cov-report=term-missing",
     "--cov-fail-under=95",
 ]
@@ -19,7 +20,7 @@ branch = true
 [tool.ruff]
 line-length = 120
 target-version = "py310"
-src = ["hooks", "tests"]
+src = ["hooks", "checks", "tests"]
 
 [tool.ruff.lint]
 select = [
@@ -37,10 +38,11 @@ select = [
 [tool.ruff.lint.per-file-ignores]
 "tests/*" = ["S101"]  # assert is how pytest checks
 "hooks/llms_txt.py" = ["S310"]  # urlopen of https://docs.percona.com URLs only
+"checks/agent_scores.py" = ["S310"]  # same
 
 [tool.mypy]
 python_version = "3.10"
-files = ["hooks", "tests"]
-mypy_path = ["hooks", "tests"]
+files = ["hooks", "checks", "tests"]
+mypy_path = ["hooks", "checks", "tests"]
 strict = true
 warn_unreachable = true

@@ -5,6 +5,7 @@ on:
     paths:
       - "docs/*.md"
       - "hooks/**"
+      - "checks/**"
       - "agents/**"
       - "tests/**"
       - "mkdocs.yml"
@@ -18,6 +19,7 @@ on:
     paths:
       - "docs/*.md"
       - "hooks/**"
+      - "checks/**"
       - "agents/**"
       - "tests/**"
       - "mkdocs.yml"

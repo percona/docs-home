@@ -1,0 +1,11 @@
+{
+  "name": "docs-home-checks",
+  "private": true,
+  "description": "AFDocs, used by agent_scores.py to score docs.percona.com",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "afdocs": "0.23.0"
+  }
+}

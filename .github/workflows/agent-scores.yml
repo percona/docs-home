@@ -1,0 +1,70 @@
+# Scores docs.percona.com and every product site with AFDocs once a day (checks/agent_scores.py).
+# When a site drops below its minimum in checks/agent-scores.json, an issue labelled
+# "agent-readiness" is opened, or updated when the scores change. It is closed when every
+# site is back at or above its minimum.
+name: Agent-readiness scores
+
+on:
+  schedule:
+    - cron: "47 7 * * *"  # daily, after the llms.txt refresh in llms-txt.yml
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  score:
+    name: Score the sites and report drops
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      issues: write  # open, comment on and close the agent-readiness issue
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      LABEL: agent-readiness
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22"  # AFDocs needs 22 or later
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Install AFDocs (versions and checksums from checks/package-lock.json)
+        working-directory: checks
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Score docs.percona.com and the product sites
+        id: score
+        continue-on-error: true
+        run: python checks/agent_scores.py --report report.md
+      - name: Open or update the issue
+        if: steps.score.outcome == 'failure'
+        run: |
+          gh label create "$LABEL" --color D93F0B --description "AFDocs score below its minimum" 2>/dev/null || true
+          number=$(gh issue list --label "$LABEL" --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -z "$number" ]; then
+            printf '\n[Run with the details](%s)\n' "$RUN_URL" >> report.md
+            gh issue create --title "Agent-readiness score below its minimum on docs.percona.com" --label "$LABEL" --body-file report.md
+          else
+            # Comment only when the scores changed since the last report, so the issue isn't updated daily.
+            gh issue view "$number" --json body,comments --jq '(.comments | last | .body) // .body' | grep -v '^\[Run with the details\]' > last.md || true
+            if ! diff -q <(sed '/^$/d' report.md) <(sed '/^$/d' last.md) > /dev/null; then
+              printf '\n[Run with the details](%s)\n' "$RUN_URL" >> report.md
+              gh issue comment "$number" --body-file report.md
+            fi
+          fi
+          exit 1  # the run fails too, so it shows in the Actions tab
+      - name: Close the issue when every site is back at its minimum
+        if: steps.score.outcome == 'success'
+        run: |
+          for number in $(gh issue list --label "$LABEL" --state open --json number --jq '.[].number'); do
+            gh issue close "$number" --comment "Every site scores at or above its minimum again: $RUN_URL"
+          done
