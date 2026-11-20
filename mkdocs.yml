@@ -48,11 +48,9 @@ extra_css:
   - css/rating.css
   - css/algolia.css
   - css/kapa.css
-  - https://cdn.jsdelivr.net/npm/@docsearch/css@5.2.0
 
 extra_javascript:
   - js/hide-back-to-index.js
-  - https://cdn.jsdelivr.net/npm/@docsearch/js@5.2.0
   - js/init-algolia.js
   - js/rating.js
   - js/kapa.js
