@@ -301,6 +301,58 @@
   border-bottom: none;
 }
 
+/* A result that exists in several versions: the divider moves below
+   the version links */
+.search-popup .ais-Hits-item:has(.hit-versions) .hit-link,
+.search-page .ais-Hits-item:has(.hit-versions) .hit-link {
+  border-bottom: none;
+}
+
+.search-popup .ais-Hits-item:has(.hit-versions):not(:last-child),
+.search-page .ais-Hits-item:has(.hit-versions):not(:last-child) {
+  border-bottom: 1px solid var(--search-line);
+}
+
+/* Version links under a result: "Versions: 9.7 8.4 8.0" */
+.search-popup .hit-versions,
+.search-page .hit-versions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: -4px;
+  padding: 0 0 10px 84px;
+  color: var(--search-muted);
+  font-size: 12px;
+}
+
+.search-page .hit-versions {
+  padding-left: 96px;
+}
+
+.search-popup .hit-versions a,
+.md-typeset .search-page .hit-versions a {
+  padding: 1px 8px;
+  border: 1px solid var(--search-border);
+  border-radius: 10px;
+  color: var(--search-ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.search-popup .hit-versions a:hover,
+.md-typeset .search-page .hit-versions a:hover {
+  border-color: var(--search-accent);
+  color: var(--search-accent);
+}
+
+.search-popup .hit-versions a.latest,
+.md-typeset .search-page .hit-versions a.latest {
+  background: var(--search-accent);
+  border-color: var(--search-accent);
+  color: #fff;
+}
+
 .search-popup .hit-link.is-active,
 .search-popup .hit-link:focus-visible,
 .search-page .hit-link:focus-visible {
@@ -578,6 +630,14 @@
     width: 56px;
   }
 
+  .search-popup .hit-versions {
+    padding-left: 64px;
+  }
+
+  .search-page .hit-versions {
+    padding-left: 74px;
+  }
+
   .search-popup .popup-footer {
     padding: 10px 14px;
   }
@@ -596,4 +656,13 @@
   .search-input-wrap {
     transition: none;
   }
+}
+
+/* Results without an image: version links line up with the title */
+.search-popup .ais-Hits-item:not(:has(.c_img)) .hit-versions {
+  padding-left: 0;
+}
+
+.search-page .ais-Hits-item:not(:has(.c_img)) .hit-versions {
+  padding-left: 12px;
 }

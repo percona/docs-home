@@ -71,7 +71,46 @@ function resultsPageUrl(query, page) {
   return `${ALGOLIA_CONFIG.resultsPage}?${params}`;
 }
 
-async function searchDocs(query, { page = 0, hitsPerPage = 20 } = {}) {
+// Version segment of a docs URL: /percona-server/8.4/... -> "8.4"
+function versionOf(url) {
+  const path = url.replace(ALGOLIA_CONFIG.urlPrefix, '');
+  const segment = path.split('/').find((part) => /^\d+(\.\d+)*(\.x)?$/.test(part));
+  return segment || '';
+}
+
+function compareVersionsDesc(a, b) {
+  const pa = a.split('.').map((n) => parseInt(n, 10) || 0);
+  const pb = b.split('.').map((n) => parseInt(n, 10) || 0);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i += 1) {
+    const diff = (pb[i] || 0) - (pa[i] || 0);
+    if (diff) return diff;
+  }
+  return 0;
+}
+
+// The index has one record per page per product version, so the same page
+// appears several times (PXC 9.7, 8.4, 8.0, ...). Group them into one result
+// that links to the newest version and lists the other versions.
+function groupVersions(hits) {
+  const groups = new Map();
+  hits.forEach((hit) => {
+    const key = (hit.title || hit.url).trim().toLowerCase();
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(hit);
+  });
+
+  return [...groups.values()].map((group) => {
+    const sorted = [...group].sort((a, b) => compareVersionsDesc(versionOf(a.url), versionOf(b.url)));
+    const versions = sorted
+      .map((hit) => ({ version: versionOf(hit.url), url: hit.url }))
+      .filter((item) => item.version);
+    return { ...sorted[0], versions: versions.length > 1 ? versions : [] };
+  });
+}
+
+// One request returns up to 1,000 matching records (about 30 KB compressed),
+// enough to group versions and count unique pages.
+async function searchDocs(query) {
   const { expanded, product } = expandQuery(query);
   const response = await fetch(
     `https://${ALGOLIA_CONFIG.appId}-dsn.algolia.net/1/indexes/${encodeURIComponent(ALGOLIA_CONFIG.indexName)}/query`,
@@ -83,11 +122,10 @@ async function searchDocs(query, { page = 0, hitsPerPage = 20 } = {}) {
       },
       body: JSON.stringify({
         query: expanded,
-        page,
-        hitsPerPage,
-        attributesToRetrieve: ['title', 'url', 'description', 'image'],
+        hitsPerPage: 1000,
+        attributesToRetrieve: ['title', 'url', 'image'],
         attributesToHighlight: ['title'],
-        attributesToSnippet: ['description:40'],
+        attributesToSnippet: ['description:30'],
         highlightPreTag: '<mark>',
         highlightPostTag: '</mark>',
       }),
@@ -96,14 +134,14 @@ async function searchDocs(query, { page = 0, hitsPerPage = 20 } = {}) {
   if (!response.ok) throw new Error(`Algolia returned ${response.status}`);
   const data = await response.json();
 
-  let hits = data.hits.filter(isInScope);
+  let results = groupVersions(data.hits.filter(isInScope));
   if (product) {
-    hits = [
-      ...hits.filter((hit) => productOf(hit.title) === product),
-      ...hits.filter((hit) => productOf(hit.title) !== product),
+    results = [
+      ...results.filter((hit) => productOf(hit.title) === product),
+      ...results.filter((hit) => productOf(hit.title) !== product),
     ];
   }
-  return { hits, nbHits: data.nbHits, nbPages: data.nbPages };
+  return { results, total: results.length };
 }
 
 /* ---------- Result card (same markup as www.percona.com) ---------- */
@@ -143,6 +181,21 @@ function renderHit(hit) {
   body.append(title, desc);
   link.append(body);
   item.append(link);
+
+  if (hit.versions.length) {
+    const versions = document.createElement('div');
+    versions.className = 'hit-versions';
+    versions.append('Versions: ');
+    hit.versions.forEach(({ version, url }, i) => {
+      const versionLink = document.createElement('a');
+      versionLink.href = url;
+      versionLink.textContent = version;
+      if (i === 0) versionLink.className = 'latest';
+      versions.append(versionLink);
+    });
+    item.append(versions);
+  }
+
   return item;
 }
 
@@ -267,11 +320,11 @@ function initHeaderSearch() {
   async function runSearch(query) {
     const id = ++requestId;
     try {
-      const data = await searchDocs(query, { hitsPerPage: 50 });
+      const data = await searchDocs(query);
       if (id !== requestId) return;
 
-      const hits = data.hits.slice(0, ALGOLIA_CONFIG.popupResults);
-      const total = data.nbHits;
+      const hits = data.results.slice(0, ALGOLIA_CONFIG.popupResults);
+      const total = data.total;
 
       tab.innerHTML = '';
       tab.append(ALGOLIA_CONFIG.scopeLabel + ' ');
@@ -460,20 +513,23 @@ async function initResultsPage() {
   status.textContent = 'Searching…';
 
   try {
-    const data = await searchDocs(query, { page, hitsPerPage: ALGOLIA_CONFIG.resultsPerPage });
+    const data = await searchDocs(query);
+    const perPage = ALGOLIA_CONFIG.resultsPerPage;
+    const nbPages = Math.ceil(data.total / perPage);
+    const pageResults = data.results.slice(page * perPage, (page + 1) * perPage);
 
     const count = document.createElement('span');
     count.className = 'tab-count';
-    count.textContent = ` (${data.nbHits})`;
+    count.textContent = ` (${data.total})`;
     tab.append(count);
 
-    status.textContent = `${plural(data.nbHits)} for “${query}” in ${ALGOLIA_CONFIG.scopeLabel}`;
+    status.textContent = `${plural(data.total)} for “${query}” in ${ALGOLIA_CONFIG.scopeLabel}`;
 
-    if (!data.hits.length) {
+    if (!pageResults.length) {
       resultsEl.classList.add('no-results');
       return;
     }
-    resultsEl.append(renderHitList(data.hits), renderPagination(query, page, data.nbPages));
+    resultsEl.append(renderHitList(pageResults), renderPagination(query, page, nbPages));
   } catch (error) {
     status.textContent = 'Search is not available right now. Please try again later.';
     console.error(error);
