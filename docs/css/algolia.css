@@ -88,3 +88,92 @@
     box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
     border-radius: 6px;
   }
+
+/* ---------- "See all N results" link at the bottom of the dropdown ---------- */
+
+.DocSearch-SeeAll {
+  display: block;
+  margin: 8px 0 12px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--docsearch-primary-color);
+  background: var(--docsearch-hit-background);
+  text-decoration: none;
+}
+
+.DocSearch-SeeAll:hover {
+  color: #fff;
+  background: var(--docsearch-primary-color);
+}
+
+/* ---------- Full search results page (search-results.md) ---------- */
+
+.algolia-results-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.algolia-results-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 12px;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+}
+
+.algolia-results-form button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--md-primary-bg-color);
+  background: var(--md-primary-fg-color);
+  cursor: pointer;
+}
+
+.algolia-results-count {
+  color: var(--md-default-fg-color--light);
+}
+
+.algolia-results-list {
+  padding-left: 1.2rem;
+}
+
+.algolia-result {
+  margin-bottom: 1.2rem;
+}
+
+.algolia-result-title {
+  font-weight: 600;
+}
+
+.algolia-result-product,
+.algolia-result-url {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  overflow-wrap: anywhere;
+}
+
+.algolia-result-snippet {
+  margin: 0.3rem 0;
+}
+
+.algolia-result mark {
+  background: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+.algolia-results-pagination {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
