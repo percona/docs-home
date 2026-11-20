@@ -482,6 +482,13 @@ async function initResultsPage() {
   const page = Math.max(0, (parseInt(params.get('p'), 10) || 1) - 1);
 
   container.classList.add('search-page');
+
+  // Page heading and browser tab title include the search term
+  if (query) {
+    const heading = document.querySelector('.md-content h1');
+    if (heading) heading.textContent = `Search results for “${query}”`;
+    document.title = document.title.replace('Search results', `Search results for “${query}”`);
+  }
   container.innerHTML = `
     <form class="search-page-form" role="search" action="${ALGOLIA_CONFIG.resultsPage}" method="get">
       <input class="ais-SearchBox-input" type="search" name="q"
