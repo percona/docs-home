@@ -48,11 +48,9 @@ extra_css:
   - css/rating.css
   - css/algolia.css
   - css/kapa.css
-  - https://cdn.jsdelivr.net/npm/@docsearch/css@3
 
 extra_javascript:
   - js/hide-back-to-index.js
-  - https://cdn.jsdelivr.net/npm/@docsearch/js@latest
   - js/init-algolia.js
   - js/rating.js
   - js/kapa.js
@@ -122,13 +120,12 @@ extra:
   analytics:
     provider: google
     property: G-J4J70BNH0G
-  docsearch:
-    api_key: "a5222c0ed6e9e6c67a77cfd2e26000e1"
-    index_name: "Percona documentation"
-    app_id: "QDKRBCAI99"
 
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2026 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
+
+not_in_nav: |
+  /search-results.md
 
 nav:
   - Home: index.md
