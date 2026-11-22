@@ -531,7 +531,14 @@
       const { results, total } = await searchDocs(query);
       const perPage = ALGOLIA_CONFIG.resultsPerPage;
       const pageCount = Math.ceil(total / perPage);
-      const pageResults = results.slice(page * perPage, (page + 1) * perPage);
+
+      // A page number past the end (for example, an old link) shows the last
+      // page, and the address bar is corrected to match.
+      const currentPage = Math.min(page, Math.max(pageCount - 1, 0));
+      if (currentPage !== page) {
+        window.history.replaceState(null, '', resultsPageUrl(query, currentPage));
+      }
+      const pageResults = results.slice(currentPage * perPage, (currentPage + 1) * perPage);
 
       tab.append(createElement('span', 'tab-count', ` (${total})`));
       status.textContent = `${plural(total)} for “${query}” in ${ALGOLIA_CONFIG.scopeLabel}`;
@@ -540,7 +547,7 @@
         resultsContainer.classList.add('no-results');
         return;
       }
-      resultsContainer.append(renderHitList(pageResults), renderPagination(query, page, pageCount));
+      resultsContainer.append(renderHitList(pageResults), renderPagination(query, currentPage, pageCount));
     } catch (error) {
       status.textContent = 'Search is not available right now. Please try again later.';
       console.error(error);
