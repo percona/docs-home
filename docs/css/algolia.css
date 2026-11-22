@@ -1,33 +1,61 @@
 /*
  * Algolia search, styled like the search on www.percona.com.
- * Markup is created by js/init-algolia.js.
+ * The markup is created by js/init-algolia.js.
+ *
+ * Sections:
+ *   1. Design tokens
+ *   2. Header: search icon and search field
+ *   3. Results popup
+ *   4. Result cards (popup and results page)
+ *   5. Full results page (search-results.md)
+ *   6. Smaller screens
  */
+
+/* ==========================================================================
+   1. Design tokens
+   ========================================================================== */
 
 .topbar-search,
 .search-page {
   --search-accent: #6c5ce7;
   --search-accent-hover: #5a4bd1;
+  --search-on-accent: #fff;
   --search-ink: #00162b;
   --search-text: #3c4858;
   --search-muted: #8a8aa3;
   --search-border: #d9d9e3;
   --search-line: #f0f0f5;
+  --search-surface: #fff;
+  --search-surface-muted: #fafafc;
+  --search-panel-border: #e6e6ef;
+  --search-focus-ring: rgba(108, 92, 231, 0.15);
+  --search-mark: rgba(108, 92, 231, 0.16);
+  --search-mark-on-accent: rgba(255, 255, 255, 0.28);
+  --search-header-ink: #fff;
+  --search-header-ink-hover: #d9d4ff;
+  --search-close-muted: #9a9ab0;
   --search-z-input: 1000;
   --search-z-popup: 999;
 }
 
-/* Keeps the "Ask Percona AI" button colors from kapa.css now that the
-   DocSearch stylesheet (which defined this variable) is no longer loaded */
+/* Keeps the "Ask Percona AI" button colors from kapa.css: this variable used
+   to come from the DocSearch stylesheet, which is no longer loaded. */
 #docsearch {
   --docsearch-muted-color: #9698c3;
 }
 
-/* ---------- Header: search icon and search field ---------- */
+/* ==========================================================================
+   2. Header: search icon and search field
+   ========================================================================== */
 
 .topbar-search {
   position: relative;
   display: flex;
   align-items: center;
+}
+
+.topbar-search.expanded {
+  z-index: var(--search-z-input);
 }
 
 .topbar-search .sr-only {
@@ -54,7 +82,7 @@
 }
 
 .search-icon-btn:hover {
-  color: #d9d4ff;
+  color: var(--search-header-ink-hover);
 }
 
 .search-icon-btn:focus-visible,
@@ -65,14 +93,11 @@
   border-radius: 4px;
 }
 
-.topbar-search.expanded {
-  z-index: var(--search-z-input);
-}
-
 .topbar-search.expanded .search-icon-btn {
   display: none;
 }
 
+/* The field is collapsed to zero width until the icon is clicked */
 .search-input-wrap {
   display: flex;
   align-items: center;
@@ -94,29 +119,27 @@
   margin: 0;
 }
 
-.topbar-search .ais-SearchBox-input,
-.search-page .ais-SearchBox-input {
+/* Search field: used in the header and on the results page */
+:is(.topbar-search, .search-page) .ais-SearchBox-input {
   width: 100%;
   box-sizing: border-box;
   padding: 9px 14px;
   border: 1px solid var(--search-border);
   border-radius: 22px;
   outline: none;
-  background: #fff;
+  background: var(--search-surface);
   color: var(--search-ink);
   font-family: inherit;
   font-size: 15px;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 
-.topbar-search .ais-SearchBox-input:focus,
-.search-page .ais-SearchBox-input:focus {
+:is(.topbar-search, .search-page) .ais-SearchBox-input:focus {
   border-color: var(--search-accent);
-  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.15);
+  box-shadow: 0 0 0 3px var(--search-focus-ring);
 }
 
-.topbar-search .ais-SearchBox-input::-webkit-search-cancel-button,
-.search-page .ais-SearchBox-input::-webkit-search-cancel-button {
+:is(.topbar-search, .search-page) .ais-SearchBox-input::-webkit-search-cancel-button {
   display: none;
 }
 
@@ -125,7 +148,7 @@
   padding: 4px 6px;
   border: none;
   background: none;
-  color: #fff;
+  color: var(--search-header-ink);
   font-size: 22px;
   line-height: 1;
   cursor: pointer;
@@ -133,10 +156,12 @@
 }
 
 .search-collapse-btn:hover {
-  color: #d9d4ff;
+  color: var(--search-header-ink-hover);
 }
 
-/* ---------- Results popup ---------- */
+/* ==========================================================================
+   3. Results popup
+   ========================================================================== */
 
 .search-popup {
   display: none;
@@ -151,8 +176,8 @@
   padding: 16px 0 0;
   overflow: hidden;
   isolation: isolate;
-  background: #fff;
-  border: 1px solid #e6e6ef;
+  background: var(--search-surface);
+  border: 1px solid var(--search-panel-border);
   border-radius: 12px;
   box-shadow: 0 12px 40px rgba(0, 22, 43, 0.18);
   color: var(--search-ink);
@@ -164,8 +189,8 @@
   display: flex;
 }
 
-.search-popup .tabs,
-.search-page .tabs {
+/* "Documentation (N)" tab: used in the popup and on the results page */
+:is(.search-popup, .search-page) .tabs {
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 0;
@@ -175,12 +200,11 @@
   border-bottom: 1px solid var(--search-line);
 }
 
-.search-popup .tab,
-.search-page .tab {
+:is(.search-popup, .search-page) .tab {
   padding: 6px 14px;
   border: 1px solid var(--search-border);
   border-radius: 18px;
-  background: #fff;
+  background: var(--search-surface);
   color: var(--search-ink);
   font-family: inherit;
   font-size: 12px;
@@ -190,19 +214,18 @@
   user-select: none;
 }
 
-.search-popup .tab.active,
-.search-page .tab.active {
+:is(.search-popup, .search-page) .tab.active {
   background-color: var(--search-accent);
   border-color: var(--search-accent);
-  color: #fff;
+  color: var(--search-on-accent);
 }
 
-.search-popup .tab .tab-count,
-.search-page .tab .tab-count {
+:is(.search-popup, .search-page) .tab .tab-count {
   font-weight: normal;
   opacity: 0.9;
 }
 
+/* Only the scrolling results area; the tab and footer stay in view */
 .search-popup .results {
   display: none;
 }
@@ -234,7 +257,7 @@
   gap: 12px;
   padding: 12px 20px;
   border-top: 1px solid var(--search-line);
-  background: #fafafc;
+  background: var(--search-surface-muted);
 }
 
 .search-popup .popup-summary {
@@ -247,7 +270,7 @@
   padding: 8px 16px;
   border-radius: 18px;
   background: var(--search-accent);
-  color: #fff;
+  color: var(--search-on-accent);
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
@@ -256,7 +279,7 @@
 
 .search-popup .see-all-link:hover {
   background: var(--search-accent-hover);
-  color: #fff;
+  color: var(--search-on-accent);
 }
 
 .search-popup .see-all-link:focus-visible {
@@ -268,8 +291,12 @@
   display: none;
 }
 
-/* ---------- Result cards (popup and results page) ---------- */
+/* ==========================================================================
+   4. Result cards (popup and results page)
+   ========================================================================== */
 
+/* The results page is inside Material's .md-typeset, so its list and link
+   styles are reset with the extra .md-typeset in the selector. */
 .search-popup .ais-Hits-list,
 .md-typeset .search-page .ais-Hits-list {
   margin: 0;
@@ -283,8 +310,7 @@
   padding: 0;
 }
 
-.search-popup .hit-link,
-.search-page .hit-link {
+:is(.search-popup, .search-page) .hit-link {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -296,26 +322,23 @@
   text-decoration: none;
 }
 
-.search-popup .ais-Hits-item:last-child .hit-link,
-.search-page .ais-Hits-item:last-child .hit-link {
+:is(.search-popup, .search-page) .ais-Hits-item:last-child .hit-link {
   border-bottom: none;
 }
 
-/* A result that exists in several versions: the divider moves below
-   the version links */
-.search-popup .ais-Hits-item:has(.hit-versions) .hit-link,
-.search-page .ais-Hits-item:has(.hit-versions) .hit-link {
+/* A page that exists in several versions: the divider moves below the
+   version links */
+:is(.search-popup, .search-page) .ais-Hits-item:has(.hit-versions) .hit-link {
   border-bottom: none;
 }
 
-.search-popup .ais-Hits-item:has(.hit-versions):not(:last-child),
-.search-page .ais-Hits-item:has(.hit-versions):not(:last-child) {
+:is(.search-popup, .search-page) .ais-Hits-item:has(.hit-versions):not(:last-child) {
   border-bottom: 1px solid var(--search-line);
 }
 
-/* Version links under a result: "Versions: 9.7 8.4 8.0" */
-.search-popup .hit-versions,
-.search-page .hit-versions {
+/* Version links under a result: "Versions: 9.7 8.4 8.0".
+   The left padding lines them up with the title next to the image. */
+:is(.search-popup, .search-page) .hit-versions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -328,6 +351,14 @@
 
 .search-page .hit-versions {
   padding-left: 96px;
+}
+
+.search-popup .ais-Hits-item:not(:has(.c_img)) .hit-versions {
+  padding-left: 0;
+}
+
+.search-page .ais-Hits-item:not(:has(.c_img)) .hit-versions {
+  padding-left: 12px;
 }
 
 .search-popup .hit-versions a,
@@ -350,58 +381,49 @@
 .md-typeset .search-page .hit-versions a.latest {
   background: var(--search-accent);
   border-color: var(--search-accent);
-  color: #fff;
+  color: var(--search-on-accent);
 }
 
+/* Highlighted result: arrow keys in the popup, keyboard focus on both */
 .search-popup .hit-link.is-active,
-.search-popup .hit-link:focus-visible,
-.search-page .hit-link:focus-visible {
+:is(.search-popup, .search-page) .hit-link:focus-visible {
   background: var(--search-accent);
   border-bottom-color: var(--search-accent);
 }
 
-.search-popup .hit-link:focus-visible,
-.search-page .hit-link:focus-visible {
+:is(.search-popup, .search-page) .hit-link:focus-visible {
   outline: 2px solid var(--search-ink);
   outline-offset: -2px;
 }
 
-.search-popup .hit-link.is-active .row1,
-.search-popup .hit-link.is-active .c_desc,
-.search-popup .hit-link:focus-visible .row1,
-.search-popup .hit-link:focus-visible .c_desc,
-.search-page .hit-link:focus-visible .row1,
-.search-page .hit-link:focus-visible .c_desc {
-  color: #fff;
+.search-popup .hit-link.is-active :is(.row1, .c_desc),
+:is(.search-popup, .search-page) .hit-link:focus-visible :is(.row1, .c_desc) {
+  color: var(--search-on-accent);
 }
 
 .search-popup .hit-link.is-active mark,
-.search-popup .hit-link:focus-visible mark,
-.search-page .hit-link:focus-visible mark {
-  background: rgba(255, 255, 255, 0.28);
-  color: #fff;
+:is(.search-popup, .search-page) .hit-link:focus-visible mark {
+  background: var(--search-mark-on-accent);
+  color: var(--search-on-accent);
 }
 
-.search-popup .c_img,
-.search-page .c_img {
+/* Card content: image, title and two-line description */
+:is(.search-popup, .search-page) .c_img {
   flex-shrink: 0;
 }
 
-.search-popup .c_img img,
-.search-page .c_img img {
+:is(.search-popup, .search-page) .c_img img {
   display: block;
   width: 72px;
   border-radius: 6px;
 }
 
-.search-popup .c_body,
-.search-page .c_body {
+:is(.search-popup, .search-page) .c_body {
   flex: 1;
   min-width: 0;
 }
 
-.search-popup .row1,
-.search-page .row1 {
+:is(.search-popup, .search-page) .row1 {
   margin-bottom: 3px;
   color: var(--search-ink);
   font-size: 15px;
@@ -409,8 +431,7 @@
   line-height: 1.35;
 }
 
-.search-popup .c_desc,
-.search-page .c_desc {
+:is(.search-popup, .search-page) .c_desc {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -420,19 +441,19 @@
   line-height: 1.45;
 }
 
-.search-popup .c_desc:empty,
-.search-page .c_desc:empty {
+:is(.search-popup, .search-page) .c_desc:empty {
   display: none;
 }
 
-.search-popup mark,
-.search-page mark {
-  background: rgba(108, 92, 231, 0.16);
+:is(.search-popup, .search-page) mark {
+  background: var(--search-mark);
   color: inherit;
   border-radius: 2px;
 }
 
-/* ---------- Full results page (search-results.md) ---------- */
+/* ==========================================================================
+   5. Full results page (search-results.md)
+   ========================================================================== */
 
 .search-page {
   color: var(--search-ink);
@@ -455,7 +476,7 @@
   border: none;
   border-radius: 22px;
   background: var(--search-accent);
-  color: #fff;
+  color: var(--search-on-accent);
   font-family: inherit;
   font-size: 14px;
   font-weight: bold;
@@ -517,10 +538,11 @@
 .md-typeset .search-page .search-page-pagination .page.current {
   background: var(--search-accent);
   border-color: var(--search-accent);
-  color: #fff;
+  color: var(--search-on-accent);
 }
 
-/* Dark color scheme: the results page follows the site theme */
+/* Dark color scheme: the results page follows the site theme
+   (the popup stays light, like on www.percona.com) */
 [data-md-color-scheme="percona-dark"] .search-page {
   --search-ink: #e8e8f0;
   --search-text: #c4c4d4;
@@ -533,8 +555,12 @@
   background: transparent;
 }
 
-/* ---------- Smaller screens: field and popup open under the header ---------- */
+/* ==========================================================================
+   6. Smaller screens
+   ========================================================================== */
 
+/* Below 1560px the field and popup open as floating panels under the header.
+   --search-drop-top and --search-popup-top are set by init-algolia.js. */
 @media (max-width: 1559px) {
   .search-input-wrap {
     transition: none;
@@ -548,8 +574,8 @@
     width: min(560px, calc(100vw - 32px));
     box-sizing: border-box;
     padding: 10px 14px;
-    background: #fff;
-    border: 1px solid #e6e6ef;
+    background: var(--search-surface);
+    border: 1px solid var(--search-panel-border);
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 22, 43, 0.16);
     z-index: var(--search-z-input);
@@ -560,7 +586,7 @@
   }
 
   .topbar-search.expanded .search-collapse-btn {
-    color: #9a9ab0;
+    color: var(--search-close-muted);
   }
 
   .topbar-search.expanded .search-collapse-btn:hover {
@@ -578,6 +604,7 @@
   }
 }
 
+/* Phones */
 @media (max-width: 768px) {
   .topbar-search.expanded .search-input-wrap {
     right: 8px;
@@ -586,8 +613,7 @@
     padding: 8px 10px;
   }
 
-  .topbar-search .ais-SearchBox-input,
-  .search-page .ais-SearchBox-input {
+  :is(.topbar-search, .search-page) .ais-SearchBox-input {
     padding: 8px 12px;
     font-size: 14px;
   }
@@ -613,20 +639,17 @@
     padding: 4px 14px;
   }
 
-  .search-popup .hit-link,
-  .search-page .hit-link {
+  :is(.search-popup, .search-page) .hit-link {
     gap: 8px;
     margin: 0 -10px;
     padding: 8px 10px;
   }
 
-  .search-popup .row1,
-  .search-page .row1 {
+  :is(.search-popup, .search-page) .row1 {
     font-size: 14px;
   }
 
-  .search-popup .c_img img,
-  .search-page .c_img img {
+  :is(.search-popup, .search-page) .c_img img {
     width: 56px;
   }
 
@@ -656,13 +679,4 @@
   .search-input-wrap {
     transition: none;
   }
-}
-
-/* Results without an image: version links line up with the title */
-.search-popup .ais-Hits-item:not(:has(.c_img)) .hit-versions {
-  padding-left: 0;
-}
-
-.search-page .ais-Hits-item:not(:has(.c_img)) .hit-versions {
-  padding-left: 12px;
 }
