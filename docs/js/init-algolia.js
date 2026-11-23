@@ -61,7 +61,8 @@
     return element;
   }
 
-  // Results open in a new tab, so the search stays open in the current one.
+  // Results and "See all N results" open in a new tab, so the search stays
+  // open in the current one.
   function openInNewTab(link) {
     link.target = '_blank';
     link.rel = 'noopener';
@@ -271,6 +272,7 @@
 
     input.placeholder = ALGOLIA_CONFIG.placeholder;
     input.setAttribute('aria-label', SEARCH_LABEL);
+    openInNewTab(seeAll);
 
     let lastQuery = '';
     let requestId = 0;
