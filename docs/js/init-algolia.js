@@ -61,6 +61,12 @@
     return element;
   }
 
+  // Results open in a new tab, so the search stays open in the current one.
+  function openInNewTab(link) {
+    link.target = '_blank';
+    link.rel = 'noopener';
+  }
+
   function plural(count) {
     return `${count} result${count === 1 ? '' : 's'}`;
   }
@@ -177,6 +183,7 @@
     versions.forEach(({ version, url }, i) => {
       const link = createElement('a', i === 0 ? 'latest' : '', version);
       link.href = url;
+      openInNewTab(link);
       row.append(link);
     });
     return row;
@@ -186,6 +193,7 @@
     const item = createElement('li', 'ais-Hits-item');
     const link = createElement('a', 'hit-link');
     link.href = hit.url;
+    openInNewTab(link);
 
     if (hit.image) {
       const imageWrap = createElement('div', 'c_img');
@@ -241,9 +249,6 @@
       </div>
       <div class="sr-only" aria-live="polite"></div>
       <div id="search-popup" class="search-popup" role="region" aria-label="Search suggestions">
-        <div class="tabs" role="tablist" aria-label="Search sources">
-          <button type="button" class="tab active" role="tab" aria-selected="true" tabindex="-1"></button>
-        </div>
         <div class="results active" role="tabpanel"><div class="hits"></div></div>
         <div class="popup-footer">
           <span class="popup-summary"></span>
@@ -259,7 +264,6 @@
     const closeButton = root.querySelector('.search-collapse-btn');
     const liveRegion = root.querySelector('[aria-live]');
     const popup = root.querySelector('.search-popup');
-    const tab = root.querySelector('.tab');
     const resultsPanel = root.querySelector('.results');
     const hitsContainer = root.querySelector('.hits');
     const summary = root.querySelector('.popup-summary');
@@ -328,11 +332,6 @@
 
     function showResults(query, { results, total }) {
       const hits = results.slice(0, ALGOLIA_CONFIG.popupResults);
-
-      tab.replaceChildren(
-        `${ALGOLIA_CONFIG.scopeLabel} `,
-        createElement('span', 'tab-count', `(${total})`)
-      );
 
       hitsContainer.replaceChildren();
       resultsPanel.classList.toggle('no-results', hits.length === 0);
@@ -404,12 +403,13 @@
       }
     });
 
-    // Enter opens the highlighted result, or the full results page.
+    // Enter opens the highlighted result in a new tab, or the full results
+    // page in this tab.
     form.addEventListener('submit', (event) => {
       event.preventDefault();
       const links = resultLinks();
       if (activeIndex >= 0 && links[activeIndex]) {
-        window.location.href = links[activeIndex].href;
+        window.open(links[activeIndex].href, '_blank', 'noopener');
         return;
       }
       const query = input.value.trim();
@@ -503,21 +503,16 @@
           autocomplete="off" spellcheck="false" maxlength="512">
         <button type="submit" class="search-page-submit">Search</button>
       </form>
-      <div class="tabs" role="tablist" aria-label="Search sources">
-        <span class="tab active" role="tab" aria-selected="true"></span>
-      </div>
       <p class="search-page-summary" aria-live="polite"></p>
       <div class="search-page-results"></div>`;
 
     const input = container.querySelector('input');
-    const tab = container.querySelector('.tab');
     const status = container.querySelector('.search-page-summary');
     const resultsContainer = container.querySelector('.search-page-results');
 
     input.value = query;
     input.placeholder = ALGOLIA_CONFIG.placeholder;
     input.setAttribute('aria-label', SEARCH_LABEL);
-    tab.textContent = ALGOLIA_CONFIG.scopeLabel;
 
     if (!query) {
       status.textContent = 'Type a search term to see results.';
@@ -540,7 +535,6 @@
       }
       const pageResults = results.slice(currentPage * perPage, (currentPage + 1) * perPage);
 
-      tab.append(createElement('span', 'tab-count', ` (${total})`));
       status.textContent = `${plural(total)} for “${query}” in ${ALGOLIA_CONFIG.scopeLabel}`;
 
       if (!pageResults.length) {
