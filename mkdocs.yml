@@ -80,43 +80,176 @@ hooks:
 
 # Plugins configuration
 plugins:
-  blog:
-    blog_dir: new
-    categories_name: Updates per category
-    pagination_per_page: 10
+  - blog:
+      blog_dir: new
+      categories_name: Updates per category
+      pagination_per_page: 10
 #    archive_date_format: yyyy MMMM
 #    archive_url_date_format: yyyy/MM
-  rss:
-    match_path: new/posts/.*
-    date_from_meta:
-      as_creation: date
-    feed_title: "Percona Documentation What's New Feed"
-    image: https://docs.percona.com/assets/Percona-Logo.png
-    length: 40
+  - rss:
+      match_path: new/posts/.*
+      date_from_meta:
+        as_creation: date
+      feed_title: "Percona Documentation What's New Feed"
+      image: https://docs.percona.com/assets/Percona-Logo.png
+      length: 40
+      url_parameters:
+        utm_source: rss
+        utm_medium: feed
+        utm_campaign: all-products
+  # One feed per product category: /feed_rss_<category-slug>.xml
+  # Each feed only includes posts from its folder under docs/new/posts/.
+  # utm_campaign shows which feed a visit came from in Google Analytics.
+  - rss:
+      match_path: "new/posts/MongoDB/.*"
+      date_from_meta:
+        as_creation: date
+      feed_title: "Percona Documentation What's New: MongoDB"
+      feed_description: "Release announcements and updates for MongoDB"
+      image: https://docs.percona.com/assets/Percona-Logo.png
+      length: 40
+      json_feed_enabled: false
+      feeds_filenames:
+        rss_created: feed_rss_mongodb.xml
+        rss_updated: feed_rss_mongodb_updated.xml
+        json_created: feed_json_mongodb.json
+        json_updated: feed_json_mongodb_updated.json
+      url_parameters:
+        utm_source: rss
+        utm_medium: feed
+        utm_campaign: mongodb
+  - rss:
+      match_path: "new/posts/MySQL/.*"
+      date_from_meta:
+        as_creation: date
+      feed_title: "Percona Documentation What's New: MySQL"
+      feed_description: "Release announcements and updates for MySQL"
+      image: https://docs.percona.com/assets/Percona-Logo.png
+      length: 40
+      json_feed_enabled: false
+      feeds_filenames:
+        rss_created: feed_rss_mysql.xml
+        rss_updated: feed_rss_mysql_updated.xml
+        json_created: feed_json_mysql.json
+        json_updated: feed_json_mysql_updated.json
+      url_parameters:
+        utm_source: rss
+        utm_medium: feed
+        utm_campaign: mysql
+  - rss:
+      match_path: "new/posts/Percona Monitoring and Management/.*"
+      date_from_meta:
+        as_creation: date
+      feed_title: "Percona Documentation What's New: Percona Monitoring and Management"
+      feed_description: "Release announcements and updates for Percona Monitoring and Management"
+      image: https://docs.percona.com/assets/Percona-Logo.png
+      length: 40
+      json_feed_enabled: false
+      feeds_filenames:
+        rss_created: feed_rss_percona-monitoring-and-management.xml
+        rss_updated: feed_rss_percona-monitoring-and-management_updated.xml
+        json_created: feed_json_percona-monitoring-and-management.json
+        json_updated: feed_json_percona-monitoring-and-management_updated.json
+      url_parameters:
+        utm_source: rss
+        utm_medium: feed
+        utm_campaign: percona-monitoring-and-management
+  - rss:
+      match_path: "new/posts/Percona Operators/.*"
+      date_from_meta:
+        as_creation: date
+      feed_title: "Percona Documentation What's New: Percona Operators"
+      feed_description: "Release announcements and updates for Percona Operators"
+      image: https://docs.percona.com/assets/Percona-Logo.png
+      length: 40
+      json_feed_enabled: false
+      feeds_filenames:
+        rss_created: feed_rss_percona-operators.xml
+        rss_updated: feed_rss_percona-operators_updated.xml
+        json_created: feed_json_percona-operators.json
+        json_updated: feed_json_percona-operators_updated.json
+      url_parameters:
+        utm_source: rss
+        utm_medium: feed
+        utm_campaign: percona-operators
+  - rss:
+      match_path: "new/posts/Percona Toolkit/.*"
+      date_from_meta:
+        as_creation: date
+      feed_title: "Percona Documentation What's New: Percona Toolkit"
+      feed_description: "Release announcements and updates for Percona Toolkit"
+      image: https://docs.percona.com/assets/Percona-Logo.png
+      length: 40
+      json_feed_enabled: false
+      feeds_filenames:
+        rss_created: feed_rss_percona-toolkit.xml
+        rss_updated: feed_rss_percona-toolkit_updated.xml
+        json_created: feed_json_percona-toolkit.json
+        json_updated: feed_json_percona-toolkit_updated.json
+      url_parameters:
+        utm_source: rss
+        utm_medium: feed
+        utm_campaign: percona-toolkit
+  - rss:
+      match_path: "new/posts/PostgreSQL/.*"
+      date_from_meta:
+        as_creation: date
+      feed_title: "Percona Documentation What's New: PostgreSQL"
+      feed_description: "Release announcements and updates for PostgreSQL"
+      image: https://docs.percona.com/assets/Percona-Logo.png
+      length: 40
+      json_feed_enabled: false
+      feeds_filenames:
+        rss_created: feed_rss_postgresql.xml
+        rss_updated: feed_rss_postgresql_updated.xml
+        json_created: feed_json_postgresql.json
+        json_updated: feed_json_postgresql_updated.json
+      url_parameters:
+        utm_source: rss
+        utm_medium: feed
+        utm_campaign: postgresql
+  - rss:
+      match_path: "new/posts/Valkey/.*"
+      date_from_meta:
+        as_creation: date
+      feed_title: "Percona Documentation What's New: Valkey"
+      feed_description: "Release announcements and updates for Valkey"
+      image: https://docs.percona.com/assets/Percona-Logo.png
+      length: 40
+      json_feed_enabled: false
+      feeds_filenames:
+        rss_created: feed_rss_valkey.xml
+        rss_updated: feed_rss_valkey_updated.xml
+        json_created: feed_json_valkey.json
+        json_updated: feed_json_valkey_updated.json
+      url_parameters:
+        utm_source: rss
+        utm_medium: feed
+        utm_campaign: valkey
 
-  tags:
-    tags_file: new/tags.md
+  - tags:
+      tags_file: new/tags.md
 #  search: 
 #    separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  meta-descriptions:
-    export_csv: false
-    quiet: false
-    enable_checks: false
-    min_length: 50
-    max_length: 160
-  git-committers:
-    enabled: !ENV [CI, false]
-    repository: percona/docs-home
-    branch: "main"
+  - meta-descriptions:
+      export_csv: false
+      quiet: false
+      enable_checks: false
+      min_length: 50
+      max_length: 160
+  - git-committers:
+      enabled: !ENV [CI, false]
+      repository: percona/docs-home
+      branch: "main"
   # Markdown version of every page (page/index.md) for AI agents.
   # Its own llms.txt is replaced by hooks/llms_txt.py, which runs after it.
-  llmstxt:
-    # hooks/llmstxt_directive.py runs the clean-up itself, after it converts the product cards.
-    autoclean: false
-    preprocess: hooks/llmstxt_directive.py
-    sections:
-      Pages:
-        - "*.md"
+  - llmstxt:
+      # hooks/llmstxt_directive.py runs the clean-up itself, after it converts the product cards.
+      autoclean: false
+      preprocess: hooks/llmstxt_directive.py
+      sections:
+        Pages:
+          - "*.md"
 
 extra:
   analytics:

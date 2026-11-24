@@ -6,6 +6,8 @@ Our latest releases offer a range of enhancements, from performance optimization
 
 [Subscribe to RSS feed](https://docs.percona.com/feed_rss_created.xml){.md-button target="_blank"}
 
+Only interested in one product? Subscribe to its feed: [MongoDB](https://docs.percona.com/feed_rss_mongodb.xml){target="_blank"} · [MySQL](https://docs.percona.com/feed_rss_mysql.xml){target="_blank"} · [PostgreSQL](https://docs.percona.com/feed_rss_postgresql.xml){target="_blank"} · [Percona Operators](https://docs.percona.com/feed_rss_percona-operators.xml){target="_blank"} · [PMM](https://docs.percona.com/feed_rss_percona-monitoring-and-management.xml){target="_blank"} · [Percona Toolkit](https://docs.percona.com/feed_rss_percona-toolkit.xml){target="_blank"} · [Valkey](https://docs.percona.com/feed_rss_valkey.xml){target="_blank"}
+
 ## Featured announcements
 
 <div data-grid markdown>
