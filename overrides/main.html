@@ -92,6 +92,12 @@
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:url" content="https://docs.percona.com/" />
   <meta property="og:image" content="https://docs.percona.com/assets/percona-banner.png" />
+
+  {#- RSS autodiscovery for the category feed on What's new category pages.
+      The rss plugin already adds the all-products feed on every page. #}
+  {% if page and page.url and page.url.startswith("new/category/") %}
+    <link rel="alternate" type="application/rss+xml" title="Percona What's New: {{ page.title }}" href="{{ base_url }}/feed_rss_{{ page.url.split('/')[2] }}.xml" />
+  {% endif %}
 {% endblock %}
 
 {% block site_nav %}

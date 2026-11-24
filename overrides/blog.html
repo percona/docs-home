@@ -1,0 +1,29 @@
+{#-
+  Copy of Material for MkDocs blog.html (9.8.2).
+  Change: category pages (new/category/<slug>/) get a button for that
+  category's RSS feed, which mkdocs.yml writes to feed_rss_<slug>.xml.
+-#}
+{% extends "main.html" %}
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        {{ page.content }}
+        {% if page.url and page.url.startswith("new/category/") %}
+          {% set feed_slug = page.url.split("/")[2] %}
+          <p>
+            <a class="md-button" href="{{ base_url }}/feed_rss_{{ feed_slug }}.xml" target="_blank" rel="noopener">Subscribe to {{ page.title }} RSS feed</a>
+          </p>
+        {% endif %}
+      </header>
+      {% for post in posts %}
+        {% include "partials/post.html" %}
+      {% endfor %}
+      {% if pagination %}
+        {% block pagination %}
+          {% include "partials/pagination.html" %}
+        {% endblock %}
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

@@ -4,7 +4,9 @@ At Percona, we've been hard at work listening to your feedback and developing in
 
 Our latest releases offer a range of enhancements, from performance optimizations to new features, designed to streamline your database operations and maximize your database's potential.
 
-[Subscribe to RSS feed](https://docs.percona.com/feed_rss_created.xml){.md-button target="_blank"}
+[Subscribe to RSS feed](/feed_rss_created.xml){.md-button target="_blank"}
+
+Only interested in one product? Subscribe to its feed: [MongoDB](/feed_rss_mongodb.xml){target="_blank"} · [MySQL](/feed_rss_mysql.xml){target="_blank"} · [PostgreSQL](/feed_rss_postgresql.xml){target="_blank"} · [Percona Operators](/feed_rss_percona-operators.xml){target="_blank"} · [PMM](/feed_rss_percona-monitoring-and-management.xml){target="_blank"} · [Percona Toolkit](/feed_rss_percona-toolkit.xml){target="_blank"} · [Valkey](/feed_rss_valkey.xml){target="_blank"}
 
 ## Featured announcements
 
