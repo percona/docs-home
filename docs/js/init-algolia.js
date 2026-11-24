@@ -284,13 +284,20 @@
     const resultLinks = () => [...hitsContainer.querySelectorAll('.hit-link')];
 
     // Below 1560px the field and popup open as floating panels under the
-    // header; CSS positions them with these two variables.
+    // header; CSS positions them with these variables.
     function updatePositions() {
       const header = document.querySelector('.md-header') || container;
       const headerBottom = header.getBoundingClientRect().bottom;
       root.style.setProperty('--search-drop-top', `${headerBottom + 8}px`);
       const wrapBottom = inputWrap.getBoundingClientRect().bottom;
       root.style.setProperty('--search-popup-top', `${wrapBottom + 8}px`);
+
+      // Bottom of the part of the screen the reader can see. On phones the
+      // on-screen keyboard covers the lower part of the page, so the popup
+      // ends above it and its "See all" footer stays visible.
+      const viewport = window.visualViewport;
+      const visibleBottom = viewport ? viewport.offsetTop + viewport.height : window.innerHeight;
+      root.style.setProperty('--search-visible-bottom', `${visibleBottom}px`);
     }
 
     function setActive(index) {
@@ -450,6 +457,9 @@
     };
     window.addEventListener('resize', repositionIfExpanded);
     window.addEventListener('scroll', repositionIfExpanded, { passive: true });
+    // Fires when the on-screen keyboard opens or closes
+    window.visualViewport?.addEventListener('resize', repositionIfExpanded);
+    window.visualViewport?.addEventListener('scroll', repositionIfExpanded);
   }
 
   /* ---------- Full results page ---------- */

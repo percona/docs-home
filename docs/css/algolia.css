@@ -558,7 +558,14 @@
     left: auto;
     width: min(680px, calc(100vw - 32px));
     max-width: none;
-    max-height: calc(100vh - var(--search-popup-top) - 16px);
+    /* Ends above the on-screen keyboard on phones (see init-algolia.js).
+       With very little room (a phone in landscape with the keyboard open)
+       the footer with "See all" still fits; the list shows again once the
+       keyboard closes. */
+    max-height: max(
+      64px,
+      calc(var(--search-visible-bottom, 100vh) - var(--search-popup-top) - 16px)
+    );
   }
 }
 
@@ -619,6 +626,38 @@
   .search-popup .see-all-link {
     padding: 7px 14px;
     font-size: 13px;
+  }
+}
+
+/* Touch screens: larger tap targets (Apple and Google recommend 44-48px) */
+@media (pointer: coarse) {
+  /* iPhone and iPad Safari zoom the page in when a field's text is under 16px */
+  :is(.topbar-search, .search-page) .ais-SearchBox-input {
+    font-size: 16px;
+  }
+
+  .search-icon-btn {
+    padding: 12px;
+  }
+
+  .search-collapse-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  :is(.search-popup, .search-page) .hit-versions {
+    gap: 8px;
+  }
+
+  .search-popup .hit-versions a,
+  .md-typeset .search-page .hit-versions a {
+    padding: 5px 12px;
+    border-radius: 14px;
   }
 }
 
