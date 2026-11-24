@@ -96,7 +96,7 @@
   {#- RSS autodiscovery for the category feed on What's new category pages.
       The rss plugin already adds the all-products feed on every page. #}
   {% if page and page.url and page.url.startswith("new/category/") %}
-    <link rel="alternate" type="application/rss+xml" title="Percona What's New: {{ page.title }}" href="{{ config.site_url }}feed_rss_{{ page.url.split('/')[2] }}.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Percona What's New: {{ page.title }}" href="{{ base_url }}/feed_rss_{{ page.url.split('/')[2] }}.xml" />
   {% endif %}
 {% endblock %}
 

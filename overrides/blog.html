@@ -12,7 +12,7 @@
         {% if page.url and page.url.startswith("new/category/") %}
           {% set feed_slug = page.url.split("/")[2] %}
           <p>
-            <a class="md-button" href="{{ config.site_url }}feed_rss_{{ feed_slug }}.xml" target="_blank" rel="noopener">Subscribe to {{ page.title }} RSS feed</a>
+            <a class="md-button" href="{{ base_url }}/feed_rss_{{ feed_slug }}.xml" target="_blank" rel="noopener">Subscribe to {{ page.title }} RSS feed</a>
           </p>
         {% endif %}
       </header>
