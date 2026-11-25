@@ -442,6 +442,23 @@ def markdown_file(page: SitePage, site_dir: Path) -> tuple[str, Path] | None:
     return None
 
 
+def html_md_path(md_path: Path) -> Path:
+    """Where the markdown copy at the page's HTML URL plus ``.md`` goes: ``index.md`` -> ``index.html.md``."""
+    return md_path.with_name(md_path.name[: -len(".md")] + ".html.md")
+
+
+def write_html_md_copies(pages: Iterable[SitePage], site_dir: Path) -> int:
+    """Copy each page's markdown next to itself as ``.html.md``. Returns the number of copies."""
+    count = 0
+    for page in pages:
+        found = markdown_file(page, site_dir)
+        if found:
+            target = html_md_path(found[1])
+            target.write_text(found[1].read_text(encoding="utf-8"), encoding="utf-8")
+            count += 1
+    return count
+
+
 def page_link(page: SitePage, site_dir: Path | None) -> str:
     """Link the page's markdown version when the build wrote one."""
     found = markdown_file(page, site_dir) if site_dir is not None else None
@@ -656,6 +673,11 @@ def on_post_build(config: Any, **kwargs: Any) -> None:
         log.warning("llms.txt: not written", exc_info=True)
         return
     log.info("llms.txt: wrote %s, %d characters", FULL_FILE, len(full))
+    try:
+        copies = write_html_md_copies(pages, site_dir)
+        log.info("llms.txt: wrote %d .html.md copies", copies)
+    except Exception:
+        log.warning("llms.txt: .html.md copies not written", exc_info=True)
     skill = docs_dir.parent / SKILL_SOURCE
     if skill.is_file():
         (site_dir / SKILL_FILE).write_text(skill.read_text(encoding="utf-8"), encoding="utf-8")

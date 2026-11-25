@@ -346,6 +346,18 @@ def test_page_link_prefers_markdown_written_by_the_build(tmp_path: Path) -> None
     assert llms_txt.page_link(site_page("a/"), None) == f"{SITE}/a/"
 
 
+@pytest.mark.parametrize(
+    ("md", "expected"),
+    [
+        ("site/a/index.md", "site/a/index.html.md"),
+        ("site/index.md", "site/index.html.md"),
+        ("site/a/x.md", "site/a/x.html.md"),
+    ],
+)
+def test_html_md_path(md: str, expected: str) -> None:
+    assert llms_txt.html_md_path(Path(md)) == Path(expected)
+
+
 def test_whats_new_files_split_posts_by_year() -> None:
     pages = [
         site_page("new/2025/01/02/a/", "Old", "2025-01-02"),
@@ -536,6 +548,45 @@ def test_on_post_build_writes_indexes(
     assert (site / "new" / "llms.txt").is_file()
     assert (site / "llms-full.txt").read_text() == (site / "llms.txt").read_text()  # no page has markdown here
     assert not (site / "skill.md").exists()  # tests/agents/skill.md is not there
+
+
+def test_on_post_build_copies_markdown_to_html_md(
+    hook_state: Any, docs_dir: Path, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setenv("LLMS_TXT_OFFLINE", "1")
+    site = tmp_path / "site"
+    (site / "pmm").mkdir(parents=True)
+    (site / "pmm" / "index.md").write_text("# PMM\n")
+    (site / "new" / "2026" / "x").mkdir(parents=True)
+    (site / "new" / "2026" / "x" / "index.md").write_text("# X\n")
+    llms_txt.on_post_page("", fake_page("pmm/", "PMM"), {})
+    llms_txt.on_post_page("", fake_page("new/2026/x/", "X", {"date": "2026-01-02"}), {})
+    llms_txt.on_post_page("", fake_page("nomd/", "No markdown"), {})
+    llms_txt.on_post_build({"docs_dir": str(docs_dir), "site_dir": str(site)})
+    assert (site / "pmm" / "index.html.md").read_text() == "# PMM\n"
+    assert (site / "new" / "2026" / "x" / "index.html.md").read_text() == "# X\n"
+    assert not (site / "nomd" / "index.html.md").exists()
+    assert f"]({SITE}/pmm/index.md)" in (site / "llms.txt").read_text()  # links keep index.md
+
+
+def test_html_md_copy_failure_is_logged_not_raised(
+    hook_state: Any, docs_dir: Path, tmp_path: Path, monkeypatch: pytest.MonkeyPatch, caplog: pytest.LogCaptureFixture
+) -> None:
+    monkeypatch.setenv("LLMS_TXT_OFFLINE", "1")
+    site = tmp_path / "site"
+    (site / "pmm").mkdir(parents=True)
+    (site / "pmm" / "index.md").write_text("# PMM\n")
+    llms_txt.on_post_page("", fake_page("pmm/", "PMM"), {})
+
+    def boom(path: Path) -> Path:
+        raise OSError("disk full")
+
+    monkeypatch.setattr(llms_txt, "html_md_path", boom)
+    with caplog.at_level(logging.WARNING, logger="mkdocs.hooks.llms_txt"):
+        llms_txt.on_post_build({"docs_dir": str(docs_dir), "site_dir": str(site)})
+    assert ".html.md copies not written" in caplog.text
+    assert (site / "llms.txt").is_file()
+    assert (site / "llms-full.txt").is_file()
 
 
 def test_on_post_build_publishes_the_skill(
