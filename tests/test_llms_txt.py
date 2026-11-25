@@ -426,6 +426,12 @@ def test_published_skill_has_valid_frontmatter() -> None:
     assert SITE + "/llms.txt" in text
 
 
+def test_header_points_to_percona_release_and_repository_names() -> None:
+    assert "percona-release" in llms_txt.HEADER
+    assert SITE + "/percona-software-repositories/llms.txt" in llms_txt.HEADER
+    assert "`pxc-97-lts`" in llms_txt.HEADER  # the real name, not pxc-9.7-lts
+
+
 # --- build_index / check_links -------------------------------------------------------------------
 
 

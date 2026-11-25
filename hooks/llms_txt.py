@@ -87,6 +87,12 @@ HEADER = (
     "Use the docs for the version you are working with; behavior and defaults differ between versions. "
     "Product links go to the product's own llms.txt where it publishes one, "
     "otherwise to the docs of its latest version.\n"
+    "\n"
+    "Percona's apt and yum packages come from repo.percona.com, and the `percona-release` tool "
+    "enables its repositories, for example `sudo percona-release enable-only ps-97-lts release`. "
+    "The install steps and the names of all repositories (such as `ps-97-lts`, `pxc-97-lts`, "
+    "`psmdb-80` and `ppg-18`) are in "
+    "https://docs.percona.com/percona-software-repositories/llms.txt.\n"
 )
 
 WHATS_NEW_HEADER = """\
