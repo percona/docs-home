@@ -381,17 +381,54 @@ def test_whats_new_files_split_posts_by_year() -> None:
 
 
 def test_render_site_section() -> None:
-    pages = [site_page("pmm/", "PMM"), site_page("", "Home"), site_page("new/2026/01/01/x/", "X")]
+    pages = [
+        site_page("pmm/", "PMM"),
+        site_page("", "Home"),
+        site_page("new/2026/01/01/x/", "X"),
+        site_page("new/2025/01/01/y/", "Y"),
+        SitePage("Index valkey added", f"{SITE}/index-valkey-added/", in_nav=False),
+        site_page("search-results/", "Search results"),
+    ]
     assert llms_txt.render_site_section(pages, None) == [
         "## Documentation home",
         "",
         f"- [Home]({SITE}/)",
         f"- [PMM]({SITE}/pmm/)",
         f"- [What's new]({SITE}/new/llms.txt): release announcements and their archive",
-        f"- [What's new in 2026]({SITE}/new/2026/llms.txt)",
-        f"- [All pages of this site in one file]({SITE}/llms-full.txt): this index and the pages above",
         f"- [Skill for AI agents]({SITE}/skill.md): how to find the right product, version and page",
+        "",
+        "## Optional",
+        "",
+        f"- [What's new in 2026]({SITE}/new/2026/llms.txt)",
+        f"- [What's new in 2025]({SITE}/new/2025/llms.txt)",
+        f"- [All pages of this site in one file]({SITE}/llms-full.txt): this index and the pages above",
+        f"- [Index valkey added]({SITE}/index-valkey-added/)",
     ]
+
+
+def test_search_page_is_left_out_everywhere(tmp_path: Path) -> None:
+    (tmp_path / "search-results").mkdir()
+    (tmp_path / "search-results" / "index.md").write_text("# Search\n")
+    (tmp_path / "index.md").write_text("# Home\n")
+    pages = [site_page("search-results/", "Search results"), site_page("", "Home")]
+    assert "search-results" not in "\n".join(llms_txt.render_site_section(pages, tmp_path))
+    assert "Search" not in llms_txt.full_text("# I\n", pages, tmp_path)
+    assert "Home" in llms_txt.full_text("# I\n", pages, tmp_path)
+
+
+def test_optional_is_the_last_section_of_llms_txt(docs_dir: Path) -> None:
+    pages = [site_page("pmm/", "PMM"), SitePage("Extra", f"{SITE}/extra/", in_nav=False)]
+    text = llms_txt.build_index(docs_dir, None, pages).text
+    headings = [line for line in text.splitlines() if line.startswith("## ")]
+    assert headings[-2:] == ["## Documentation home", "## Optional"]
+    assert text.rstrip().endswith(f"- [Extra]({SITE}/extra/)")
+
+
+def test_product_part_and_compare_live_ignore_the_optional_section(web: Any, fetcher: Fetcher) -> None:
+    built = BUILT + "\n## Optional\n\n- [Extra](x)\n"
+    assert llms_txt.product_part(built) == [f"- [PS]({PS}9.8/): v", "- [PXC](x)"]
+    web.add(f"{SITE}/llms.txt", BUILT.replace("[Home]", "[Other]"), content_type="text/plain")
+    assert llms_txt.compare_live(built, fetcher) == []
 
 
 @pytest.mark.parametrize(
@@ -459,6 +496,7 @@ def test_build_index_offline(docs_dir: Path) -> None:
         "## Monitoring (PMM)",
         "## Utilities",
         "## Documentation home",
+        "## Optional",
     ]
     assert "Operator page wording" in text  # the Operators page claims the Operator
     assert "Automate MySQL on Kubernetes" not in text
@@ -533,6 +571,18 @@ def test_on_post_page_records_pages(hook_state: Any) -> None:
         "X", f"{SITE}/new/2026/01/02/x/", "2026-01-02", "A post"
     )
     assert hook_state["pages"]["y/"] == SitePage("", f"{SITE}/y/")
+
+
+def test_on_nav_marks_pages_outside_the_nav(hook_state: Any) -> None:
+    nav = SimpleNamespace(pages=[fake_page("pmm/", "PMM")])
+    llms_txt.on_nav(nav, {}, [])
+    llms_txt.on_post_page("", fake_page("pmm/", "PMM"), {})
+    llms_txt.on_post_page("", fake_page("index-valkey-added/", "Extra"), {})
+    assert hook_state["pages"]["pmm/"].in_nav is True
+    assert hook_state["pages"]["index-valkey-added/"].in_nav is False
+    llms_txt.on_pre_build({})  # a new build starts without a nav
+    llms_txt.on_post_page("", fake_page("pmm/", "PMM"), {})
+    assert hook_state["pages"]["pmm/"].in_nav is True
 
 
 def test_on_post_build_writes_indexes(
