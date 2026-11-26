@@ -106,9 +106,12 @@ CARD_LINK_RE = re.compile(r"^\[([^\]]+)\]\(([^)\s]+)\)\s*$")
 MD_LINK_RE = re.compile(r"\]\(([^)]*)\)")
 WHATS_NEW_DIR = "new"
 SITE_SECTION = "## Documentation home"  # starts the part of /llms.txt about this site's own pages
+OPTIONAL_SECTION = "## Optional"  # llmstxt.org: secondary content, always the last section of /llms.txt
 FULL_FILE = "llms-full.txt"
 SKILL_FILE = "skill.md"
 SKILL_SOURCE = Path("agents") / SKILL_FILE  # relative to the repo root, next to docs/
+# The search page is a search UI with no content (not_in_nav in mkdocs.yml): it is left out of the indexes.
+SEARCH_PAGE = "search-results/"
 DIRECTIVE_START = "> For the complete Percona documentation index"  # added by hooks/llmstxt_directive.py
 
 log = logging.getLogger("mkdocs.hooks.llms_txt")
@@ -427,6 +430,7 @@ class SitePage:
     url: str  # absolute URL of the HTML page
     date: str = ""  # YYYY-MM-DD for posts
     description: str = ""
+    in_nav: bool = True  # pages built but not in the site navigation go under "Optional"
 
     @property
     def path(self) -> str:
@@ -442,6 +446,23 @@ def markdown_file(page: SitePage, site_dir: Path) -> tuple[str, Path] | None:
     return None
 
 
+def html_md_path(md_path: Path) -> Path:
+    """Where the markdown copy at the page's HTML URL plus ``.md`` goes: ``index.md`` -> ``index.html.md``."""
+    return md_path.with_name(md_path.name[: -len(".md")] + ".html.md")
+
+
+def write_html_md_copies(pages: Iterable[SitePage], site_dir: Path) -> int:
+    """Copy each page's markdown next to itself as ``.html.md``. Returns the number of copies."""
+    count = 0
+    for page in pages:
+        found = markdown_file(page, site_dir)
+        if found:
+            target = html_md_path(found[1])
+            target.write_text(found[1].read_text(encoding="utf-8"), encoding="utf-8")
+            count += 1
+    return count
+
+
 def page_link(page: SitePage, site_dir: Path | None) -> str:
     """Link the page's markdown version when the build wrote one."""
     found = markdown_file(page, site_dir) if site_dir is not None else None
@@ -449,8 +470,9 @@ def page_link(page: SitePage, site_dir: Path | None) -> str:
 
 
 def own_pages(pages: Iterable[SitePage]) -> list[SitePage]:
-    """This site's pages without the What's new section, in path order."""
-    return sorted((p for p in pages if not p.path.startswith(WHATS_NEW_DIR + "/")), key=lambda p: p.path)
+    """This site's pages without the What's new section and the search page, in path order."""
+    kept = (p for p in pages if not p.path.startswith(WHATS_NEW_DIR + "/") and p.path != SEARCH_PAGE)
+    return sorted(kept, key=lambda p: p.path)
 
 
 POST_RE = re.compile(rf"^{WHATS_NEW_DIR}/(\d{{4}})/")
@@ -496,14 +518,17 @@ def _render_listing(pages: list[SitePage], years: list[str], site_dir: Path | No
 
 
 def render_site_section(pages: Sequence[SitePage], site_dir: Path | None) -> list[str]:
-    """This site's own pages, and the What's new indexes."""
+    """This site's own pages and the What's new indexes; secondary entries go under "Optional"."""
     years = sorted({m.group(1) for p in pages if (m := POST_RE.match(p.path))}, reverse=True)
+    own = own_pages(pages)
     lines = [SITE_SECTION, ""]
-    lines += [f"- [{p.title}]({page_link(p, site_dir)})" for p in own_pages(pages)]
+    lines += [f"- [{p.title}]({page_link(p, site_dir)})" for p in own if p.in_nav]
     lines.append(f"- [What's new]({SITE}/{WHATS_NEW_DIR}/llms.txt): release announcements and their archive")
+    lines.append(f"- [Skill for AI agents]({SITE}/{SKILL_FILE}): how to find the right product, version and page")
+    lines += ["", OPTIONAL_SECTION, ""]
     lines += [f"- [What's new in {year}]({SITE}/{WHATS_NEW_DIR}/{year}/llms.txt)" for year in years]
     lines.append(f"- [All pages of this site in one file]({SITE}/{FULL_FILE}): this index and the pages above")
-    lines.append(f"- [Skill for AI agents]({SITE}/{SKILL_FILE}): how to find the right product, version and page")
+    lines += [f"- [{p.title}]({page_link(p, site_dir)})" for p in own if not p.in_nav]
     return lines
 
 
@@ -615,7 +640,7 @@ def compare_live(text: str, fetcher: Fetcher) -> list[str]:
 
 # --- MkDocs hooks -------------------------------------------------------------------------
 
-_state: dict[str, Any] = {"serving": False, "pages": {}}
+_state: dict[str, Any] = {"serving": False, "pages": {}, "nav_urls": None}
 
 
 def on_startup(command: str, **kwargs: Any) -> None:
@@ -624,6 +649,13 @@ def on_startup(command: str, **kwargs: Any) -> None:
 
 def on_pre_build(config: Any, **kwargs: Any) -> None:
     _state["pages"] = {}
+    _state["nav_urls"] = None
+
+
+def on_nav(nav: Any, config: Any, files: Any, **kwargs: Any) -> Any:
+    """Remember which pages are in the navigation."""
+    _state["nav_urls"] = {page.url for page in nav.pages}
+    return nav
 
 
 def on_post_page(output: str, page: Any, config: Any, **kwargs: Any) -> str:
@@ -633,7 +665,9 @@ def on_post_page(output: str, page: Any, config: Any, **kwargs: Any) -> str:
     date = meta.get("date")
     date_text = date.get("created", "") if isinstance(date, dict) else (date or "")
     description = " ".join(str(meta.get("description") or "").split())
-    _state["pages"][page.url] = SitePage(str(page.title or ""), SITE + url, str(date_text)[:10], description)
+    nav_urls = _state["nav_urls"]
+    in_nav = nav_urls is None or page.url in nav_urls
+    _state["pages"][page.url] = SitePage(str(page.title or ""), SITE + url, str(date_text)[:10], description, in_nav)
     return output
 
 
@@ -656,6 +690,11 @@ def on_post_build(config: Any, **kwargs: Any) -> None:
         log.warning("llms.txt: not written", exc_info=True)
         return
     log.info("llms.txt: wrote %s, %d characters", FULL_FILE, len(full))
+    try:
+        copies = write_html_md_copies(pages, site_dir)
+        log.info("llms.txt: wrote %d .html.md copies", copies)
+    except Exception:
+        log.warning("llms.txt: .html.md copies not written", exc_info=True)
     skill = docs_dir.parent / SKILL_SOURCE
     if skill.is_file():
         (site_dir / SKILL_FILE).write_text(skill.read_text(encoding="utf-8"), encoding="utf-8")
