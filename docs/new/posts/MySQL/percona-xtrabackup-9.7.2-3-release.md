@@ -27,12 +27,5 @@ Percona XtraBackup 9.7.2-3 adds support for the Hierarchical Navigable Small Wor
 
 We recommend that you download the Percona XtraBackup for the same platform as the MySQL-compatible server. For example, if your server is on an ARM64 platform, you should download and use the Percona XtraBackup for ARM64 for that operating system.
 
-Percona XtraBackup 9.7.2-3 release includes new features and bug fixes.
-
-## New features
-
-Percona XtraBackup 9.7.2-3 adds the following feature.
-
-* Adds support for backing up tables with Hierarchical Navigable Small World (HNSW) vector indexes in Percona Server for MySQL 9.7.4-4. Percona XtraBackup now recognizes the redo log record type that Percona Server for MySQL writes for tables with vector indexes and supports the backup, prepare, and restore steps for these tables. Before, when the redo log contained a write to a table with a vector index, the backup stopped with a corrupt log record error and copied no data. `xtrabackup --prepare --export` no longer terminates unexpectedly on a table with a vector index and creates the `.ibd` and `.cfg` files for the table. However, Percona Server for MySQL 9.7.4-4 does not allow the import of tables with vector indexes.
 
 Learn more in Percona XtraBackup 9.7.2-3 [release notes](https://docs.percona.com/percona-xtrabackup/9.7/release-notes/9.7.2-3.html){:target="_blank"}.
