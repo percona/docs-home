@@ -1,7 +1,7 @@
 ---
-date: 2026-11-23
+date: 2026-11-30
 description: >
-  Percona Server for MySQL 8.4.13-13 has been released on Monday, November 23, 2026.
+  Percona Server for MySQL 8.4.13-13 has been released on Monday, November 30, 2026.
 authors: [patrickbirch]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Server for MySQL 8.4.13-13](https://docs.percona.com/percona-server/8.4/index.html){:target="_blank"} has been released on Monday, November 23, 2026.
+[Percona Server for MySQL 8.4.13-13](https://docs.percona.com/percona-server/8.4/index.html){:target="_blank"} has been released on Monday, November 30, 2026.
 
 Try it out using the [Quickstart guide](https://docs.percona.com/percona-server/8.4/quickstart-overview.html){:target="_blank"}.
 
