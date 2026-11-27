@@ -12,6 +12,21 @@ Only interested in one product? Subscribe to its feed: [MongoDB](/feed_rss_mongo
 
 <div data-grid markdown>
 
+<div data-banner="pmm" markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-pmm:</span> PMM 3.11.0: Slow query alerts and smarter Advisors {.title}
+
+Get alerts on slow queries from Query Analytics data, and Advisors that run on schedule and email their results. This release also fixes critical vulnerabilities in nginx and ClickHouse: upgrade as soon as possible.
+
+<div class="actions" markdown>
+
+[Read more :material-arrow-right:](../new/posts/Percona%20Monitoring%20and%20Management/pmm-3.11.0-release.md){:target="_blank"}
+
+<span style="float: right;">November 26, 2026</span>
+
+</div>
+</div>
+
 <div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB 6.0.30-24 and 8.3.17-5 have been released {.title}
