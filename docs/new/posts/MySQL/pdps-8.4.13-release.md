@@ -1,7 +1,7 @@
 ---
-date: 2026-11-23
+date: 2026-11-30
 description: >
-  Percona Distribution for MySQL 8.4.13 using Percona Server for MySQL has been released on Monday, November 23, 2026.
+  Percona Distribution for MySQL 8.4.13 using Percona Server for MySQL has been released on Monday, November 30, 2026.
 authors: [alina-derkach-oaza]
 categories:
   - MySQL
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-[Percona Distribution for MySQL 8.4.13 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on Monday, November 23, 2026.
+[Percona Distribution for MySQL 8.4.13 using Percona Server for MySQL](https://docs.percona.com/percona-distribution-for-mysql/8.4/index.html){:target="_blank"} has been released on Monday, November 30, 2026.
 
 Try it out using the [Installation guide](https://docs.percona.com/percona-distribution-for-mysql/8.4/installing.html){:target="_blank"}.
 
